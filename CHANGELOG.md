@@ -6,6 +6,7 @@ Notable application, catalog, configuration, and documentation changes are recor
 
 ### Added
 
+- Published Fellow Prompt at [fellow-prompt.vercel.app](https://fellow-prompt.vercel.app/) through a manual Vercel production deployment from GitHub, with public access verified.
 - Added Vercel build configuration and SPA routing so prompt detail links can open and refresh directly when hosted online.
 - Added deployment instructions and excluded local `.vercel/` project metadata from Git.
 - Added this changelog to keep repository changes and their purpose in one place.
@@ -19,4 +20,5 @@ Notable application, catalog, configuration, and documentation changes are recor
 
 ### Changed
 
+- Documented the production URL, manual deployment workflow, and live desktop/mobile verification results; GitHub pushes do not deploy automatically.
 - Updated `AGENTS.md` to require a changelog entry before committing any changes and a documentation/checks review before pushing, so repository history stays current.

@@ -2,6 +2,8 @@
 
 An English-language prompt library by Fellow Intelligence. Find a task, adapt its prompt, and copy it into your preferred AI tool.
 
+**Live site:** [fellow-prompt.vercel.app](https://fellow-prompt.vercel.app/)
+
 ## Run locally
 
 Requires Node.js 22.12 or newer; developed and verified with Node.js 24.
@@ -25,7 +27,9 @@ There is no sign-in, backend, database, or AI API key. The catalog ships with th
 
 ## Deploy on Vercel
 
-Import `SuphakornP/prompt-library` from GitHub, use the repository root, select Node.js 24.x, and use `main` as the production branch. `vercel.json` sets the Vite framework, `npm ci` install command, `npm run build` build command, and `dist` output directory. No environment variables are required.
+The production project is `fellow-prompt`. Deployment is currently manual: request a production deployment through the Vercel plugin from `SuphakornP/prompt-library` at the desired `main` commit. GitHub login is connected, but the project has no automatic repository connection; pushing to GitHub alone does not update the live site.
+
+Use the repository root, Node.js 24.x, and the `main` branch for production deployments. `vercel.json` sets the Vite framework, `npm ci` install command, `npm run build` build command, and `dist` output directory. No environment variables are required.
 
 The SPA rewrite serves `index.html` for application routes, allowing direct visits and refreshes at `/prompts/:slug`; existing static assets are served normally. Only the built `dist` output is published. Keep the production domain publicly accessible, and verify the home page, a direct prompt link, and its refresh after deployment. A connected GitHub project can deploy future pushes to `main` automatically.
 

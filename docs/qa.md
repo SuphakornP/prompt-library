@@ -1,8 +1,8 @@
-# Local verification — November 12, 2026
+# Verification — November 12, 2026
 
 ## Scope
 
-Local Chromium browser QA via Playwright CLI; no authenticated external workflows or public deployment. Initial handoff tests intercepted navigation. The later draft-prefill update additionally checks the real ChatGPT composer using harmless synthetic text in a separate signed-out browser.
+Initial local Chromium browser QA used Playwright CLI without authenticated external workflows. Initial handoff tests intercepted navigation. The later draft-prefill update additionally checks the real ChatGPT composer using harmless synthetic text in a separate signed-out browser. Production verification is recorded separately below.
 
 ## Verified behavior
 
@@ -57,3 +57,15 @@ Final screenshots: `desktop-final.png`, `mobile-final.png`, `detail-desktop-fina
 - Reset updates both link destinations; blank drafts remove both destinations. The independent Copy action still opens the full manual-copy dialog when permission is denied.
 - Unit coverage verifies exact encoding, the auto-send guard, whitespace-only drafts, and long text without truncation. Clipboard denial remains relevant only to Copy.
 - The current behavior was cross-checked against the public ChatGPT client bundle at `https://chatgpt.com/cdn/assets/7078.5cd07a5c9b.js`; its auto-send branch explicitly checks for the absence of `disable_auto_send`. This is observed web-client behavior, not a promised public API contract.
+
+## Vercel production deployment
+
+- Production: https://fellow-prompt.vercel.app/; Vite build with Node.js 24.x, `npm ci`, and `dist` output.
+- Before deployment, all 18 tests, catalog validation, TypeScript, and the production build passed.
+- Anonymous HTTP requests and an isolated signed-out browser opened the home page and `/prompts/build-an-ai-tour-guide` successfully; refreshing the detail route retained the correct page.
+- Search combined with Engineering and Coding filters survived a full reload. Load more increased the visible cards from 24 to 48.
+- Edited text matched both ChatGPT link destinations exactly, including URL punctuation and the no-auto-send flag. Reset restored the source prompt. This deployment check inspected links without submitting anything to ChatGPT.
+- Desktop at 1440 px and mobile at 390 px rendered without horizontal overflow. Scandia, Avant Garde, and Nexa faces used by the interface loaded; browser error logs were empty.
+- JavaScript, CSS, and SVG assets returned their expected MIME types. `/content/raw/claude.json` returned the SPA HTML fallback, not the raw source data.
+- Existing Vercel deployment protection was retained; the production domain is public without a bypass link. Deployments remain manual at the user's request, with no automatic GitHub repository connection.
+- Screenshots: `output/playwright/vercel-desktop.png`, `vercel-mobile-home.png`, and `vercel-mobile-detail.png` (ignored local evidence).
