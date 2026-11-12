@@ -2,13 +2,13 @@
 
 ## Project Structure & Module Organization
 
-Fellow Prompt is an English-language React + TypeScript application built with Vite. It has no backend, authentication, or AI API integration.
+Fellow Prompt uses React + TypeScript/Vite, without a backend, authentication, or AI API.
 
-- `src/App.tsx` implements the library and detail views; `src/lib/library.ts` contains search, filter, draft, and handoff helpers.
-- `src/types.ts` defines catalog types; `src/styles.css` holds the shared visual system.
+- `src/App.tsx` implements library/detail views; `src/lib/library.ts` contains search, filter, draft, and handoff helpers.
+- `src/types.ts` defines types; `src/styles.css` holds shared styles.
 - `src/data/catalog.json` is generated from `content/editorial/` and `content/merges.json`. Source snapshots and provenance live under `content/`.
 - `scripts/` contains import, catalog-build, and validation tools; `tests/` contains Vitest suites.
-- `public/brand/` holds SVG assets; `docs/qa.md` records browser verification.
+- `public/brand/` holds SVGs; `docs/qa.md` records browser verification; `CHANGELOG.md` tracks changes.
 
 ## Build, Test, and Development Commands
 
@@ -23,16 +23,20 @@ Use Node.js 22.12+ and npm.
 
 ## Coding Style & Naming Conventions
 
-Match existing two-space indentation, semicolons, single-quoted TypeScript strings, and ES modules. Use PascalCase for React components and types, camelCase for functions and variables, and kebab-case for catalog slugs. Prefer explicit types and type-only imports. No formatter or linter is configured; avoid unrelated formatting changes. Preserve the existing Fellow visual system and reduced-motion support.
+Use two-space indentation, semicolons, single-quoted TypeScript strings, and ES modules. Use PascalCase for components/types, camelCase for functions/variables, and kebab-case for catalog slugs. Prefer explicit types and type-only imports. No formatter or linter is configured. Preserve Fellow styling and reduced-motion support.
 
 ## Testing Guidelines
 
-Name tests `tests/*.test.ts` and use descriptive `describe`/`it` cases. No numeric coverage threshold is configured. Cover changed behavior, especially combined filtering, exact prompt transfer, and catalog reconciliation. For code or catalog changes, run tests, validation, and the production build. For UI changes, verify desktop/mobile layout, keyboard navigation, editing/reset, clipboard failure, and Back navigation; record relevant evidence in `docs/qa.md`.
+Name tests `tests/*.test.ts`; use descriptive `describe`/`it` cases. No coverage threshold is configured. Cover changed filtering, prompt transfer, and catalog behavior. For code/catalog changes, run tests, validation, and the production build. For UI changes, verify desktop/mobile layout, keyboard navigation, editing/reset, clipboard failure, and Back navigation; record evidence in `docs/qa.md`.
 
 ## Catalog & Configuration Rules
 
-Edit editorial records before running `npm run build:catalog`; preserve prerequisites, ordered steps, and provenance. Use `npm run import:sources -- --refresh` for intentional source refreshes. Never execute downloaded source JavaScript. Keep drafts in memory and preserve the ChatGPT handoff's no-auto-send behavior. Do not commit secrets, `.env` files, build outputs, dependencies, or browser artifacts.
+Edit editorial records, then run `npm run build:catalog`; preserve prerequisites, steps, and provenance. Refresh sources intentionally with `npm run import:sources -- --refresh`; never execute downloaded JavaScript. Keep drafts in memory and preserve ChatGPT's no-auto-send handoff. Exclude secrets, `.env` files, builds, dependencies, and browser artifacts from commits.
 
 ## Commit & Pull Request Guidelines
 
-History currently contains one imperative commit beginning “Build Fellow Prompt”; follow concise, action-oriented subjects. PRs should explain the problem, resulting behavior, validation, and limitations. Link relevant issues and include desktop/mobile screenshots for visual changes.
+Use concise imperative subjects, such as `Add repository contributor guidelines`. PRs should explain behavior, validation, and limitations; link relevant issues and include screenshots for visual changes.
+
+## Changelog Before Commit & Push
+
+Before every commit, update root `CHANGELOG.md`, including documentation, configuration, test, and catalog changes. Use newest-first `YYYY-MM-DD` headings (Asia/Bangkok), with relevant `Added`, `Changed`, `Fixed`, or `Removed` subsections. Describe what changed and why; reuse existing date headings and preserve history. Commit the changelog with the related changes. Before pushing, confirm outgoing changes are documented and applicable checks passed; report skipped checks honestly. Pushing alone needs no duplicate entry.
