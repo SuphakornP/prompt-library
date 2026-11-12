@@ -6,6 +6,8 @@ Notable application, catalog, configuration, and documentation changes are recor
 
 ### Added
 
+- Added Vercel build configuration and SPA routing so prompt detail links can open and refresh directly when hosted online.
+- Added deployment instructions and excluded local `.vercel/` project metadata from Git.
 - Added this changelog to keep repository changes and their purpose in one place.
 - Added `AGENTS.md` with contributor guidance for project structure, development commands, coding style, testing, and pull requests.
 - Built the initial Fellow Prompt application with 274 English use cases and 616 prompt steps, search, department/task filters, alphabetical results, and Load more.

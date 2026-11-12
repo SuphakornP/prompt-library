@@ -1,6 +1,6 @@
 # Fellow Prompt
 
-A local, English-language prompt library by Fellow Intelligence. Find a task, adapt its prompt, and copy it into your preferred AI tool.
+An English-language prompt library by Fellow Intelligence. Find a task, adapt its prompt, and copy it into your preferred AI tool.
 
 ## Run locally
 
@@ -21,7 +21,13 @@ npm run build
 npm run preview
 ```
 
-There is no sign-in, backend, database, AI API key, or deployment configuration. The catalog ships with the application. Only the hosted brand fonts require a network connection during ordinary browsing; CSS font fallbacks keep the application usable if those fonts cannot load.
+There is no sign-in, backend, database, or AI API key. The catalog ships with the application. Only the hosted brand fonts require a network connection during ordinary browsing; CSS font fallbacks keep the application usable if those fonts cannot load.
+
+## Deploy on Vercel
+
+Import `SuphakornP/prompt-library` from GitHub, use the repository root, select Node.js 24.x, and use `main` as the production branch. `vercel.json` sets the Vite framework, `npm ci` install command, `npm run build` build command, and `dist` output directory. No environment variables are required.
+
+The SPA rewrite serves `index.html` for application routes, allowing direct visits and refreshes at `/prompts/:slug`; existing static assets are served normally. Only the built `dist` output is published. Keep the production domain publicly accessible, and verify the home page, a direct prompt link, and its refresh after deployment. A connected GitHub project can deploy future pushes to `main` automatically.
 
 ## Using the library
 
