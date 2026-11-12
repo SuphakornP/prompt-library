@@ -1,0 +1,1207 @@
+{
+  "source": "chatgpt",
+  "indexUrl": "https://learn.chatgpt.com/use-cases",
+  "retrievedAt": "2026-11-12T10:47:56.225Z",
+  "discovered": 119,
+  "available": 119,
+  "unavailable": 0,
+  "entries": [
+    {
+      "sourceId": "chatgpt:generate-slide-decks",
+      "url": "https://learn.chatgpt.com/use-cases/generate-slide-decks",
+      "status": "available"
+    },
+    {
+      "sourceId": "chatgpt:manage-your-inbox",
+      "url": "https://learn.chatgpt.com/use-cases/manage-your-inbox",
+      "status": "available"
+    },
+    {
+      "sourceId": "chatgpt:use-your-computer-with-codex",
+      "url": "https://learn.chatgpt.com/use-cases/use-your-computer-with-codex",
+      "status": "available"
+    },
+    {
+      "sourceId": "chatgpt:automation-bug-triage",
+      "url": "https://learn.chatgpt.com/use-cases/automation-bug-triage",
+      "status": "available"
+    },
+    {
+      "sourceId": "chatgpt:daily-work-brief",
+      "url": "https://learn.chatgpt.com/use-cases/daily-work-brief",
+      "status": "available"
+    },
+    {
+      "sourceId": "chatgpt:discover-protein-folding-architectures",
+      "url": "https://learn.chatgpt.com/use-cases/discover-protein-folding-architectures",
+      "status": "available"
+    },
+    {
+      "sourceId": "chatgpt:analyze-data-export",
+      "url": "https://learn.chatgpt.com/use-cases/analyze-data-export",
+      "status": "available"
+    },
+    {
+      "sourceId": "chatgpt:feedback-synthesis",
+      "url": "https://learn.chatgpt.com/use-cases/feedback-synthesis",
+      "status": "available"
+    },
+    {
+      "sourceId": "chatgpt:clean-messy-data",
+      "url": "https://learn.chatgpt.com/use-cases/clean-messy-data",
+      "status": "available"
+    },
+    {
+      "sourceId": "chatgpt:target-prioritization",
+      "url": "https://learn.chatgpt.com/use-cases/target-prioritization",
+      "status": "available"
+    },
+    {
+      "sourceId": "chatgpt:scrna-seq-post-count-qc",
+      "url": "https://learn.chatgpt.com/use-cases/scrna-seq-post-count-qc",
+      "status": "available"
+    },
+    {
+      "sourceId": "chatgpt:bulk-rna-seq-fastq-qc",
+      "url": "https://learn.chatgpt.com/use-cases/bulk-rna-seq-fastq-qc",
+      "status": "available"
+    },
+    {
+      "sourceId": "chatgpt:cash-flow-forecast",
+      "url": "https://learn.chatgpt.com/use-cases/cash-flow-forecast",
+      "status": "available"
+    },
+    {
+      "sourceId": "chatgpt:datasets-and-reports",
+      "url": "https://learn.chatgpt.com/use-cases/datasets-and-reports",
+      "status": "available"
+    },
+    {
+      "sourceId": "chatgpt:dcf-model",
+      "url": "https://learn.chatgpt.com/use-cases/dcf-model",
+      "status": "available"
+    },
+    {
+      "sourceId": "chatgpt:budget-vs-actuals-review",
+      "url": "https://learn.chatgpt.com/use-cases/budget-vs-actuals-review",
+      "status": "available"
+    },
+    {
+      "sourceId": "chatgpt:github-code-reviews",
+      "url": "https://learn.chatgpt.com/use-cases/github-code-reviews",
+      "status": "available"
+    },
+    {
+      "sourceId": "chatgpt:find-vulnerabilities-in-your-code",
+      "url": "https://learn.chatgpt.com/use-cases/find-vulnerabilities-in-your-code",
+      "status": "available"
+    },
+    {
+      "sourceId": "chatgpt:macos-sidebar-detail-inspector",
+      "url": "https://learn.chatgpt.com/use-cases/macos-sidebar-detail-inspector",
+      "status": "available"
+    },
+    {
+      "sourceId": "chatgpt:frontend-designs",
+      "url": "https://learn.chatgpt.com/use-cases/frontend-designs",
+      "status": "available"
+    },
+    {
+      "sourceId": "chatgpt:codebase-onboarding",
+      "url": "https://learn.chatgpt.com/use-cases/codebase-onboarding",
+      "status": "available"
+    },
+    {
+      "sourceId": "chatgpt:getting-started-with-daybreak-blue",
+      "url": "https://learn.chatgpt.com/use-cases/getting-started-with-daybreak-blue",
+      "status": "available"
+    },
+    {
+      "sourceId": "chatgpt:automate-security-reviews-in-github-cloud",
+      "url": "https://learn.chatgpt.com/use-cases/automate-security-reviews-in-github-cloud",
+      "status": "available"
+    },
+    {
+      "sourceId": "chatgpt:manage-supply-chain-risk-in-cicd",
+      "url": "https://learn.chatgpt.com/use-cases/manage-supply-chain-risk-in-cicd",
+      "status": "available"
+    },
+    {
+      "sourceId": "chatgpt:review-code-changes-in-codex-desktop",
+      "url": "https://learn.chatgpt.com/use-cases/review-code-changes-in-codex-desktop",
+      "status": "available"
+    },
+    {
+      "sourceId": "chatgpt:set-up-security-context",
+      "url": "https://learn.chatgpt.com/use-cases/set-up-security-context",
+      "status": "available"
+    },
+    {
+      "sourceId": "chatgpt:fix-a-finding-from-your-security-scan",
+      "url": "https://learn.chatgpt.com/use-cases/fix-a-finding-from-your-security-scan",
+      "status": "available"
+    },
+    {
+      "sourceId": "chatgpt:slack-coding-tasks",
+      "url": "https://learn.chatgpt.com/use-cases/slack-coding-tasks",
+      "status": "available"
+    },
+    {
+      "sourceId": "chatgpt:new-hire-onboarding",
+      "url": "https://learn.chatgpt.com/use-cases/new-hire-onboarding",
+      "status": "available"
+    },
+    {
+      "sourceId": "chatgpt:deep-security-scan",
+      "url": "https://learn.chatgpt.com/use-cases/deep-security-scan",
+      "status": "available"
+    },
+    {
+      "sourceId": "chatgpt:zoom-meeting-follow-ups",
+      "url": "https://learn.chatgpt.com/use-cases/zoom-meeting-follow-ups",
+      "status": "available"
+    },
+    {
+      "sourceId": "chatgpt:learn-a-new-concept",
+      "url": "https://learn.chatgpt.com/use-cases/learn-a-new-concept",
+      "status": "available"
+    },
+    {
+      "sourceId": "chatgpt:idea-to-proof-of-concept",
+      "url": "https://learn.chatgpt.com/use-cases/idea-to-proof-of-concept",
+      "status": "available"
+    },
+    {
+      "sourceId": "chatgpt:deploy-app-or-website",
+      "url": "https://learn.chatgpt.com/use-cases/deploy-app-or-website",
+      "status": "available"
+    },
+    {
+      "sourceId": "chatgpt:remediate-vulnerability-backlog",
+      "url": "https://learn.chatgpt.com/use-cases/remediate-vulnerability-backlog",
+      "status": "available"
+    },
+    {
+      "sourceId": "chatgpt:scan-code-changes-for-security",
+      "url": "https://learn.chatgpt.com/use-cases/scan-code-changes-for-security",
+      "status": "available"
+    },
+    {
+      "sourceId": "chatgpt:dependency-incident-audits",
+      "url": "https://learn.chatgpt.com/use-cases/dependency-incident-audits",
+      "status": "available"
+    },
+    {
+      "sourceId": "chatgpt:qa-your-app-with-computer-use",
+      "url": "https://learn.chatgpt.com/use-cases/qa-your-app-with-computer-use",
+      "status": "available"
+    },
+    {
+      "sourceId": "chatgpt:api-integration-migrations",
+      "url": "https://learn.chatgpt.com/use-cases/api-integration-migrations",
+      "status": "available"
+    },
+    {
+      "sourceId": "chatgpt:complete-tasks-from-messages",
+      "url": "https://learn.chatgpt.com/use-cases/complete-tasks-from-messages",
+      "status": "available"
+    },
+    {
+      "sourceId": "chatgpt:figma-designs-to-code",
+      "url": "https://learn.chatgpt.com/use-cases/figma-designs-to-code",
+      "status": "available"
+    },
+    {
+      "sourceId": "chatgpt:browser-games",
+      "url": "https://learn.chatgpt.com/use-cases/browser-games",
+      "status": "available"
+    },
+    {
+      "sourceId": "chatgpt:reusable-codex-skills",
+      "url": "https://learn.chatgpt.com/use-cases/reusable-codex-skills",
+      "status": "available"
+    },
+    {
+      "sourceId": "chatgpt:iterate-on-difficult-problems",
+      "url": "https://learn.chatgpt.com/use-cases/iterate-on-difficult-problems",
+      "status": "available"
+    },
+    {
+      "sourceId": "chatgpt:monthly-business-review-narrative",
+      "url": "https://learn.chatgpt.com/use-cases/monthly-business-review-narrative",
+      "status": "available"
+    },
+    {
+      "sourceId": "chatgpt:cfo-board-reporting-pack",
+      "url": "https://learn.chatgpt.com/use-cases/cfo-board-reporting-pack",
+      "status": "available"
+    },
+    {
+      "sourceId": "chatgpt:meeting-prep-briefs",
+      "url": "https://learn.chatgpt.com/use-cases/meeting-prep-briefs",
+      "status": "available"
+    },
+    {
+      "sourceId": "chatgpt:update-documentation",
+      "url": "https://learn.chatgpt.com/use-cases/update-documentation",
+      "status": "available"
+    },
+    {
+      "sourceId": "chatgpt:native-ios-apps",
+      "url": "https://learn.chatgpt.com/use-cases/native-ios-apps",
+      "status": "available"
+    },
+    {
+      "sourceId": "chatgpt:scan-multiple-repositories",
+      "url": "https://learn.chatgpt.com/use-cases/scan-multiple-repositories",
+      "status": "available"
+    },
+    {
+      "sourceId": "chatgpt:kpi-root-cause-analysis",
+      "url": "https://learn.chatgpt.com/use-cases/kpi-root-cause-analysis",
+      "status": "available"
+    },
+    {
+      "sourceId": "chatgpt:dashboard-builder-monitor",
+      "url": "https://learn.chatgpt.com/use-cases/dashboard-builder-monitor",
+      "status": "available"
+    },
+    {
+      "sourceId": "chatgpt:strategic-initiative-health-update",
+      "url": "https://learn.chatgpt.com/use-cases/strategic-initiative-health-update",
+      "status": "available"
+    },
+    {
+      "sourceId": "chatgpt:prioritize-accounts",
+      "url": "https://learn.chatgpt.com/use-cases/prioritize-accounts",
+      "status": "available"
+    },
+    {
+      "sourceId": "chatgpt:forecast-risk-review",
+      "url": "https://learn.chatgpt.com/use-cases/forecast-risk-review",
+      "status": "available"
+    },
+    {
+      "sourceId": "chatgpt:run-student-club-project",
+      "url": "https://learn.chatgpt.com/use-cases/run-student-club-project",
+      "status": "available"
+    },
+    {
+      "sourceId": "chatgpt:analytics-request-agent",
+      "url": "https://learn.chatgpt.com/use-cases/analytics-request-agent",
+      "status": "available"
+    },
+    {
+      "sourceId": "chatgpt:research-to-decision-memo",
+      "url": "https://learn.chatgpt.com/use-cases/research-to-decision-memo",
+      "status": "available"
+    },
+    {
+      "sourceId": "chatgpt:initiative-off-track-brief",
+      "url": "https://learn.chatgpt.com/use-cases/initiative-off-track-brief",
+      "status": "available"
+    },
+    {
+      "sourceId": "chatgpt:refactor-your-codebase",
+      "url": "https://learn.chatgpt.com/use-cases/refactor-your-codebase",
+      "status": "available"
+    },
+    {
+      "sourceId": "chatgpt:ios-liquid-glass",
+      "url": "https://learn.chatgpt.com/use-cases/ios-liquid-glass",
+      "status": "available"
+    },
+    {
+      "sourceId": "chatgpt:native-macos-apps",
+      "url": "https://learn.chatgpt.com/use-cases/native-macos-apps",
+      "status": "available"
+    },
+    {
+      "sourceId": "chatgpt:ios-simulator-bug-debugging",
+      "url": "https://learn.chatgpt.com/use-cases/ios-simulator-bug-debugging",
+      "status": "available"
+    },
+    {
+      "sourceId": "chatgpt:ios-app-intents",
+      "url": "https://learn.chatgpt.com/use-cases/ios-app-intents",
+      "status": "available"
+    },
+    {
+      "sourceId": "chatgpt:macos-telemetry-logs",
+      "url": "https://learn.chatgpt.com/use-cases/macos-telemetry-logs",
+      "status": "available"
+    },
+    {
+      "sourceId": "chatgpt:code-migrations",
+      "url": "https://learn.chatgpt.com/use-cases/code-migrations",
+      "status": "available"
+    },
+    {
+      "sourceId": "chatgpt:create-custom-review-workflows-with-github-actions",
+      "url": "https://learn.chatgpt.com/use-cases/create-custom-review-workflows-with-github-actions",
+      "status": "available"
+    },
+    {
+      "sourceId": "chatgpt:run-security-reviews-from-the-cli",
+      "url": "https://learn.chatgpt.com/use-cases/run-security-reviews-from-the-cli",
+      "status": "available"
+    },
+    {
+      "sourceId": "chatgpt:automate-security-scans-in-ci",
+      "url": "https://learn.chatgpt.com/use-cases/automate-security-scans-in-ci",
+      "status": "available"
+    },
+    {
+      "sourceId": "chatgpt:audit-course-section-consistency",
+      "url": "https://learn.chatgpt.com/use-cases/audit-course-section-consistency",
+      "status": "available"
+    },
+    {
+      "sourceId": "chatgpt:build-unit-plan-from-sources",
+      "url": "https://learn.chatgpt.com/use-cases/build-unit-plan-from-sources",
+      "status": "available"
+    },
+    {
+      "sourceId": "chatgpt:variance-driver-bridge",
+      "url": "https://learn.chatgpt.com/use-cases/variance-driver-bridge",
+      "status": "available"
+    },
+    {
+      "sourceId": "chatgpt:build-interactive-lesson-resource",
+      "url": "https://learn.chatgpt.com/use-cases/build-interactive-lesson-resource",
+      "status": "available"
+    },
+    {
+      "sourceId": "chatgpt:calibrate-assessments",
+      "url": "https://learn.chatgpt.com/use-cases/calibrate-assessments",
+      "status": "available"
+    },
+    {
+      "sourceId": "chatgpt:finance-model-cleanup",
+      "url": "https://learn.chatgpt.com/use-cases/finance-model-cleanup",
+      "status": "available"
+    },
+    {
+      "sourceId": "chatgpt:create-classroom-materials-pack",
+      "url": "https://learn.chatgpt.com/use-cases/create-classroom-materials-pack",
+      "status": "available"
+    },
+    {
+      "sourceId": "chatgpt:create-lesson-deck",
+      "url": "https://learn.chatgpt.com/use-cases/create-lesson-deck",
+      "status": "available"
+    },
+    {
+      "sourceId": "chatgpt:stalled-deal-diagnosis",
+      "url": "https://learn.chatgpt.com/use-cases/stalled-deal-diagnosis",
+      "status": "available"
+    },
+    {
+      "sourceId": "chatgpt:business-impact-readout",
+      "url": "https://learn.chatgpt.com/use-cases/business-impact-readout",
+      "status": "available"
+    },
+    {
+      "sourceId": "chatgpt:scenario-tradeoff-model",
+      "url": "https://learn.chatgpt.com/use-cases/scenario-tradeoff-model",
+      "status": "available"
+    },
+    {
+      "sourceId": "chatgpt:organize-lesson-unit-folder",
+      "url": "https://learn.chatgpt.com/use-cases/organize-lesson-unit-folder",
+      "status": "available"
+    },
+    {
+      "sourceId": "chatgpt:organize-semester-workspace",
+      "url": "https://learn.chatgpt.com/use-cases/organize-semester-workspace",
+      "status": "available"
+    },
+    {
+      "sourceId": "chatgpt:plan-budget-and-schedule",
+      "url": "https://learn.chatgpt.com/use-cases/plan-budget-and-schedule",
+      "status": "available"
+    },
+    {
+      "sourceId": "chatgpt:prepare-committee-packet",
+      "url": "https://learn.chatgpt.com/use-cases/prepare-committee-packet",
+      "status": "available"
+    },
+    {
+      "sourceId": "chatgpt:refresh-forecast-and-plan",
+      "url": "https://learn.chatgpt.com/use-cases/refresh-forecast-and-plan",
+      "status": "available"
+    },
+    {
+      "sourceId": "chatgpt:strategic-account-plan",
+      "url": "https://learn.chatgpt.com/use-cases/strategic-account-plan",
+      "status": "available"
+    },
+    {
+      "sourceId": "chatgpt:refresh-course-materials",
+      "url": "https://learn.chatgpt.com/use-cases/refresh-course-materials",
+      "status": "available"
+    },
+    {
+      "sourceId": "chatgpt:revise-lesson-package",
+      "url": "https://learn.chatgpt.com/use-cases/revise-lesson-package",
+      "status": "available"
+    },
+    {
+      "sourceId": "chatgpt:synthesize-research-evidence",
+      "url": "https://learn.chatgpt.com/use-cases/synthesize-research-evidence",
+      "status": "available"
+    },
+    {
+      "sourceId": "chatgpt:track-course-engagement",
+      "url": "https://learn.chatgpt.com/use-cases/track-course-engagement",
+      "status": "available"
+    },
+    {
+      "sourceId": "chatgpt:track-job-applications",
+      "url": "https://learn.chatgpt.com/use-cases/track-job-applications",
+      "status": "available"
+    },
+    {
+      "sourceId": "chatgpt:ios-swiftui-view-refactor",
+      "url": "https://learn.chatgpt.com/use-cases/ios-swiftui-view-refactor",
+      "status": "available"
+    },
+    {
+      "sourceId": "chatgpt:build-student-website",
+      "url": "https://learn.chatgpt.com/use-cases/build-student-website",
+      "status": "available"
+    },
+    {
+      "sourceId": "chatgpt:build-exam-study-system",
+      "url": "https://learn.chatgpt.com/use-cases/build-exam-study-system",
+      "status": "available"
+    },
+    {
+      "sourceId": "chatgpt:build-and-deploy-internal-apps",
+      "url": "https://learn.chatgpt.com/use-cases/build-and-deploy-internal-apps",
+      "status": "available"
+    },
+    {
+      "sourceId": "chatgpt:draft-prds-from-sources",
+      "url": "https://learn.chatgpt.com/use-cases/draft-prds-from-sources",
+      "status": "available"
+    },
+    {
+      "sourceId": "chatgpt:follow-goals",
+      "url": "https://learn.chatgpt.com/use-cases/follow-goals",
+      "status": "available"
+    },
+    {
+      "sourceId": "chatgpt:project-teammate",
+      "url": "https://learn.chatgpt.com/use-cases/project-teammate",
+      "status": "available"
+    },
+    {
+      "sourceId": "chatgpt:build-an-ai-tour-guide",
+      "url": "https://learn.chatgpt.com/use-cases/build-an-ai-tour-guide",
+      "status": "available"
+    },
+    {
+      "sourceId": "chatgpt:track-bills-subscriptions-and-spending",
+      "url": "https://learn.chatgpt.com/use-cases/track-bills-subscriptions-and-spending",
+      "status": "available"
+    },
+    {
+      "sourceId": "chatgpt:ai-app-evals",
+      "url": "https://learn.chatgpt.com/use-cases/ai-app-evals",
+      "status": "available"
+    },
+    {
+      "sourceId": "chatgpt:user-stories-to-ui-mocks",
+      "url": "https://learn.chatgpt.com/use-cases/user-stories-to-ui-mocks",
+      "status": "available"
+    },
+    {
+      "sourceId": "chatgpt:slack-action-triage",
+      "url": "https://learn.chatgpt.com/use-cases/slack-action-triage",
+      "status": "available"
+    },
+    {
+      "sourceId": "chatgpt:react-native-expo-apps",
+      "url": "https://learn.chatgpt.com/use-cases/react-native-expo-apps",
+      "status": "available"
+    },
+    {
+      "sourceId": "chatgpt:agent-friendly-clis",
+      "url": "https://learn.chatgpt.com/use-cases/agent-friendly-clis",
+      "status": "available"
+    },
+    {
+      "sourceId": "chatgpt:verified-operations-workflows",
+      "url": "https://learn.chatgpt.com/use-cases/verified-operations-workflows",
+      "status": "available"
+    },
+    {
+      "sourceId": "chatgpt:event-launch-playbooks",
+      "url": "https://learn.chatgpt.com/use-cases/event-launch-playbooks",
+      "status": "available"
+    },
+    {
+      "sourceId": "chatgpt:chatgpt-apps",
+      "url": "https://learn.chatgpt.com/use-cases/chatgpt-apps",
+      "status": "available"
+    },
+    {
+      "sourceId": "chatgpt:audit-workflow",
+      "url": "https://learn.chatgpt.com/use-cases/audit-workflow",
+      "status": "available"
+    },
+    {
+      "sourceId": "chatgpt:launch-campaign-kit",
+      "url": "https://learn.chatgpt.com/use-cases/launch-campaign-kit",
+      "status": "available"
+    },
+    {
+      "sourceId": "chatgpt:incident-to-tested-fix",
+      "url": "https://learn.chatgpt.com/use-cases/incident-to-tested-fix",
+      "status": "available"
+    },
+    {
+      "sourceId": "chatgpt:migrate-a-validation-module",
+      "url": "https://learn.chatgpt.com/use-cases/migrate-a-validation-module",
+      "status": "available"
+    },
+    {
+      "sourceId": "chatgpt:build-workshop-practice-site",
+      "url": "https://learn.chatgpt.com/use-cases/build-workshop-practice-site",
+      "status": "available"
+    },
+    {
+      "sourceId": "chatgpt:build-personal-onboarding-plan",
+      "url": "https://learn.chatgpt.com/use-cases/build-personal-onboarding-plan",
+      "status": "available"
+    },
+    {
+      "sourceId": "chatgpt:collect-and-schedule-team-requests",
+      "url": "https://learn.chatgpt.com/use-cases/collect-and-schedule-team-requests",
+      "status": "available"
+    },
+    {
+      "sourceId": "chatgpt:compare-campaign-performance",
+      "url": "https://learn.chatgpt.com/use-cases/compare-campaign-performance",
+      "status": "available"
+    },
+    {
+      "sourceId": "chatgpt:consolidate-spreadsheets",
+      "url": "https://learn.chatgpt.com/use-cases/consolidate-spreadsheets",
+      "status": "available"
+    },
+    {
+      "sourceId": "chatgpt:weekly-work-summary",
+      "url": "https://learn.chatgpt.com/use-cases/weekly-work-summary",
+      "status": "available"
+    },
+    {
+      "sourceId": "chatgpt:issue-to-tested-pr",
+      "url": "https://learn.chatgpt.com/use-cases/issue-to-tested-pr",
+      "status": "available"
+    }
+  ],
+  "fetchedResources": [
+    {
+      "url": "https://learn.chatgpt.com/use-cases",
+      "sha256": "2e280d50f814cb997f2abaa1c87d023aaf8dce4f3d6a821ed70c25be9ee96fe0",
+      "bytes": 648280
+    },
+    {
+      "url": "https://learn.chatgpt.com/use-cases/generate-slide-decks",
+      "sha256": "87fe24efb3a13a1f06d3b5eafb64194e79ab4537ae26531fa5c939823383eebe",
+      "bytes": 426582
+    },
+    {
+      "url": "https://learn.chatgpt.com/use-cases/use-your-computer-with-codex",
+      "sha256": "810c35f1609f6e802676183cb2b076fbc1617df072879e0344f5d74532be39f2",
+      "bytes": 440218
+    },
+    {
+      "url": "https://learn.chatgpt.com/use-cases/manage-your-inbox",
+      "sha256": "05df50b2a2262c8f39579d35f63b6246880632a2fd9697c0ed14468b47a30e07",
+      "bytes": 481189
+    },
+    {
+      "url": "https://learn.chatgpt.com/use-cases/automation-bug-triage",
+      "sha256": "396380849ab1df3a45fce05e2026874febe18f2a52a3316c1876c5470e6c2fc7",
+      "bytes": 430077
+    },
+    {
+      "url": "https://learn.chatgpt.com/use-cases/daily-work-brief",
+      "sha256": "aecd86c434e253f74506eef08c8257eed7dc1abd1717e736ec47ba165326b808",
+      "bytes": 457287
+    },
+    {
+      "url": "https://learn.chatgpt.com/use-cases/discover-protein-folding-architectures",
+      "sha256": "490fa08a6274f48fc2e406fbbb9a139d48a7545bb980feb1d5a12865c326d8e9",
+      "bytes": 398797
+    },
+    {
+      "url": "https://learn.chatgpt.com/use-cases/analyze-data-export",
+      "sha256": "2e55d242f07d47212ddf9dff3b45bf04154afecfc8dbd43151fcfa9870da505d",
+      "bytes": 431267
+    },
+    {
+      "url": "https://learn.chatgpt.com/use-cases/feedback-synthesis",
+      "sha256": "d5534f3638a35c5048dea329883510a880cf0bd636ebd133362b337fe2f59e9e",
+      "bytes": 418975
+    },
+    {
+      "url": "https://learn.chatgpt.com/use-cases/clean-messy-data",
+      "sha256": "3d43b6d76b5cc534fb8b0f7324e1e6b87345b2919978fb94e81c193b87fb313d",
+      "bytes": 393853
+    },
+    {
+      "url": "https://learn.chatgpt.com/use-cases/target-prioritization",
+      "sha256": "d8aaaf535a528657e96d7770bc9b7380c40abfbe7423c076b733eb6d90c39a46",
+      "bytes": 399805
+    },
+    {
+      "url": "https://learn.chatgpt.com/use-cases/bulk-rna-seq-fastq-qc",
+      "sha256": "3fcbea253d16c97ae6908cb29ee3519f9191c072545b7ea25af6c0d48d8a975e",
+      "bytes": 388978
+    },
+    {
+      "url": "https://learn.chatgpt.com/use-cases/scrna-seq-post-count-qc",
+      "sha256": "1efb2d808e23f58007583fdb692f7e458c4af7242b02fdd26cca256cd527b34a",
+      "bytes": 388516
+    },
+    {
+      "url": "https://learn.chatgpt.com/use-cases/datasets-and-reports",
+      "sha256": "825d294caa4b9bf4f87628b6421aabc5515249c56822e5b7dfb0dc99fb5b82e8",
+      "bytes": 437288
+    },
+    {
+      "url": "https://learn.chatgpt.com/use-cases/cash-flow-forecast",
+      "sha256": "cb9fafab153df08689cec9dc88ad51a0259eb93d1b07b117dd2faceb3cc6f74e",
+      "bytes": 407091
+    },
+    {
+      "url": "https://learn.chatgpt.com/use-cases/dcf-model",
+      "sha256": "f6937c9174d5f11b727ed01e3327dbb2ee7bdab463536e77a2f4a0dca96a9528",
+      "bytes": 408424
+    },
+    {
+      "url": "https://learn.chatgpt.com/use-cases/budget-vs-actuals-review",
+      "sha256": "f21f7838deefc9b97295c367b40ce4e69fe63c5b87b6442d871094c2ede910c0",
+      "bytes": 400344
+    },
+    {
+      "url": "https://learn.chatgpt.com/use-cases/github-code-reviews",
+      "sha256": "498173516deeb6ec85ae1214ae2483a8ce039547158058c4bea8b37700d25b0c",
+      "bytes": 383460
+    },
+    {
+      "url": "https://learn.chatgpt.com/use-cases/find-vulnerabilities-in-your-code",
+      "sha256": "4b1af7ec6f698c481281330e8847763ea0f1e089b9a8963a4f93c902bd79f482",
+      "bytes": 408517
+    },
+    {
+      "url": "https://learn.chatgpt.com/use-cases/macos-sidebar-detail-inspector",
+      "sha256": "df69d09d3c97065775c1eab13b713e453d6546261d5338721a7ee10249c24eb3",
+      "bytes": 489317
+    },
+    {
+      "url": "https://learn.chatgpt.com/use-cases/frontend-designs",
+      "sha256": "25cf3cc65bc6de1c26c1e630b468d94d471deeffad1adaf2803bf7981e658c14",
+      "bytes": 399299
+    },
+    {
+      "url": "https://learn.chatgpt.com/use-cases/codebase-onboarding",
+      "sha256": "ea3b043759c019eb28b7c0a20b75e8c7fb1ac42f19e7825a7b546335d5bbc9a6",
+      "bytes": 387864
+    },
+    {
+      "url": "https://learn.chatgpt.com/use-cases/getting-started-with-daybreak-blue",
+      "sha256": "56a29cdf15925d911dcf5826f325c704bb631884475a4af735168c2bec004ec3",
+      "bytes": 400039
+    },
+    {
+      "url": "https://learn.chatgpt.com/use-cases/automate-security-reviews-in-github-cloud",
+      "sha256": "fefaf9b113772f6a1cd1c82c3372b44d390fd1ff9457e9f624d9dd1449cd482d",
+      "bytes": 375584
+    },
+    {
+      "url": "https://learn.chatgpt.com/use-cases/manage-supply-chain-risk-in-cicd",
+      "sha256": "8992821d1646944f38c760bf4db691dfaaa05376176d73132449051e5144fa1b",
+      "bytes": 389464
+    },
+    {
+      "url": "https://learn.chatgpt.com/use-cases/set-up-security-context",
+      "sha256": "b2c6a62b7807ab1d0c76aeff2942f1332c1b74cbea77ed646c35304fb9bca16b",
+      "bytes": 407416
+    },
+    {
+      "url": "https://learn.chatgpt.com/use-cases/review-code-changes-in-codex-desktop",
+      "sha256": "fe4b350da510a00a3c1e138c3d42a2c2c718017df67cdf30b59a90b36db515af",
+      "bytes": 381733
+    },
+    {
+      "url": "https://learn.chatgpt.com/use-cases/fix-a-finding-from-your-security-scan",
+      "sha256": "5d24e9ae24d257af4ec13456fe0800a2cd453f204f173dc3724775f8643a5e37",
+      "bytes": 383544
+    },
+    {
+      "url": "https://learn.chatgpt.com/use-cases/slack-coding-tasks",
+      "sha256": "31fd24640fdb4a74a8e93067b373129171123aa01c81a6e16f8ffef3d0efefd4",
+      "bytes": 379849
+    },
+    {
+      "url": "https://learn.chatgpt.com/use-cases/new-hire-onboarding",
+      "sha256": "90ca8b43554c448c3dac4dd733f9c0e166def6570bdb00f0aa4e6ce86ee64377",
+      "bytes": 454144
+    },
+    {
+      "url": "https://learn.chatgpt.com/use-cases/deep-security-scan",
+      "sha256": "16587038d47f5e6ca98e8ad3882f533a3ef4d6c27fb5dbe408339194ac1bee23",
+      "bytes": 390630
+    },
+    {
+      "url": "https://learn.chatgpt.com/use-cases/zoom-meeting-follow-ups",
+      "sha256": "b967c9d44c73c4850ae597e04610cd7acc2e03a7e267415ba60c8d98681b041b",
+      "bytes": 414195
+    },
+    {
+      "url": "https://learn.chatgpt.com/use-cases/learn-a-new-concept",
+      "sha256": "9d5547bd649b51305f49b1615da6a040ccadb70f78d4ef35c772805f192f475f",
+      "bytes": 426971
+    },
+    {
+      "url": "https://learn.chatgpt.com/use-cases/idea-to-proof-of-concept",
+      "sha256": "0ff882d29144a6e5f03079be8c94b24288526200a7ff2718bd8142a5de554b6a",
+      "bytes": 406165
+    },
+    {
+      "url": "https://learn.chatgpt.com/use-cases/deploy-app-or-website",
+      "sha256": "119bbd519eea97fe09cd04aed002a3e4828a6aa21bfe411f3644854013e6239c",
+      "bytes": 400312
+    },
+    {
+      "url": "https://learn.chatgpt.com/use-cases/remediate-vulnerability-backlog",
+      "sha256": "1e39bf038f89e5c3df4c660e31dd33f14d0318ff77c7a85d52702b6fae7f1112",
+      "bytes": 396997
+    },
+    {
+      "url": "https://learn.chatgpt.com/use-cases/scan-code-changes-for-security",
+      "sha256": "fce84ba800ae4269fd7052d89285a6ba21d9b4ea2c23a72176036f497e84039a",
+      "bytes": 390256
+    },
+    {
+      "url": "https://learn.chatgpt.com/use-cases/dependency-incident-audits",
+      "sha256": "b99836c122198b3d4f1750d01c77a9e24fdecce54ef7e8d8aa582dbd1c1cd431",
+      "bytes": 401926
+    },
+    {
+      "url": "https://learn.chatgpt.com/use-cases/qa-your-app-with-computer-use",
+      "sha256": "4ff58acefb6ab5a912f79ee35f041f2fea404c52ab82fc0c6017215ec6d95eda",
+      "bytes": 390170
+    },
+    {
+      "url": "https://learn.chatgpt.com/use-cases/api-integration-migrations",
+      "sha256": "c78cedf876cd8b230b968b9fd79e31616328ef15526b13033c8c6f086967b49b",
+      "bytes": 390600
+    },
+    {
+      "url": "https://learn.chatgpt.com/use-cases/complete-tasks-from-messages",
+      "sha256": "4e488893db2fa4cc05b145db402de043c488569ca79b440ea3f2def2cbfa42e8",
+      "bytes": 389212
+    },
+    {
+      "url": "https://learn.chatgpt.com/use-cases/figma-designs-to-code",
+      "sha256": "f0db10d0216bb8eec72b4a78dbc98f23f2598d3768006cf8143937676ae40ac4",
+      "bytes": 408788
+    },
+    {
+      "url": "https://learn.chatgpt.com/use-cases/browser-games",
+      "sha256": "387120880eda9fb5aeb059deb5fc5423b938769fed4b5b9e0f8884f40fe7f34f",
+      "bytes": 404036
+    },
+    {
+      "url": "https://learn.chatgpt.com/use-cases/reusable-codex-skills",
+      "sha256": "4c7f008a977b28c45438001a3222025516f63fdbf9dbacbc08bdaabd21b1c620",
+      "bytes": 403270
+    },
+    {
+      "url": "https://learn.chatgpt.com/use-cases/iterate-on-difficult-problems",
+      "sha256": "5353aabe1647d7901bede767f507333a82f8e0e33e376e4405c3f721f551bdab",
+      "bytes": 391655
+    },
+    {
+      "url": "https://learn.chatgpt.com/use-cases/monthly-business-review-narrative",
+      "sha256": "92f9e03adf0a11143de3884e3087b53da5c726fdb7ac6430c55c42c34b334abd",
+      "bytes": 409241
+    },
+    {
+      "url": "https://learn.chatgpt.com/use-cases/cfo-board-reporting-pack",
+      "sha256": "23d188446052f7b264d96cd49fdc493b9c27c768722a848d8fcacc87f1b7552f",
+      "bytes": 411359
+    },
+    {
+      "url": "https://learn.chatgpt.com/use-cases/meeting-prep-briefs",
+      "sha256": "a6862a0c49c6ce84b632f15d71e23ea6b932c46746cc360b95102b6e3e46e6ff",
+      "bytes": 409489
+    },
+    {
+      "url": "https://learn.chatgpt.com/use-cases/update-documentation",
+      "sha256": "a9c72627398ac0d6a3ff5ee339658c5c1419ea4e8c81c517e5381b234ea5dc37",
+      "bytes": 398567
+    },
+    {
+      "url": "https://learn.chatgpt.com/use-cases/scan-multiple-repositories",
+      "sha256": "50582968df55cbcf16401a3b4c99d21ab0ada627075c92189f1ec8242379283a",
+      "bytes": 379235
+    },
+    {
+      "url": "https://learn.chatgpt.com/use-cases/native-ios-apps",
+      "sha256": "4d08f8aaf14855a6cf6b43b04f4b8ce101b911af568c5ba44f07cd63a5075f3d",
+      "bytes": 412487
+    },
+    {
+      "url": "https://learn.chatgpt.com/use-cases/kpi-root-cause-analysis",
+      "sha256": "c4b6b8886ecb084120066c40dc9c11afeb349b86d4356521229df05800b04058",
+      "bytes": 406141
+    },
+    {
+      "url": "https://learn.chatgpt.com/use-cases/dashboard-builder-monitor",
+      "sha256": "3d1346e7f460f2030780872b62e73b35b49b0fd63b7568d07e6f4d5d13db1607",
+      "bytes": 401835
+    },
+    {
+      "url": "https://learn.chatgpt.com/use-cases/strategic-initiative-health-update",
+      "sha256": "961d45500cd6211c6145d8fc056131bacd320810818cd57dc1ccec55d703da9b",
+      "bytes": 405082
+    },
+    {
+      "url": "https://learn.chatgpt.com/use-cases/prioritize-accounts",
+      "sha256": "0df5cc684d379fed416227197292767b984c0cee960f9307170887119984fbd3",
+      "bytes": 406628
+    },
+    {
+      "url": "https://learn.chatgpt.com/use-cases/run-student-club-project",
+      "sha256": "1678b2443ab5ad8fd286a76a433b11addf3422cbb0dad02d0a2e7254c48237b8",
+      "bytes": 389741
+    },
+    {
+      "url": "https://learn.chatgpt.com/use-cases/forecast-risk-review",
+      "sha256": "ea6c786b50b7c1c0f47ea2f8050cf066602f79b67bf66628860237d25825d516",
+      "bytes": 406562
+    },
+    {
+      "url": "https://learn.chatgpt.com/use-cases/analytics-request-agent",
+      "sha256": "c7e0a1e043eb358142f8c7498195cc6607fa08bac436c80ec9873bee707af245",
+      "bytes": 405942
+    },
+    {
+      "url": "https://learn.chatgpt.com/use-cases/research-to-decision-memo",
+      "sha256": "3ac30781d3c42a3408495f9e07f65b57d7e9bc9bf05c677dd7beacd24b26cf96",
+      "bytes": 414382
+    },
+    {
+      "url": "https://learn.chatgpt.com/use-cases/initiative-off-track-brief",
+      "sha256": "779f6a98f536cf0f9481a295beb49a0a5ac4ec2e72350978788e4e18adb5d135",
+      "bytes": 405267
+    },
+    {
+      "url": "https://learn.chatgpt.com/use-cases/refactor-your-codebase",
+      "sha256": "2877bf90bceeec46e795ad30c0da116ed64779125dc96b60336fb992c2ab784c",
+      "bytes": 397661
+    },
+    {
+      "url": "https://learn.chatgpt.com/use-cases/ios-liquid-glass",
+      "sha256": "bbe165aec03c64c222b10ccaee5888426df6b793d0e8ab3795335873b13102ee",
+      "bytes": 405413
+    },
+    {
+      "url": "https://learn.chatgpt.com/use-cases/native-macos-apps",
+      "sha256": "b2fce9e0bf98151bc6e7ebc8917ae1947f11f8a57a6d2b05e9601844dac82948",
+      "bytes": 411721
+    },
+    {
+      "url": "https://learn.chatgpt.com/use-cases/ios-simulator-bug-debugging",
+      "sha256": "59ddea7e12cb00df7930c9d053f5629bbbce97fdc93480f11c7b3a21763c0e0e",
+      "bytes": 407708
+    },
+    {
+      "url": "https://learn.chatgpt.com/use-cases/ios-app-intents",
+      "sha256": "4d59249ae6dba188c2260e9382b1f0d7daca419bd82fa32d05bf851377267151",
+      "bytes": 410519
+    },
+    {
+      "url": "https://learn.chatgpt.com/use-cases/macos-telemetry-logs",
+      "sha256": "c5088703e2ce55a40b43cf04a3e67c33d53030f70e7daa38a60e7df90732294e",
+      "bytes": 425299
+    },
+    {
+      "url": "https://learn.chatgpt.com/use-cases/code-migrations",
+      "sha256": "b2548ca978f7f61f7a7fb8e07988216728fee491480b1cee6bcd6fa1f9b062e6",
+      "bytes": 400851
+    },
+    {
+      "url": "https://learn.chatgpt.com/use-cases/create-custom-review-workflows-with-github-actions",
+      "sha256": "e5621f0663d244151d505163b39229b78e565391f410326f63e9ce9ab1d687f1",
+      "bytes": 377724
+    },
+    {
+      "url": "https://learn.chatgpt.com/use-cases/run-security-reviews-from-the-cli",
+      "sha256": "d638942356e7313458d9ba6a4f0cb76814bbb13dc34dd7ac497d17b192a06e1d",
+      "bytes": 393489
+    },
+    {
+      "url": "https://learn.chatgpt.com/use-cases/automate-security-scans-in-ci",
+      "sha256": "f73dd33b60e6f97bea4200ea7bc3ea4e13fab503f599c3447e8d3b43479d9b0d",
+      "bytes": 377918
+    },
+    {
+      "url": "https://learn.chatgpt.com/use-cases/audit-course-section-consistency",
+      "sha256": "2553bed8c2695ad077b32b975e977407040b9366ded2cef7e1543f4ab84d291e",
+      "bytes": 389974
+    },
+    {
+      "url": "https://learn.chatgpt.com/use-cases/build-unit-plan-from-sources",
+      "sha256": "e2ebb124f583bb01e8f35c718565c67b5297e176cd2c48a56fda27439728795d",
+      "bytes": 389807
+    },
+    {
+      "url": "https://learn.chatgpt.com/use-cases/variance-driver-bridge",
+      "sha256": "21ed37aa85467b49c3f28162ad7302ff4f2825ff44fa488b2246471f28b42fe8",
+      "bytes": 398467
+    },
+    {
+      "url": "https://learn.chatgpt.com/use-cases/build-interactive-lesson-resource",
+      "sha256": "3963ce381cc17acd0171b958766d39f385816ca08a443a00f5eb7e88ad040c74",
+      "bytes": 390596
+    },
+    {
+      "url": "https://learn.chatgpt.com/use-cases/finance-model-cleanup",
+      "sha256": "016c946d58b4acd796258ddb20c36c70f55926163b57219c6bf3d7e4d8d09d5f",
+      "bytes": 395759
+    },
+    {
+      "url": "https://learn.chatgpt.com/use-cases/calibrate-assessments",
+      "sha256": "666f750e3f7be88585328ce3b6271732e72d517d0d4c57032db6168ba1cebb10",
+      "bytes": 389506
+    },
+    {
+      "url": "https://learn.chatgpt.com/use-cases/create-classroom-materials-pack",
+      "sha256": "9c8d1585771165a2e8ab36c666ab5388b4d2073c7da42fb648bb66a62a6fb346",
+      "bytes": 389760
+    },
+    {
+      "url": "https://learn.chatgpt.com/use-cases/create-lesson-deck",
+      "sha256": "6fdedba5baa48eb0c9ffab75d55a7d6d0e2bfb960ab0661340a6646fa60bfea6",
+      "bytes": 389628
+    },
+    {
+      "url": "https://learn.chatgpt.com/use-cases/stalled-deal-diagnosis",
+      "sha256": "ab7457cb30ac8c684adf690471abaa06751bbdc88f628d9b8c9cc1aa9833f685",
+      "bytes": 407071
+    },
+    {
+      "url": "https://learn.chatgpt.com/use-cases/business-impact-readout",
+      "sha256": "701ab72042db27d160c09468a384ee6e83e5fb02799996c185d099786d38200c",
+      "bytes": 402220
+    },
+    {
+      "url": "https://learn.chatgpt.com/use-cases/scenario-tradeoff-model",
+      "sha256": "b05c6636a58b9ff8c4cd9e6d98289068ac563bbd2b79bc90415fd05feda60236",
+      "bytes": 402239
+    },
+    {
+      "url": "https://learn.chatgpt.com/use-cases/organize-lesson-unit-folder",
+      "sha256": "b3e63a816e1b5c3d12bdfba75c4709b78bf01ef646b2f7f7c7c902cf36b4e595",
+      "bytes": 387011
+    },
+    {
+      "url": "https://learn.chatgpt.com/use-cases/organize-semester-workspace",
+      "sha256": "0c447246c3b3c9094764bc78b887983433610f8a6cf5e56df0e0c14d764c51d5",
+      "bytes": 390366
+    },
+    {
+      "url": "https://learn.chatgpt.com/use-cases/plan-budget-and-schedule",
+      "sha256": "11de5ec7f7f2e3849d4111611b0527ffafa1cd8346f852ec75c8a3c607ea5b56",
+      "bytes": 389303
+    },
+    {
+      "url": "https://learn.chatgpt.com/use-cases/prepare-committee-packet",
+      "sha256": "b54d1e628b5b4fbeb44d3369449c5d6198e283e268a4cef5cf178b818a1310f8",
+      "bytes": 389344
+    },
+    {
+      "url": "https://learn.chatgpt.com/use-cases/strategic-account-plan",
+      "sha256": "2a6671af33679802f10e2f77b8bdb4e9a0815da16c96e1c2c78f2a8d7b24fe91",
+      "bytes": 407274
+    },
+    {
+      "url": "https://learn.chatgpt.com/use-cases/refresh-forecast-and-plan",
+      "sha256": "f391b550f165277f0e033f16692e88322e179b553009546718a1ae7b1982179d",
+      "bytes": 395890
+    },
+    {
+      "url": "https://learn.chatgpt.com/use-cases/refresh-course-materials",
+      "sha256": "e62dea50bde49825d1587fdc955278853d627e2c5ad4ebc6296a824b24ec90e0",
+      "bytes": 389846
+    },
+    {
+      "url": "https://learn.chatgpt.com/use-cases/revise-lesson-package",
+      "sha256": "2463c5131cccf9cf890c63ecb0e9861a3e3050fc74a6cb97cc4f7dbce29273e2",
+      "bytes": 390040
+    },
+    {
+      "url": "https://learn.chatgpt.com/use-cases/synthesize-research-evidence",
+      "sha256": "4a734f2f92de0e95e5ca6538301a6be4609d1a53a8124900ddfb63fb3db91662",
+      "bytes": 389882
+    },
+    {
+      "url": "https://learn.chatgpt.com/use-cases/track-job-applications",
+      "sha256": "9f2bcaa325a44f2dccc94a17cb3686297f34657c09d7f141152cfd4879c77bf3",
+      "bytes": 390019
+    },
+    {
+      "url": "https://learn.chatgpt.com/use-cases/track-course-engagement",
+      "sha256": "2aca638ac75c9e3b8529d1b5b2026d1bddc794115787575cf9e72a796745b24f",
+      "bytes": 389637
+    },
+    {
+      "url": "https://learn.chatgpt.com/use-cases/ios-swiftui-view-refactor",
+      "sha256": "6899e595d9a0b85b827c02c445b72336351140da301029b33f789e2351b38ae5",
+      "bytes": 409440
+    },
+    {
+      "url": "https://learn.chatgpt.com/use-cases/build-student-website",
+      "sha256": "ba8617aa2fcea82490ced839aa4a9053c1baf1c10fa06b7c775574e52d530024",
+      "bytes": 388188
+    },
+    {
+      "url": "https://learn.chatgpt.com/use-cases/build-exam-study-system",
+      "sha256": "ccef3bb80b6f9c34d5280b020f998b53a12096ffd2cc54cc5acfb10bb4380858",
+      "bytes": 389812
+    },
+    {
+      "url": "https://learn.chatgpt.com/use-cases/build-and-deploy-internal-apps",
+      "sha256": "bd2b32ece9132f34b51fb7cc5966ee9a52e70c188a4e84722204c4a69a49e51a",
+      "bytes": 396465
+    },
+    {
+      "url": "https://learn.chatgpt.com/use-cases/follow-goals",
+      "sha256": "427bf4b6c0e9c855c59c7d9ea06168dd0df933ca112208d15d658b217b23e95b",
+      "bytes": 406372
+    },
+    {
+      "url": "https://learn.chatgpt.com/use-cases/project-teammate",
+      "sha256": "a045825fe393e0d384a3943787c2426df82c9a82f891f07438e298fab56cf8e7",
+      "bytes": 441462
+    },
+    {
+      "url": "https://learn.chatgpt.com/use-cases/draft-prds-from-sources",
+      "sha256": "7a40ace3ae54fc117c2090124c3672904e1955fa83324ca12aa5c01000595c4b",
+      "bytes": 417759
+    },
+    {
+      "url": "https://learn.chatgpt.com/use-cases/build-an-ai-tour-guide",
+      "sha256": "ff36e5b62ac77d36054b22552e689e334edded013508ed82c40514aae060020a",
+      "bytes": 401469
+    },
+    {
+      "url": "https://learn.chatgpt.com/use-cases/track-bills-subscriptions-and-spending",
+      "sha256": "bd5ed84a78a225d1464146f37a37bf3d4d6c0a0fac9e72d538543e4e969169c9",
+      "bytes": 423768
+    },
+    {
+      "url": "https://learn.chatgpt.com/use-cases/ai-app-evals",
+      "sha256": "d5812dc090ce82e1a0cffaf7731280f39634c17ca0a3fb2cb27e8d6475ebc689",
+      "bytes": 396761
+    },
+    {
+      "url": "https://learn.chatgpt.com/use-cases/user-stories-to-ui-mocks",
+      "sha256": "79d29d64bdd1dc24139653fe55461aafcef7a41fb60d604f27bf8287917c53b6",
+      "bytes": 414981
+    },
+    {
+      "url": "https://learn.chatgpt.com/use-cases/slack-action-triage",
+      "sha256": "0893e65256121d4c05f85aa25563630db50e4fe601df0f980d65c7cff2d3c58c",
+      "bytes": 411185
+    },
+    {
+      "url": "https://learn.chatgpt.com/use-cases/react-native-expo-apps",
+      "sha256": "62296b034b61bbf85c28b20c758979c53acd1ebf7d25b1469e3d5a5d8cef59db",
+      "bytes": 401764
+    },
+    {
+      "url": "https://learn.chatgpt.com/use-cases/agent-friendly-clis",
+      "sha256": "f680964a29d1bf0f302876b547c401fc1ce37f89ddc86e480a45e95d12d930ba",
+      "bytes": 423436
+    },
+    {
+      "url": "https://learn.chatgpt.com/use-cases/verified-operations-workflows",
+      "sha256": "5fc2ca28666084b49fdec45ad897517765c5bf46681817a4b09dfc2aaea11a70",
+      "bytes": 395969
+    },
+    {
+      "url": "https://learn.chatgpt.com/use-cases/event-launch-playbooks",
+      "sha256": "8f7ccc93db99d520548e9d236a34a34217c245f24111125df5b38ad7cea12179",
+      "bytes": 407201
+    },
+    {
+      "url": "https://learn.chatgpt.com/use-cases/chatgpt-apps",
+      "sha256": "d4b02f6064130713e51ab00ed583297afcadc73ae00dbaee54c2f136b912b4a0",
+      "bytes": 434028
+    },
+    {
+      "url": "https://learn.chatgpt.com/use-cases/audit-workflow",
+      "sha256": "8fac257014e70c87fe2f61d4998ce17e8f1184eed179e35ad22607062003c41a",
+      "bytes": 406005
+    },
+    {
+      "url": "https://learn.chatgpt.com/use-cases/launch-campaign-kit",
+      "sha256": "6d86d1b521c5f56519a5024ef82cc1704782faa17bd82394091021f874f82564",
+      "bytes": 409207
+    },
+    {
+      "url": "https://learn.chatgpt.com/use-cases/incident-to-tested-fix",
+      "sha256": "1b37fc8fdd498e4d51346d3136469674ae35930f3c394c526c3ba5e7f7b759dd",
+      "bytes": 443960
+    },
+    {
+      "url": "https://learn.chatgpt.com/use-cases/build-workshop-practice-site",
+      "sha256": "898139d224fff1d0c8a1249311df998d6b7ffbce4faff1fd663fa61ce10dd33d",
+      "bytes": 416294
+    },
+    {
+      "url": "https://learn.chatgpt.com/use-cases/migrate-a-validation-module",
+      "sha256": "88d9b800834986de23df26d9e67539d4bba82b0b68e50caba7f532b650f88c20",
+      "bytes": 502743
+    },
+    {
+      "url": "https://learn.chatgpt.com/use-cases/build-personal-onboarding-plan",
+      "sha256": "a3da7448790503feb2e2a6003e238763acbb06c2f20973c80a6f6b1b67ea3069",
+      "bytes": 413930
+    },
+    {
+      "url": "https://learn.chatgpt.com/use-cases/collect-and-schedule-team-requests",
+      "sha256": "8af68f2526a35c104d9c6ba2c4ca92d7e7c79f718f2594aba24ec68306eb7e27",
+      "bytes": 414567
+    },
+    {
+      "url": "https://learn.chatgpt.com/use-cases/compare-campaign-performance",
+      "sha256": "a1a6f1248d8b4501624637d3d0ca47ba4120edbe69de6b24dff0063f1444277a",
+      "bytes": 416802
+    },
+    {
+      "url": "https://learn.chatgpt.com/use-cases/consolidate-spreadsheets",
+      "sha256": "6c85c114790e175d847a2edcb7a8ceac9dd63701a94f67e4d574c132bc88f95c",
+      "bytes": 402571
+    },
+    {
+      "url": "https://learn.chatgpt.com/use-cases/weekly-work-summary",
+      "sha256": "80faf113c3df251c734b2572f2e23922d3455f314269cb777770f18890d24ca2",
+      "bytes": 406229
+    },
+    {
+      "url": "https://learn.chatgpt.com/use-cases/issue-to-tested-pr",
+      "sha256": "d136dee7e424166c8cc0b55cd78df3c91974ec60c4a3b6de545a40c622d9702a",
+      "bytes": 794193
+    }
+  ]
+}

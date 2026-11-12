@@ -1,0 +1,2586 @@
+[
+  {
+    "sourceId": "claude:map-your-lit-review-mid-conversation",
+    "entry": {
+      "id": "fp-map-your-lit-review-mid-conversation",
+      "slug": "map-your-lit-review-mid-conversation",
+      "title": "Map the arguments in your literature review",
+      "summary": "See which papers reinforce, contradict, or bridge one another instead of grouping them only by topic.",
+      "departments": [
+        "Research",
+        "Education"
+      ],
+      "tags": [
+        "Research",
+        "Analysis"
+      ],
+      "prerequisites": [
+        "Attach the papers or detailed notes, including claims and citations.",
+        "Interactive visualization tools are needed for an explorable map."
+      ],
+      "outcome": "An argument map and a source-linked outline of the debate.",
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "Draw the debate",
+          "prompt": "Read these papers on [research topic]. Group them by the claims they defend, connect supporting arguments, and mark disagreements. Identify bridge papers and blind spots in each cluster. Cite the papers behind every connection and distinguish your interpretation from the authors' stated positions. Make an explorable argument map if visualization tools are available."
+        },
+        {
+          "id": "step-2",
+          "title": "Turn the map into a review",
+          "prompt": "Expand the disagreement between [cluster A] and [cluster B]: which claims conflict, which evidence each uses, and whether either side addresses the other. Then draft a state-of-the-debate outline organized by arguments and tensions, with citations and unresolved questions."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "claude:map-your-understanding-and-build-lessons-from-the-gaps",
+    "entry": {
+      "id": "fp-map-your-understanding-and-build-lessons-from-the-gaps",
+      "slug": "map-your-understanding-and-build-lessons-from-the-gaps",
+      "title": "Build a lesson around what you do not understand",
+      "summary": "Find the precise gap in your reasoning, then practice with an interactive lesson and your own data.",
+      "departments": [
+        "Personal"
+      ],
+      "tags": [
+        "Learning",
+        "Analysis"
+      ],
+      "prerequisites": [
+        "Describe what you already understand and the step that confuses you.",
+        "Attach CSV or XLSX data for a personalized workbook; file analysis and interactive visualization tools are needed."
+      ],
+      "outcome": "A diagnostic explanation, practice workbook, and map of related concepts.",
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "Find the misconception",
+          "prompt": "I understand [starting knowledge], but lose the logic at [specific step] when learning [concept]. Ask diagnostic questions and check my reasoning before explaining. Use an example I can solve again with different numbers. Once the gap is clear, build an interactive lesson, a workbook applying it to my attached data, and a concept map of what to learn next."
+        },
+        {
+          "id": "step-2",
+          "title": "Test the apparent signal",
+          "prompt": "In this dataset, test whether [signal] predicts [outcome] beyond the base rate. Show the underlying counts, uncertainty, and possible confounding. Add an exercise comparing it with related signals so I can identify redundant information myself."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "claude:meeting-notes-and-filed-tasks-from-a-call-transcript",
+    "entry": {
+      "id": "fp-meeting-notes-and-filed-tasks-from-a-call-transcript",
+      "slug": "meeting-notes-and-filed-tasks-from-a-call-transcript",
+      "title": "Turn recurring call transcripts into notes and tasks",
+      "summary": "Give a project-channel assistant a standing job to capture decisions and create accountable follow-up work.",
+      "departments": [
+        "Operations",
+        "Product"
+      ],
+      "tags": [
+        "Organization",
+        "Communication"
+      ],
+      "prerequisites": [
+        "Requires a channel-based assistant that supports standing instructions and proactive replies.",
+        "Connect a Zoom, Gong, or Fathom transcript feed and Linear, Jira, or Asana with ticket-write access.",
+        "Name the project board and the channel where transcripts arrive."
+      ],
+      "outcome": "Threaded meeting notes, linked tracker tickets, and a maintained decision record.",
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "Set the transcript workflow",
+          "prompt": "For this project channel, process each new call transcript posted by our recorder. Reply in its thread with decisions, unresolved questions, and actions with owners and dates supported by the transcript. Create those actions in [tracker and board], link the tickets, and publish the notes in this channel. Mark missing owners or dates for clarification instead of inventing them."
+        },
+        {
+          "id": "step-2",
+          "title": "Correct and update the record",
+          "prompt": "Correct this action: [task] belongs to [owner], with deadline [date]. Update the linked ticket and meeting notes together. Then produce a short decision record explaining the choice made, alternatives rejected, and reasons supported by this conversation."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "claude:meeting-prep-and-a-weekly-recap-in-your-dm-with-claude",
+    "entry": {
+      "id": "fp-meeting-prep-and-a-weekly-recap-in-your-dm",
+      "slug": "meeting-prep-and-a-weekly-recap-in-your-dm",
+      "title": "Schedule private meeting prep and a weekly recap",
+      "summary": "Use your calendar, messages, and documents to prepare for meetings and close the week with a forwardable recap.",
+      "departments": [
+        "Operations"
+      ],
+      "tags": [
+        "Planning",
+        "Organization"
+      ],
+      "prerequisites": [
+        "Requires a private-message assistant with scheduled routines.",
+        "Connect your own Google Calendar, Gmail, and Drive, or Microsoft 365; workspace search supplies relevant chat threads.",
+        "Set your timezone and routine times."
+      ],
+      "outcome": "Recurring private prep notes and a draft weekly progress recap.",
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "Set the morning briefing",
+          "prompt": "Every weekday at [time and timezone], send me a private note for each meeting on today's calendar. Include attendees, outstanding commitments, relevant documents, recent correspondence, and one useful question to ask. Link the evidence and flag anything that may have changed since the note was generated."
+        },
+        {
+          "id": "step-2",
+          "title": "Add the Friday recap",
+          "prompt": "Every Friday at [time and timezone], draft a private recap I can forward: completed work, delayed commitments and reasons, messages awaiting my response, and next week's earliest deadlines. Keep this as a draft. Also list the routines you now have configured and their next run times."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "claude:message-sweep",
+    "entry": {
+      "id": "fp-message-sweep",
+      "slug": "message-sweep",
+      "title": "Sweep messages across your work apps",
+      "summary": "Combine unread conversations into topics, decide what needs attention, and prepare concise replies.",
+      "departments": [
+        "General"
+      ],
+      "tags": [
+        "Communication",
+        "Organization"
+      ],
+      "prerequisites": [
+        "Connect Slack, Microsoft 365 for Teams, and Gmail, or provide recent message exports.",
+        "A scheduler and a writable notes folder are needed only for recurring saved sweeps."
+      ],
+      "outcome": "One topic-based inbox roundup with short reply drafts.",
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "Group the unread work",
+          "prompt": "Review my unread direct messages, mentions, Teams activity, and email from the past [24 hours]. Combine messages about the same subject across apps. For each topic, label it Reply needed, Read carefully, or FYI, name the people involved, and link the original messages. Draft a response of at most three sentences for each topic that needs me."
+        },
+        {
+          "id": "step-2",
+          "title": "Tune the next sweep",
+          "prompt": "Use these priority senders and channels: [list]. Apply these exclusions: [rules]. Revise the roundup, flag uncertain context, and save this sorting pattern so later sweeps follow the same rules. Keep replies as drafts."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "claude:metrics-narrative",
+    "entry": {
+      "id": "fp-metrics-narrative",
+      "slug": "metrics-narrative",
+      "title": "Explain the movement in your product metrics",
+      "summary": "Trace a funnel anomaly to the segments and product changes that could explain it.",
+      "departments": [
+        "Product"
+      ],
+      "tags": [
+        "Analysis",
+        "Research"
+      ],
+      "prerequisites": [
+        "Provide funnel and retention exports, metric definitions, a changelog, and the previous narrative.",
+        "For live analysis, connect Amplitude, Databricks, and Linear; chart and file tools are required for exported visuals."
+      ],
+      "outcome": "A concise metrics narrative backed by two diagnostic charts.",
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "Find the driver",
+          "prompt": "Examine [week]'s activation funnel against the preceding period. Identify the step with a meaningful change, then isolate it by subscription plan, platform, and acquisition source. Compare the timing with releases and tracked changes. Write an evidence-linked explanation with two charts: the overall movement and the segment driving it. Label causal explanations as hypotheses unless the evidence establishes them."
+        },
+        {
+          "id": "step-2",
+          "title": "Challenge the explanation",
+          "prompt": "Check whether sample size, tracking changes, or a shifting segment mix could explain the movement instead. Reconcile chart values to the source data and list the follow-up analysis needed to distinguish the competing explanations."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "claude:morning-evening",
+    "entry": {
+      "id": "fp-morning-evening",
+      "slug": "morning-evening",
+      "title": "Bookend your day with a briefing and a wrap",
+      "summary": "Start with priorities and finish by carrying unresolved work into tomorrow.",
+      "departments": [
+        "General"
+      ],
+      "tags": [
+        "Planning",
+        "Organization"
+      ],
+      "prerequisites": [
+        "Connect your calendar, email, chat, and task tools, or attach current exports.",
+        "Use a writable Daily folder for dated notes; recurring runs require scheduling support."
+      ],
+      "outcome": "A dated daily note connecting morning intentions to evening outcomes.",
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "Start the day",
+          "prompt": "Read my calendar, outstanding tasks, relevant messages, and yesterday's daily note. Write a briefing shorter than one page: urgent problems, deadlines, people waiting for me, and my three best next actions. Explain the priority order and link supporting items. Save it as the morning section of Daily/[today].md."
+        },
+        {
+          "id": "step-2",
+          "title": "Close the day",
+          "prompt": "Compare today's activity with the morning plan. Append an evening section to the same note covering completed work, deferred items and reasons, unresolved dependencies, and tomorrow's first action. Carry forward unfinished commitments explicitly."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "claude:my-voice",
+    "entry": {
+      "id": "fp-my-voice",
+      "slug": "my-voice",
+      "title": "Create a profile of your writing voice",
+      "summary": "Learn your actual writing habits from sent messages and sharpen the profile through edits.",
+      "departments": [
+        "General"
+      ],
+      "tags": [
+        "Writing",
+        "Communication"
+      ],
+      "prerequisites": [
+        "Provide writing samples or connect sent email, Slack, Microsoft 365, or Notion.",
+        "A persistent project or editable skill is needed to retain the profile across tasks."
+      ],
+      "outcome": "A reusable voice guide with examples and explicit personal rules.",
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "Read my writing habits",
+          "prompt": "Study the attached writing samples or my recent sent messages. Describe my usual tone, sentence length, openings, requests, transitions, and sign-offs, with short examples. Separate consistent habits from choices that vary by audience. Turn this into a compact voice guide for drafting on my behalf."
+        },
+        {
+          "id": "step-2",
+          "title": "Learn from this edit",
+          "prompt": "Compare your draft with my edited version below. Identify the specific voice rules the edits reveal, add them to my profile, and retain the before-and-after example. Preserve rules I have explicitly set even if older samples conflict. Edited version: [paste]."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "claude:nda-review",
+    "entry": {
+      "id": "fp-nda-review",
+      "slug": "nda-review",
+      "title": "Triage NDAs against your legal playbook",
+      "summary": "Check standard paper systematically and isolate the clauses that need counsel.",
+      "departments": [
+        "Legal"
+      ],
+      "tags": [
+        "Analysis",
+        "Organization"
+      ],
+      "prerequisites": [
+        "Attach the NDA, your approved mutual template, and your current NDA playbook.",
+        "Routing requires a connected document system and an authorized signature workflow such as DocuSign."
+      ],
+      "outcome": "A criterion-by-criterion NDA triage card and exception queue.",
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "Apply the NDA checklist",
+          "prompt": "Compare this NDA with every criterion in our attached playbook. Record Pass, Exception, or Unclear with the clause reference and rationale. Where the agreement departs from our approved position, give counsel a concise exception list. If all criteria pass, prepare it for the approved signature-routing workflow; do not treat missing or ambiguous clauses as passes."
+        },
+        {
+          "id": "step-2",
+          "title": "Prepare the intake queue",
+          "prompt": "Apply the same checklist to the remaining NDAs in [intake folder]. Save one triage card per agreement, separate standard drafts from exceptions, and produce a review queue with filenames and clause links. Route only agreements that satisfy the documented approval policy."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "claude:offer-process",
+    "entry": {
+      "id": "fp-offer-process",
+      "slug": "offer-process",
+      "title": "Assemble a consistent offer package",
+      "summary": "Keep the offer document, candidate email, and call presentation aligned with approved terms.",
+      "departments": [
+        "HR"
+      ],
+      "tags": [
+        "Writing",
+        "Communication"
+      ],
+      "prerequisites": [
+        "Attach the candidate summary, offer template, compensation approval, and benefits overview.",
+        "Document and HTML generation are required; connect Drive or Microsoft 365 if the inputs live there."
+      ],
+      "outcome": "A review-ready offer, warm email draft, and short HTML call deck.",
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "Build the package",
+          "prompt": "Prepare the offer materials for [candidate and role] from these approved sources. Complete the offer template, draft an email inviting the candidate to the offer conversation, and create a short HTML presentation covering responsibilities, compensation, benefits, and specific reasons we want them. Keep the title, amounts, and start date consistent across all three, flag missing approvals, and leave everything for my review."
+        },
+        {
+          "id": "step-2",
+          "title": "Check the terms",
+          "prompt": "Audit the three outputs against the compensation approval and benefits document. Show any mismatch or unsupported claim, correct it across every artifact, and give me a short checklist for the offer call."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "claude:on-brand-content",
+    "entry": {
+      "id": "fp-on-brand-content",
+      "slug": "on-brand-content",
+      "title": "Draft a full campaign in your brand voice",
+      "summary": "Create coordinated copy across channels using one approved brief and voice guide.",
+      "departments": [
+        "Marketing"
+      ],
+      "tags": [
+        "Writing",
+        "Communication"
+      ],
+      "prerequisites": [
+        "Attach the campaign brief, brand guidelines, and two or three strong past examples.",
+        "Connect HubSpot, Drive, or Notion for source materials; file tools are needed to save separate deliverables."
+      ],
+      "outcome": "A blog, landing page, email sequence, and ad variants with a shared message.",
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "Create the campaign set",
+          "prompt": "Use this campaign brief and brand guide to draft a blog article, landing-page copy, three sequenced emails, and short, medium, and long ad variants. Carry the approved value proposition and call to action across every asset while adapting the structure to its channel. Save separate drafts and list gaps in the brief instead of making up claims."
+        },
+        {
+          "id": "step-2",
+          "title": "Review the message",
+          "prompt": "Check every draft against our voice rules and approved messaging. Suggest three distinct campaign angles, explain the audience fit of each, and revise the selected direction consistently across the complete set."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "claude:oncall-handoff-brief",
+    "entry": {
+      "id": "fp-oncall-handoff-brief",
+      "slug": "oncall-handoff-brief",
+      "title": "Prepare an on-call rotation handoff",
+      "summary": "Bring alerts, customer escalations, and recent deploys into one actionable shift brief.",
+      "departments": [
+        "Engineering"
+      ],
+      "tags": [
+        "Organization",
+        "Communication"
+      ],
+      "prerequisites": [
+        "Connect PagerDuty and Slack; connect GitHub or provide production deploy history.",
+        "Provide the handoff template, previous brief, runbook index, shift dates, and output destination.",
+        "Posting needs write access to the handoff channel."
+      ],
+      "outcome": "A handoff with incident status, watch items, and runbook links.",
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "Write the handoff",
+          "prompt": "Review pages, incident threads, customer-support escalations, and production changes from [shift start] to [shift end]. For every relevant item, state whether it is resolved, under monitoring, or still open, its known cause, and what the next engineer must watch. Carry forward unresolved items from the last handoff, link runbooks, save the brief to [folder], and post it in [handoff channel]."
+        },
+        {
+          "id": "step-2",
+          "title": "Reduce repeat alerts",
+          "prompt": "List alerts that fired more than three times this rotation. Separate actionable incidents from noise, identify any safe tuning proposals supported by the evidence, and add owners and follow-up links to the handoff."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "claude:open-new-role",
+    "entry": {
+      "id": "fp-open-new-role",
+      "slug": "open-new-role",
+      "title": "Run a focused intake for a new role",
+      "summary": "Turn a hiring manager's answers into a specific role specification and a clear recruiter handoff.",
+      "departments": [
+        "HR"
+      ],
+      "tags": [
+        "Planning",
+        "Writing"
+      ],
+      "prerequisites": [
+        "Provide the role-spec template, leveling guide, and team charter.",
+        "Connect Drive, Slack, or Microsoft 365 if the current materials live there."
+      ],
+      "outcome": "A completed role spec with measurable success criteria and open hiring questions.",
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "Interview the hiring manager",
+          "prompt": "Help me scope [new role]. Ask about ownership, essential versus desirable capabilities, seniority, reporting line, and what success at day 90 looks like. Challenge vague requirements until they become observable. Use my answers and our leveling guide to complete the attached role-spec template, then list decisions still needed from the recruiter."
+        },
+        {
+          "id": "step-2",
+          "title": "Check the role definition",
+          "prompt": "Review the draft for inconsistent level expectations, unnecessary must-haves, and outcomes that cannot be measured. Propose corrections and produce a short recruiter brief separating settled requirements from unresolved compensation, location, or process questions."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "claude:organize-files-by-whats-in-them",
+    "entry": {
+      "id": "fp-organize-files-by-whats-in-them",
+      "slug": "organize-files-by-whats-in-them",
+      "title": "Organize files by what they contain",
+      "summary": "Sort a cluttered folder using the substance of the files and keep a clear record of every move.",
+      "departments": [
+        "Personal"
+      ],
+      "tags": [
+        "Organization"
+      ],
+      "prerequisites": [
+        "Requires a desktop agent with permission to read and move files in the selected folder.",
+        "Specify excluded files, active project folders, naming preferences, and permitted cleanup rules."
+      ],
+      "outcome": "A navigable folder structure and a searchable old-to-new location map.",
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "Sort the folder",
+          "prompt": "Inspect the files in [folder] and group them by their contents and practical use. Keep [excluded items] untouched. Propose a small folder structure, then organize the files within the granted access. Preserve a mapping of old and new paths, flag ambiguous items, and do not delete files unless they match my stated cleanup rules."
+        },
+        {
+          "id": "step-2",
+          "title": "Make the system maintainable",
+          "prompt": "Refine the folders using [client, project, language, or date] as the organizing rule. Tell me where [file description] moved, and write simple filing rules for future downloads so I can maintain this structure."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "claude:organize-files-in-google-drive",
+    "entry": {
+      "id": "fp-organize-files-in-google-drive",
+      "slug": "organize-files-in-google-drive",
+      "title": "Bring order to your Google Drive",
+      "summary": "Create a sensible folder structure and separate uncertain, duplicate, and outdated files for review.",
+      "departments": [
+        "Personal"
+      ],
+      "tags": [
+        "Organization"
+      ],
+      "prerequisites": [
+        "Requires browser control signed into Google Drive or an equivalent Drive integration with file-management access.",
+        "Choose the folders in scope and list naming conventions and items to preserve."
+      ],
+      "outcome": "An organized Drive with a movement log and a review queue.",
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "Plan and organize",
+          "prompt": "Review [Drive folders] and propose a structure based on projects, contents, and dates. Show the folders you would create and any ambiguous files before moving anything. After I approve, move only files we can manage, record old and new locations, and list shared files whose ownership prevents changes. Flag suspected duplicates and stale documents separately."
+        },
+        {
+          "id": "step-2",
+          "title": "Refine the cleanup",
+          "prompt": "Suggest descriptive names for generically named files and identify archive candidates using [date rule]. For suspected duplicates, compare contents and versions rather than relying on filenames. Show the proposed changes and which copy would be retained before any deletion."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "claude:organize-your-business-finances",
+    "entry": {
+      "id": "fp-organize-your-business-finances",
+      "slug": "organize-your-business-finances",
+      "title": "Turn messy invoices into a financial dashboard",
+      "summary": "Clean invoice records and make monthly trends, client concentration, and aging easy to inspect.",
+      "departments": [
+        "Finance"
+      ],
+      "tags": [
+        "Analysis",
+        "Organization"
+      ],
+      "prerequisites": [
+        "Upload invoice records as CSV or XLSX, including payment status if available.",
+        "Requires spreadsheet generation; advanced sparklines may need a library such as xlsxwriter."
+      ],
+      "outcome": "A filterable workbook with reconciled totals, trend charts, and invoice detail.",
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "Build the workbook",
+          "prompt": "Clean this year's invoice data, standardize dates and client names, and preserve the original records in a source tab. Build a restrained financial dashboard with monthly totals, client rankings, sparklines, sortable invoice detail, and frozen headers. Distinguish invoiced amounts from received payments when the data permits. Add comments for ambiguous records and reconcile the dashboard totals to the detail."
+        },
+        {
+          "id": "step-2",
+          "title": "Add aging and updates",
+          "prompt": "Add days since invoice and an aging view for unpaid balances. Incorporate these new records without duplicating existing invoices, then refresh charts and totals while preserving the workbook's formatting and formulas."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "claude:organize-your-legal-workflows-using-projects",
+    "entry": {
+      "id": "fp-organize-your-legal-workflows-using-projects",
+      "slug": "organize-your-legal-workflows-using-projects",
+      "title": "Standardize repeat contract reviews",
+      "summary": "Capture a legal team's playbook and commenting style in a persistent review workspace.",
+      "departments": [
+        "Legal"
+      ],
+      "tags": [
+        "Organization",
+        "Writing"
+      ],
+      "prerequisites": [
+        "Upload the review playbook, preferred template, unacceptable-terms list, and sample reviews.",
+        "Requires a project workspace with persistent reference files; document generation is needed for the guide."
+      ],
+      "outcome": "A standards guide and reusable project instructions, calibrated on completed reviews.",
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "Create the standards",
+          "prompt": "Analyze our attached contract-review materials. Produce a review standards guide covering preferred terms, prohibited positions, severity definitions, escalation triggers, and our issue-risk-recommendation comment style. Draft reusable project instructions that require the guide on each review and distinguish missing guidance from established policy."
+        },
+        {
+          "id": "step-2",
+          "title": "Calibrate against real reviews",
+          "prompt": "Review these previously assessed agreements using the new guide, then compare your findings with our completed reviews. Identify missed issues, severity disagreements, and tone differences. Revise the instructions based on the documented corrections and leave unresolved policy questions for counsel."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "claude:outside-counsel-review",
+    "entry": {
+      "id": "fp-outside-counsel-review",
+      "slug": "outside-counsel-review",
+      "title": "Prepare an outside-counsel spend review",
+      "summary": "Locate billing exceptions and explain the matters drifting beyond budget before the partner discussion.",
+      "departments": [
+        "Legal"
+      ],
+      "tags": [
+        "Analysis",
+        "Communication"
+      ],
+      "prerequisites": [
+        "Provide outside-counsel billing guidelines and matter budgets.",
+        "Connect iManage or NetDocuments for matter and invoice detail, and Microsoft 365 for Excel and Word outputs, or supply equivalent exports."
+      ],
+      "outcome": "A matter-level variance table and evidence-linked partner talking points.",
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "Review the firm",
+          "prompt": "For [law firm and period], compare billing entries with our guidelines and actual matter spend with approved budgets. Flag specific off-policy entries, quantify each budget variance, and identify the activities driving it. Cite the underlying invoice or matter record, distinguish verified issues from questions, and draft concise talking points for the relationship partner."
+        },
+        {
+          "id": "step-2",
+          "title": "Build the discussion agenda",
+          "prompt": "Prioritize the largest or recurring exceptions. Create a negotiation agenda with the supporting amounts, questions for the firm, and proposed corrective actions. Include an Excel variance table and a Word briefing in our existing review format."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "claude:package-your-brand-guidelines-in-a-skill",
+    "entry": {
+      "id": "fp-package-your-brand-guidelines-in-a-skill",
+      "slug": "package-your-brand-guidelines-in-a-skill",
+      "title": "Package brand guidelines as a reusable skill",
+      "summary": "Turn visual rules into a consistent styling workflow for documents, decks, and spreadsheets.",
+      "departments": [
+        "Marketing",
+        "Design"
+      ],
+      "tags": [
+        "Design",
+        "Organization"
+      ],
+      "prerequisites": [
+        "Provide the brand guide, logo assets, color values, typography rules, and font fallbacks.",
+        "Requires custom-skill installation and file creation; connect Drive if the references are stored there."
+      ],
+      "outcome": "A structured brand skill with references, examples, and deterministic styling helpers.",
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "Build the brand skill",
+          "prompt": "Create a reusable skill from these brand materials. Include SKILL.md with clear activation conditions, reference files for colors and typography, and examples for presentations, documents, and spreadsheets. Encode exact color application and repeated formatting in helper scripts where useful. Keep layout decisions in the instructions and include accessible contrast checks and font fallbacks."
+        },
+        {
+          "id": "step-2",
+          "title": "Test and revise",
+          "prompt": "Use the skill to create a small quarterly-review deck and a companion spreadsheet. Check them against the guide, then update the skill with these corrections: [changes]. Preserve existing rules that do not conflict and document how the new styling applies by content type."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "claude:pattern-consistency-audit",
+    "entry": {
+      "id": "fp-pattern-consistency-audit",
+      "slug": "pattern-consistency-audit",
+      "title": "Audit existing interface patterns before designing",
+      "summary": "Find comparable components across the product and decide which one is worth reusing.",
+      "departments": [
+        "Design"
+      ],
+      "tags": [
+        "Design",
+        "Research"
+      ],
+      "prerequisites": [
+        "Connect Figma and GitHub, or provide design-system exports, screenshots, and ownership records.",
+        "Amplitude access is optional for engagement evidence; include a screenshot of the destination surface."
+      ],
+      "outcome": "A side-by-side pattern inventory with ownership, evidence, and a reuse recommendation.",
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "Find the precedent",
+          "prompt": "Before designing [pattern] for [surface], locate existing variants in our design files and codebase, including [related names or forms]. For each, provide a screenshot or design link, implementation reference, owner, and relevant usage evidence if available. Recommend the best fit for the destination and explain any gaps in the evidence."
+        },
+        {
+          "id": "step-2",
+          "title": "Plan consolidation",
+          "prompt": "Show how to adapt the recommended pattern to the destination. Identify other surfaces that would benefit from adopting it, the owners to involve, and compatibility or accessibility checks needed before consolidation."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "claude:performance-review-admin",
+    "entry": {
+      "id": "fp-performance-review-admin",
+      "slug": "performance-review-admin",
+      "title": "Build a consistent performance-review workflow",
+      "summary": "Give managers the same evidence-gathering process, rating definitions, and review template.",
+      "departments": [
+        "HR"
+      ],
+      "tags": [
+        "Organization",
+        "Writing"
+      ],
+      "prerequisites": [
+        "Attach the performance framework, rating definitions, review template, and cycle instructions.",
+        "Gusto and Drive can supply the roster and documents; Asana can supply cycle deadlines.",
+        "Requires custom-skill support to install the reusable workflow."
+      ],
+      "outcome": "A reusable manager workflow grounded in the approved performance framework.",
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "Create the manager workflow",
+          "prompt": "Build a performance-review skill using our current cycle materials. Guide managers through collecting evidence, mapping it to the approved competencies, proposing ratings against the exact supplied definitions, and drafting in our template. Do not introduce extra criteria. Keep evidence gaps visible and require the manager to own and confirm the assessment."
+        },
+        {
+          "id": "step-2",
+          "title": "Check consistency",
+          "prompt": "Run the workflow on these sample review notes. Highlight unsupported ratings, inconsistent interpretations of the same competency, and missing examples. Improve the instructions so managers receive the same prompts and calibration guidance without inventing employee evidence."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "claude:pipeline-review",
+    "entry": {
+      "id": "fp-pipeline-review",
+      "slug": "pipeline-review",
+      "title": "Score pipeline health for the weekly review",
+      "summary": "Surface stalled opportunities and weak next steps using your own stage criteria.",
+      "departments": [
+        "Sales"
+      ],
+      "tags": [
+        "Analysis",
+        "Planning"
+      ],
+      "prerequisites": [
+        "Connect Salesforce and Drive, or attach the current pipeline export.",
+        "Provide stage-exit criteria, risk thresholds, and the previous review."
+      ],
+      "outcome": "A scored pipeline sheet and a meeting-ready risk narrative.",
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "Inspect open opportunities",
+          "prompt": "Evaluate every open opportunity in [period] against our stage-exit requirements, evidence of a concrete next step, and time spent in stage. Produce a scored sheet with source links and a one-line explanation for each at-risk deal. Compare with the last review and write the manager briefing for our pipeline meeting."
+        },
+        {
+          "id": "step-2",
+          "title": "Turn risk into action",
+          "prompt": "For the highest-priority risks, state what evidence is missing, the next customer or internal action, its owner, and when the team should reassess. Separate genuine deal movement from administrative stage updates."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "claude:plan-your-career-path",
+    "entry": {
+      "id": "fp-plan-your-career-path",
+      "slug": "plan-your-career-path",
+      "title": "Connect your career goals to a practical plan",
+      "summary": "Compare target roles with your experience and separate future actions from proven achievements.",
+      "departments": [
+        "Education"
+      ],
+      "tags": [
+        "Planning",
+        "Learning"
+      ],
+      "prerequisites": [
+        "Provide your current resume and links to specific target roles.",
+        "Web research is needed for current opportunities; document and spreadsheet tools are needed for the deliverables."
+      ],
+      "outcome": "A career action tracker and a skills portfolio workbook.",
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "Map the path",
+          "prompt": "Compare my resume with these target roles: [links]. Build an action tracker with prioritized skill gaps, portfolio projects, learning resources, people to contact, and milestones through [target date]. Separately create a skills portfolio workbook recording completed work, evidence, metrics, and competency-tagged interview stories. Do not invent achievements or treat planned work as completed."
+        },
+        {
+          "id": "step-2",
+          "title": "Prepare a conversation",
+          "prompt": "Research [company and role] before my conversation with [person]. Suggest informed questions about their work and identify relevant evidence from my portfolio. Update the action tracker with any new gaps this preparation reveals."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "claude:plan-your-literature-review",
+    "entry": {
+      "id": "fp-plan-your-literature-review",
+      "slug": "plan-your-literature-review",
+      "title": "Build a literature-review reading roadmap",
+      "summary": "Find relevant studies, prioritize the reading order, and track evidence against your research questions.",
+      "departments": [
+        "Research"
+      ],
+      "tags": [
+        "Research",
+        "Planning"
+      ],
+      "prerequisites": [
+        "Define the research question, population, mechanisms or interventions, and date range.",
+        "Requires PubMed access and document creation; upload full papers when detailed evaluation is needed."
+      ],
+      "outcome": "A cited reading guide with study types, priorities, and room for notes.",
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "Plan the reading",
+          "prompt": "Search PubMed for [research question] during [date range]. Build a Word reading roadmap progressing from foundational syntheses to key trials or mechanistic studies and then unresolved debates. Explain each paper's relevance and study type, include verified citations and links, and leave space for critical notes. Separate conclusions supported by full text from those based on abstracts."
+        },
+        {
+          "id": "step-2",
+          "title": "Test a developing claim",
+          "prompt": "I think the literature shows [claim]. Check it against the papers in our roadmap, identify contradictions, and compare differences in methods or populations. Search for missing evidence on [gap] and place useful new papers into the reading sequence."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "claude:plan-your-syllabus-see-which-weeks-are-locked",
+    "entry": {
+      "id": "fp-plan-your-syllabus-see-which-weeks-are-locked",
+      "slug": "plan-your-syllabus-see-which-weeks-are-locked",
+      "title": "Map the prerequisites in your syllabus",
+      "summary": "Identify which topic sequences are necessary and which weeks you can rearrange.",
+      "departments": [
+        "Education"
+      ],
+      "tags": [
+        "Planning",
+        "Learning"
+      ],
+      "prerequisites": [
+        "Attach a topic-by-week syllabus and specify the textbook or course-specific dependencies.",
+        "Interactive visualization support is needed for a clickable map."
+      ],
+      "outcome": "A course dependency map and revised weekly schedule.",
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "Find the sequencing constraints",
+          "prompt": "Map the conceptual prerequisites in this [number]-week syllabus. For each topic, show what students need first and what it enables later. Distinguish firm dependencies from conventional ordering, label flexible sections, and explain alternative sequences. Include course-specific constraints I supplied instead of relying only on textbook order."
+        },
+        {
+          "id": "step-2",
+          "title": "Try a reorder",
+          "prompt": "Move [topic] to week [number] and show which later topics lose a prerequisite or need supporting material. Once we settle the order, write a revised weekly schedule with chapter mappings and explain the changes."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "claude:practice-case-interviews-with-feedback",
+    "entry": {
+      "id": "fp-practice-case-interviews-with-feedback",
+      "slug": "practice-case-interviews-with-feedback",
+      "title": "Practice a case interview with rigorous feedback",
+      "summary": "Use a model to explore a business case, then test the numbers and logic in your recommendation.",
+      "departments": [
+        "Education"
+      ],
+      "tags": [
+        "Learning",
+        "Analysis"
+      ],
+      "prerequisites": [
+        "Upload the practice case and any supporting exhibits.",
+        "Requires spreadsheet creation for formula-driven models and scenario inputs."
+      ],
+      "outcome": "A case-analysis workbook, practice questions, and specific coaching.",
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "Set up the practice",
+          "prompt": "Extract the facts and numbers from this case into a spreadsheet with clearly labeled source data, formulas, and adjustable assumptions. Provide the relevant analytical framework and questions I should investigate, but let me form my own recommendation. Distinguish missing inputs from values supported by the case."
+        },
+        {
+          "id": "step-2",
+          "title": "Review my recommendation",
+          "prompt": "Here is my analysis: [paste]. Check the calculations, reasoning chain, untested assumptions, and practicality. Give specific improvements as an experienced case interviewer, then show one equally defensible alternative analytical route and what it would emphasize."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "claude:prd-from-a-one-pager",
+    "entry": {
+      "id": "fp-prd-from-a-one-pager",
+      "slug": "prd-from-a-one-pager",
+      "title": "Write a PRD through a structured interview",
+      "summary": "Clarify the user problem before drafting a specification in your team's format.",
+      "departments": [
+        "Product"
+      ],
+      "tags": [
+        "Planning",
+        "Writing"
+      ],
+      "prerequisites": [
+        "Provide the problem statement, PRD template, a strong past PRD, and research notes.",
+        "Connect Linear or Notion if supporting evidence lives there; document editing is needed for DOCX output."
+      ],
+      "outcome": "A PRD with explicit goals, non-goals, success measures, and review questions.",
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "Interview and draft",
+          "prompt": "Before writing the PRD for [problem], interview me about affected users, current pain, constraints, and measurable success. Use our attached template and match the depth of the example PRD. Make goals and non-goals explicit, distinguish decisions from assumptions, and assign each open question to the appropriate design or product review."
+        },
+        {
+          "id": "step-2",
+          "title": "Check the scope",
+          "prompt": "Compare the draft with my interview answers. Flag invented decisions, goals without measures, and requirements that do not address the stated problem. Revise the PRD and produce a concise agenda for resolving its remaining questions."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "claude:preclinical-study-analysis",
+    "entry": {
+      "id": "fp-preclinical-study-analysis",
+      "slug": "preclinical-study-analysis",
+      "title": "Compare preclinical study designs",
+      "summary": "Bring experimental designs and source records together into a traceable cross-study comparison.",
+      "departments": [
+        "General"
+      ],
+      "tags": [
+        "Research",
+        "Analysis"
+      ],
+      "prerequisites": [
+        "Requires Benchling or an equivalent research-data connection with access to the selected studies, protocols, and lab notebooks.",
+        "Specify study IDs and the intended report format."
+      ],
+      "outcome": "A referenced comparison table and draft study report.",
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "Compare the studies",
+          "prompt": "Retrieve [study A] and [study B] from our research platform. Compare objectives, model systems, sample sizes, test articles, dosing, collection times, endpoints, and analytical methods. Link every supporting notebook and protocol, identify missing details, and explain which design differences limit direct comparison of results."
+        },
+        {
+          "id": "step-2",
+          "title": "Draft the report",
+          "prompt": "Use the verified comparison and underlying results to draft a study report in [required structure]. Keep methods, observations, interpretation, and limitations distinct. Preserve source links and flag unresolved discrepancies for scientific review before the report is used in a submission."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "claude:prep-scattered-documents-for-a-compliance-audit",
+    "entry": {
+      "id": "fp-prep-scattered-documents-for-a-compliance-audit",
+      "slug": "prep-scattered-documents-for-a-compliance-audit",
+      "title": "Organize evidence for a compliance audit",
+      "summary": "Turn scattered documents into a control-based inventory and expose missing evidence.",
+      "departments": [
+        "Legal",
+        "Operations"
+      ],
+      "tags": [
+        "Organization",
+        "Analysis"
+      ],
+      "prerequisites": [
+        "Requires a desktop agent with access to the audit folder and document-reading tools.",
+        "Provide the control framework, audit scope, and review period; ticket-system evidence requires its connector or browser access."
+      ],
+      "outcome": "A renamed evidence collection, coverage matrix, and audit walkthrough notes.",
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "Inventory and map evidence",
+          "prompt": "Review all files in [audit folder] against [framework], covering [scope] for [period]. Propose descriptive names including document type, effective date, and control area, and group documents by control. Produce an old-to-new name map and flag uncertain classifications, out-of-period evidence, and apparent coverage gaps before reorganizing."
+        },
+        {
+          "id": "step-2",
+          "title": "Create the control matrix",
+          "prompt": "Build a spreadsheet with control ID, requirement, supporting documents, covered dates, and evidence status. Separate absent evidence from a demonstrated control failure. Add a one-page policy reference for the walkthrough and list records we should obtain from [ticket system]."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "claude:prepare-and-plan-from-your-calendar",
+    "entry": {
+      "id": "fp-prepare-and-plan-from-your-calendar",
+      "slug": "prepare-and-plan-from-your-calendar",
+      "title": "Prepare tomorrow's meetings and logistics",
+      "summary": "Cross-reference your calendar and email to surface preparation needs and missing rooms or links.",
+      "departments": [
+        "General"
+      ],
+      "tags": [
+        "Planning",
+        "Organization"
+      ],
+      "prerequisites": [
+        "Requires browser access signed into Google Calendar and Gmail, or equivalent connected tools.",
+        "Calendar write access is needed for room bookings or video-link updates."
+      ],
+      "outcome": "A daily prep list and a specific list of calendar fixes.",
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "Review tomorrow",
+          "prompt": "Read tomorrow's calendar and relevant correspondence. Classify meetings as internal or external using attendees' domains, link recent topic-related threads, and highlight materials worth reading. Check each in-person event for a suitable room and each remote event for a video link. Present the preparation list and proposed logistics fixes."
+        },
+        {
+          "id": "step-2",
+          "title": "Apply the chosen fixes",
+          "prompt": "For these approved events: [list], book an available room matching [location and capacity], and add or correct the video link where needed. Recheck availability before each booking and report exactly which calendar events changed."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "claude:prepare-for-sales-deals",
+    "entry": {
+      "id": "fp-prepare-for-sales-deals",
+      "slug": "prepare-for-sales-deals",
+      "title": "Prepare a deal using comparable opportunities",
+      "summary": "Learn from similar wins and losses before your next buyer conversation.",
+      "departments": [
+        "Sales"
+      ],
+      "tags": [
+        "Research",
+        "Planning"
+      ],
+      "prerequisites": [
+        "Connect Salesforce or HubSpot and provide the current buyer profile, deal size, and concerns.",
+        "Web research is needed only for current competitor positioning."
+      ],
+      "outcome": "A concise deal brief with comparables, objections, and practical talking points.",
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "Find comparable deals",
+          "prompt": "For this opportunity: [industry, company size, value, product, concerns], find comparable wins and losses from the past [period]. Compare sales-cycle length, final terms, objections, implementation needs, and stage progression. Cite CRM records, identify colleagues with relevant experience, and make a scan-friendly brief that explains both the similarities and the limits of the comparison."
+        },
+        {
+          "id": "step-2",
+          "title": "Prepare the conversation",
+          "prompt": "Investigate the closest comparable deal in more detail, then draft five conversational talking points for this buyer's concerns. Ground each in the record and distinguish observed outcomes from promises we cannot make."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "claude:process-batches-of-vendors-with-cowork",
+    "entry": {
+      "id": "fp-process-batches-of-vendors",
+      "slug": "process-batches-of-vendors",
+      "title": "Onboard a batch of vendors",
+      "summary": "Coordinate vendor details, contract templates, a tracker, and procurement intake forms in one workflow.",
+      "departments": [
+        "Operations"
+      ],
+      "tags": [
+        "Organization"
+      ],
+      "prerequisites": [
+        "Requires local file access, document and spreadsheet editing, and browser control signed into the procurement portal.",
+        "Provide vendor records, approved NDA and MSA templates, and the current tracker."
+      ],
+      "outcome": "Per-vendor document folders, updated tracker rows, and forms ready for review.",
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "Process the vendor batch",
+          "prompt": "For each vendor in [folder], reconcile contact and commercial details, fill our NDA and MSA templates, and complete the procurement intake form for review. Add the verified fields and current onboarding status to the tracker. Save each vendor's documents together and record missing information instead of guessing or duplicating an existing vendor."
+        },
+        {
+          "id": "step-2",
+          "title": "Check the batch",
+          "prompt": "Cross-check every generated agreement, portal form, and tracker row against its source vendor record. List discrepancies and incomplete fields, correct supported errors, and give me a per-vendor completion checklist before forms are submitted."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "claude:pull-deal-and-account-state",
+    "entry": {
+      "id": "fp-pull-deal-and-account-state",
+      "slug": "pull-deal-and-account-state",
+      "title": "Get the current state of a deal in your team channel",
+      "summary": "Combine the CRM record with recent team discussion while keeping the two evidence sources clear.",
+      "departments": [
+        "Sales"
+      ],
+      "tags": [
+        "Research",
+        "Communication"
+      ],
+      "prerequisites": [
+        "Requires a channel assistant connected read-only to Salesforce or HubSpot.",
+        "Use exact CRM account and stage names; scheduled digests require routine support."
+      ],
+      "outcome": "A shared account brief with open items, owners, and current activity.",
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "Brief the account",
+          "prompt": "In this account thread, summarize [account or opportunity]: current stage, last recorded activity, open questions, and the owner of the next action. Separate facts in the CRM from updates in this channel, link both, and flag conflicts or activities that may not yet have been logged."
+        },
+        {
+          "id": "step-2",
+          "title": "Set a team digest",
+          "prompt": "Every [weekday, time, timezone], post a digest in [sales channel] covering stage changes, opportunities stalled beyond [threshold], and renewals within [window]. Include links and next-step owners, using our CRM's actual stage names."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "claude:pull-metrics-from-analytics-dashboards",
+    "entry": {
+      "id": "fp-pull-metrics-from-analytics-dashboards",
+      "slug": "pull-metrics-from-analytics-dashboards",
+      "title": "Collect weekly metrics from your dashboards",
+      "summary": "Read several analytics tools and assemble one consistent product update.",
+      "departments": [
+        "Product",
+        "Data"
+      ],
+      "tags": [
+        "Analysis",
+        "Communication"
+      ],
+      "prerequisites": [
+        "Requires browser control signed into Amplitude and Mixpanel, or equivalent analytics access.",
+        "Specify report dates, timezone, cohort definitions, and relevant dashboard tabs."
+      ],
+      "outcome": "A source-linked weekly metrics summary with comparable periods and cohorts.",
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "Pull the product numbers",
+          "prompt": "From Amplitude, collect four weeks of active users, signups for this week and last week, and day-1, day-7, and day-30 retention for the specified cohort. From Mixpanel, collect [feature] adoption among active users, onboarding completion, and the five highest-volume events. Verify date filters and denominators, link reports, and write a concise weekly update."
+        },
+        {
+          "id": "step-2",
+          "title": "Investigate the change",
+          "prompt": "The [metric] changed by [amount]. Inspect the relevant funnel or segment view, locate where the movement occurs, and check that tracking definitions did not change. Add an evidence-backed explanation and clearly label what the dashboards cannot establish."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "claude:quickly-prep-for-your-week",
+    "entry": {
+      "id": "fp-quickly-prep-for-your-week",
+      "slug": "quickly-prep-for-your-week",
+      "title": "Plan your week from calendar and inbox evidence",
+      "summary": "See the real workload behind your meetings, unresolved messages, and preparation commitments.",
+      "departments": [
+        "General"
+      ],
+      "tags": [
+        "Planning",
+        "Organization"
+      ],
+      "prerequisites": [
+        "Connect Microsoft 365 for Outlook calendar and email, plus accessible SharePoint, OneDrive, and Teams context.",
+        "Specify the week, working hours, timezone, and priorities."
+      ],
+      "outcome": "A practical weekly plan with email priorities and protected focus time.",
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "Build the weekly plan",
+          "prompt": "Plan [dates] from my calendar and inbox. Identify meetings requiring preparation or decisions, overlapping commitments, and usable focus blocks after accounting for prep. Find weekend messages, older threads becoming urgent, and people blocked by my response. Produce a compact daily plan with must-dos, suggested deep-work time, and email triage, citing the relevant items."
+        },
+        {
+          "id": "step-2",
+          "title": "Prepare the highest-stakes meeting",
+          "prompt": "For [meeting], collect the related correspondence and documents. Write a one-page brief with expected decisions, advance questions, required figures, and missing inputs. Draft replies for the urgent threads we identified, leaving them for me to review."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "claude:recon-journal-entries",
+    "entry": {
+      "id": "fp-recon-journal-entries",
+      "slug": "recon-journal-entries",
+      "title": "Reconcile intercompany balances and draft adjustments",
+      "summary": "Match both entities' ledgers, isolate genuine breaks, and prepare supported journal-entry drafts.",
+      "departments": [
+        "Finance"
+      ],
+      "tags": [
+        "Analysis"
+      ],
+      "prerequisites": [
+        "Provide both subledgers, approved period-end FX rates, the journal-entry template, and prior reconciliation.",
+        "NetSuite and Microsoft 365 can supply live ledger data and Excel editing; set rounding and materiality thresholds."
+      ],
+      "outcome": "A reconciliation workbook with tie-outs and balanced draft entries.",
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "Reconcile the ledgers",
+          "prompt": "Reconcile [period]'s intercompany balances across these entities. Convert using the supplied FX policy and rates, match references and amounts with visible confidence, and classify differences as timing, rounding, or genuine breaks. Do not force uncertain matches. For each substantiated break, draft balanced debits and credits with account, memo, and supporting reference, and include workbook tie-outs."
+        },
+        {
+          "id": "step-2",
+          "title": "Review the exceptions",
+          "prompt": "Show unmatched items, low-confidence pairs, and adjustments above [materiality]. Explain why each proposed entry resolves the break, verify debit-credit balance, and prepare the approved upload format as a draft without posting entries."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "claude:reconcile-transactions-across-your-accounts",
+    "entry": {
+      "id": "fp-reconcile-transactions-across-your-accounts",
+      "slug": "reconcile-transactions-across-your-accounts",
+      "title": "Reconcile bank activity to your ledger",
+      "summary": "Match transactions across statements and accounting records, then document what needs correction.",
+      "departments": [
+        "Finance"
+      ],
+      "tags": [
+        "Analysis",
+        "Organization"
+      ],
+      "prerequisites": [
+        "Provide bank exports, ledger transactions, and the chart of accounts for the same period.",
+        "Requires file analysis and spreadsheet generation; a chart of accounts alone cannot establish whether a transaction was recorded."
+      ],
+      "outcome": "An annotated reconciliation and reviewable correcting entries.",
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "Match and explain",
+          "prompt": "Reconcile [period] using the attached bank statement, ledger, and chart of accounts. Show matched transactions, timing differences, uncategorized items, duplicates, and unexplained amounts, with source references. Draft correcting entries only where the evidence supports them, using valid account IDs, and explain the effect of every adjustment."
+        },
+        {
+          "id": "step-2",
+          "title": "Export the reviewed entries",
+          "prompt": "Export these reviewed adjustments: [entry IDs] as a CSV in [accounting-system format]. Verify balanced entries and prepare a reconciliation summary showing starting balances, differences, adjustments, and final tie-out. Identify recurring recording problems by expense category."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "claude:regulatory-analysis",
+    "entry": {
+      "id": "fp-regulatory-analysis",
+      "slug": "regulatory-analysis",
+      "title": "Turn a regulatory change into an action brief",
+      "summary": "Compare a new rule with your actual products and policies to identify applicable obligations.",
+      "departments": [
+        "Legal"
+      ],
+      "tags": [
+        "Research",
+        "Analysis"
+      ],
+      "prerequisites": [
+        "Provide current and prior regulatory texts, product descriptions, existing policies, and relevant jurisdictions.",
+        "Use authoritative legal research access, such as CoCounsel, and connected Drive or Microsoft 365 where needed."
+      ],
+      "outcome": "A cited applicability brief and an owner-ready action table.",
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "Assess the change",
+          "prompt": "Compare this regulation with the preceding rule and our product and policy documents. For each material change, cite the provision, explain whether and why it appears to apply, identify the policy or product gap, and record the effective date and required action. Flag uncertain applicability for counsel instead of resolving it by assumption."
+        },
+        {
+          "id": "step-2",
+          "title": "Make the action table",
+          "prompt": "Turn confirmed gaps into a table with affected product, action, suggested responsible function, deadline, evidence required, and dependency. Separate legal interpretation questions from implementation work and save the brief beside the source materials."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "claude:renewal-risk-audit",
+    "entry": {
+      "id": "fp-renewal-risk-audit",
+      "slug": "renewal-risk-audit",
+      "title": "Audit renewal risk across your account book",
+      "summary": "Explain account risk using usage trends, customer sentiment, and outstanding commitments.",
+      "departments": [
+        "Sales"
+      ],
+      "tags": [
+        "Analysis",
+        "Planning"
+      ],
+      "prerequisites": [
+        "Connect Salesforce and Gong, or attach renewal, usage, and call-note exports.",
+        "Provide your risk rubric and open executive commitments; Zendesk is optional for support context.",
+        "Interactive artifact support is needed for a filterable view."
+      ],
+      "outcome": "A filterable renewal-risk table with evidence and targeted save actions.",
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "Score the renewal book",
+          "prompt": "Review accounts renewing within [90 days]. Use our rubric to assign red, yellow, or green risk from usage trends, recent customer sentiment, and unfulfilled commitments. Cite the signals driving each score, show missing data, and include renewal date, value, owner, and segment. Build a leadership view filterable by owner, segment, and risk."
+        },
+        {
+          "id": "step-2",
+          "title": "Act on new risks",
+          "prompt": "Compare with the previous audit. For every account newly red, explain what changed and propose the next action with its owner. Separate new deterioration from newly available evidence, and refresh the existing risk view."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "claude:repurpose-content",
+    "entry": {
+      "id": "fp-repurpose-content",
+      "slug": "repurpose-content",
+      "title": "Repurpose a webinar into channel-ready content",
+      "summary": "Extract the strongest ideas from a talk and reshape them for your blog and social channels.",
+      "departments": [
+        "Marketing"
+      ],
+      "tags": [
+        "Writing",
+        "Communication"
+      ],
+      "prerequisites": [
+        "Provide the webinar transcript, slides, audience questions, and voice guide.",
+        "Connect HubSpot or provide published examples; Drive or Notion can supply review and calendar context."
+      ],
+      "outcome": "A blog draft, LinkedIn sequence, and three short posts in your brand voice.",
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "Create the content set",
+          "prompt": "Read this webinar transcript and slide deck. Select the strongest useful claim or insight and draft a blog article, a LinkedIn sequence, and three short social posts. Adapt each to its channel instead of recapping the agenda, match our supplied published examples, and keep every factual claim grounded in the talk."
+        },
+        {
+          "id": "step-2",
+          "title": "Choose a sharper angle",
+          "prompt": "Propose three alternative hooks aimed at [audience]. Explain what evidence in the webinar supports each, check for overlap with our content calendar, and revise the selected angle across the drafts without adding unsupported claims."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "claude:research-and-compare-travel-destinations",
+    "entry": {
+      "id": "fp-research-and-compare-travel-destinations",
+      "slug": "research-and-compare-travel-destinations",
+      "title": "Compare travel destinations side by side",
+      "summary": "Research realistic options for your dates and make the tradeoffs visible in a polished workbook.",
+      "departments": [
+        "Personal"
+      ],
+      "tags": [
+        "Research",
+        "Planning"
+      ],
+      "prerequisites": [
+        "Specify destinations, origin, dates, trip length, budget, and travel preferences.",
+        "Requires current web research and spreadsheet generation with image and formatting support."
+      ],
+      "outcome": "A visual destination comparison with cited facts and adjustable preference weights.",
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "Research the options",
+          "prompt": "Compare [destinations] for a [length]-day trip from [origin] in [month]. Build a spreadsheet showing all options together across transport, typical costs, weather, food, culture, activities, and practical constraints. Cite current sources and official tourism links, explain subjective ratings, and use compact thumbnails, heatmaps, and readable column widths. Label cost estimates with their dates."
+        },
+        {
+          "id": "step-2",
+          "title": "Weight the decision",
+          "prompt": "Add editable weights emphasizing [priorities] and recalculate the comparison transparently. For the leading option, draft a realistic itinerary with travel time, approximate costs, and current booking links; keep uncertain prices and availability visible."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "claude:see-budget-futures-side-by-side",
+    "entry": {
+      "id": "fp-see-budget-futures-side-by-side",
+      "slug": "see-budget-futures-side-by-side",
+      "title": "Compare alternative budget futures",
+      "summary": "See how a funding change affects both spending amounts and the balance between programs.",
+      "departments": [
+        "Finance"
+      ],
+      "tags": [
+        "Analysis",
+        "Planning"
+      ],
+      "prerequisites": [
+        "Provide total budget, category amounts or percentages, funding changes, and fixed-cost constraints.",
+        "Requires interactive visualization support for controls and scenario toggles."
+      ],
+      "outcome": "An interactive scenario comparison with explicit constraints and board talking points.",
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "Show the scenarios",
+          "prompt": "Our current budget is [total], split across [categories and shares]. Compare loss of [funding], no change, and growth of [amount]. Draw aligned stacked bars with a toggle between currency and percentages. State the allocation assumptions, identify which categories absorb pressure, and give each scenario a one-sentence operational interpretation."
+        },
+        {
+          "id": "step-2",
+          "title": "Apply a constraint",
+          "prompt": "Hold [category] at its present amount and recalculate the funding-loss scenario. Show where the remaining reductions fall, then compare an immediate loss with a two-year phase-out. Rewrite the board talking point to reflect the actual tradeoff."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "claude:see-what-your-campaign-goal-actually-requires",
+    "entry": {
+      "id": "fp-see-what-your-campaign-goal-actually-requires",
+      "slug": "see-what-your-campaign-goal-actually-requires",
+      "title": "Stress-test a fundraising campaign goal",
+      "summary": "Translate a campaign target into gift tiers, prospect requirements, and cultivation pressure.",
+      "departments": [
+        "General"
+      ],
+      "tags": [
+        "Analysis",
+        "Planning"
+      ],
+      "prerequisites": [
+        "Provide the campaign target, known lead-gift ceiling, prospect pipeline, and historical conversion rates where available.",
+        "Requires interactive visualization support for a goal slider."
+      ],
+      "outcome": "An adjustable gift pyramid with visible prospect gaps.",
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "Build the gift pyramid",
+          "prompt": "For a campaign target of [amount], model gift tiers and the number of gifts and qualified prospects required at each level. Make the goal adjustable. Use our historical conversion rates when supplied; label any planning ratios as assumptions. Compare requirements with our actual prospect list and flag gaps without inventing a typical pipeline for us."
+        },
+        {
+          "id": "step-2",
+          "title": "Test feasibility",
+          "prompt": "Cap the lead gift at [amount] and redistribute the remaining target. Show which tiers now carry more pressure, then add realistic cultivation stages and timing from our pipeline to test whether a [duration]-month campaign is plausible."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "claude:see-why-donor-retention-beats-acquisition",
+    "entry": {
+      "id": "fp-see-why-donor-retention-beats-acquisition",
+      "slug": "see-why-donor-retention-beats-acquisition",
+      "title": "Explore donor retention and acquisition over time",
+      "summary": "Manipulate a simple model to understand how donor retention and new acquisition interact.",
+      "departments": [
+        "General"
+      ],
+      "tags": [
+        "Analysis",
+        "Learning"
+      ],
+      "prerequisites": [
+        "Provide a starting donor count or use a clearly labeled example.",
+        "Requires interactive visualization support; actual forecasting also needs cohort-specific retention and acquisition data."
+      ],
+      "outcome": "A five-year donor and revenue simulator with clear assumptions.",
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "Build the simulator",
+          "prompt": "Create a five-year donor model starting with [100] donors. Add controls for annual retention and new donors acquired, show the recurrence formula, and update the curve and plain-language interpretation as inputs change. Compare retention improvements with additional acquisition without assuming one always wins. Label this as an illustrative model."
+        },
+        {
+          "id": "step-2",
+          "title": "Add revenue and churn",
+          "prompt": "Add average gift size and show revenue alongside donor counts. Report cumulative donors acquired and lost over five years, then allow different retention rates by donor cohort. Explain where the simple model stops reflecting real behavior."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "claude:see-your-theory-of-change-in-chat-with-claude",
+    "entry": {
+      "id": "fp-see-your-theory-of-change-in-chat",
+      "slug": "see-your-theory-of-change-in-chat",
+      "title": "Expose the assumptions in your theory of change",
+      "summary": "Map how a program is expected to create impact and investigate the weak causal links.",
+      "departments": [
+        "General"
+      ],
+      "tags": [
+        "Analysis",
+        "Planning"
+      ],
+      "prerequisites": [
+        "Describe the people served, activities, resources, and intended outcomes; provide an existing logic model if available.",
+        "Requires interactive visualization support for clickable causal links."
+      ],
+      "outcome": "A clickable logic model and a focused measurement plan.",
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "Draw the causal chain",
+          "prompt": "Our program serves [population] through [activities] to achieve [outcome]. Map inputs, activities, outputs, intermediate outcomes, and long-term impact. Make each connection reveal its underlying assumption and supporting evidence. Highlight weak or untested links, and separate observed effects from plausible causal interpretations."
+        },
+        {
+          "id": "step-2",
+          "title": "Measure the weakest links",
+          "prompt": "For each uncertain connection, propose one feasible indicator we can collect this year, the direction that would support the assumption, and an early warning sign. Update the map for [new program component] and identify the additional assumptions it introduces."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "claude:size-a-market-using-your-research",
+    "entry": {
+      "id": "fp-size-a-market-using-your-research",
+      "slug": "size-a-market-using-your-research",
+      "title": "Build a sourced market-sizing model",
+      "summary": "Combine research and transparent calculations into coordinated decision materials.",
+      "departments": [
+        "General"
+      ],
+      "tags": [
+        "Research",
+        "Analysis"
+      ],
+      "prerequisites": [
+        "Define the market, geography, customer segment, time horizon, and existing assumptions.",
+        "Requires current research plus PowerPoint, Excel, and Markdown file creation; provide internal research and templates."
+      ],
+      "outcome": "An executive deck, adjustable sizing workbook, and source register.",
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "Size the opportunity",
+          "prompt": "Estimate TAM, SAM, and SOM for [market, geography, period]. Define boundaries, show bottom-up calculations, and triangulate with credible external estimates. Cover growth drivers and competition while distinguishing data from assumptions. Deliver a 10-to-12-slide executive deck, an Excel methodology workbook, and a Markdown register linking every material claim to its source."
+        },
+        {
+          "id": "step-2",
+          "title": "Test the assumptions",
+          "prompt": "Make growth, eligible-customer count, penetration, pricing, and competitive capture adjustable in the workbook. Show how the estimate changes across plausible ranges, identify the most sensitive assumptions, and investigate [priority segment] in greater depth."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "claude:source-insights-from-your-tools-to-build-a-deck",
+    "entry": {
+      "id": "fp-source-insights-from-your-tools-to-build-a-deck",
+      "slug": "source-insights-from-your-tools-to-build-a-deck",
+      "title": "Build a board narrative from scattered evidence",
+      "summary": "Follow a project tracker into connected sources and reconcile the numbers before shaping the story.",
+      "departments": [
+        "General"
+      ],
+      "tags": [
+        "Research",
+        "Communication"
+      ],
+      "prerequisites": [
+        "Provide a project tracker and the previous board deck; connect Slack, email, and Drive.",
+        "Requires browser access to live dashboards plus PowerPoint, Excel, and Word creation."
+      ],
+      "outcome": "A decision-focused deck, supporting workbook, and executive pre-read.",
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "Follow the evidence",
+          "prompt": "Prepare a board discussion on [decision]. Start with [project tracker], follow referenced people, conversations, documents, and metrics, then compare conflicting figures with the authoritative systems. Explain scope and timing differences instead of simply choosing the newest number. Create a 12-to-15-slide PowerPoint with notes, an Excel evidence appendix, and a two-page Word brief built around the conclusion the evidence supports."
+        },
+        {
+          "id": "step-2",
+          "title": "Challenge the story",
+          "prompt": "Identify the three hardest board questions and the weakest links in the argument. Add evidence-linked responses to the speaker notes, retain unresolved disagreements in the appendix, and cut the deck to [slide count] while preserving the reasoning."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "claude:sox-controls-doc",
+    "entry": {
+      "id": "fp-sox-controls-doc",
+      "slug": "sox-controls-doc",
+      "title": "Document a process and its controls",
+      "summary": "Keep the process narrative, risk-control matrix, and flowchart consistent with the current walkthrough.",
+      "departments": [
+        "Finance"
+      ],
+      "tags": [
+        "Organization",
+        "Analysis"
+      ],
+      "prerequisites": [
+        "Provide walkthrough notes, the risk-control-matrix template, previous narrative, and system screenshots.",
+        "Requires document, spreadsheet, and diagram creation; Drive or Microsoft 365 can supply source files."
+      ],
+      "outcome": "A coordinated controls package with gaps and ownership questions flagged.",
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "Build the controls package",
+          "prompt": "Document [process] from the current walkthrough. Produce our standard narrative, a matrix connecting risks to controls, owners, evidence, and frequency, and a flowchart using consistent step IDs. Identify apparent missing controls and segregation-of-duties concerns. Treat the previous narrative as comparison material, not proof of current operation."
+        },
+        {
+          "id": "step-2",
+          "title": "Check the evidence",
+          "prompt": "Trace each documented control back to the walkthrough or supporting file. List unsupported descriptions and unclear ownership for the process owner to resolve, then update all three outputs together when the answers arrive."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "claude:sprint-retro-handoff",
+    "entry": {
+      "id": "fp-sprint-retro-handoff",
+      "slug": "sprint-retro-handoff",
+      "title": "Prepare a sprint retrospective and operations handoff",
+      "summary": "Combine ticket movement with team discussion to explain delivery and prepare the next rotation.",
+      "departments": [
+        "Engineering"
+      ],
+      "tags": [
+        "Analysis",
+        "Communication"
+      ],
+      "prerequisites": [
+        "Connect Linear and Slack; PagerDuty is optional for complete paging data.",
+        "Provide the closed cycle, channel window, retro template, previous retro, and outstanding action list."
+      ],
+      "outcome": "A focused retrospective and a separate operational handoff.",
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "Draft both documents",
+          "prompt": "Read [closed cycle] and [date range] in the team and on-call channels. Draft a retrospective covering completed work, slipped work with supported reasons, and a few themes worth discussing. Separately write the operational handoff covering open alerts, repeated toil, and watch items. Link evidence and keep the retrospective realistic for a 30-minute meeting."
+        },
+        {
+          "id": "step-2",
+          "title": "Carry actions forward",
+          "prompt": "Check last sprint's commitments against this cycle's evidence. Identify actions completed, still open, or ineffective, and propose a short discussion agenda with concrete decisions the team needs to make. Add unresolved operational items to the handoff."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "claude:stress-test-your-financial-plan-across-scenarios",
+    "entry": {
+      "id": "fp-stress-test-your-financial-plan-across-scenarios",
+      "slug": "stress-test-your-financial-plan-across-scenarios",
+      "title": "Stress-test a long-term financial plan",
+      "summary": "Model how earnings changes, inflation, taxes, and withdrawal timing interact over time.",
+      "departments": [
+        "Personal"
+      ],
+      "tags": [
+        "Analysis",
+        "Planning"
+      ],
+      "prerequisites": [
+        "Provide account statements, tax returns, benefits estimates, expenses, ages, and goals.",
+        "Requires spreadsheet modeling and current jurisdiction-specific tax information; review consequential strategies with a qualified adviser."
+      ],
+      "outcome": "An adjustable scenario workbook with assumptions and questions for professional review.",
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "Find where the plan breaks",
+          "prompt": "Using these documents and goals, build a year-by-year financial model connecting income, spending, account types, debt payoff, benefits timing, taxes, and withdrawals. Test adverse return sequences, inflation, and employment changes. Make assumptions adjustable and distinguish simulated outcomes from guarantees. Identify which uncertainties most affect feasibility and which decisions need a financial or tax professional's review."
+        },
+        {
+          "id": "step-2",
+          "title": "Trace a life change",
+          "prompt": "Model this change: [income loss, retirement date, expense, or inflation shock]. Recalculate its effects on saving, tax brackets, conversion windows, and withdrawal order. Compare with the baseline and show the assumptions that drive the difference rather than recommending a transaction from one scenario."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "claude:support-incident-postmortem",
+    "entry": {
+      "id": "fp-support-incident-postmortem",
+      "slug": "support-incident-postmortem",
+      "title": "Draft a customer-facing incident review",
+      "summary": "Reconstruct customer impact from the incident record and turn it into a clear remediation story.",
+      "departments": [
+        "Operations"
+      ],
+      "tags": [
+        "Analysis",
+        "Communication"
+      ],
+      "prerequisites": [
+        "Connect Slack and Zendesk or provide the war-room and ticket exports; GitHub can supply recent deploys.",
+        "Provide the incident window, customer-postmortem template, tone guide, and relevant service definitions."
+      ],
+      "outcome": "A customer review draft, impact evidence, and an internal remediation appendix.",
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "Reconstruct the incident",
+          "prompt": "For [incident ID], review the war-room thread, support tickets during the impact window, and deploys in the preceding 24 hours. Build a cited timeline, quantify affected customers and duration with the method shown, and draft the customer review in our template. Separate confirmed causes from suspected causes and recommend remediation owners."
+        },
+        {
+          "id": "step-2",
+          "title": "Separate the audiences",
+          "prompt": "Keep the customer draft focused on verified impact, recovery, and prevention. Put suspect deploys, unresolved technical questions, evidence gaps, and the remediation tracker in an internal appendix. Check that commitments in the customer text have a real owner and supporting plan."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "claude:surface-themes-from-all-your-feedback-channels",
+    "entry": {
+      "id": "fp-surface-themes-from-all-your-feedback-channels",
+      "slug": "surface-themes-from-all-your-feedback-channels",
+      "title": "Find product themes across every feedback channel",
+      "summary": "Combine transcripts, messages, CRM notes, and issue reports without counting the same customer twice.",
+      "departments": [
+        "Research",
+        "Product"
+      ],
+      "tags": [
+        "Research",
+        "Analysis"
+      ],
+      "prerequisites": [
+        "Provide call transcripts and connect Slack, Salesforce, and Linear, or supply corresponding exports.",
+        "Specify the time window, customer segments, and business-impact criteria."
+      ],
+      "outcome": "A source-traceable theme analysis and prioritized product opportunities.",
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "Synthesize the signals",
+          "prompt": "Analyze customer feedback from [transcript folder], [Slack channels], CRM opportunity and loss notes, and feature requests or bugs. Cluster recurring needs, report mentions by source and distinct accounts, and identify duplicated reports across tools. Include representative evidence and prioritize opportunities using frequency, cross-source support, and business impact, with uncertainty visible."
+        },
+        {
+          "id": "step-2",
+          "title": "Develop a roadmap proposal",
+          "prompt": "Investigate [priority theme] in full context: customer, date, attempted task, impact, and existing workaround. Draft a one-page roadmap proposal supported by those records, distinguishing broad demand from a small number of high-value requests."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "claude:thoughtful-gift-giving-with-claude",
+    "entry": {
+      "id": "fp-thoughtful-gift-giving",
+      "slug": "thoughtful-gift-giving",
+      "title": "Plan thoughtful gifts you can actually find",
+      "summary": "Use details about each person to move from generic ideas to a practical shopping list.",
+      "departments": [
+        "Personal"
+      ],
+      "tags": [
+        "Research",
+        "Planning"
+      ],
+      "prerequisites": [
+        "Provide recipients' interests, useful preferences, budget, location, and shopping deadline.",
+        "Current web search is required for products and availability; personal notes or messages are optional evidence."
+      ],
+      "outcome": "A recipient-based shortlist and an efficient store-by-store plan.",
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "Build a personal shortlist",
+          "prompt": "Suggest gifts for these people: [details]. Stay within [budget] and prioritize things that fit a real interest, improve a routine, or solve a small annoyance. Ask targeted questions where the context is thin. Research specific options available near [location] by [date], cite current prices and stock evidence, and explain why each gift fits."
+        },
+        {
+          "id": "step-2",
+          "title": "Plan the shopping run",
+          "prompt": "Use the chosen shortlist to group purchases by store and minimize travel. Include online backups where local availability is uncertain. Search these supplied notes or connected messages for specific hints I may have forgotten, keeping them separate from your inferred suggestions."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "claude:thread-to-decision",
+    "entry": {
+      "id": "fp-thread-to-decision",
+      "slug": "thread-to-decision",
+      "title": "Turn a discussion thread into a decision record",
+      "summary": "Extract the actual agreement, accountable next steps, and unresolved disagreement.",
+      "departments": [
+        "General"
+      ],
+      "tags": [
+        "Organization",
+        "Writing"
+      ],
+      "prerequisites": [
+        "Provide the thread or email chain, or connect Slack and Gmail.",
+        "An editable decision log and the team's owner and sign-off conventions are needed for appending records."
+      ],
+      "outcome": "A compact source-linked entry in the team's decision log.",
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "Record the decision",
+          "prompt": "Read [thread or chain]. Write only the established decision, the owner and committed date of each next step, and questions still open or contested. Link each point to its source message. Mark missing owners or dates explicitly, then append a dated entry to [decision log] without turning tentative suggestions into agreements."
+        },
+        {
+          "id": "step-2",
+          "title": "Check for changes",
+          "prompt": "Review later replies for corrections or superseding decisions. Update the entry with the changed owner, date, or decision and its source, retaining enough history to explain what changed."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "claude:track-discovery-timelines-and-analyze-patterns",
+    "entry": {
+      "id": "fp-track-discovery-timelines-and-analyze-patterns",
+      "slug": "track-discovery-timelines-and-analyze-patterns",
+      "title": "Build a cited discovery chronology",
+      "summary": "Connect documents over time to identify patterns, contradictions, and evidence worth investigating.",
+      "departments": [
+        "Legal"
+      ],
+      "tags": [
+        "Research",
+        "Analysis"
+      ],
+      "prerequisites": [
+        "Provide discovery materials and their document index, or connect Gmail and Drive where they are stored.",
+        "Specify the dispute, relevant period, issues, and firm memo format."
+      ],
+      "outcome": "A legal chronology and a memo with traceable findings and witness leads.",
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "Map the record",
+          "prompt": "Review the supplied discovery for [dispute]. Build a chronological table with document IDs, dates, participants, event descriptions, and precise citations. Analyze patterns in scope changes, deliverables, communication, and billing, including evidence that cuts against our position. Draft a memo distinguishing facts, inferences, unresolved contradictions, and potential witness leads."
+        },
+        {
+          "id": "step-2",
+          "title": "Investigate a contradiction",
+          "prompt": "For [issue or milestone], gather all related contemporaneous communications and compare them with later claims. Present exact source locations for important passages, identify missing links, and condense the strongest supported points and next investigative steps into a one-page counsel brief."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "claude:transcript-themes",
+    "entry": {
+      "id": "fp-transcript-themes",
+      "slug": "transcript-themes",
+      "title": "Extract themes from a quarter of customer calls",
+      "summary": "Count recurring messages and preserve the customer evidence behind each theme.",
+      "departments": [
+        "Sales"
+      ],
+      "tags": [
+        "Research",
+        "Analysis"
+      ],
+      "prerequisites": [
+        "Provide the complete transcript folder, theme taxonomy, and prior brief.",
+        "Salesforce or Drive access can connect transcript evidence to account context."
+      ],
+      "outcome": "A one-page themes brief with account counts and representative quotes.",
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "Read and cluster the calls",
+          "prompt": "Read every transcript in [folder and period]. Cluster customer needs using our taxonomy, noting new themes where necessary. For each theme, report the number of distinct calls and accounts, include one concise representative quotation with its source, and list the accounts involved. Write a one-page brief for product and marketing, prioritizing meaningful patterns over isolated remarks."
+        },
+        {
+          "id": "step-2",
+          "title": "Compare periods",
+          "prompt": "Compare the themes with the previous quarter. Separate newly emerging needs from changes caused by sample size or customer mix, identify persistent problems, and show the supporting calls for each claimed trend."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "claude:triage-on-call-alerts-and-diagnose-incidents",
+    "entry": {
+      "id": "fp-triage-on-call-alerts-and-diagnose-incidents",
+      "slug": "triage-on-call-alerts-and-diagnose-incidents",
+      "title": "Investigate paging alerts in the on-call channel",
+      "summary": "Connect monitoring, deploy history, and runbooks while retaining human control of remediation.",
+      "departments": [
+        "Engineering"
+      ],
+      "tags": [
+        "Analysis",
+        "Organization"
+      ],
+      "prerequisites": [
+        "Requires a channel assistant with proactive alert handling and access to PagerDuty, monitoring such as Datadog, Grafana, or Sentry, and GitHub.",
+        "Provide the runbook and on-call roster; executing rollback requires a deploy or feature-flag connection and the on-call engineer's approval."
+      ],
+      "outcome": "Incident diagnoses, proposed fixes, and an evidence-backed on-call handoff.",
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "Set the investigation workflow",
+          "prompt": "For new paging alerts in [channel], inspect the monitoring evidence, recent deploys, and relevant runbook. Reply in the alert thread with impact, likely cause, uncertainty, and a proposed next step; mention the current on-call engineer. Link the evidence and prepare a draft fix when supported. Do not run rollback or other remediation until the on-call engineer explicitly approves it."
+        },
+        {
+          "id": "step-2",
+          "title": "Prepare the handoff",
+          "prompt": "Summarize this rotation's alert threads into resolved incidents, ongoing monitoring, open investigations, and recurring toil. State what changed since the previous handoff and link the investigation and runbook for every unresolved item."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "claude:turn-emails-into-an-event-tracker",
+    "entry": {
+      "id": "fp-turn-emails-into-an-event-tracker",
+      "slug": "turn-emails-into-an-event-tracker",
+      "title": "Build an event tracker from email replies",
+      "summary": "Collect speaker confirmations and logistics even when the responses are scattered across unrelated threads.",
+      "departments": [
+        "General"
+      ],
+      "tags": [
+        "Organization",
+        "Planning"
+      ],
+      "prerequisites": [
+        "Connect Gmail and provide the event name, invitation wording, dates, and approximate invitation window.",
+        "Requires spreadsheet generation; calendar integration is optional for scheduling confirmed sessions."
+      ],
+      "outcome": "A dynamic speaker, session, and production workbook.",
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "Extract the event details",
+          "prompt": "Find responses to [event] invitations sent around [date], including replies with changed subjects or older threads. Extract speaker, company, confirmed topic, timing preference, duration, A/V needs, travel details, and bio or headshot status. Cite each email and distinguish confirmed facts from suggestions. Build a filterable workbook with formula-driven counts and separate production and missing-materials views."
+        },
+        {
+          "id": "step-2",
+          "title": "Prepare the follow-ups",
+          "prompt": "Draft personalized messages for missing materials and complex rehearsal requirements, referencing each speaker's session and deadline. Check that session totals count panels once rather than once per speaker, and keep scheduling assumptions visible before creating calendar events."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "claude:turn-inspiration-to-design-plans",
+    "entry": {
+      "id": "fp-turn-inspiration-to-design-plans",
+      "slug": "turn-inspiration-to-design-plans",
+      "title": "Turn renovation inspiration into a materials plan",
+      "summary": "Identify the look behind your saved images and compare realistic ways to achieve it.",
+      "departments": [
+        "Personal"
+      ],
+      "tags": [
+        "Design",
+        "Research"
+      ],
+      "prerequisites": [
+        "Upload inspiration images and describe room dimensions, location, budget, and constraints.",
+        "Requires image analysis, current product research, and spreadsheet creation."
+      ],
+      "outcome": "A style guide, materials comparison, budget packages, and contractor brief.",
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "Translate the inspiration",
+          "prompt": "Analyze these renovation images and identify the recurring palette, materials, proportions, and details. Research three to five suitable options for each major material category across price tiers in [location]. Build a workbook with cited prices, stated quantities, a style guide, and three formula-driven packages. Explain quality tradeoffs and uncertainty; do not invent resale-return guarantees."
+        },
+        {
+          "id": "step-2",
+          "title": "Prepare contractor questions",
+          "prompt": "For the selected package, investigate durability and installation requirements, then create a contractor brief with specifications, sources, budget allocation, fixed requirements, and flexible choices. Map the installation dependencies and show how a [duration] delay to [item] changes the schedule."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "claude:turn-research-into-presentations",
+    "entry": {
+      "id": "fp-turn-research-into-presentations",
+      "slug": "turn-research-into-presentations",
+      "title": "Turn research into a clear group presentation",
+      "summary": "Choose the findings that matter and distribute a coherent story across presenters.",
+      "departments": [
+        "Education"
+      ],
+      "tags": [
+        "Writing",
+        "Communication"
+      ],
+      "prerequisites": [
+        "Provide the paper, supporting data, assessment rubric, audience, duration, and presenter count.",
+        "Canva integration is needed for an editable Canva deck; Drive is optional for source access."
+      ],
+      "outcome": "An editable slide structure and timed speaker notes grounded in the research.",
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "Shape the presentation",
+          "prompt": "Turn this research into a [duration]-minute presentation for [audience] shared by [number] presenters. Select three or four compelling findings, preserve limitations, and build a problem-to-evidence-to-implications narrative. Create an editable Canva deck or detailed slide outline with accurate visual suggestions, plus speaker notes and explicit handoffs. Check chart labels, text fit, and speaking time."
+        },
+        {
+          "id": "step-2",
+          "title": "Rehearse the hard parts",
+          "prompt": "Review this practice explanation: [paste]. Flag unclear logic or overstated claims, suggest a better visual for [slide], and ask likely audience questions one at a time so I can practice defending the methods and limitations."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "claude:turn-text-threads-to-researched-notes",
+    "entry": {
+      "id": "fp-turn-text-threads-to-researched-notes",
+      "slug": "turn-text-threads-to-researched-notes",
+      "title": "Turn a message thread into a researched plan",
+      "summary": "Read the context behind a request, research workable options, and save a concise reference note.",
+      "departments": [
+        "Personal"
+      ],
+      "tags": [
+        "Research",
+        "Organization"
+      ],
+      "prerequisites": [
+        "Requires authorized desktop access to the relevant Messages thread and write access to Apple Notes.",
+        "Use current web research for recommendations; provide location, budget, timing, and constraints."
+      ],
+      "outcome": "A sourced plan and practical checklist in your notes app.",
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "Research and save the plan",
+          "prompt": "Read [person or thread] about [event or request] and extract the confirmed requirements. Research options that fit the time, budget, transport, and other constraints. Recommend a practical choice with source links, then save a concise Apple Note with the plan, timing, and a checklist grouped by how I will use it. Use formatting that stays readable on mobile."
+        },
+        {
+          "id": "step-2",
+          "title": "Update changed requirements",
+          "prompt": "The thread now says [new information]. Recalculate quantities or timing using the actual change, update the existing note and checklist consistently, and highlight anything that needs confirmation. Draft a reply reflecting the revised plan without sending it."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "claude:turn-transit-time-into-research-time",
+    "entry": {
+      "id": "fp-turn-transit-time-into-research-time",
+      "slug": "turn-transit-time-into-research-time",
+      "title": "Turn a rough voice note into meeting research",
+      "summary": "Capture an idea on the move and develop it into a sourced argument when you return to your desk.",
+      "departments": [
+        "Research"
+      ],
+      "tags": [
+        "Research",
+        "Communication"
+      ],
+      "prerequisites": [
+        "Provide a rough transcript or use voice input in a conversation that syncs across devices.",
+        "Enable web research and access to referenced planning documents; file creation is needed for the final brief."
+      ],
+      "outcome": "A research brief that tests the idea against internal context and counterevidence.",
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "Investigate the idea",
+          "prompt": "Here is my rough idea for [meeting and deadline]: [voice note]. Read [planning document] to recover our priorities, research current examples and evidence, and identify whether the idea is actually supported. Keep unlike metrics separate and cite their definitions and dates. Organize findings into what we know, what remains uncertain, and useful discussion points."
+        },
+        {
+          "id": "step-2",
+          "title": "Make the meeting brief",
+          "prompt": "Continue from this research and create a one-page team pre-read with the strongest evidence, concrete examples, and proposed questions. Include the best case against my initial position and explain what additional evidence would change the recommendation."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "claude:understand-and-extend-an-inherited-spreadsheet",
+    "entry": {
+      "id": "fp-understand-and-extend-an-inherited-spreadsheet",
+      "slug": "understand-and-extend-an-inherited-spreadsheet",
+      "title": "Understand and extend an inherited spreadsheet",
+      "summary": "Trace hidden dependencies before adding periods, commentary, and useful visual cues.",
+      "departments": [
+        "Finance"
+      ],
+      "tags": [
+        "Analysis",
+        "Organization"
+      ],
+      "prerequisites": [
+        "Upload the original workbook and any new actuals or assumptions.",
+        "Requires tools that read and preserve formulas, comments, formatting, and cross-sheet references."
+      ],
+      "outcome": "An explained and extended workbook with preserved logic and a changelog.",
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "Explain before extending",
+          "prompt": "Read this workbook's legend, comments, formulas, and cross-sheet links. Explain how the tabs connect, how [key calculations] work, and which important assumptions are undocumented. Extend through [period] using the established patterns, add comments to complex logic, and include restrained trend visuals. Preserve existing formulas and identify any unresolved issue before changing its meaning."
+        },
+        {
+          "id": "step-2",
+          "title": "Verify the extension",
+          "prompt": "Create a changelog of added periods, formulas, and assumptions. Check reference continuity, totals, and selected input-to-output cascades. Incorporate these actuals: [data], then explain the forecast variance by supported drivers rather than an unexplained residual."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "claude:update-your-financial-model-after-earnings",
+    "entry": {
+      "id": "fp-update-your-financial-model-after-earnings",
+      "slug": "update-your-financial-model-after-earnings",
+      "title": "Review an earnings release against your model",
+      "summary": "Locate forecast misses and distinguish management guidance from your own assumptions before editing.",
+      "departments": [
+        "Finance"
+      ],
+      "tags": [
+        "Research",
+        "Analysis"
+      ],
+      "prerequisites": [
+        "Connect S&P Global and provide the valuation workbook and previous presentation.",
+        "Workbook edits and slide construction require Excel and PowerPoint editing tools or connected add-ins."
+      ],
+      "outcome": "A cell-referenced earnings brief, scenario tab, and investment-meeting page.",
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "Flag the model implications",
+          "prompt": "Retrieve [company and period]'s earnings release and call transcript, then compare reported figures with my workbook. Identify material forecast differences and assumptions the commentary does not support. Produce a brief listing exact sheet and cell references, proposed changes, evidence, and uncertainty before editing. Treat explanations for the share-price reaction as hypotheses unless verified."
+        },
+        {
+          "id": "step-2",
+          "title": "Build reviewed scenarios",
+          "prompt": "For these reviewed assumptions: [cells and decisions], update the workbook and build best, base, and worst scenarios in a new tab. Preserve an audit of changed cells and sources, then create a presentation page explaining the result without implying management endorsed our out-year assumptions."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "claude:uxr-synthesis",
+    "entry": {
+      "id": "fp-uxr-synthesis",
+      "slug": "uxr-synthesis",
+      "title": "Synthesize user interviews into research findings",
+      "summary": "Group observations into clear themes while preserving participant evidence and open questions.",
+      "departments": [
+        "Design"
+      ],
+      "tags": [
+        "Research",
+        "Analysis"
+      ],
+      "prerequisites": [
+        "Provide all transcripts, discussion guide, and participant roster.",
+        "Airtable and Drive can supply study context; Miro or an artifact tool is optional for shared visual synthesis."
+      ],
+      "outcome": "A research readout with attributed evidence and changes since the previous round.",
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "Write the findings",
+          "prompt": "Read the interview set for [study]. Organize observations into roughly five to seven plainly named themes, with two or three short supporting quotations identified by participant and source location. Distinguish observed behavior from interpretation, include important counterexamples, and end with unanswered research questions. Keep participant identity handling consistent with the supplied roster."
+        },
+        {
+          "id": "step-2",
+          "title": "Update with new interviews",
+          "prompt": "Incorporate these additional transcripts and explain which themes strengthened, weakened, split, or disappeared. Add a concise change note and retain the evidence trail so the team can tell real new insight from relabeling."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "claude:validate-reserves-and-draft-filing-narrative-with-claude-for-excel",
+    "entry": {
+      "id": "fp-validate-reserves-and-draft-filing-narrative-for-excel",
+      "slug": "validate-reserves-and-draft-filing-narrative-for-excel",
+      "title": "Validate a reserve workbook before drafting the filing",
+      "summary": "Separate spreadsheet defects from reserve movements that need an actuarial explanation.",
+      "departments": [
+        "Finance"
+      ],
+      "tags": [
+        "Analysis",
+        "Writing"
+      ],
+      "prerequisites": [
+        "Provide the reserve workbook, prior filing, and methodology documentation.",
+        "Requires your organization's own NAIC data connector or supplied filings and bulletins; no generic NAIC connection is assumed.",
+        "Excel and Word editing tools are needed; the appointed actuary reviews and signs off the reserve judgments."
+      ],
+      "outcome": "A cell-level issue brief, clean reserve walk, and draft filing narrative.",
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "Inspect the reserves",
+          "prompt": "Review [segment and period]'s reserve workbook, trace formulas across triangles and roll-forwards, and compare development factors and tail assumptions with prior filings and available bulletins. Separate broken formulas from genuine movements and judgment calls. Give exact sheet and cell references, the supporting calculation, and the likely effect of each issue before anything is changed."
+        },
+        {
+          "id": "step-2",
+          "title": "Reconcile and draft",
+          "prompt": "After these approved fixes: [list], rerun the reserve walk and test the supplied tail-factor range while holding other inputs fixed. Draft the methodology-change and reserve-movement narrative from the reconciled workbook, citing applicable requirements and flagging issues for actuarial review rather than declaring compliance."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "claude:variance-exec-slides",
+    "entry": {
+      "id": "fp-variance-exec-slides",
+      "slug": "variance-exec-slides",
+      "title": "Turn a variance workbook into three executive slides",
+      "summary": "Explain results, material drivers, and the outlook without burying the audience in detail.",
+      "departments": [
+        "Finance"
+      ],
+      "tags": [
+        "Analysis",
+        "Communication"
+      ],
+      "prerequisites": [
+        "Provide the variance workbook, previous deck, brand template, one-time items, and materiality threshold.",
+        "Requires PowerPoint editing with editable charts; Microsoft 365 and Drive can supply the files."
+      ],
+      "outcome": "An editable three-slide deck tied to the underlying financial workbook.",
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "Build the three slides",
+          "prompt": "Create three slides from [period]'s variance workbook using our previous deck layout: result against plan, material drivers, and implications for next period. Show a waterfall for the drivers and separate recurring effects from known one-time items. Reconcile chart values to the workbook, place backup detail in speaker notes, and deliver an editable PPTX."
+        },
+        {
+          "id": "step-2",
+          "title": "Check the outlook",
+          "prompt": "Trace each statement about what carries forward to its supporting data or assumption. Flag one-time effects incorrectly treated as recurring, reconcile the bridge to the headline variance, and tighten the notes around the questions leadership is likely to ask."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "claude:vendor-negotiation",
+    "entry": {
+      "id": "fp-vendor-negotiation",
+      "slug": "vendor-negotiation",
+      "title": "Prepare a vendor renewal negotiation",
+      "summary": "Compare contract changes and ground your negotiation position in usage, spend, and alternatives.",
+      "departments": [
+        "Operations"
+      ],
+      "tags": [
+        "Analysis",
+        "Planning"
+      ],
+      "prerequisites": [
+        "Provide the signed agreement, renewal proposal, usage export, comparable quotes, and approved fallback positions.",
+        "Drive and Brex can supply contract and spend records; Slack can supply stakeholder needs."
+      ],
+      "outcome": "A clause comparison and a one-page negotiation brief.",
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "Build the negotiation brief",
+          "prompt": "Compare the current agreement and renewal proposal for [vendor]. Create a table of material changes with clause reference, current term, proposed term, and our policy-based position. Use actual spend, usage, and comparable offers to identify leverage. Draft a one-page brief with likely pushback, three asks ranked by value, and the walk-away conditions we have actually authorized."
+        },
+        {
+          "id": "step-2",
+          "title": "Prepare the tradeoffs",
+          "prompt": "For each priority ask, show an opening position, acceptable fallback, and what we could trade in return. Distinguish evidence-backed leverage from assumptions and list decisions procurement or legal must settle before the call."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "claude:vendor-risk-review",
+    "entry": {
+      "id": "fp-vendor-risk-review",
+      "slug": "vendor-risk-review",
+      "title": "Review vendor risk against your own framework",
+      "summary": "Read security evidence and contract terms together to identify material gaps and mitigations.",
+      "departments": [
+        "Operations"
+      ],
+      "tags": [
+        "Analysis",
+        "Research"
+      ],
+      "prerequisites": [
+        "Provide the SOC 2 report, security questionnaire, DPA, MSA, and vendor-risk framework.",
+        "Connect Drive, Microsoft 365, or Box as needed; Ironclad is optional for signed-contract verification."
+      ],
+      "outcome": "A cited risk memo with a go/no-go recommendation and accountable mitigation list.",
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "Assess the vendor",
+          "prompt": "Evaluate this vendor's security and contractual packet against our risk criteria and intended data access. Cite the document and section for every finding, reconcile contradictions between the questionnaire and independent evidence, and identify missing or stale materials. Recommend go, conditional go, or no-go under our framework, with required mitigations and proposed owners for human approval."
+        },
+        {
+          "id": "step-2",
+          "title": "Make the mitigation plan",
+          "prompt": "Prioritize unresolved findings by our risk tier and blocking criteria. For each, define the evidence or contract change needed, the responsible function, a target date, and the condition for closure. Keep unverified assurances separate from completed mitigations."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "claude:verify-statistics-from-raw-data",
+    "entry": {
+      "id": "fp-verify-statistics-from-raw-data",
+      "slug": "verify-statistics-from-raw-data",
+      "title": "Reproduce a paper's statistical results",
+      "summary": "Check published claims against the raw data and document the method behind each result.",
+      "departments": [
+        "Research"
+      ],
+      "tags": [
+        "Research",
+        "Analysis"
+      ],
+      "prerequisites": [
+        "Upload the manuscript, supplementary data, codebook, and any available analysis code.",
+        "Requires code execution and spreadsheet generation; missing methodological details may prevent exact reproduction."
+      ],
+      "outcome": "A reproducible statistical audit workbook with verified discrepancies and limitations.",
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "Audit the statistics",
+          "prompt": "Extract reported sample sizes, means, uncertainty measures, test statistics, and p-values from this paper. Reproduce each analysis from the supplied raw data using the stated methods where possible. Build a workbook comparing reported and recalculated values with formulas or code references. Check units, exclusions, paired observations, and multiplicity, and distinguish true discrepancies from rounding or insufficient information."
+        },
+        {
+          "id": "step-2",
+          "title": "Verify and explain the issues",
+          "prompt": "Check [figure] against the source data, including axes, error-bar definitions, and plotted values. Recheck every suspected discrepancy before drafting constructive reviewer comments that state the evidence, its implications, and the clarification or correction needed."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "claude:visualize-program-data",
+    "entry": {
+      "id": "fp-visualize-program-data",
+      "slug": "visualize-program-data",
+      "title": "Visualize program performance for stakeholders",
+      "summary": "Make participation, satisfaction, completion, and learning outcomes understandable across programs and periods.",
+      "departments": [
+        "General"
+      ],
+      "tags": [
+        "Analysis",
+        "Communication"
+      ],
+      "prerequisites": [
+        "Provide program data as CSV or XLSX, metric definitions, time periods, and audience priorities.",
+        "Requires code, spreadsheet, and presentation creation; Drive is optional for supporting context."
+      ],
+      "outcome": "A formula-driven dashboard and a concise visual board presentation.",
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "Build the visualization suite",
+          "prompt": "Inspect these program records for missing values, inconsistent definitions, and outliers before calculating results. Create an Excel dashboard comparing participation, completion, satisfaction, and pre/post learning measures by program and quarter. Then build an eight-to-ten-slide presentation emphasizing [audience priorities]. Use appropriate denominators, readable charts, and linked evidence; describe observed improvement without overstating causal impact."
+        },
+        {
+          "id": "step-2",
+          "title": "Add a meaningful comparison",
+          "prompt": "Break down [metrics] by [relevant demographic or location] where sample sizes support it. Research comparable benchmarks only if needed, document differences in definitions and populations, and add reference lines only when the comparison is defensible."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "claude:visualize-the-mechanism-behind-an-explanation-mid-chat",
+    "entry": {
+      "id": "fp-visualize-the-mechanism-behind-an-explanation-mid-chat",
+      "slug": "visualize-the-mechanism-behind-an-explanation-mid-chat",
+      "title": "Explore a difficult concept with an interactive model",
+      "summary": "Use linked visuals and controls to see the mechanism behind an explanation.",
+      "departments": [
+        "Education"
+      ],
+      "tags": [
+        "Learning",
+        "Analysis"
+      ],
+      "prerequisites": [
+        "Describe what you understand and the precise part that remains unclear.",
+        "Requires an interactive visualization environment."
+      ],
+      "outcome": "A manipulable explanation and a short diagnostic quiz.",
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "Show the mechanism",
+          "prompt": "I understand [known behavior] but cannot explain [specific mechanism]. Build an interactive visualization around that gap, with controls for the important variables and linked views showing what changes and what stays conserved. For an orbital-motion example, connect position, speed, and energy rather than simply animating a planet. State the simplifying assumptions."
+        },
+        {
+          "id": "step-2",
+          "title": "Test my understanding",
+          "prompt": "Change [one parameter or condition] while preserving the same visual structure, then ask me to predict what happens before revealing it. Explain errors in my reasoning and finish with a short account I could reproduce without the animation."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "claude:watch-the-escalations-channel-and-page-only-for-p1",
+    "entry": {
+      "id": "fp-watch-the-escalations-channel-and-page-only-for-p1",
+      "slug": "watch-the-escalations-channel-and-page-only-for-p1",
+      "title": "Triage escalations and alert people only for critical cases",
+      "summary": "Apply your severity rules, connect related tickets, and route work without paging everyone.",
+      "departments": [
+        "Operations"
+      ],
+      "tags": [
+        "Organization",
+        "Communication"
+      ],
+      "prerequisites": [
+        "Requires a proactive channel assistant with write access to Zendesk, Intercom, or Jira Service Management.",
+        "Provide severity definitions, ownership rules, and the P1 contact; PagerDuty is optional for incident checks."
+      ],
+      "outcome": "An organized escalation queue with first-response drafts and targeted critical alerts.",
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "Set the triage responsibility",
+          "prompt": "For each new escalation in [channel], apply our severity definitions, compare it with existing tickets, and link or merge verified duplicates according to our support rules. Tag the owning team and draft a first customer response for an agent to review. Alert a person only when the case meets P1 criteria, stating the evidence and decision needed."
+        },
+        {
+          "id": "step-2",
+          "title": "Review the queue",
+          "prompt": "Summarize escalations since [time], highlighting [priority category], unresolved owners, and cases requiring a human decision. Apply this correction to [ticket]: [severity or owner correction], and update the channel's rules only where I explicitly request a lasting change."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "claude:week-ahead-prep",
+    "entry": {
+      "id": "fp-week-ahead-prep",
+      "slug": "week-ahead-prep",
+      "title": "Prepare context and agendas for next week's calls",
+      "summary": "Gather previous discussion and open commitments into one readable meeting-prep document.",
+      "departments": [
+        "General"
+      ],
+      "tags": [
+        "Planning",
+        "Communication"
+      ],
+      "prerequisites": [
+        "Connect Google Calendar, Slack, and Gmail; Drive is optional for documents.",
+        "Provide agenda preferences, exclusions, and the planning folder; recurring delivery requires a scheduler."
+      ],
+      "outcome": "A week-ahead briefing with a short agenda for every meeting and three prep priorities.",
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "Prepare the meeting week",
+          "prompt": "Review my calendar for [week]. For each meeting, find the last relevant discussion, related messages, referenced documents, and commitments I owe. Draft one compact agenda paragraph and link the source context. Flag the three meetings that need the most preparation and explain why, then save one combined week-ahead document."
+        },
+        {
+          "id": "step-2",
+          "title": "Create a weekly routine",
+          "prompt": "Schedule this briefing for [weekday, time, timezone], covering the following week. Save the combined brief and individual agendas in a dated folder under [Planning], carry forward unresolved prep items, and state which sources were unavailable on each run."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "claude:weekly-status-posts-from-the-teams-channels-and-tracker",
+    "entry": {
+      "id": "fp-weekly-status-posts-from-the-teams-channels-and-tracker",
+      "slug": "weekly-status-posts-from-the-teams-channels-and-tracker",
+      "title": "Post a weekly team status from actual work",
+      "summary": "Combine team conversation and tracker state into a digest people can correct before forwarding.",
+      "departments": [
+        "Operations",
+        "Engineering"
+      ],
+      "tags": [
+        "Organization",
+        "Communication"
+      ],
+      "prerequisites": [
+        "Requires a channel assistant with scheduled routines and access to Linear or Jira.",
+        "GitHub is optional for merged pull requests; define channels, tracker scope, schedule, and timezone."
+      ],
+      "outcome": "A recurring channel update with decisions, open work, and blocked owners.",
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "Schedule the team digest",
+          "prompt": "Every [weekday, time, timezone], post a draft weekly update in [team channel] using this channel's discussions and the connected tracker. Cover decisions made, work completed, items still open, and dependencies waiting on named owners. Link evidence, check current ticket state, and distinguish shipped work from tickets merely marked complete."
+        },
+        {
+          "id": "step-2",
+          "title": "Expand and correct the digest",
+          "prompt": "Include [additional channel], [repository], and [launch tracker] in the next run. Show how long each blocked item has been stuck against plan and its owner. Apply these corrections: [details], then list the configured schedule and sources so the team can verify the routine."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "claude:work-through-grant-options-in-chat-with-claude",
+    "entry": {
+      "id": "fp-work-through-grant-options-in-chat",
+      "slug": "work-through-grant-options-in-chat",
+      "title": "Compare grants by opportunity and effort",
+      "summary": "See award size, uncertainty, deadline, and preparation load together before choosing what to pursue.",
+      "departments": [
+        "Research",
+        "Education"
+      ],
+      "tags": [
+        "Research",
+        "Planning"
+      ],
+      "prerequisites": [
+        "Provide your grant pipeline with awards, deadlines, effort estimates, and success-rate evidence where available.",
+        "Requires interactive visualization and current official-program research for deadlines and eligibility."
+      ],
+      "outcome": "An explorable grant comparison and a realistic submission schedule.",
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "Map the grant choices",
+          "prompt": "Compare these grant opportunities across award amount, estimated chance, deadline, eligibility, and effort. Build a linked chart and table with filters, flag near-term deadlines, and verify current requirements on official pages. Label uncertain success estimates and omit expected-value calculations where the inputs are unsupported. Help me shortlist options under [capacity constraint]."
+        },
+        {
+          "id": "step-2",
+          "title": "Work back from deadlines",
+          "prompt": "For the shortlisted grants due within [90 days], build a submission timeline working backward from verified deadlines, including partner input and internal review. Mark [submitted grant] as in progress and reprioritize the remaining workload without losing its follow-up obligations."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "claude:workflow-improvement-planner",
+    "entry": {
+      "id": "fp-workflow-improvement-planner",
+      "slug": "workflow-improvement-planner",
+      "title": "Design a practical workflow improvement",
+      "summary": "Capture the actual process before choosing tools or introducing automation.",
+      "departments": [
+        "Operations"
+      ],
+      "tags": [
+        "Planning",
+        "Organization"
+      ],
+      "prerequisites": [
+        "Provide current process documents, sample inputs and outputs, and concrete pain points.",
+        "Interactive form support is optional; tool connections depend on the solution selected."
+      ],
+      "outcome": "A completed process assessment and implementation materials suited to real constraints.",
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "Build the process assessment",
+          "prompt": "Create a fillable assessment for [workflow]. Capture the trigger, frequency, volume, steps, people, inputs, outputs, decisions, bottlenecks, error patterns, tools, constraints, and success measures. Include prompts for specific examples and an exportable summary I can return for solution design. Make missing facts visible rather than filling them with generic assumptions."
+        },
+        {
+          "id": "step-2",
+          "title": "Design within our constraints",
+          "prompt": "Use my completed assessment and samples to propose a practical improvement. Explain which steps benefit from AI, which need human judgment, and which require connectors or ordinary automation. Provide example prompts, templates, setup steps, and a small measurable pilot that fits [budget, skills, and access constraints]."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "claude:write-an-impact-report",
+    "entry": {
+      "id": "fp-write-an-impact-report",
+      "slug": "write-an-impact-report",
+      "title": "Write an impact report grounded in program evidence",
+      "summary": "Connect verified outcomes and financial stewardship with an authentic story for your stakeholders.",
+      "departments": [
+        "General"
+      ],
+      "tags": [
+        "Writing",
+        "Analysis"
+      ],
+      "prerequisites": [
+        "Provide participant, attendance, outcome, volunteer, finance, and qualitative-feedback records.",
+        "Requires data analysis, document creation, and chart generation; use only authorized participant stories."
+      ],
+      "outcome": "A designed impact report with cited metrics, clear charts, and audience-specific versions.",
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "Build the report",
+          "prompt": "Analyze these records for [organization and reporting period]. First reconcile the key metrics, then create a report with an executive overview, program context, reach and demographics, outcomes, finances, and next-year goals. Use clear visualizations and only supplied, authorized stories or quotations. Separate measured outcomes from causal claims and flag incomplete data instead of inventing an impact narrative."
+        },
+        {
+          "id": "step-2",
+          "title": "Tailor the evidence",
+          "prompt": "Create three concise versions: one for funders emphasizing outcomes and cost-effectiveness, one for donors using verified human stories, and one for the board covering strategic implications and operational risks. Keep every number consistent with the approved report and show the source of each headline claim."
+        }
+      ]
+    }
+  }
+]

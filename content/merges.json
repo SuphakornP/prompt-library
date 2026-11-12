@@ -1,0 +1,45 @@
+[
+  {
+    "sourceIds": ["claude:brand-guidelines-skill", "claude:package-your-brand-guidelines-in-a-skill"],
+    "reason": "Both workflows turn the same brand references into a reusable generation skill. The combined record preserves exact design tokens, voice rules, document/deck/spreadsheet styling, reference testing, and guideline refreshes.",
+    "entry": {
+      "id": "fp-brand-guidelines-skill",
+      "slug": "brand-guidelines-skill",
+      "title": "Turn brand guidelines into a reusable skill",
+      "summary": "Package visual standards and voice rules into one repeatable workflow for content and design.",
+      "departments": ["Design", "Marketing"],
+      "tags": ["Design", "Organization"],
+      "prerequisites": [
+        "Provide brand guidelines, logo assets, exact color and spacing tokens, typography, font fallbacks, and voice examples.",
+        "Use exported references or connect the Figma library and the Drive or Notion folder holding the current guidelines.",
+        "Creating an installable skill requires file creation and a tool that supports custom skills. Recurring refreshes also require scheduling support."
+      ],
+      "outcome": "A reusable brand skill, verified sample outputs, a one-page team reference, and a documented refresh procedure.",
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "Build the brand skill",
+          "prompt": "Turn the supplied brand guide, design tokens, and voice examples into a reusable brand skill. Resolve conflicting references by flagging the choice for the brand owner.\n\nCreate SKILL.md describing when the skill applies and how to use it. Add reference files for exact colors, typography, spacing, font fallbacks, voice, and prohibited patterns. Cover copy and interfaces as well as presentations, documents, and spreadsheets. Use small helper scripts for repeated formatting where useful; keep editorial and layout decisions in the instructions.\n\nInclude a review checklist, accessible contrast checks, and examples of compliant and noncompliant output. Explain why each prohibited choice breaks a rule. If this environment cannot create or install skill files, provide the complete file contents and setup instructions without claiming the skill is installed."
+        },
+        {
+          "id": "step-2",
+          "title": "Test and refine the rules",
+          "instruction": "Continue in the same conversation with the draft skill and the brand references.",
+          "prompt": "Apply the draft skill to a short quarterly-review deck, a companion spreadsheet, and one interface or copy sample. Check each against the source rules and record specific corrections. Update the skill using this feedback: [changes]. Preserve unaffected standards, explain any remaining brand-owner decisions, and show what changed."
+        },
+        {
+          "id": "step-3",
+          "title": "Create a team reference",
+          "instruction": "Continue in the same conversation after reviewing the test outputs.",
+          "prompt": "Make a one-page reference for this skill. Show the rules it enforces, examples of good and bad applications, where the source guidelines live, and how a teammate should report an exception. Prepare it for review before publishing or sharing."
+        },
+        {
+          "id": "step-4",
+          "title": "Keep the skill aligned with the brand",
+          "instruction": "Use when the source guidelines change. Automatic checks require connected sources and scheduling support.",
+          "prompt": "Compare the latest brand folder and design-system library against the version used for this skill. Identify changed tokens, voice rules, and examples; update affected files and write a short changelog. Draft a Monday 9 a.m. refresh specification for [timezone], with the sources to check and the owner who reviews conflicts. Do not claim a recurring task is active unless it has actually been configured."
+        }
+      ]
+    }
+  }
+]

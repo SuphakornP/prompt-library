@@ -1,0 +1,1638 @@
+{
+  "source": "claude",
+  "indexUrl": "https://academy.claude.com/use-cases",
+  "metadataBundleUrl": "https://academy.claude.com/assets/v1/use-cases-bqcq3vrx.js",
+  "retrievedAt": "2026-11-12T10:47:56.226Z",
+  "discovered": 156,
+  "available": 156,
+  "unavailable": 0,
+  "entries": [
+    {
+      "sourceId": "claude:account-research-brief",
+      "url": "https://academy.claude.com/use-cases/account-research-brief",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:account-tracking",
+      "url": "https://academy.claude.com/use-cases/account-tracking",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:ad-performance-recap",
+      "url": "https://academy.claude.com/use-cases/ad-performance-recap",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:adapt-a-standard-textbook-page-to-every-reading-level",
+      "url": "https://academy.claude.com/use-cases/adapt-a-standard-textbook-page-to-every-reading-level",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:adapt-content-across-platforms",
+      "url": "https://academy.claude.com/use-cases/adapt-content-across-platforms",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:analyze-campaign-performance",
+      "url": "https://academy.claude.com/use-cases/analyze-campaign-performance",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:analyze-fundraising-performance",
+      "url": "https://academy.claude.com/use-cases/analyze-fundraising-performance",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:analyze-patterns-in-user-feedback",
+      "url": "https://academy.claude.com/use-cases/analyze-patterns-in-user-feedback",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:answer-requests-in-the-it-help-channel",
+      "url": "https://academy.claude.com/use-cases/answer-requests-in-the-it-help-channel",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:answer-the-adhoc",
+      "url": "https://academy.claude.com/use-cases/answer-the-adhoc",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:apply-a-formula-as-you-learn-it-in-chat-with-claude",
+      "url": "https://academy.claude.com/use-cases/apply-a-formula-as-you-learn-it-in-chat-with-claude",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:ask-the-company",
+      "url": "https://academy.claude.com/use-cases/ask-the-company",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:audit-a-folder-of-visual-assets-against-your-guidelines",
+      "url": "https://academy.claude.com/use-cases/audit-a-folder-of-visual-assets-against-your-guidelines",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:brand-guidelines-skill",
+      "url": "https://academy.claude.com/use-cases/brand-guidelines-skill",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:bring-your-whiteboard-lesson-to-life",
+      "url": "https://academy.claude.com/use-cases/bring-your-whiteboard-lesson-to-life",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:build-a-battle-card-library",
+      "url": "https://academy.claude.com/use-cases/build-a-battle-card-library",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:build-a-custom-bucket-list-app",
+      "url": "https://academy.claude.com/use-cases/build-a-custom-bucket-list-app",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:build-a-daily-briefing-across-your-tools",
+      "url": "https://academy.claude.com/use-cases/build-a-daily-briefing-across-your-tools",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:build-analysis-from-browser-charts-and-folder-data",
+      "url": "https://academy.claude.com/use-cases/build-analysis-from-browser-charts-and-folder-data",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:build-customer-personas",
+      "url": "https://academy.claude.com/use-cases/build-customer-personas",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:build-financial-models",
+      "url": "https://academy.claude.com/use-cases/build-financial-models",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:build-interactive-diagram-tools",
+      "url": "https://academy.claude.com/use-cases/build-interactive-diagram-tools",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:call-prep-sheet",
+      "url": "https://academy.claude.com/use-cases/call-prep-sheet",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:campaign-brief",
+      "url": "https://academy.claude.com/use-cases/campaign-brief",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:chart-a-metric-from-your-data-warehouse",
+      "url": "https://academy.claude.com/use-cases/chart-a-metric-from-your-data-warehouse",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:chart-your-data-before-you-commit",
+      "url": "https://academy.claude.com/use-cases/chart-your-data-before-you-commit",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:clean-up-promotional-emails",
+      "url": "https://academy.claude.com/use-cases/clean-up-promotional-emails",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:clickable-prototype",
+      "url": "https://academy.claude.com/use-cases/clickable-prototype",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:cloud-cost-anomalies",
+      "url": "https://academy.claude.com/use-cases/cloud-cost-anomalies",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:compare-and-analyze-competing-options",
+      "url": "https://academy.claude.com/use-cases/compare-and-analyze-competing-options",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:compare-products-across-sites",
+      "url": "https://academy.claude.com/use-cases/compare-products-across-sites",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:competitive-teardown",
+      "url": "https://academy.claude.com/use-cases/competitive-teardown",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:competitor-comparison",
+      "url": "https://academy.claude.com/use-cases/competitor-comparison",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:contract-playbook-review",
+      "url": "https://academy.claude.com/use-cases/contract-playbook-review",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:contract-redlining-and-negotiation",
+      "url": "https://academy.claude.com/use-cases/contract-redlining-and-negotiation",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:contract-to-ledger",
+      "url": "https://academy.claude.com/use-cases/contract-to-ledger",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:create-a-company-newsletter",
+      "url": "https://academy.claude.com/use-cases/create-a-company-newsletter",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:create-a-custom-webpage",
+      "url": "https://academy.claude.com/use-cases/create-a-custom-webpage",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:create-a-daily-travel-itinerary",
+      "url": "https://academy.claude.com/use-cases/create-a-daily-travel-itinerary",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:create-a-process-flowchart",
+      "url": "https://academy.claude.com/use-cases/create-a-process-flowchart",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:create-a-sales-proposal-presentation",
+      "url": "https://academy.claude.com/use-cases/create-a-sales-proposal-presentation",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:create-a-volunteer-management-system",
+      "url": "https://academy.claude.com/use-cases/create-a-volunteer-management-system",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:create-brand-assets",
+      "url": "https://academy.claude.com/use-cases/create-brand-assets",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:create-custom-course-materials",
+      "url": "https://academy.claude.com/use-cases/create-custom-course-materials",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:create-digital-recipe-cards",
+      "url": "https://academy.claude.com/use-cases/create-digital-recipe-cards",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:create-health-and-exercise-notes",
+      "url": "https://academy.claude.com/use-cases/create-health-and-exercise-notes",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:create-interactive-pdf-forms",
+      "url": "https://academy.claude.com/use-cases/create-interactive-pdf-forms",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:create-new-hire-onboarding-guides",
+      "url": "https://academy.claude.com/use-cases/create-new-hire-onboarding-guides",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:create-sales-reports",
+      "url": "https://academy.claude.com/use-cases/create-sales-reports",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:data-room-diligence",
+      "url": "https://academy.claude.com/use-cases/data-room-diligence",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:debate-practice-with-feedback",
+      "url": "https://academy.claude.com/use-cases/debate-practice-with-feedback",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:design-a-local-foraging-guide",
+      "url": "https://academy.claude.com/use-cases/design-a-local-foraging-guide",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:design-doc",
+      "url": "https://academy.claude.com/use-cases/design-doc",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:design-heuristic-audit",
+      "url": "https://academy.claude.com/use-cases/design-heuristic-audit",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:design-police",
+      "url": "https://academy.claude.com/use-cases/design-police",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:design-spec-from-threads",
+      "url": "https://academy.claude.com/use-cases/design-spec-from-threads",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:develop-a-program-toolkit",
+      "url": "https://academy.claude.com/use-cases/develop-a-program-toolkit",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:draft-a-credit-memo-from-spreads-and-statements-with-claude-for-excel",
+      "url": "https://academy.claude.com/use-cases/draft-a-credit-memo-from-spreads-and-statements-with-claude-for-excel",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:draft-investment-memos",
+      "url": "https://academy.claude.com/use-cases/draft-investment-memos",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:elevate-claudes-design-using-skills",
+      "url": "https://academy.claude.com/use-cases/elevate-claudes-design-using-skills",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:eng-performance-reviews",
+      "url": "https://academy.claude.com/use-cases/eng-performance-reviews",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:engagement-survey-themes",
+      "url": "https://academy.claude.com/use-cases/engagement-survey-themes",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:evaluate-a-company-from-the-science-to-the-balance-sheet",
+      "url": "https://academy.claude.com/use-cases/evaluate-a-company-from-the-science-to-the-balance-sheet",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:explain-a-variance",
+      "url": "https://academy.claude.com/use-cases/explain-a-variance",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:explore-what-claude-can-do-for-you",
+      "url": "https://academy.claude.com/use-cases/explore-what-claude-can-do-for-you",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:feedback-synthesis",
+      "url": "https://academy.claude.com/use-cases/feedback-synthesis",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:fix-a-reported-bug-with-a-draft-pr",
+      "url": "https://academy.claude.com/use-cases/fix-a-reported-bug-with-a-draft-pr",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:forecast-scenarios",
+      "url": "https://academy.claude.com/use-cases/forecast-scenarios",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:generate-an-ai-policy",
+      "url": "https://academy.claude.com/use-cases/generate-an-ai-policy",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:generate-project-status-reports",
+      "url": "https://academy.claude.com/use-cases/generate-project-status-reports",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:genomic-data-analysis",
+      "url": "https://academy.claude.com/use-cases/genomic-data-analysis",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:grant-proposal-assembly-line",
+      "url": "https://academy.claude.com/use-cases/grant-proposal-assembly-line",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:headcount-reconciliation",
+      "url": "https://academy.claude.com/use-cases/headcount-reconciliation",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:incident-postmortem",
+      "url": "https://academy.claude.com/use-cases/incident-postmortem",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:interview-debrief",
+      "url": "https://academy.claude.com/use-cases/interview-debrief",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:launch-readiness",
+      "url": "https://academy.claude.com/use-cases/launch-readiness",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:legal-research-memo",
+      "url": "https://academy.claude.com/use-cases/legal-research-memo",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:log-sales-calls-to-your-crm",
+      "url": "https://academy.claude.com/use-cases/log-sales-calls-to-your-crm",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:map-your-lit-review-mid-conversation",
+      "url": "https://academy.claude.com/use-cases/map-your-lit-review-mid-conversation",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:map-your-understanding-and-build-lessons-from-the-gaps",
+      "url": "https://academy.claude.com/use-cases/map-your-understanding-and-build-lessons-from-the-gaps",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:meeting-notes-and-filed-tasks-from-a-call-transcript",
+      "url": "https://academy.claude.com/use-cases/meeting-notes-and-filed-tasks-from-a-call-transcript",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:meeting-prep-and-a-weekly-recap-in-your-dm-with-claude",
+      "url": "https://academy.claude.com/use-cases/meeting-prep-and-a-weekly-recap-in-your-dm-with-claude",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:message-sweep",
+      "url": "https://academy.claude.com/use-cases/message-sweep",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:metrics-narrative",
+      "url": "https://academy.claude.com/use-cases/metrics-narrative",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:morning-evening",
+      "url": "https://academy.claude.com/use-cases/morning-evening",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:my-voice",
+      "url": "https://academy.claude.com/use-cases/my-voice",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:nda-review",
+      "url": "https://academy.claude.com/use-cases/nda-review",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:offer-process",
+      "url": "https://academy.claude.com/use-cases/offer-process",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:on-brand-content",
+      "url": "https://academy.claude.com/use-cases/on-brand-content",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:oncall-handoff-brief",
+      "url": "https://academy.claude.com/use-cases/oncall-handoff-brief",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:open-new-role",
+      "url": "https://academy.claude.com/use-cases/open-new-role",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:organize-files-by-whats-in-them",
+      "url": "https://academy.claude.com/use-cases/organize-files-by-whats-in-them",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:organize-files-in-google-drive",
+      "url": "https://academy.claude.com/use-cases/organize-files-in-google-drive",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:organize-your-business-finances",
+      "url": "https://academy.claude.com/use-cases/organize-your-business-finances",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:organize-your-legal-workflows-using-projects",
+      "url": "https://academy.claude.com/use-cases/organize-your-legal-workflows-using-projects",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:outside-counsel-review",
+      "url": "https://academy.claude.com/use-cases/outside-counsel-review",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:package-your-brand-guidelines-in-a-skill",
+      "url": "https://academy.claude.com/use-cases/package-your-brand-guidelines-in-a-skill",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:pattern-consistency-audit",
+      "url": "https://academy.claude.com/use-cases/pattern-consistency-audit",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:performance-review-admin",
+      "url": "https://academy.claude.com/use-cases/performance-review-admin",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:pipeline-review",
+      "url": "https://academy.claude.com/use-cases/pipeline-review",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:plan-your-career-path",
+      "url": "https://academy.claude.com/use-cases/plan-your-career-path",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:plan-your-literature-review",
+      "url": "https://academy.claude.com/use-cases/plan-your-literature-review",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:plan-your-syllabus-see-which-weeks-are-locked",
+      "url": "https://academy.claude.com/use-cases/plan-your-syllabus-see-which-weeks-are-locked",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:practice-case-interviews-with-feedback",
+      "url": "https://academy.claude.com/use-cases/practice-case-interviews-with-feedback",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:prd-from-a-one-pager",
+      "url": "https://academy.claude.com/use-cases/prd-from-a-one-pager",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:preclinical-study-analysis",
+      "url": "https://academy.claude.com/use-cases/preclinical-study-analysis",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:prep-scattered-documents-for-a-compliance-audit",
+      "url": "https://academy.claude.com/use-cases/prep-scattered-documents-for-a-compliance-audit",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:prepare-and-plan-from-your-calendar",
+      "url": "https://academy.claude.com/use-cases/prepare-and-plan-from-your-calendar",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:prepare-for-sales-deals",
+      "url": "https://academy.claude.com/use-cases/prepare-for-sales-deals",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:process-batches-of-vendors-with-cowork",
+      "url": "https://academy.claude.com/use-cases/process-batches-of-vendors-with-cowork",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:pull-deal-and-account-state",
+      "url": "https://academy.claude.com/use-cases/pull-deal-and-account-state",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:pull-metrics-from-analytics-dashboards",
+      "url": "https://academy.claude.com/use-cases/pull-metrics-from-analytics-dashboards",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:quickly-prep-for-your-week",
+      "url": "https://academy.claude.com/use-cases/quickly-prep-for-your-week",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:recon-journal-entries",
+      "url": "https://academy.claude.com/use-cases/recon-journal-entries",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:reconcile-transactions-across-your-accounts",
+      "url": "https://academy.claude.com/use-cases/reconcile-transactions-across-your-accounts",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:regulatory-analysis",
+      "url": "https://academy.claude.com/use-cases/regulatory-analysis",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:renewal-risk-audit",
+      "url": "https://academy.claude.com/use-cases/renewal-risk-audit",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:repurpose-content",
+      "url": "https://academy.claude.com/use-cases/repurpose-content",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:research-and-compare-travel-destinations",
+      "url": "https://academy.claude.com/use-cases/research-and-compare-travel-destinations",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:see-budget-futures-side-by-side",
+      "url": "https://academy.claude.com/use-cases/see-budget-futures-side-by-side",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:see-what-your-campaign-goal-actually-requires",
+      "url": "https://academy.claude.com/use-cases/see-what-your-campaign-goal-actually-requires",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:see-why-donor-retention-beats-acquisition",
+      "url": "https://academy.claude.com/use-cases/see-why-donor-retention-beats-acquisition",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:see-your-theory-of-change-in-chat-with-claude",
+      "url": "https://academy.claude.com/use-cases/see-your-theory-of-change-in-chat-with-claude",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:size-a-market-using-your-research",
+      "url": "https://academy.claude.com/use-cases/size-a-market-using-your-research",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:source-insights-from-your-tools-to-build-a-deck",
+      "url": "https://academy.claude.com/use-cases/source-insights-from-your-tools-to-build-a-deck",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:sox-controls-doc",
+      "url": "https://academy.claude.com/use-cases/sox-controls-doc",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:sprint-retro-handoff",
+      "url": "https://academy.claude.com/use-cases/sprint-retro-handoff",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:stress-test-your-financial-plan-across-scenarios",
+      "url": "https://academy.claude.com/use-cases/stress-test-your-financial-plan-across-scenarios",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:support-incident-postmortem",
+      "url": "https://academy.claude.com/use-cases/support-incident-postmortem",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:surface-themes-from-all-your-feedback-channels",
+      "url": "https://academy.claude.com/use-cases/surface-themes-from-all-your-feedback-channels",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:thoughtful-gift-giving-with-claude",
+      "url": "https://academy.claude.com/use-cases/thoughtful-gift-giving-with-claude",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:thread-to-decision",
+      "url": "https://academy.claude.com/use-cases/thread-to-decision",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:track-discovery-timelines-and-analyze-patterns",
+      "url": "https://academy.claude.com/use-cases/track-discovery-timelines-and-analyze-patterns",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:transcript-themes",
+      "url": "https://academy.claude.com/use-cases/transcript-themes",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:triage-on-call-alerts-and-diagnose-incidents",
+      "url": "https://academy.claude.com/use-cases/triage-on-call-alerts-and-diagnose-incidents",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:turn-emails-into-an-event-tracker",
+      "url": "https://academy.claude.com/use-cases/turn-emails-into-an-event-tracker",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:turn-inspiration-to-design-plans",
+      "url": "https://academy.claude.com/use-cases/turn-inspiration-to-design-plans",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:turn-research-into-presentations",
+      "url": "https://academy.claude.com/use-cases/turn-research-into-presentations",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:turn-text-threads-to-researched-notes",
+      "url": "https://academy.claude.com/use-cases/turn-text-threads-to-researched-notes",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:turn-transit-time-into-research-time",
+      "url": "https://academy.claude.com/use-cases/turn-transit-time-into-research-time",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:understand-and-extend-an-inherited-spreadsheet",
+      "url": "https://academy.claude.com/use-cases/understand-and-extend-an-inherited-spreadsheet",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:update-your-financial-model-after-earnings",
+      "url": "https://academy.claude.com/use-cases/update-your-financial-model-after-earnings",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:uxr-synthesis",
+      "url": "https://academy.claude.com/use-cases/uxr-synthesis",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:validate-reserves-and-draft-filing-narrative-with-claude-for-excel",
+      "url": "https://academy.claude.com/use-cases/validate-reserves-and-draft-filing-narrative-with-claude-for-excel",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:variance-exec-slides",
+      "url": "https://academy.claude.com/use-cases/variance-exec-slides",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:vendor-negotiation",
+      "url": "https://academy.claude.com/use-cases/vendor-negotiation",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:vendor-risk-review",
+      "url": "https://academy.claude.com/use-cases/vendor-risk-review",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:verify-statistics-from-raw-data",
+      "url": "https://academy.claude.com/use-cases/verify-statistics-from-raw-data",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:visualize-program-data",
+      "url": "https://academy.claude.com/use-cases/visualize-program-data",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:visualize-the-mechanism-behind-an-explanation-mid-chat",
+      "url": "https://academy.claude.com/use-cases/visualize-the-mechanism-behind-an-explanation-mid-chat",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:watch-the-escalations-channel-and-page-only-for-p1",
+      "url": "https://academy.claude.com/use-cases/watch-the-escalations-channel-and-page-only-for-p1",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:week-ahead-prep",
+      "url": "https://academy.claude.com/use-cases/week-ahead-prep",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:weekly-status-posts-from-the-teams-channels-and-tracker",
+      "url": "https://academy.claude.com/use-cases/weekly-status-posts-from-the-teams-channels-and-tracker",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:work-through-grant-options-in-chat-with-claude",
+      "url": "https://academy.claude.com/use-cases/work-through-grant-options-in-chat-with-claude",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:workflow-improvement-planner",
+      "url": "https://academy.claude.com/use-cases/workflow-improvement-planner",
+      "status": "available"
+    },
+    {
+      "sourceId": "claude:write-an-impact-report",
+      "url": "https://academy.claude.com/use-cases/write-an-impact-report",
+      "status": "available"
+    }
+  ],
+  "fetchedResources": [
+    {
+      "url": "https://academy.claude.com/use-cases",
+      "sha256": "69a2ce5ef3cbc33d56be67e0e5942ca097eedc22224e74f88c960838fc26eb47",
+      "bytes": 104012
+    },
+    {
+      "url": "https://academy.claude.com/assets/v1/library-dof5j2kp.js",
+      "sha256": "fac463a588fd32053192f15f144b2bf3effdb74d4fde9451a1be04991cdfc673",
+      "bytes": 4989
+    },
+    {
+      "url": "https://academy.claude.com/assets/v1/use-cases-bqcq3vrx.js",
+      "sha256": "9ff867dcf730e6405bb7d10dd1139b23da2ba6799be796c82a9fc0e6a9a441f3",
+      "bytes": 509512
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/account-tracking",
+      "sha256": "733cd17e6519592a45590aba370d17e985a85fd58f583f9f20b21183aea8b4c5",
+      "bytes": 136729
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/ad-performance-recap",
+      "sha256": "821afe78770c5b3c45eff9fd9a17edc5d37ba8601163dcea0976ff6f64072981",
+      "bytes": 145026
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/account-research-brief",
+      "sha256": "7b46414d2a902bba4268cc238b2c6bd1b5e2f7dda25f4e4e600e1985d37d2ce9",
+      "bytes": 138810
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/adapt-content-across-platforms",
+      "sha256": "f6b762f8effbcae8d6986a7edba392c02626e32a2fd9245e6b633b0fa83dbbda",
+      "bytes": 120655
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/adapt-a-standard-textbook-page-to-every-reading-level",
+      "sha256": "3d55d90ff49edc80755dc14326c5bd08b483a94d344c17fab748db00e9c62206",
+      "bytes": 105112
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/analyze-campaign-performance",
+      "sha256": "42cf068b128291b4587359ea199813c3c9f954c0315bf00bbeb3ca74f4c4bb7e",
+      "bytes": 97546
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/analyze-patterns-in-user-feedback",
+      "sha256": "b851f6b5666804084e851532d480da3115592cefbb282463d8d0a4689e1f7570",
+      "bytes": 113944
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/analyze-fundraising-performance",
+      "sha256": "b9b80cd5b08501ff92990d04f239f3c2a7d32307ff135b0e6d466461308ae9f9",
+      "bytes": 110071
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/answer-requests-in-the-it-help-channel",
+      "sha256": "043ceded6bc5e66c46b8108feea7667bfd3c7fcdc23b7998aa77bb10032b39fb",
+      "bytes": 69986
+    },
+    {
+      "url": "https://academy.claude.com/assets/v1/content/use-cases/answer-requests-in-the-it-help-channel/index-h6xe00ij.js",
+      "sha256": "edcbb2f3455ab07128097e4848f63cd64fe0e5f3fd85d43ed0e74f242b8a9b42",
+      "bytes": 10561
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/answer-the-adhoc",
+      "sha256": "6f6951f44adafc866c183138c450db18c98251b09c57420ed73d1f26c6fdbc35",
+      "bytes": 135459
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/ask-the-company",
+      "sha256": "ee5238fde20740ad8e20e9b2fad3f1fc6c8583e599e1b4631feabbaf217e8838",
+      "bytes": 136283
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/apply-a-formula-as-you-learn-it-in-chat-with-claude",
+      "sha256": "c28baa9208275aadf008312c30062137e60390e11917525e86a79dc39301360a",
+      "bytes": 102380
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/audit-a-folder-of-visual-assets-against-your-guidelines",
+      "sha256": "a9e33f8ebbf318ed06a1a878747342a8764ed004b81f2808f99bd33f837a413f",
+      "bytes": 109267
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/brand-guidelines-skill",
+      "sha256": "70c16e3f3e040a249fecf3ec3450e9a6c2f74d9a033442a4ed1c24736601fcee",
+      "bytes": 144829
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/bring-your-whiteboard-lesson-to-life",
+      "sha256": "4712c238bddfe9de472d06ae924fff70e3bd3fde7e61423ea6c0d6592d1bc103",
+      "bytes": 103617
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/build-a-battle-card-library",
+      "sha256": "0624abd96b5eb1e7128c9b78296901a63715ac98c4263645d42a7a20defdde5f",
+      "bytes": 112171
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/build-analysis-from-browser-charts-and-folder-data",
+      "sha256": "1c7540de74c629fa7cdd51aca6aa7971539b6fbf42e1d5c4cbadb210f2fa4fc6",
+      "bytes": 107404
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/build-a-daily-briefing-across-your-tools",
+      "sha256": "9288729315a9c6f2619b35e557978526b0d33ae4de56562e15b04980b274cebf",
+      "bytes": 106507
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/build-a-custom-bucket-list-app",
+      "sha256": "1be92d84de1f67d809d64748dcadd60fe56f066a220c1938fc7760721991c0f8",
+      "bytes": 107039
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/build-interactive-diagram-tools",
+      "sha256": "e0febe4a825621dbf64f76a636f0830417d54d66016e5c28bcace0ec491ad75e",
+      "bytes": 112440
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/build-customer-personas",
+      "sha256": "505a3082cc019c1efb8cd8c6a52748440c2c577e4fa6697aaf407194d4a7e709",
+      "bytes": 121709
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/build-financial-models",
+      "sha256": "c4d5e305671852cafc1dd37a90f09d0f1b67cd564665a5add8a2243575e4270f",
+      "bytes": 133079
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/call-prep-sheet",
+      "sha256": "aa9bb5b762a29383bbc8f744c879403fe8fa9ecb3ae099ba123dd51431c0172b",
+      "bytes": 138594
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/chart-a-metric-from-your-data-warehouse",
+      "sha256": "cf27ad3cbb78815454062b96c2ed0b207b2688cbbf9bf2bdf0d93e7e699c76c0",
+      "bytes": 68883
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/chart-your-data-before-you-commit",
+      "sha256": "659c4472705649bed5061cf26173517ab8656548439dde9e7f1200b22cc52068",
+      "bytes": 102802
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/campaign-brief",
+      "sha256": "7713249f0364ed2c1370d6ef3708f436fd13a1f3f5e1d1d01e4d38a936a9ffa7",
+      "bytes": 134868
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/clean-up-promotional-emails",
+      "sha256": "ae3bf5cfb59bb8fc6beda857ff8c0b7ef35016b73e44c1d9b97bcedc3a4cc0ef",
+      "bytes": 92560
+    },
+    {
+      "url": "https://academy.claude.com/assets/v1/content/use-cases/chart-a-metric-from-your-data-warehouse/index-e61o16tw.js",
+      "sha256": "365620ecc60d3a4ea325b509eb2ef24301caa8053db8167711f5f0dfd28b2327",
+      "bytes": 8990
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/compare-and-analyze-competing-options",
+      "sha256": "d0beec0bb2141dc22ca4a25d55fb918d9287135df31d113aeb452f2aace56ad4",
+      "bytes": 104676
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/clickable-prototype",
+      "sha256": "808309f3cd1fee32d89532ab52500c8ee4104fb561a9da8010b15487cbbced4a",
+      "bytes": 145150
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/cloud-cost-anomalies",
+      "sha256": "785fbe539262ab472f9dbccd9a5c33d93c68a5bad3bdd5e1ed29a9c76eb9545b",
+      "bytes": 137601
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/compare-products-across-sites",
+      "sha256": "44f2781c1a72e80cbdb15ae344ad5b11e591eaa006469ed909c40b8e636d76ec",
+      "bytes": 93798
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/competitive-teardown",
+      "sha256": "ab17d003361c39d02d23fb0ba6e4acdd244fc55891665ef66cae75cf54a6e404",
+      "bytes": 140887
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/competitor-comparison",
+      "sha256": "1d064ebdcedcf250050f2b0d7cbef3d59c1ddc729bcd6a93c7733594883a0b1e",
+      "bytes": 140730
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/contract-playbook-review",
+      "sha256": "7f2494ff673dec8f4ac6163cc7b4693bf67ab9d67490e69784ae4570c429932a",
+      "bytes": 150064
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/contract-redlining-and-negotiation",
+      "sha256": "813abf0701d946a9c4a6b88153ebc594111d25d8d8d47991d4f66d1bde580d3b",
+      "bytes": 106726
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/contract-to-ledger",
+      "sha256": "5b9a83659e63c8c602b5406bcecc459961b671747f2df563d9af72dc4dd4e910",
+      "bytes": 136254
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/create-a-company-newsletter",
+      "sha256": "7e92fd693a81ae50da47048f0b34f79ac39d08668bea6f6f69cdcb1434dbce62",
+      "bytes": 117930
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/create-a-custom-webpage",
+      "sha256": "bc91dbc2db0ed5c0b61489e1a3a9645834c7617f9a51412f41e700c89727867d",
+      "bytes": 109816
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/create-a-process-flowchart",
+      "sha256": "8402608160fe1eb1d3f5c8bd885a2390ad80680422d474c17be69fd5ea9a998a",
+      "bytes": 107034
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/create-a-sales-proposal-presentation",
+      "sha256": "d1cab712e9805bf6e634447ac256e418512d0dc361bf30f049e4c4d0b72efa35",
+      "bytes": 111119
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/create-a-daily-travel-itinerary",
+      "sha256": "f5fb901db0b7195f5b861a215f772784972ceab7d68736db36e318250fe32dc2",
+      "bytes": 105758
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/create-brand-assets",
+      "sha256": "634e407e1ca7fbef3c5c53254d217c7633d3fca686192fd84336110b718a9836",
+      "bytes": 99649
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/create-a-volunteer-management-system",
+      "sha256": "ecc0a3723112280918fa3edfb9ed13f5d7fdd8b925cab522de2b6f4647a7c2bf",
+      "bytes": 111370
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/create-custom-course-materials",
+      "sha256": "cca81080c790cd5c7901f0cdef52fa614f3ae1c1019eb87dccd11f844a2cb596",
+      "bytes": 96996
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/create-health-and-exercise-notes",
+      "sha256": "607c48fd54a849691aae72041f89ce48f17bc99bee11f2999049943225ae5566",
+      "bytes": 113140
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/create-digital-recipe-cards",
+      "sha256": "3cd077fd373855b0691275cc12392ac5823aa33b35862bb33a287e509131cbe0",
+      "bytes": 110678
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/create-interactive-pdf-forms",
+      "sha256": "36473a5df470f472534a679a101fe339ade5b113899ddc54d74701d7f8523b5e",
+      "bytes": 108084
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/create-new-hire-onboarding-guides",
+      "sha256": "87ac9018099eeb18ed061da082a20337ae0ca4f356c4a5691f35d59e82ba6fb6",
+      "bytes": 115787
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/create-sales-reports",
+      "sha256": "6c41f908701b34de74b180805f066dd996b3c46c0ddef276d83f9c0c99026b5a",
+      "bytes": 117261
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/debate-practice-with-feedback",
+      "sha256": "948f1071cbed609de6bfaa2f293256f020655cf9839400a4d263ab98c779fa5b",
+      "bytes": 108217
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/design-doc",
+      "sha256": "cc508b88f924f698868ba6c3a5bc3c1f442687aa30db6f8ba6f0ee0d14d98c24",
+      "bytes": 135896
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/data-room-diligence",
+      "sha256": "9b72dd61a4de3957edba3012e54811b564ba5602099408d19d90c5c8a26fd77f",
+      "bytes": 162270
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/design-a-local-foraging-guide",
+      "sha256": "dc7c647c3081d644795d2279d78267d6907452acf8cc4a1ffb99106f4fec0276",
+      "bytes": 101396
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/design-heuristic-audit",
+      "sha256": "5d10ebede76bcfc46c0ebd8a13ebd09801e3e4bf61d2553317f65346600c9ec0",
+      "bytes": 143821
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/design-spec-from-threads",
+      "sha256": "e4178b481835870227bdebc64e759697fcdc734b180599f839fcb407d63b0726",
+      "bytes": 144189
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/develop-a-program-toolkit",
+      "sha256": "55da287a5f478cf49d18f0b72b9e92e0ee0516018830c57037648107bef0c00c",
+      "bytes": 108348
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/design-police",
+      "sha256": "46cbd863c9c105c924ae53ea2fe19657042209a1eb1af7228b89d1b0d1e65ee1",
+      "bytes": 143765
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/draft-investment-memos",
+      "sha256": "e189153c328c21e5b686ce6210a7ce669f8945d73f0e0c8b6e8d4d342d33ddd1",
+      "bytes": 126423
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/elevate-claudes-design-using-skills",
+      "sha256": "06045b4781601a9ad1d38a525dbb730328d726fb788e50726fa1d23c775cd57b",
+      "bytes": 109392
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/draft-a-credit-memo-from-spreads-and-statements-with-claude-for-excel",
+      "sha256": "b34609202dce77cf35803813ff68866c0b0dcc767cb57ff0f97e683f130f7079",
+      "bytes": 119263
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/eng-performance-reviews",
+      "sha256": "0cfbf6a3af9b262b1982480b4e0bea4d2ed627b7702f12f345266f1063e9d7bd",
+      "bytes": 135865
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/engagement-survey-themes",
+      "sha256": "5651334a9a15aefb2ccbd8c184f8335b4003e6ba778bd81caff9cff81bcdeb99",
+      "bytes": 139258
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/explore-what-claude-can-do-for-you",
+      "sha256": "d7c72fd2f2e29129d07b691bdcf4fef244add42677eef4f02bc5ea2ca42fa792",
+      "bytes": 114895
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/evaluate-a-company-from-the-science-to-the-balance-sheet",
+      "sha256": "a83b07cf61bcb64a5236bd5917963646dafea69a0c58c622df847350b489181b",
+      "bytes": 114898
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/explain-a-variance",
+      "sha256": "d7d9b59577d69acda31edc8036ec9595ff8c897046b6b380d1d735d052fd0058",
+      "bytes": 148484
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/forecast-scenarios",
+      "sha256": "6d950cc5917e07b8fc5e1624f7efb71fb51ad355fd06e7d32452063be46e3c1b",
+      "bytes": 139178
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/feedback-synthesis",
+      "sha256": "f3e54b2c7cdb4ea3b423da273c404fd36013204dc34921bc6ca610958aa9ab03",
+      "bytes": 145778
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/fix-a-reported-bug-with-a-draft-pr",
+      "sha256": "a2dd0020611768c0f4f925f8f0d8c55a77c70ac1abf8b8d63e55a881b144e1ad",
+      "bytes": 71652
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/generate-project-status-reports",
+      "sha256": "51f56e0a5fa85a68a4c21e945d0cceda4061ea32154e3685089b2d45d91f52f5",
+      "bytes": 112058
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/genomic-data-analysis",
+      "sha256": "ffda954c6bf877add5d91857e35b3e307e833a33561ea44fc8cd215b59788049",
+      "bytes": 97480
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/generate-an-ai-policy",
+      "sha256": "fe346955f2dbf9095f0ffb11522b639986fe7f2457abd32ee9c25e3f9b850fe6",
+      "bytes": 117605
+    },
+    {
+      "url": "https://academy.claude.com/assets/v1/content/use-cases/fix-a-reported-bug-with-a-draft-pr/index-hvhsoe5n.js",
+      "sha256": "5c359807c5fae88e87810ff02753ce2dcd1bf1e3e57c2fb05419e52558e37b25",
+      "bytes": 10592
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/grant-proposal-assembly-line",
+      "sha256": "3e8719169e48d77f15c5bbf2788346fb7785068a1002a9eb3ca6581c9b063d81",
+      "bytes": 138177
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/headcount-reconciliation",
+      "sha256": "dfbda8e2150e7f356f1c5f84e655dbd27d740b9baf9020a32183ba8c8a12331e",
+      "bytes": 138213
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/incident-postmortem",
+      "sha256": "c7002df681b0130fa8af31a6674230ccfbf3c40669f5697a7f2b4c1caa872d9e",
+      "bytes": 136025
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/interview-debrief",
+      "sha256": "2af4a6416ff7d5ae3e41e806dd0123d691f69c2649c58ac8647fdd35bcfdbbc5",
+      "bytes": 127516
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/legal-research-memo",
+      "sha256": "d7b026bcf350fb66eaca8b938086b385b969f7dca06a6921a34b68c30ab516d5",
+      "bytes": 140614
+    },
+    {
+      "url": "https://academy.claude.com/assets/v1/content/use-cases/interview-debrief/index-fu8m6sbq.js",
+      "sha256": "599a2e78479348b85c198b4d91200d90fae975326344172ace452990d1118f6b",
+      "bytes": 9304
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/launch-readiness",
+      "sha256": "59b58aeb8d448fbda010033fdee5b7961c820324cc1b908e3a5e0d59c5f3a308",
+      "bytes": 147015
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/log-sales-calls-to-your-crm",
+      "sha256": "19ea2b29d0c33dd3adc4f700d2fcd2b0938ae2aace592f08fe17ce27b66ed9b8",
+      "bytes": 91182
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/map-your-lit-review-mid-conversation",
+      "sha256": "95dec62530d5bb908e258594aa3735984a512b111661b5e58a0d132a7b698d25",
+      "bytes": 103863
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/meeting-notes-and-filed-tasks-from-a-call-transcript",
+      "sha256": "504637329277efe4575d9cc50061d68c3e6290db4ddceb3044cc3648f84ed323",
+      "bytes": 67795
+    },
+    {
+      "url": "https://academy.claude.com/assets/v1/content/use-cases/meeting-notes-and-filed-tasks-from-a-call-transcript/index-bz10p76h.js",
+      "sha256": "be6afd10ca8a0a535a98ca2e9189198eb304cda6b961985e9fb27d3f6b015283",
+      "bytes": 10414
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/map-your-understanding-and-build-lessons-from-the-gaps",
+      "sha256": "46e20e89aaef702289e5f4a9280e04b1b7745a84c7e423cf8c090db082468f7e",
+      "bytes": 110681
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/meeting-prep-and-a-weekly-recap-in-your-dm-with-claude",
+      "sha256": "5b858eefc388ee6a0d2a2d8b3dc52d176cedf6cb41136059d0932730143dd312",
+      "bytes": 69656
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/message-sweep",
+      "sha256": "0cd96341153a1d8968e6531643fab0b317c151e4a0b792d5b7820512e65d656b",
+      "bytes": 138023
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/metrics-narrative",
+      "sha256": "ca057ff1b6f6b2c5094d458dbac0f47be07a536e152469f6bcc32b9e38c740ac",
+      "bytes": 138540
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/my-voice",
+      "sha256": "543d8254f25fdd5265ecf6d74b00fa21456a1f5d544a761de067f228bb1f32b1",
+      "bytes": 145640
+    },
+    {
+      "url": "https://academy.claude.com/assets/v1/content/use-cases/meeting-prep-and-a-weekly-recap-in-your-dm-with-claude/index-fmd2wp8q.js",
+      "sha256": "5ecda6c17500dc91dfba8f1923e92f28bacf53a3e8e488971f5861bc73175ce2",
+      "bytes": 9375
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/morning-evening",
+      "sha256": "ba5dca648c933dd1ea388481885ad686f91954e72985471831bebcf2714f465c",
+      "bytes": 149398
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/nda-review",
+      "sha256": "1d744580486d1a52d148cb84d236a032190bc824816f94374375767409a5b493",
+      "bytes": 145022
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/offer-process",
+      "sha256": "9b434a52d62a7bea1c91f24213ba5d0148586c76c4a4daa81d2e3fa6474f78f7",
+      "bytes": 144422
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/on-brand-content",
+      "sha256": "e1430798eff06159f61acc5cb06a6ce752f10b89a54be209b73dd1e66e61a957",
+      "bytes": 138365
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/organize-files-by-whats-in-them",
+      "sha256": "0e0cec4f3d0c9640dbdc0231ba7dcf4fbf9b626b20ec1e51069ce1baa5e76cee",
+      "bytes": 104262
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/oncall-handoff-brief",
+      "sha256": "d6f59a9dc605a6b603006678ed70c8b3dcfdb65f5e3384601c0ee8e15e6f7f83",
+      "bytes": 135275
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/open-new-role",
+      "sha256": "be147eefa98eaf47b8819173fa8e6aabe656b7fab3f011a4c48ae574964f76e0",
+      "bytes": 138003
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/organize-files-in-google-drive",
+      "sha256": "824548696ef2611e99d51d496f060c714b385ec4420e417b004e3c87145a91b8",
+      "bytes": 94167
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/organize-your-business-finances",
+      "sha256": "caa7f7fc6276d3986ba1733b70eaad2b9c56b7ba2d2b03b14083ec416e38178b",
+      "bytes": 96752
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/package-your-brand-guidelines-in-a-skill",
+      "sha256": "f80f6ebb418ff5cb21915c13bcb71beb80ad04b08165c6d3d92d65a86a0c8f1e",
+      "bytes": 123519
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/organize-your-legal-workflows-using-projects",
+      "sha256": "33fd228c83e8ed0d5d57eb622b0dfd8f16dcd4ceba62b651cec2eea893d0b537",
+      "bytes": 113627
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/outside-counsel-review",
+      "sha256": "1b1a6d161db858828ae134b27b64277f7f01617e4ff8b9d1be4547ea95764f6b",
+      "bytes": 122123
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/pattern-consistency-audit",
+      "sha256": "249e76bada754944db4a962bc3726fc77d79171d566ddb91bc54e8b765a0f59d",
+      "bytes": 131633
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/performance-review-admin",
+      "sha256": "2423b8487d9e5f2c141ab722140e6966020b7c5ee78095697ed4443844db6369",
+      "bytes": 138973
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/pipeline-review",
+      "sha256": "a8d990cf10220e3a3803f5c52bb528e062a8bdaa7314f817eccc7ae0e783e423",
+      "bytes": 134651
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/plan-your-literature-review",
+      "sha256": "86b4c8c74b68bf3724287edd3606aa4897ea34d94eb8040d5f60c78a0ac5c70a",
+      "bytes": 112133
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/plan-your-career-path",
+      "sha256": "6e5617717c7d9f37e984c94ef4b03b791cc60d748f1e096b56f78820100b4377",
+      "bytes": 122037
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/plan-your-syllabus-see-which-weeks-are-locked",
+      "sha256": "5d14a503aff7fe17791df946106a1f1522948ccbd1be73a2aea0154d5a8a4b7b",
+      "bytes": 95610
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/practice-case-interviews-with-feedback",
+      "sha256": "7cdc1ca0f59408ab8b2197136a5bc871f5db55025e30494cd6ed49a5a5565580",
+      "bytes": 106030
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/prd-from-a-one-pager",
+      "sha256": "481d3ec10143ef97dae9903de66cdd3da68e74dc84a76cacbe5efa099909867e",
+      "bytes": 114844
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/preclinical-study-analysis",
+      "sha256": "d93d00db3b3f1df9ba565733064b794ff4debb7f9a90b68501cedc8de8c5d2f1",
+      "bytes": 96559
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/prepare-and-plan-from-your-calendar",
+      "sha256": "7d2625920c812a7d6945aa1cc808ad5247f62e6fcccd15c84dae7c627c50fe97",
+      "bytes": 90698
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/prep-scattered-documents-for-a-compliance-audit",
+      "sha256": "00f671e90495d43a372b76add19248c201c0cf0b9b79f9372effac54d6ae2506",
+      "bytes": 104808
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/process-batches-of-vendors-with-cowork",
+      "sha256": "79a300669b3f96ee20a27edeb921634d84baed6d232e78f6d0edf821b3a57d40",
+      "bytes": 98268
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/prepare-for-sales-deals",
+      "sha256": "7e4dd5c069f97430e9ac7978738a3b9a80e4a38eb09bb3987fe72caa6d1e4bec",
+      "bytes": 117326
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/pull-deal-and-account-state",
+      "sha256": "5141b8acab1d5f1816022f3c6e07e7af40a950c040eb544329a9f23a6b560ee6",
+      "bytes": 69144
+    },
+    {
+      "url": "https://academy.claude.com/assets/v1/content/use-cases/pull-deal-and-account-state/index-m9quayth.js",
+      "sha256": "1dbc66e45f8c5a45a7387934145301188312c6d0dbb9f2809785eef4c8fc484b",
+      "bytes": 8915
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/quickly-prep-for-your-week",
+      "sha256": "7780a08a4da39052610af3c91d2de00a41aa786f3d3e1437e79a35b4a2a742c9",
+      "bytes": 118061
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/pull-metrics-from-analytics-dashboards",
+      "sha256": "f43be8b037790397628365d56369693e099e4ab4e77b5aeaa50612d0105d6daf",
+      "bytes": 91853
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/recon-journal-entries",
+      "sha256": "fe3fd4246dc97f457ee20d0b87d4a60b8c5da926c2bd5d21d7c8b45edc200350",
+      "bytes": 138493
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/reconcile-transactions-across-your-accounts",
+      "sha256": "e125ae2cb4b43b37576d970ee2292cc44ef5699d87e07a897f286d5abfae5cf6",
+      "bytes": 104462
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/regulatory-analysis",
+      "sha256": "f9b6533a13d9485bbc31e71cac222bfe3b0ee2bd245466e3413ef97cded2fcbe",
+      "bytes": 143920
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/renewal-risk-audit",
+      "sha256": "42a979860e32e14404699c3dc3063dbfee781477dc9b7d1bf194f70450a64b97",
+      "bytes": 136512
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/repurpose-content",
+      "sha256": "3923581de99ef755a91a8c8cd6f2693b3154e58c288a6eeaec7065794e831ea8",
+      "bytes": 141226
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/research-and-compare-travel-destinations",
+      "sha256": "ec195a543be124948066ec5bc5b574c74713a58c2e62db66e1a731575040d624",
+      "bytes": 107361
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/see-budget-futures-side-by-side",
+      "sha256": "b88eb1df9dba587e7b024329678d3ae1a5d1a1db6be10cbf5333710d1eded234",
+      "bytes": 103991
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/see-what-your-campaign-goal-actually-requires",
+      "sha256": "f684aa886ae7cceb17c8ea9fa9ffb08b0b5d3b16b09ef8fbffef578a552c34af",
+      "bytes": 103983
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/see-why-donor-retention-beats-acquisition",
+      "sha256": "cc96e9dbb450a1bb857968f5b3bbec51ac6dd1142d4e61339ec1f328de8706fd",
+      "bytes": 102550
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/see-your-theory-of-change-in-chat-with-claude",
+      "sha256": "c430039c1663a8c632c89a69565e7bb82b68dd79a29c03309ab9f8cce5d1c0c0",
+      "bytes": 104082
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/size-a-market-using-your-research",
+      "sha256": "6ea7418ce9efde7684284d9d92a9497fe571df9fe85fff182b4a743932ef2359",
+      "bytes": 104541
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/source-insights-from-your-tools-to-build-a-deck",
+      "sha256": "8ec57c493c5226dd8724b1ed0d5647222f8258726342d75ba2b43cedd922dba3",
+      "bytes": 125378
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/sprint-retro-handoff",
+      "sha256": "bd220022a33f42e674b92f3cc4731935d1655d0cdad5350b78f73e2a732c4e69",
+      "bytes": 135460
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/sox-controls-doc",
+      "sha256": "85a17f823fd7757ff41cfea0063e339264bae6c19cb388f06817736aea1fccda",
+      "bytes": 135622
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/stress-test-your-financial-plan-across-scenarios",
+      "sha256": "a9d6cd4fa625bdc83558fcf8f521b3195fdecc43c2d1a7eac896a8d5a37aa11d",
+      "bytes": 112102
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/support-incident-postmortem",
+      "sha256": "ed4a7fa73906a2488598b1596b2751195bb6092fbb7effa3a2b72a27eadeee6b",
+      "bytes": 132982
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/surface-themes-from-all-your-feedback-channels",
+      "sha256": "f1b0b7cac7ed41b1442ac57f0ddc4f9f808129aa857f115ca82d63997c4bc062",
+      "bytes": 105962
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/thoughtful-gift-giving-with-claude",
+      "sha256": "8232e5ea8966ff367617169fad3877a438da84aac3813a7a90ae2452f1d36eb6",
+      "bytes": 111569
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/track-discovery-timelines-and-analyze-patterns",
+      "sha256": "c57f6ec6817869427492cf6569662321dc8a1903689fb267651808848a7fe14b",
+      "bytes": 118911
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/thread-to-decision",
+      "sha256": "4a48a8848427faca7408f85a537c0783af316c4f5a4b361e3340ecc45d0f003f",
+      "bytes": 140530
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/triage-on-call-alerts-and-diagnose-incidents",
+      "sha256": "a7f117f87b02f11138df6136e55491ba464be1f684f54b48c2f791185a5e05c8",
+      "bytes": 72123
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/transcript-themes",
+      "sha256": "bdc7772d9cb4b2b0bd7e537727681b00a39a9d5fe0888e117a1b13fc91b550b9",
+      "bytes": 134909
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/turn-emails-into-an-event-tracker",
+      "sha256": "a85e89afcbd5b736e599275f4177d2c620fbb416d2bd31e5dbcae52b42779240",
+      "bytes": 111506
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/turn-inspiration-to-design-plans",
+      "sha256": "206100a4b1a2cbf3411bd0e20fa967129e60fbc269c3a4dbf66d650d67c8b957",
+      "bytes": 109439
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/turn-research-into-presentations",
+      "sha256": "57d057991de73445dbdaed5e6ce22f4044dbd4c4b0a0bb4ab2a1dbea33a7c32b",
+      "bytes": 120491
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/turn-text-threads-to-researched-notes",
+      "sha256": "d10d63310c00eee56b166e62f044eac2602f6e5850a64d10383aeae6f50c1891",
+      "bytes": 119544
+    },
+    {
+      "url": "https://academy.claude.com/assets/v1/content/use-cases/triage-on-call-alerts-and-diagnose-incidents/index-tzt0cj7v.js",
+      "sha256": "a6f414b6ccc4adf6cedcdf7fff054de11e0483c1fa359db214043ef05ddbee03",
+      "bytes": 13483
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/turn-transit-time-into-research-time",
+      "sha256": "b06d256222a08bc084e092f971ca8c5ad4b36355bc576de30f22a3c6b572cdf1",
+      "bytes": 118958
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/understand-and-extend-an-inherited-spreadsheet",
+      "sha256": "2d924f334ef9f1a24cfc11e169fcf5f2ded1f18e4fe47a984d291d42c0bd9d59",
+      "bytes": 102594
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/update-your-financial-model-after-earnings",
+      "sha256": "70f51ab672f4cb87ff2695b9087ee35e5c4498ba91117d101c959da47ac71c7b",
+      "bytes": 117743
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/uxr-synthesis",
+      "sha256": "cd46dc2a7e6f74fa84587ae23445899680f1f2d4683dddc9dc6473f82ddd8002",
+      "bytes": 143914
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/validate-reserves-and-draft-filing-narrative-with-claude-for-excel",
+      "sha256": "44ef9264b1a595eb19f956ae1bb943dc67512b781d0034924948f3978c4118be",
+      "bytes": 108665
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/variance-exec-slides",
+      "sha256": "cd35f590f0bd02d85f0fd06169b645af130259ad60843a256a9e9fce1ea36840",
+      "bytes": 137211
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/vendor-negotiation",
+      "sha256": "fd0a3652c30e022be4b0a885120b42ed8caf8624a9d065a026865a3eff0baa91",
+      "bytes": 136070
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/vendor-risk-review",
+      "sha256": "418b03757034d1fa2b7f795168f6a608a58136050ce6b1fd5876578d867e2c5c",
+      "bytes": 149712
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/verify-statistics-from-raw-data",
+      "sha256": "870879269e6bd11de2bcc1986da6157ff191ce9c571c339f62b8627cf5a3830e",
+      "bytes": 107931
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/visualize-program-data",
+      "sha256": "5c9a2801350b6c37127740fcbb603e88ef199288da2ed799c46180a83801fca1",
+      "bytes": 121870
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/visualize-the-mechanism-behind-an-explanation-mid-chat",
+      "sha256": "6d4cef6ccd6bb8c664ae76847fcc1a411bf417893a019915fdc0a1137add22b9",
+      "bytes": 102691
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/watch-the-escalations-channel-and-page-only-for-p1",
+      "sha256": "198516ae60f0a04b1ab6d5ae04e73090100a8f79f0ba2454e8aad1418f3d76fd",
+      "bytes": 69341
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/week-ahead-prep",
+      "sha256": "7ff12dc10b5391e5b397e4f6b33c93b9505512a80f2f570c1ceea83ec58712af",
+      "bytes": 150605
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/weekly-status-posts-from-the-teams-channels-and-tracker",
+      "sha256": "abb1ceddabbe68668c64361f68ec48bebe7f43d712a6ad44593a76976e38b468",
+      "bytes": 67085
+    },
+    {
+      "url": "https://academy.claude.com/assets/v1/content/use-cases/watch-the-escalations-channel-and-page-only-for-p1/index-fmnoda58.js",
+      "sha256": "772fe9def9bf81325a82c62abaf0d6ce92e822de3ff0c3d42ce6c92d476b6566",
+      "bytes": 11516
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/work-through-grant-options-in-chat-with-claude",
+      "sha256": "cd142ce3eb344d254239c7d5c119e6112a79cbdecd246d682660e9c537931466",
+      "bytes": 102872
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/workflow-improvement-planner",
+      "sha256": "287650a8b54acdacffc195aea1ec5c2ccd7814d2062aa3197ca6f16a72cfb26e",
+      "bytes": 111720
+    },
+    {
+      "url": "https://academy.claude.com/assets/v1/content/use-cases/weekly-status-posts-from-the-teams-channels-and-tracker/index-dqubdm89.js",
+      "sha256": "2418b930137b16732b1dcb41c1946eb8758095d759afa17ef289774bcc970e22",
+      "bytes": 8929
+    },
+    {
+      "url": "https://academy.claude.com/use-cases/write-an-impact-report",
+      "sha256": "b4ac5a97ef91814c2ac18e3502d45a64813bb1364f407fe002b3707e1aa1269c",
+      "bytes": 108428
+    }
+  ]
+}

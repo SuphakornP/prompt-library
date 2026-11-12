@@ -1,0 +1,1936 @@
+{
+  "retrievedAt": "2026-11-12T10:47:55.764Z",
+  "sourceCounts": {
+    "chatgpt": 119,
+    "claude": 156
+  },
+  "entries": [
+    {
+      "sourceId": "chatgpt:generate-slide-decks",
+      "source": "chatgpt",
+      "url": "https://learn.chatgpt.com/use-cases/generate-slide-decks",
+      "status": "imported",
+      "catalogId": "fp-generate-slide-decks"
+    },
+    {
+      "sourceId": "chatgpt:manage-your-inbox",
+      "source": "chatgpt",
+      "url": "https://learn.chatgpt.com/use-cases/manage-your-inbox",
+      "status": "imported",
+      "catalogId": "fp-manage-your-inbox"
+    },
+    {
+      "sourceId": "chatgpt:use-your-computer-with-codex",
+      "source": "chatgpt",
+      "url": "https://learn.chatgpt.com/use-cases/use-your-computer-with-codex",
+      "status": "imported",
+      "catalogId": "fp-desktop-task-assistant"
+    },
+    {
+      "sourceId": "chatgpt:automation-bug-triage",
+      "source": "chatgpt",
+      "url": "https://learn.chatgpt.com/use-cases/automation-bug-triage",
+      "status": "imported",
+      "catalogId": "fp-automation-bug-triage"
+    },
+    {
+      "sourceId": "chatgpt:daily-work-brief",
+      "source": "chatgpt",
+      "url": "https://learn.chatgpt.com/use-cases/daily-work-brief",
+      "status": "imported",
+      "catalogId": "fp-daily-work-brief"
+    },
+    {
+      "sourceId": "chatgpt:discover-protein-folding-architectures",
+      "source": "chatgpt",
+      "url": "https://learn.chatgpt.com/use-cases/discover-protein-folding-architectures",
+      "status": "imported",
+      "catalogId": "fp-discover-protein-folding-architectures"
+    },
+    {
+      "sourceId": "chatgpt:analyze-data-export",
+      "source": "chatgpt",
+      "url": "https://learn.chatgpt.com/use-cases/analyze-data-export",
+      "status": "imported",
+      "catalogId": "fp-analyze-data-export"
+    },
+    {
+      "sourceId": "chatgpt:feedback-synthesis",
+      "source": "chatgpt",
+      "url": "https://learn.chatgpt.com/use-cases/feedback-synthesis",
+      "status": "imported",
+      "catalogId": "fp-feedback-synthesis"
+    },
+    {
+      "sourceId": "chatgpt:clean-messy-data",
+      "source": "chatgpt",
+      "url": "https://learn.chatgpt.com/use-cases/clean-messy-data",
+      "status": "imported",
+      "catalogId": "fp-clean-messy-data"
+    },
+    {
+      "sourceId": "chatgpt:target-prioritization",
+      "source": "chatgpt",
+      "url": "https://learn.chatgpt.com/use-cases/target-prioritization",
+      "status": "imported",
+      "catalogId": "fp-target-prioritization"
+    },
+    {
+      "sourceId": "chatgpt:scrna-seq-post-count-qc",
+      "source": "chatgpt",
+      "url": "https://learn.chatgpt.com/use-cases/scrna-seq-post-count-qc",
+      "status": "imported",
+      "catalogId": "fp-scrna-seq-post-count-qc"
+    },
+    {
+      "sourceId": "chatgpt:bulk-rna-seq-fastq-qc",
+      "source": "chatgpt",
+      "url": "https://learn.chatgpt.com/use-cases/bulk-rna-seq-fastq-qc",
+      "status": "imported",
+      "catalogId": "fp-bulk-rna-seq-fastq-qc"
+    },
+    {
+      "sourceId": "chatgpt:cash-flow-forecast",
+      "source": "chatgpt",
+      "url": "https://learn.chatgpt.com/use-cases/cash-flow-forecast",
+      "status": "imported",
+      "catalogId": "fp-cash-flow-forecast"
+    },
+    {
+      "sourceId": "chatgpt:datasets-and-reports",
+      "source": "chatgpt",
+      "url": "https://learn.chatgpt.com/use-cases/datasets-and-reports",
+      "status": "imported",
+      "catalogId": "fp-datasets-and-reports"
+    },
+    {
+      "sourceId": "chatgpt:dcf-model",
+      "source": "chatgpt",
+      "url": "https://learn.chatgpt.com/use-cases/dcf-model",
+      "status": "imported",
+      "catalogId": "fp-dcf-model"
+    },
+    {
+      "sourceId": "chatgpt:budget-vs-actuals-review",
+      "source": "chatgpt",
+      "url": "https://learn.chatgpt.com/use-cases/budget-vs-actuals-review",
+      "status": "imported",
+      "catalogId": "fp-budget-vs-actuals-review"
+    },
+    {
+      "sourceId": "chatgpt:github-code-reviews",
+      "source": "chatgpt",
+      "url": "https://learn.chatgpt.com/use-cases/github-code-reviews",
+      "status": "imported",
+      "catalogId": "fp-github-code-reviews"
+    },
+    {
+      "sourceId": "chatgpt:find-vulnerabilities-in-your-code",
+      "source": "chatgpt",
+      "url": "https://learn.chatgpt.com/use-cases/find-vulnerabilities-in-your-code",
+      "status": "imported",
+      "catalogId": "fp-find-vulnerabilities-in-your-code"
+    },
+    {
+      "sourceId": "chatgpt:macos-sidebar-detail-inspector",
+      "source": "chatgpt",
+      "url": "https://learn.chatgpt.com/use-cases/macos-sidebar-detail-inspector",
+      "status": "imported",
+      "catalogId": "fp-macos-sidebar-detail-inspector"
+    },
+    {
+      "sourceId": "chatgpt:frontend-designs",
+      "source": "chatgpt",
+      "url": "https://learn.chatgpt.com/use-cases/frontend-designs",
+      "status": "imported",
+      "catalogId": "fp-frontend-designs"
+    },
+    {
+      "sourceId": "chatgpt:codebase-onboarding",
+      "source": "chatgpt",
+      "url": "https://learn.chatgpt.com/use-cases/codebase-onboarding",
+      "status": "imported",
+      "catalogId": "fp-codebase-onboarding"
+    },
+    {
+      "sourceId": "chatgpt:getting-started-with-daybreak-blue",
+      "source": "chatgpt",
+      "url": "https://learn.chatgpt.com/use-cases/getting-started-with-daybreak-blue",
+      "status": "imported",
+      "catalogId": "fp-defensive-security-access"
+    },
+    {
+      "sourceId": "chatgpt:automate-security-reviews-in-github-cloud",
+      "source": "chatgpt",
+      "url": "https://learn.chatgpt.com/use-cases/automate-security-reviews-in-github-cloud",
+      "status": "imported",
+      "catalogId": "fp-automate-security-reviews-in-github-cloud"
+    },
+    {
+      "sourceId": "chatgpt:manage-supply-chain-risk-in-cicd",
+      "source": "chatgpt",
+      "url": "https://learn.chatgpt.com/use-cases/manage-supply-chain-risk-in-cicd",
+      "status": "imported",
+      "catalogId": "fp-manage-supply-chain-risk-in-cicd"
+    },
+    {
+      "sourceId": "chatgpt:review-code-changes-in-codex-desktop",
+      "source": "chatgpt",
+      "url": "https://learn.chatgpt.com/use-cases/review-code-changes-in-codex-desktop",
+      "status": "imported",
+      "catalogId": "fp-local-security-review"
+    },
+    {
+      "sourceId": "chatgpt:set-up-security-context",
+      "source": "chatgpt",
+      "url": "https://learn.chatgpt.com/use-cases/set-up-security-context",
+      "status": "imported",
+      "catalogId": "fp-set-up-security-context"
+    },
+    {
+      "sourceId": "chatgpt:fix-a-finding-from-your-security-scan",
+      "source": "chatgpt",
+      "url": "https://learn.chatgpt.com/use-cases/fix-a-finding-from-your-security-scan",
+      "status": "imported",
+      "catalogId": "fp-fix-a-finding-from-your-security-scan"
+    },
+    {
+      "sourceId": "chatgpt:slack-coding-tasks",
+      "source": "chatgpt",
+      "url": "https://learn.chatgpt.com/use-cases/slack-coding-tasks",
+      "status": "imported",
+      "catalogId": "fp-slack-coding-tasks"
+    },
+    {
+      "sourceId": "chatgpt:new-hire-onboarding",
+      "source": "chatgpt",
+      "url": "https://learn.chatgpt.com/use-cases/new-hire-onboarding",
+      "status": "imported",
+      "catalogId": "fp-new-hire-onboarding"
+    },
+    {
+      "sourceId": "chatgpt:deep-security-scan",
+      "source": "chatgpt",
+      "url": "https://learn.chatgpt.com/use-cases/deep-security-scan",
+      "status": "imported",
+      "catalogId": "fp-deep-security-scan"
+    },
+    {
+      "sourceId": "chatgpt:zoom-meeting-follow-ups",
+      "source": "chatgpt",
+      "url": "https://learn.chatgpt.com/use-cases/zoom-meeting-follow-ups",
+      "status": "imported",
+      "catalogId": "fp-zoom-meeting-follow-ups"
+    },
+    {
+      "sourceId": "chatgpt:learn-a-new-concept",
+      "source": "chatgpt",
+      "url": "https://learn.chatgpt.com/use-cases/learn-a-new-concept",
+      "status": "imported",
+      "catalogId": "fp-learn-a-new-concept"
+    },
+    {
+      "sourceId": "chatgpt:idea-to-proof-of-concept",
+      "source": "chatgpt",
+      "url": "https://learn.chatgpt.com/use-cases/idea-to-proof-of-concept",
+      "status": "imported",
+      "catalogId": "fp-idea-to-proof-of-concept"
+    },
+    {
+      "sourceId": "chatgpt:deploy-app-or-website",
+      "source": "chatgpt",
+      "url": "https://learn.chatgpt.com/use-cases/deploy-app-or-website",
+      "status": "imported",
+      "catalogId": "fp-deploy-app-or-website"
+    },
+    {
+      "sourceId": "chatgpt:remediate-vulnerability-backlog",
+      "source": "chatgpt",
+      "url": "https://learn.chatgpt.com/use-cases/remediate-vulnerability-backlog",
+      "status": "imported",
+      "catalogId": "fp-remediate-vulnerability-backlog"
+    },
+    {
+      "sourceId": "chatgpt:scan-code-changes-for-security",
+      "source": "chatgpt",
+      "url": "https://learn.chatgpt.com/use-cases/scan-code-changes-for-security",
+      "status": "imported",
+      "catalogId": "fp-scan-code-changes-for-security"
+    },
+    {
+      "sourceId": "chatgpt:dependency-incident-audits",
+      "source": "chatgpt",
+      "url": "https://learn.chatgpt.com/use-cases/dependency-incident-audits",
+      "status": "imported",
+      "catalogId": "fp-dependency-incident-audits"
+    },
+    {
+      "sourceId": "chatgpt:qa-your-app-with-computer-use",
+      "source": "chatgpt",
+      "url": "https://learn.chatgpt.com/use-cases/qa-your-app-with-computer-use",
+      "status": "imported",
+      "catalogId": "fp-qa-your-app-with-computer-use"
+    },
+    {
+      "sourceId": "chatgpt:api-integration-migrations",
+      "source": "chatgpt",
+      "url": "https://learn.chatgpt.com/use-cases/api-integration-migrations",
+      "status": "imported",
+      "catalogId": "fp-api-integration-migrations"
+    },
+    {
+      "sourceId": "chatgpt:complete-tasks-from-messages",
+      "source": "chatgpt",
+      "url": "https://learn.chatgpt.com/use-cases/complete-tasks-from-messages",
+      "status": "imported",
+      "catalogId": "fp-complete-tasks-from-messages"
+    },
+    {
+      "sourceId": "chatgpt:figma-designs-to-code",
+      "source": "chatgpt",
+      "url": "https://learn.chatgpt.com/use-cases/figma-designs-to-code",
+      "status": "imported",
+      "catalogId": "fp-figma-designs-to-code"
+    },
+    {
+      "sourceId": "chatgpt:browser-games",
+      "source": "chatgpt",
+      "url": "https://learn.chatgpt.com/use-cases/browser-games",
+      "status": "imported",
+      "catalogId": "fp-browser-games"
+    },
+    {
+      "sourceId": "chatgpt:reusable-codex-skills",
+      "source": "chatgpt",
+      "url": "https://learn.chatgpt.com/use-cases/reusable-codex-skills",
+      "status": "imported",
+      "catalogId": "fp-reusable-agent-skills"
+    },
+    {
+      "sourceId": "chatgpt:iterate-on-difficult-problems",
+      "source": "chatgpt",
+      "url": "https://learn.chatgpt.com/use-cases/iterate-on-difficult-problems",
+      "status": "imported",
+      "catalogId": "fp-iterate-on-difficult-problems"
+    },
+    {
+      "sourceId": "chatgpt:monthly-business-review-narrative",
+      "source": "chatgpt",
+      "url": "https://learn.chatgpt.com/use-cases/monthly-business-review-narrative",
+      "status": "imported",
+      "catalogId": "fp-monthly-business-review-narrative"
+    },
+    {
+      "sourceId": "chatgpt:cfo-board-reporting-pack",
+      "source": "chatgpt",
+      "url": "https://learn.chatgpt.com/use-cases/cfo-board-reporting-pack",
+      "status": "imported",
+      "catalogId": "fp-cfo-board-reporting-pack"
+    },
+    {
+      "sourceId": "chatgpt:meeting-prep-briefs",
+      "source": "chatgpt",
+      "url": "https://learn.chatgpt.com/use-cases/meeting-prep-briefs",
+      "status": "imported",
+      "catalogId": "fp-meeting-prep-briefs"
+    },
+    {
+      "sourceId": "chatgpt:update-documentation",
+      "source": "chatgpt",
+      "url": "https://learn.chatgpt.com/use-cases/update-documentation",
+      "status": "imported",
+      "catalogId": "fp-update-documentation"
+    },
+    {
+      "sourceId": "chatgpt:native-ios-apps",
+      "source": "chatgpt",
+      "url": "https://learn.chatgpt.com/use-cases/native-ios-apps",
+      "status": "imported",
+      "catalogId": "fp-native-ios-apps"
+    },
+    {
+      "sourceId": "chatgpt:scan-multiple-repositories",
+      "source": "chatgpt",
+      "url": "https://learn.chatgpt.com/use-cases/scan-multiple-repositories",
+      "status": "imported",
+      "catalogId": "fp-scan-multiple-repositories"
+    },
+    {
+      "sourceId": "chatgpt:kpi-root-cause-analysis",
+      "source": "chatgpt",
+      "url": "https://learn.chatgpt.com/use-cases/kpi-root-cause-analysis",
+      "status": "imported",
+      "catalogId": "fp-kpi-root-cause-analysis"
+    },
+    {
+      "sourceId": "chatgpt:dashboard-builder-monitor",
+      "source": "chatgpt",
+      "url": "https://learn.chatgpt.com/use-cases/dashboard-builder-monitor",
+      "status": "imported",
+      "catalogId": "fp-dashboard-builder-monitor"
+    },
+    {
+      "sourceId": "chatgpt:strategic-initiative-health-update",
+      "source": "chatgpt",
+      "url": "https://learn.chatgpt.com/use-cases/strategic-initiative-health-update",
+      "status": "imported",
+      "catalogId": "fp-strategic-initiative-health-update"
+    },
+    {
+      "sourceId": "chatgpt:prioritize-accounts",
+      "source": "chatgpt",
+      "url": "https://learn.chatgpt.com/use-cases/prioritize-accounts",
+      "status": "imported",
+      "catalogId": "fp-prioritize-accounts"
+    },
+    {
+      "sourceId": "chatgpt:forecast-risk-review",
+      "source": "chatgpt",
+      "url": "https://learn.chatgpt.com/use-cases/forecast-risk-review",
+      "status": "imported",
+      "catalogId": "fp-forecast-risk-review"
+    },
+    {
+      "sourceId": "chatgpt:run-student-club-project",
+      "source": "chatgpt",
+      "url": "https://learn.chatgpt.com/use-cases/run-student-club-project",
+      "status": "imported",
+      "catalogId": "fp-run-student-club-project"
+    },
+    {
+      "sourceId": "chatgpt:analytics-request-agent",
+      "source": "chatgpt",
+      "url": "https://learn.chatgpt.com/use-cases/analytics-request-agent",
+      "status": "imported",
+      "catalogId": "fp-analytics-request-agent"
+    },
+    {
+      "sourceId": "chatgpt:research-to-decision-memo",
+      "source": "chatgpt",
+      "url": "https://learn.chatgpt.com/use-cases/research-to-decision-memo",
+      "status": "imported",
+      "catalogId": "fp-research-to-decision-memo"
+    },
+    {
+      "sourceId": "chatgpt:initiative-off-track-brief",
+      "source": "chatgpt",
+      "url": "https://learn.chatgpt.com/use-cases/initiative-off-track-brief",
+      "status": "imported",
+      "catalogId": "fp-initiative-off-track-brief"
+    },
+    {
+      "sourceId": "chatgpt:refactor-your-codebase",
+      "source": "chatgpt",
+      "url": "https://learn.chatgpt.com/use-cases/refactor-your-codebase",
+      "status": "imported",
+      "catalogId": "fp-refactor-your-codebase"
+    },
+    {
+      "sourceId": "chatgpt:ios-liquid-glass",
+      "source": "chatgpt",
+      "url": "https://learn.chatgpt.com/use-cases/ios-liquid-glass",
+      "status": "imported",
+      "catalogId": "fp-ios-liquid-glass"
+    },
+    {
+      "sourceId": "chatgpt:native-macos-apps",
+      "source": "chatgpt",
+      "url": "https://learn.chatgpt.com/use-cases/native-macos-apps",
+      "status": "imported",
+      "catalogId": "fp-native-macos-apps"
+    },
+    {
+      "sourceId": "chatgpt:ios-simulator-bug-debugging",
+      "source": "chatgpt",
+      "url": "https://learn.chatgpt.com/use-cases/ios-simulator-bug-debugging",
+      "status": "imported",
+      "catalogId": "fp-ios-simulator-bug-debugging"
+    },
+    {
+      "sourceId": "chatgpt:ios-app-intents",
+      "source": "chatgpt",
+      "url": "https://learn.chatgpt.com/use-cases/ios-app-intents",
+      "status": "imported",
+      "catalogId": "fp-ios-app-intents"
+    },
+    {
+      "sourceId": "chatgpt:macos-telemetry-logs",
+      "source": "chatgpt",
+      "url": "https://learn.chatgpt.com/use-cases/macos-telemetry-logs",
+      "status": "imported",
+      "catalogId": "fp-macos-telemetry-logs"
+    },
+    {
+      "sourceId": "chatgpt:code-migrations",
+      "source": "chatgpt",
+      "url": "https://learn.chatgpt.com/use-cases/code-migrations",
+      "status": "imported",
+      "catalogId": "fp-code-migrations"
+    },
+    {
+      "sourceId": "chatgpt:create-custom-review-workflows-with-github-actions",
+      "source": "chatgpt",
+      "url": "https://learn.chatgpt.com/use-cases/create-custom-review-workflows-with-github-actions",
+      "status": "imported",
+      "catalogId": "fp-create-custom-review-workflows-with-github-actions"
+    },
+    {
+      "sourceId": "chatgpt:run-security-reviews-from-the-cli",
+      "source": "chatgpt",
+      "url": "https://learn.chatgpt.com/use-cases/run-security-reviews-from-the-cli",
+      "status": "imported",
+      "catalogId": "fp-run-security-reviews-from-the-cli"
+    },
+    {
+      "sourceId": "chatgpt:automate-security-scans-in-ci",
+      "source": "chatgpt",
+      "url": "https://learn.chatgpt.com/use-cases/automate-security-scans-in-ci",
+      "status": "imported",
+      "catalogId": "fp-automate-security-scans-in-ci"
+    },
+    {
+      "sourceId": "chatgpt:audit-course-section-consistency",
+      "source": "chatgpt",
+      "url": "https://learn.chatgpt.com/use-cases/audit-course-section-consistency",
+      "status": "imported",
+      "catalogId": "fp-audit-course-section-consistency"
+    },
+    {
+      "sourceId": "chatgpt:build-unit-plan-from-sources",
+      "source": "chatgpt",
+      "url": "https://learn.chatgpt.com/use-cases/build-unit-plan-from-sources",
+      "status": "imported",
+      "catalogId": "fp-build-unit-plan-from-sources"
+    },
+    {
+      "sourceId": "chatgpt:variance-driver-bridge",
+      "source": "chatgpt",
+      "url": "https://learn.chatgpt.com/use-cases/variance-driver-bridge",
+      "status": "imported",
+      "catalogId": "fp-variance-driver-bridge"
+    },
+    {
+      "sourceId": "chatgpt:build-interactive-lesson-resource",
+      "source": "chatgpt",
+      "url": "https://learn.chatgpt.com/use-cases/build-interactive-lesson-resource",
+      "status": "imported",
+      "catalogId": "fp-build-interactive-lesson-resource"
+    },
+    {
+      "sourceId": "chatgpt:calibrate-assessments",
+      "source": "chatgpt",
+      "url": "https://learn.chatgpt.com/use-cases/calibrate-assessments",
+      "status": "imported",
+      "catalogId": "fp-calibrate-assessments"
+    },
+    {
+      "sourceId": "chatgpt:finance-model-cleanup",
+      "source": "chatgpt",
+      "url": "https://learn.chatgpt.com/use-cases/finance-model-cleanup",
+      "status": "imported",
+      "catalogId": "fp-finance-model-cleanup"
+    },
+    {
+      "sourceId": "chatgpt:create-classroom-materials-pack",
+      "source": "chatgpt",
+      "url": "https://learn.chatgpt.com/use-cases/create-classroom-materials-pack",
+      "status": "imported",
+      "catalogId": "fp-create-classroom-materials-pack"
+    },
+    {
+      "sourceId": "chatgpt:create-lesson-deck",
+      "source": "chatgpt",
+      "url": "https://learn.chatgpt.com/use-cases/create-lesson-deck",
+      "status": "imported",
+      "catalogId": "fp-create-lesson-deck"
+    },
+    {
+      "sourceId": "chatgpt:stalled-deal-diagnosis",
+      "source": "chatgpt",
+      "url": "https://learn.chatgpt.com/use-cases/stalled-deal-diagnosis",
+      "status": "imported",
+      "catalogId": "fp-stalled-deal-diagnosis"
+    },
+    {
+      "sourceId": "chatgpt:business-impact-readout",
+      "source": "chatgpt",
+      "url": "https://learn.chatgpt.com/use-cases/business-impact-readout",
+      "status": "imported",
+      "catalogId": "fp-business-impact-readout"
+    },
+    {
+      "sourceId": "chatgpt:scenario-tradeoff-model",
+      "source": "chatgpt",
+      "url": "https://learn.chatgpt.com/use-cases/scenario-tradeoff-model",
+      "status": "imported",
+      "catalogId": "fp-scenario-tradeoff-model"
+    },
+    {
+      "sourceId": "chatgpt:organize-lesson-unit-folder",
+      "source": "chatgpt",
+      "url": "https://learn.chatgpt.com/use-cases/organize-lesson-unit-folder",
+      "status": "imported",
+      "catalogId": "fp-organize-lesson-unit-folder"
+    },
+    {
+      "sourceId": "chatgpt:organize-semester-workspace",
+      "source": "chatgpt",
+      "url": "https://learn.chatgpt.com/use-cases/organize-semester-workspace",
+      "status": "imported",
+      "catalogId": "fp-organize-semester-workspace"
+    },
+    {
+      "sourceId": "chatgpt:plan-budget-and-schedule",
+      "source": "chatgpt",
+      "url": "https://learn.chatgpt.com/use-cases/plan-budget-and-schedule",
+      "status": "imported",
+      "catalogId": "fp-plan-budget-and-schedule"
+    },
+    {
+      "sourceId": "chatgpt:prepare-committee-packet",
+      "source": "chatgpt",
+      "url": "https://learn.chatgpt.com/use-cases/prepare-committee-packet",
+      "status": "imported",
+      "catalogId": "fp-prepare-committee-packet"
+    },
+    {
+      "sourceId": "chatgpt:refresh-forecast-and-plan",
+      "source": "chatgpt",
+      "url": "https://learn.chatgpt.com/use-cases/refresh-forecast-and-plan",
+      "status": "imported",
+      "catalogId": "fp-refresh-forecast-and-plan"
+    },
+    {
+      "sourceId": "chatgpt:strategic-account-plan",
+      "source": "chatgpt",
+      "url": "https://learn.chatgpt.com/use-cases/strategic-account-plan",
+      "status": "imported",
+      "catalogId": "fp-strategic-account-plan"
+    },
+    {
+      "sourceId": "chatgpt:refresh-course-materials",
+      "source": "chatgpt",
+      "url": "https://learn.chatgpt.com/use-cases/refresh-course-materials",
+      "status": "imported",
+      "catalogId": "fp-refresh-course-materials"
+    },
+    {
+      "sourceId": "chatgpt:revise-lesson-package",
+      "source": "chatgpt",
+      "url": "https://learn.chatgpt.com/use-cases/revise-lesson-package",
+      "status": "imported",
+      "catalogId": "fp-revise-lesson-package"
+    },
+    {
+      "sourceId": "chatgpt:synthesize-research-evidence",
+      "source": "chatgpt",
+      "url": "https://learn.chatgpt.com/use-cases/synthesize-research-evidence",
+      "status": "imported",
+      "catalogId": "fp-synthesize-research-evidence"
+    },
+    {
+      "sourceId": "chatgpt:track-course-engagement",
+      "source": "chatgpt",
+      "url": "https://learn.chatgpt.com/use-cases/track-course-engagement",
+      "status": "imported",
+      "catalogId": "fp-track-course-engagement"
+    },
+    {
+      "sourceId": "chatgpt:track-job-applications",
+      "source": "chatgpt",
+      "url": "https://learn.chatgpt.com/use-cases/track-job-applications",
+      "status": "imported",
+      "catalogId": "fp-track-job-applications"
+    },
+    {
+      "sourceId": "chatgpt:ios-swiftui-view-refactor",
+      "source": "chatgpt",
+      "url": "https://learn.chatgpt.com/use-cases/ios-swiftui-view-refactor",
+      "status": "imported",
+      "catalogId": "fp-ios-swiftui-view-refactor"
+    },
+    {
+      "sourceId": "chatgpt:build-student-website",
+      "source": "chatgpt",
+      "url": "https://learn.chatgpt.com/use-cases/build-student-website",
+      "status": "imported",
+      "catalogId": "fp-build-student-website"
+    },
+    {
+      "sourceId": "chatgpt:build-exam-study-system",
+      "source": "chatgpt",
+      "url": "https://learn.chatgpt.com/use-cases/build-exam-study-system",
+      "status": "imported",
+      "catalogId": "fp-build-exam-study-system"
+    },
+    {
+      "sourceId": "chatgpt:build-and-deploy-internal-apps",
+      "source": "chatgpt",
+      "url": "https://learn.chatgpt.com/use-cases/build-and-deploy-internal-apps",
+      "status": "imported",
+      "catalogId": "fp-build-and-deploy-internal-apps"
+    },
+    {
+      "sourceId": "chatgpt:draft-prds-from-sources",
+      "source": "chatgpt",
+      "url": "https://learn.chatgpt.com/use-cases/draft-prds-from-sources",
+      "status": "imported",
+      "catalogId": "fp-draft-prds-from-sources"
+    },
+    {
+      "sourceId": "chatgpt:follow-goals",
+      "source": "chatgpt",
+      "url": "https://learn.chatgpt.com/use-cases/follow-goals",
+      "status": "imported",
+      "catalogId": "fp-follow-goals"
+    },
+    {
+      "sourceId": "chatgpt:project-teammate",
+      "source": "chatgpt",
+      "url": "https://learn.chatgpt.com/use-cases/project-teammate",
+      "status": "imported",
+      "catalogId": "fp-project-teammate"
+    },
+    {
+      "sourceId": "chatgpt:build-an-ai-tour-guide",
+      "source": "chatgpt",
+      "url": "https://learn.chatgpt.com/use-cases/build-an-ai-tour-guide",
+      "status": "imported",
+      "catalogId": "fp-build-an-ai-tour-guide"
+    },
+    {
+      "sourceId": "chatgpt:track-bills-subscriptions-and-spending",
+      "source": "chatgpt",
+      "url": "https://learn.chatgpt.com/use-cases/track-bills-subscriptions-and-spending",
+      "status": "imported",
+      "catalogId": "fp-track-bills-subscriptions-and-spending"
+    },
+    {
+      "sourceId": "chatgpt:ai-app-evals",
+      "source": "chatgpt",
+      "url": "https://learn.chatgpt.com/use-cases/ai-app-evals",
+      "status": "imported",
+      "catalogId": "fp-ai-app-evals"
+    },
+    {
+      "sourceId": "chatgpt:user-stories-to-ui-mocks",
+      "source": "chatgpt",
+      "url": "https://learn.chatgpt.com/use-cases/user-stories-to-ui-mocks",
+      "status": "imported",
+      "catalogId": "fp-user-stories-to-ui-mocks"
+    },
+    {
+      "sourceId": "chatgpt:slack-action-triage",
+      "source": "chatgpt",
+      "url": "https://learn.chatgpt.com/use-cases/slack-action-triage",
+      "status": "imported",
+      "catalogId": "fp-slack-action-triage"
+    },
+    {
+      "sourceId": "chatgpt:react-native-expo-apps",
+      "source": "chatgpt",
+      "url": "https://learn.chatgpt.com/use-cases/react-native-expo-apps",
+      "status": "imported",
+      "catalogId": "fp-react-native-expo-apps"
+    },
+    {
+      "sourceId": "chatgpt:agent-friendly-clis",
+      "source": "chatgpt",
+      "url": "https://learn.chatgpt.com/use-cases/agent-friendly-clis",
+      "status": "imported",
+      "catalogId": "fp-agent-friendly-clis"
+    },
+    {
+      "sourceId": "chatgpt:verified-operations-workflows",
+      "source": "chatgpt",
+      "url": "https://learn.chatgpt.com/use-cases/verified-operations-workflows",
+      "status": "imported",
+      "catalogId": "fp-verified-operations-workflows"
+    },
+    {
+      "sourceId": "chatgpt:event-launch-playbooks",
+      "source": "chatgpt",
+      "url": "https://learn.chatgpt.com/use-cases/event-launch-playbooks",
+      "status": "imported",
+      "catalogId": "fp-event-launch-playbooks"
+    },
+    {
+      "sourceId": "chatgpt:chatgpt-apps",
+      "source": "chatgpt",
+      "url": "https://learn.chatgpt.com/use-cases/chatgpt-apps",
+      "status": "imported",
+      "catalogId": "fp-conversational-app-tools"
+    },
+    {
+      "sourceId": "chatgpt:audit-workflow",
+      "source": "chatgpt",
+      "url": "https://learn.chatgpt.com/use-cases/audit-workflow",
+      "status": "imported",
+      "catalogId": "fp-audit-workflow"
+    },
+    {
+      "sourceId": "chatgpt:launch-campaign-kit",
+      "source": "chatgpt",
+      "url": "https://learn.chatgpt.com/use-cases/launch-campaign-kit",
+      "status": "imported",
+      "catalogId": "fp-launch-campaign-kit"
+    },
+    {
+      "sourceId": "chatgpt:incident-to-tested-fix",
+      "source": "chatgpt",
+      "url": "https://learn.chatgpt.com/use-cases/incident-to-tested-fix",
+      "status": "imported",
+      "catalogId": "fp-incident-to-tested-fix"
+    },
+    {
+      "sourceId": "chatgpt:migrate-a-validation-module",
+      "source": "chatgpt",
+      "url": "https://learn.chatgpt.com/use-cases/migrate-a-validation-module",
+      "status": "imported",
+      "catalogId": "fp-migrate-a-validation-module"
+    },
+    {
+      "sourceId": "chatgpt:build-workshop-practice-site",
+      "source": "chatgpt",
+      "url": "https://learn.chatgpt.com/use-cases/build-workshop-practice-site",
+      "status": "imported",
+      "catalogId": "fp-build-workshop-practice-site"
+    },
+    {
+      "sourceId": "chatgpt:build-personal-onboarding-plan",
+      "source": "chatgpt",
+      "url": "https://learn.chatgpt.com/use-cases/build-personal-onboarding-plan",
+      "status": "imported",
+      "catalogId": "fp-build-personal-onboarding-plan"
+    },
+    {
+      "sourceId": "chatgpt:collect-and-schedule-team-requests",
+      "source": "chatgpt",
+      "url": "https://learn.chatgpt.com/use-cases/collect-and-schedule-team-requests",
+      "status": "imported",
+      "catalogId": "fp-collect-and-schedule-team-requests"
+    },
+    {
+      "sourceId": "chatgpt:compare-campaign-performance",
+      "source": "chatgpt",
+      "url": "https://learn.chatgpt.com/use-cases/compare-campaign-performance",
+      "status": "imported",
+      "catalogId": "fp-compare-campaign-performance"
+    },
+    {
+      "sourceId": "chatgpt:consolidate-spreadsheets",
+      "source": "chatgpt",
+      "url": "https://learn.chatgpt.com/use-cases/consolidate-spreadsheets",
+      "status": "imported",
+      "catalogId": "fp-consolidate-spreadsheets"
+    },
+    {
+      "sourceId": "chatgpt:weekly-work-summary",
+      "source": "chatgpt",
+      "url": "https://learn.chatgpt.com/use-cases/weekly-work-summary",
+      "status": "imported",
+      "catalogId": "fp-weekly-work-summary"
+    },
+    {
+      "sourceId": "chatgpt:issue-to-tested-pr",
+      "source": "chatgpt",
+      "url": "https://learn.chatgpt.com/use-cases/issue-to-tested-pr",
+      "status": "imported",
+      "catalogId": "fp-issue-to-tested-pr"
+    },
+    {
+      "sourceId": "claude:account-research-brief",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/account-research-brief",
+      "status": "imported",
+      "catalogId": "fp-account-research-brief"
+    },
+    {
+      "sourceId": "claude:account-tracking",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/account-tracking",
+      "status": "imported",
+      "catalogId": "fp-account-tracking"
+    },
+    {
+      "sourceId": "claude:ad-performance-recap",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/ad-performance-recap",
+      "status": "imported",
+      "catalogId": "fp-ad-performance-recap"
+    },
+    {
+      "sourceId": "claude:adapt-a-standard-textbook-page-to-every-reading-level",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/adapt-a-standard-textbook-page-to-every-reading-level",
+      "status": "imported",
+      "catalogId": "fp-adapt-a-standard-textbook-page-to-every-reading-level"
+    },
+    {
+      "sourceId": "claude:adapt-content-across-platforms",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/adapt-content-across-platforms",
+      "status": "imported",
+      "catalogId": "fp-adapt-content-across-platforms"
+    },
+    {
+      "sourceId": "claude:analyze-campaign-performance",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/analyze-campaign-performance",
+      "status": "imported",
+      "catalogId": "fp-analyze-campaign-performance"
+    },
+    {
+      "sourceId": "claude:analyze-fundraising-performance",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/analyze-fundraising-performance",
+      "status": "imported",
+      "catalogId": "fp-analyze-fundraising-performance"
+    },
+    {
+      "sourceId": "claude:analyze-patterns-in-user-feedback",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/analyze-patterns-in-user-feedback",
+      "status": "imported",
+      "catalogId": "fp-analyze-patterns-in-user-feedback"
+    },
+    {
+      "sourceId": "claude:answer-requests-in-the-it-help-channel",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/answer-requests-in-the-it-help-channel",
+      "status": "imported",
+      "catalogId": "fp-answer-requests-in-the-it-help-channel"
+    },
+    {
+      "sourceId": "claude:answer-the-adhoc",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/answer-the-adhoc",
+      "status": "imported",
+      "catalogId": "fp-answer-the-adhoc"
+    },
+    {
+      "sourceId": "claude:apply-a-formula-as-you-learn-it-in-chat-with-claude",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/apply-a-formula-as-you-learn-it-in-chat-with-claude",
+      "status": "imported",
+      "catalogId": "fp-apply-a-formula-as-you-learn-it-in-chat-with-claude"
+    },
+    {
+      "sourceId": "claude:ask-the-company",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/ask-the-company",
+      "status": "imported",
+      "catalogId": "fp-ask-the-company"
+    },
+    {
+      "sourceId": "claude:audit-a-folder-of-visual-assets-against-your-guidelines",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/audit-a-folder-of-visual-assets-against-your-guidelines",
+      "status": "imported",
+      "catalogId": "fp-audit-a-folder-of-visual-assets-against-your-guidelines"
+    },
+    {
+      "sourceId": "claude:brand-guidelines-skill",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/brand-guidelines-skill",
+      "status": "imported",
+      "catalogId": "fp-brand-guidelines-skill",
+      "reason": "Both workflows turn the same brand references into a reusable generation skill. The combined record preserves exact design tokens, voice rules, document/deck/spreadsheet styling, reference testing, and guideline refreshes."
+    },
+    {
+      "sourceId": "claude:bring-your-whiteboard-lesson-to-life",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/bring-your-whiteboard-lesson-to-life",
+      "status": "imported",
+      "catalogId": "fp-bring-your-whiteboard-lesson-to-life"
+    },
+    {
+      "sourceId": "claude:build-a-battle-card-library",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/build-a-battle-card-library",
+      "status": "imported",
+      "catalogId": "fp-build-a-battle-card-library"
+    },
+    {
+      "sourceId": "claude:build-a-custom-bucket-list-app",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/build-a-custom-bucket-list-app",
+      "status": "imported",
+      "catalogId": "fp-build-a-custom-bucket-list-app"
+    },
+    {
+      "sourceId": "claude:build-a-daily-briefing-across-your-tools",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/build-a-daily-briefing-across-your-tools",
+      "status": "imported",
+      "catalogId": "fp-build-a-daily-briefing-across-your-tools"
+    },
+    {
+      "sourceId": "claude:build-analysis-from-browser-charts-and-folder-data",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/build-analysis-from-browser-charts-and-folder-data",
+      "status": "imported",
+      "catalogId": "fp-build-analysis-from-browser-charts-and-folder-data"
+    },
+    {
+      "sourceId": "claude:build-customer-personas",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/build-customer-personas",
+      "status": "imported",
+      "catalogId": "fp-build-customer-personas"
+    },
+    {
+      "sourceId": "claude:build-financial-models",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/build-financial-models",
+      "status": "imported",
+      "catalogId": "fp-build-financial-models"
+    },
+    {
+      "sourceId": "claude:build-interactive-diagram-tools",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/build-interactive-diagram-tools",
+      "status": "imported",
+      "catalogId": "fp-build-interactive-diagram-tools"
+    },
+    {
+      "sourceId": "claude:call-prep-sheet",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/call-prep-sheet",
+      "status": "imported",
+      "catalogId": "fp-call-prep-sheet"
+    },
+    {
+      "sourceId": "claude:campaign-brief",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/campaign-brief",
+      "status": "imported",
+      "catalogId": "fp-campaign-brief"
+    },
+    {
+      "sourceId": "claude:chart-a-metric-from-your-data-warehouse",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/chart-a-metric-from-your-data-warehouse",
+      "status": "imported",
+      "catalogId": "fp-chart-a-metric-from-your-data-warehouse"
+    },
+    {
+      "sourceId": "claude:chart-your-data-before-you-commit",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/chart-your-data-before-you-commit",
+      "status": "imported",
+      "catalogId": "fp-chart-your-data-before-you-commit"
+    },
+    {
+      "sourceId": "claude:clean-up-promotional-emails",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/clean-up-promotional-emails",
+      "status": "imported",
+      "catalogId": "fp-clean-up-promotional-emails"
+    },
+    {
+      "sourceId": "claude:clickable-prototype",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/clickable-prototype",
+      "status": "imported",
+      "catalogId": "fp-clickable-prototype"
+    },
+    {
+      "sourceId": "claude:cloud-cost-anomalies",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/cloud-cost-anomalies",
+      "status": "imported",
+      "catalogId": "fp-cloud-cost-anomalies"
+    },
+    {
+      "sourceId": "claude:compare-and-analyze-competing-options",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/compare-and-analyze-competing-options",
+      "status": "imported",
+      "catalogId": "fp-compare-and-analyze-competing-options"
+    },
+    {
+      "sourceId": "claude:compare-products-across-sites",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/compare-products-across-sites",
+      "status": "imported",
+      "catalogId": "fp-compare-products-across-sites"
+    },
+    {
+      "sourceId": "claude:competitive-teardown",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/competitive-teardown",
+      "status": "imported",
+      "catalogId": "fp-competitive-teardown"
+    },
+    {
+      "sourceId": "claude:competitor-comparison",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/competitor-comparison",
+      "status": "imported",
+      "catalogId": "fp-competitor-comparison"
+    },
+    {
+      "sourceId": "claude:contract-playbook-review",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/contract-playbook-review",
+      "status": "imported",
+      "catalogId": "fp-contract-playbook-review"
+    },
+    {
+      "sourceId": "claude:contract-redlining-and-negotiation",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/contract-redlining-and-negotiation",
+      "status": "imported",
+      "catalogId": "fp-contract-redlining-and-negotiation"
+    },
+    {
+      "sourceId": "claude:contract-to-ledger",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/contract-to-ledger",
+      "status": "imported",
+      "catalogId": "fp-contract-to-ledger"
+    },
+    {
+      "sourceId": "claude:create-a-company-newsletter",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/create-a-company-newsletter",
+      "status": "imported",
+      "catalogId": "fp-create-a-company-newsletter"
+    },
+    {
+      "sourceId": "claude:create-a-custom-webpage",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/create-a-custom-webpage",
+      "status": "imported",
+      "catalogId": "fp-create-a-custom-webpage"
+    },
+    {
+      "sourceId": "claude:create-a-daily-travel-itinerary",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/create-a-daily-travel-itinerary",
+      "status": "imported",
+      "catalogId": "fp-create-a-daily-travel-itinerary"
+    },
+    {
+      "sourceId": "claude:create-a-process-flowchart",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/create-a-process-flowchart",
+      "status": "imported",
+      "catalogId": "fp-create-a-process-flowchart"
+    },
+    {
+      "sourceId": "claude:create-a-sales-proposal-presentation",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/create-a-sales-proposal-presentation",
+      "status": "imported",
+      "catalogId": "fp-create-a-sales-proposal-presentation"
+    },
+    {
+      "sourceId": "claude:create-a-volunteer-management-system",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/create-a-volunteer-management-system",
+      "status": "imported",
+      "catalogId": "fp-create-a-volunteer-management-system"
+    },
+    {
+      "sourceId": "claude:create-brand-assets",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/create-brand-assets",
+      "status": "imported",
+      "catalogId": "fp-create-brand-assets"
+    },
+    {
+      "sourceId": "claude:create-custom-course-materials",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/create-custom-course-materials",
+      "status": "imported",
+      "catalogId": "fp-create-custom-course-materials"
+    },
+    {
+      "sourceId": "claude:create-digital-recipe-cards",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/create-digital-recipe-cards",
+      "status": "imported",
+      "catalogId": "fp-create-digital-recipe-cards"
+    },
+    {
+      "sourceId": "claude:create-health-and-exercise-notes",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/create-health-and-exercise-notes",
+      "status": "imported",
+      "catalogId": "fp-create-health-and-exercise-notes"
+    },
+    {
+      "sourceId": "claude:create-interactive-pdf-forms",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/create-interactive-pdf-forms",
+      "status": "imported",
+      "catalogId": "fp-create-interactive-pdf-forms"
+    },
+    {
+      "sourceId": "claude:create-new-hire-onboarding-guides",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/create-new-hire-onboarding-guides",
+      "status": "imported",
+      "catalogId": "fp-create-new-hire-onboarding-guides"
+    },
+    {
+      "sourceId": "claude:create-sales-reports",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/create-sales-reports",
+      "status": "imported",
+      "catalogId": "fp-create-sales-reports"
+    },
+    {
+      "sourceId": "claude:data-room-diligence",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/data-room-diligence",
+      "status": "imported",
+      "catalogId": "fp-data-room-diligence"
+    },
+    {
+      "sourceId": "claude:debate-practice-with-feedback",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/debate-practice-with-feedback",
+      "status": "imported",
+      "catalogId": "fp-debate-practice-with-feedback"
+    },
+    {
+      "sourceId": "claude:design-a-local-foraging-guide",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/design-a-local-foraging-guide",
+      "status": "imported",
+      "catalogId": "fp-design-a-local-foraging-guide"
+    },
+    {
+      "sourceId": "claude:design-doc",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/design-doc",
+      "status": "imported",
+      "catalogId": "fp-design-doc"
+    },
+    {
+      "sourceId": "claude:design-heuristic-audit",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/design-heuristic-audit",
+      "status": "imported",
+      "catalogId": "fp-design-heuristic-audit"
+    },
+    {
+      "sourceId": "claude:design-police",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/design-police",
+      "status": "imported",
+      "catalogId": "fp-design-police"
+    },
+    {
+      "sourceId": "claude:design-spec-from-threads",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/design-spec-from-threads",
+      "status": "imported",
+      "catalogId": "fp-design-spec-from-threads"
+    },
+    {
+      "sourceId": "claude:develop-a-program-toolkit",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/develop-a-program-toolkit",
+      "status": "imported",
+      "catalogId": "fp-develop-a-program-toolkit"
+    },
+    {
+      "sourceId": "claude:draft-a-credit-memo-from-spreads-and-statements-with-claude-for-excel",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/draft-a-credit-memo-from-spreads-and-statements-with-claude-for-excel",
+      "status": "imported",
+      "catalogId": "fp-draft-a-credit-memo-from-spreads-and-statements-with-claude-for-excel"
+    },
+    {
+      "sourceId": "claude:draft-investment-memos",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/draft-investment-memos",
+      "status": "imported",
+      "catalogId": "fp-draft-investment-memos"
+    },
+    {
+      "sourceId": "claude:elevate-claudes-design-using-skills",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/elevate-claudes-design-using-skills",
+      "status": "imported",
+      "catalogId": "fp-elevate-claudes-design-using-skills"
+    },
+    {
+      "sourceId": "claude:eng-performance-reviews",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/eng-performance-reviews",
+      "status": "imported",
+      "catalogId": "fp-eng-performance-reviews"
+    },
+    {
+      "sourceId": "claude:engagement-survey-themes",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/engagement-survey-themes",
+      "status": "imported",
+      "catalogId": "fp-engagement-survey-themes"
+    },
+    {
+      "sourceId": "claude:evaluate-a-company-from-the-science-to-the-balance-sheet",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/evaluate-a-company-from-the-science-to-the-balance-sheet",
+      "status": "imported",
+      "catalogId": "fp-evaluate-a-company-from-the-science-to-the-balance-sheet"
+    },
+    {
+      "sourceId": "claude:explain-a-variance",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/explain-a-variance",
+      "status": "imported",
+      "catalogId": "fp-explain-a-variance"
+    },
+    {
+      "sourceId": "claude:explore-what-claude-can-do-for-you",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/explore-what-claude-can-do-for-you",
+      "status": "imported",
+      "catalogId": "fp-explore-what-claude-can-do-for-you"
+    },
+    {
+      "sourceId": "claude:feedback-synthesis",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/feedback-synthesis",
+      "status": "imported",
+      "catalogId": "fp-feedback-synthesis-product"
+    },
+    {
+      "sourceId": "claude:fix-a-reported-bug-with-a-draft-pr",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/fix-a-reported-bug-with-a-draft-pr",
+      "status": "imported",
+      "catalogId": "fp-fix-a-reported-bug-with-a-draft-pr"
+    },
+    {
+      "sourceId": "claude:forecast-scenarios",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/forecast-scenarios",
+      "status": "imported",
+      "catalogId": "fp-forecast-scenarios"
+    },
+    {
+      "sourceId": "claude:generate-an-ai-policy",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/generate-an-ai-policy",
+      "status": "imported",
+      "catalogId": "fp-generate-an-ai-policy"
+    },
+    {
+      "sourceId": "claude:generate-project-status-reports",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/generate-project-status-reports",
+      "status": "imported",
+      "catalogId": "fp-generate-project-status-reports"
+    },
+    {
+      "sourceId": "claude:genomic-data-analysis",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/genomic-data-analysis",
+      "status": "imported",
+      "catalogId": "fp-genomic-data-analysis"
+    },
+    {
+      "sourceId": "claude:grant-proposal-assembly-line",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/grant-proposal-assembly-line",
+      "status": "imported",
+      "catalogId": "fp-grant-proposal-assembly-line"
+    },
+    {
+      "sourceId": "claude:headcount-reconciliation",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/headcount-reconciliation",
+      "status": "imported",
+      "catalogId": "fp-headcount-reconciliation"
+    },
+    {
+      "sourceId": "claude:incident-postmortem",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/incident-postmortem",
+      "status": "imported",
+      "catalogId": "fp-incident-postmortem"
+    },
+    {
+      "sourceId": "claude:interview-debrief",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/interview-debrief",
+      "status": "imported",
+      "catalogId": "fp-interview-debrief"
+    },
+    {
+      "sourceId": "claude:launch-readiness",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/launch-readiness",
+      "status": "imported",
+      "catalogId": "fp-launch-readiness"
+    },
+    {
+      "sourceId": "claude:legal-research-memo",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/legal-research-memo",
+      "status": "imported",
+      "catalogId": "fp-legal-research-memo"
+    },
+    {
+      "sourceId": "claude:log-sales-calls-to-your-crm",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/log-sales-calls-to-your-crm",
+      "status": "imported",
+      "catalogId": "fp-log-sales-calls-to-your-crm"
+    },
+    {
+      "sourceId": "claude:map-your-lit-review-mid-conversation",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/map-your-lit-review-mid-conversation",
+      "status": "imported",
+      "catalogId": "fp-map-your-lit-review-mid-conversation"
+    },
+    {
+      "sourceId": "claude:map-your-understanding-and-build-lessons-from-the-gaps",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/map-your-understanding-and-build-lessons-from-the-gaps",
+      "status": "imported",
+      "catalogId": "fp-map-your-understanding-and-build-lessons-from-the-gaps"
+    },
+    {
+      "sourceId": "claude:meeting-notes-and-filed-tasks-from-a-call-transcript",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/meeting-notes-and-filed-tasks-from-a-call-transcript",
+      "status": "imported",
+      "catalogId": "fp-meeting-notes-and-filed-tasks-from-a-call-transcript"
+    },
+    {
+      "sourceId": "claude:meeting-prep-and-a-weekly-recap-in-your-dm-with-claude",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/meeting-prep-and-a-weekly-recap-in-your-dm-with-claude",
+      "status": "imported",
+      "catalogId": "fp-meeting-prep-and-a-weekly-recap-in-your-dm"
+    },
+    {
+      "sourceId": "claude:message-sweep",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/message-sweep",
+      "status": "imported",
+      "catalogId": "fp-message-sweep"
+    },
+    {
+      "sourceId": "claude:metrics-narrative",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/metrics-narrative",
+      "status": "imported",
+      "catalogId": "fp-metrics-narrative"
+    },
+    {
+      "sourceId": "claude:morning-evening",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/morning-evening",
+      "status": "imported",
+      "catalogId": "fp-morning-evening"
+    },
+    {
+      "sourceId": "claude:my-voice",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/my-voice",
+      "status": "imported",
+      "catalogId": "fp-my-voice"
+    },
+    {
+      "sourceId": "claude:nda-review",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/nda-review",
+      "status": "imported",
+      "catalogId": "fp-nda-review"
+    },
+    {
+      "sourceId": "claude:offer-process",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/offer-process",
+      "status": "imported",
+      "catalogId": "fp-offer-process"
+    },
+    {
+      "sourceId": "claude:on-brand-content",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/on-brand-content",
+      "status": "imported",
+      "catalogId": "fp-on-brand-content"
+    },
+    {
+      "sourceId": "claude:oncall-handoff-brief",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/oncall-handoff-brief",
+      "status": "imported",
+      "catalogId": "fp-oncall-handoff-brief"
+    },
+    {
+      "sourceId": "claude:open-new-role",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/open-new-role",
+      "status": "imported",
+      "catalogId": "fp-open-new-role"
+    },
+    {
+      "sourceId": "claude:organize-files-by-whats-in-them",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/organize-files-by-whats-in-them",
+      "status": "imported",
+      "catalogId": "fp-organize-files-by-whats-in-them"
+    },
+    {
+      "sourceId": "claude:organize-files-in-google-drive",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/organize-files-in-google-drive",
+      "status": "imported",
+      "catalogId": "fp-organize-files-in-google-drive"
+    },
+    {
+      "sourceId": "claude:organize-your-business-finances",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/organize-your-business-finances",
+      "status": "imported",
+      "catalogId": "fp-organize-your-business-finances"
+    },
+    {
+      "sourceId": "claude:organize-your-legal-workflows-using-projects",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/organize-your-legal-workflows-using-projects",
+      "status": "imported",
+      "catalogId": "fp-organize-your-legal-workflows-using-projects"
+    },
+    {
+      "sourceId": "claude:outside-counsel-review",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/outside-counsel-review",
+      "status": "imported",
+      "catalogId": "fp-outside-counsel-review"
+    },
+    {
+      "sourceId": "claude:package-your-brand-guidelines-in-a-skill",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/package-your-brand-guidelines-in-a-skill",
+      "status": "merged",
+      "catalogId": "fp-brand-guidelines-skill",
+      "reason": "Both workflows turn the same brand references into a reusable generation skill. The combined record preserves exact design tokens, voice rules, document/deck/spreadsheet styling, reference testing, and guideline refreshes."
+    },
+    {
+      "sourceId": "claude:pattern-consistency-audit",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/pattern-consistency-audit",
+      "status": "imported",
+      "catalogId": "fp-pattern-consistency-audit"
+    },
+    {
+      "sourceId": "claude:performance-review-admin",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/performance-review-admin",
+      "status": "imported",
+      "catalogId": "fp-performance-review-admin"
+    },
+    {
+      "sourceId": "claude:pipeline-review",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/pipeline-review",
+      "status": "imported",
+      "catalogId": "fp-pipeline-review"
+    },
+    {
+      "sourceId": "claude:plan-your-career-path",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/plan-your-career-path",
+      "status": "imported",
+      "catalogId": "fp-plan-your-career-path"
+    },
+    {
+      "sourceId": "claude:plan-your-literature-review",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/plan-your-literature-review",
+      "status": "imported",
+      "catalogId": "fp-plan-your-literature-review"
+    },
+    {
+      "sourceId": "claude:plan-your-syllabus-see-which-weeks-are-locked",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/plan-your-syllabus-see-which-weeks-are-locked",
+      "status": "imported",
+      "catalogId": "fp-plan-your-syllabus-see-which-weeks-are-locked"
+    },
+    {
+      "sourceId": "claude:practice-case-interviews-with-feedback",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/practice-case-interviews-with-feedback",
+      "status": "imported",
+      "catalogId": "fp-practice-case-interviews-with-feedback"
+    },
+    {
+      "sourceId": "claude:prd-from-a-one-pager",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/prd-from-a-one-pager",
+      "status": "imported",
+      "catalogId": "fp-prd-from-a-one-pager"
+    },
+    {
+      "sourceId": "claude:preclinical-study-analysis",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/preclinical-study-analysis",
+      "status": "imported",
+      "catalogId": "fp-preclinical-study-analysis"
+    },
+    {
+      "sourceId": "claude:prep-scattered-documents-for-a-compliance-audit",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/prep-scattered-documents-for-a-compliance-audit",
+      "status": "imported",
+      "catalogId": "fp-prep-scattered-documents-for-a-compliance-audit"
+    },
+    {
+      "sourceId": "claude:prepare-and-plan-from-your-calendar",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/prepare-and-plan-from-your-calendar",
+      "status": "imported",
+      "catalogId": "fp-prepare-and-plan-from-your-calendar"
+    },
+    {
+      "sourceId": "claude:prepare-for-sales-deals",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/prepare-for-sales-deals",
+      "status": "imported",
+      "catalogId": "fp-prepare-for-sales-deals"
+    },
+    {
+      "sourceId": "claude:process-batches-of-vendors-with-cowork",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/process-batches-of-vendors-with-cowork",
+      "status": "imported",
+      "catalogId": "fp-process-batches-of-vendors"
+    },
+    {
+      "sourceId": "claude:pull-deal-and-account-state",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/pull-deal-and-account-state",
+      "status": "imported",
+      "catalogId": "fp-pull-deal-and-account-state"
+    },
+    {
+      "sourceId": "claude:pull-metrics-from-analytics-dashboards",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/pull-metrics-from-analytics-dashboards",
+      "status": "imported",
+      "catalogId": "fp-pull-metrics-from-analytics-dashboards"
+    },
+    {
+      "sourceId": "claude:quickly-prep-for-your-week",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/quickly-prep-for-your-week",
+      "status": "imported",
+      "catalogId": "fp-quickly-prep-for-your-week"
+    },
+    {
+      "sourceId": "claude:recon-journal-entries",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/recon-journal-entries",
+      "status": "imported",
+      "catalogId": "fp-recon-journal-entries"
+    },
+    {
+      "sourceId": "claude:reconcile-transactions-across-your-accounts",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/reconcile-transactions-across-your-accounts",
+      "status": "imported",
+      "catalogId": "fp-reconcile-transactions-across-your-accounts"
+    },
+    {
+      "sourceId": "claude:regulatory-analysis",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/regulatory-analysis",
+      "status": "imported",
+      "catalogId": "fp-regulatory-analysis"
+    },
+    {
+      "sourceId": "claude:renewal-risk-audit",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/renewal-risk-audit",
+      "status": "imported",
+      "catalogId": "fp-renewal-risk-audit"
+    },
+    {
+      "sourceId": "claude:repurpose-content",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/repurpose-content",
+      "status": "imported",
+      "catalogId": "fp-repurpose-content"
+    },
+    {
+      "sourceId": "claude:research-and-compare-travel-destinations",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/research-and-compare-travel-destinations",
+      "status": "imported",
+      "catalogId": "fp-research-and-compare-travel-destinations"
+    },
+    {
+      "sourceId": "claude:see-budget-futures-side-by-side",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/see-budget-futures-side-by-side",
+      "status": "imported",
+      "catalogId": "fp-see-budget-futures-side-by-side"
+    },
+    {
+      "sourceId": "claude:see-what-your-campaign-goal-actually-requires",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/see-what-your-campaign-goal-actually-requires",
+      "status": "imported",
+      "catalogId": "fp-see-what-your-campaign-goal-actually-requires"
+    },
+    {
+      "sourceId": "claude:see-why-donor-retention-beats-acquisition",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/see-why-donor-retention-beats-acquisition",
+      "status": "imported",
+      "catalogId": "fp-see-why-donor-retention-beats-acquisition"
+    },
+    {
+      "sourceId": "claude:see-your-theory-of-change-in-chat-with-claude",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/see-your-theory-of-change-in-chat-with-claude",
+      "status": "imported",
+      "catalogId": "fp-see-your-theory-of-change-in-chat"
+    },
+    {
+      "sourceId": "claude:size-a-market-using-your-research",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/size-a-market-using-your-research",
+      "status": "imported",
+      "catalogId": "fp-size-a-market-using-your-research"
+    },
+    {
+      "sourceId": "claude:source-insights-from-your-tools-to-build-a-deck",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/source-insights-from-your-tools-to-build-a-deck",
+      "status": "imported",
+      "catalogId": "fp-source-insights-from-your-tools-to-build-a-deck"
+    },
+    {
+      "sourceId": "claude:sox-controls-doc",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/sox-controls-doc",
+      "status": "imported",
+      "catalogId": "fp-sox-controls-doc"
+    },
+    {
+      "sourceId": "claude:sprint-retro-handoff",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/sprint-retro-handoff",
+      "status": "imported",
+      "catalogId": "fp-sprint-retro-handoff"
+    },
+    {
+      "sourceId": "claude:stress-test-your-financial-plan-across-scenarios",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/stress-test-your-financial-plan-across-scenarios",
+      "status": "imported",
+      "catalogId": "fp-stress-test-your-financial-plan-across-scenarios"
+    },
+    {
+      "sourceId": "claude:support-incident-postmortem",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/support-incident-postmortem",
+      "status": "imported",
+      "catalogId": "fp-support-incident-postmortem"
+    },
+    {
+      "sourceId": "claude:surface-themes-from-all-your-feedback-channels",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/surface-themes-from-all-your-feedback-channels",
+      "status": "imported",
+      "catalogId": "fp-surface-themes-from-all-your-feedback-channels"
+    },
+    {
+      "sourceId": "claude:thoughtful-gift-giving-with-claude",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/thoughtful-gift-giving-with-claude",
+      "status": "imported",
+      "catalogId": "fp-thoughtful-gift-giving"
+    },
+    {
+      "sourceId": "claude:thread-to-decision",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/thread-to-decision",
+      "status": "imported",
+      "catalogId": "fp-thread-to-decision"
+    },
+    {
+      "sourceId": "claude:track-discovery-timelines-and-analyze-patterns",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/track-discovery-timelines-and-analyze-patterns",
+      "status": "imported",
+      "catalogId": "fp-track-discovery-timelines-and-analyze-patterns"
+    },
+    {
+      "sourceId": "claude:transcript-themes",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/transcript-themes",
+      "status": "imported",
+      "catalogId": "fp-transcript-themes"
+    },
+    {
+      "sourceId": "claude:triage-on-call-alerts-and-diagnose-incidents",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/triage-on-call-alerts-and-diagnose-incidents",
+      "status": "imported",
+      "catalogId": "fp-triage-on-call-alerts-and-diagnose-incidents"
+    },
+    {
+      "sourceId": "claude:turn-emails-into-an-event-tracker",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/turn-emails-into-an-event-tracker",
+      "status": "imported",
+      "catalogId": "fp-turn-emails-into-an-event-tracker"
+    },
+    {
+      "sourceId": "claude:turn-inspiration-to-design-plans",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/turn-inspiration-to-design-plans",
+      "status": "imported",
+      "catalogId": "fp-turn-inspiration-to-design-plans"
+    },
+    {
+      "sourceId": "claude:turn-research-into-presentations",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/turn-research-into-presentations",
+      "status": "imported",
+      "catalogId": "fp-turn-research-into-presentations"
+    },
+    {
+      "sourceId": "claude:turn-text-threads-to-researched-notes",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/turn-text-threads-to-researched-notes",
+      "status": "imported",
+      "catalogId": "fp-turn-text-threads-to-researched-notes"
+    },
+    {
+      "sourceId": "claude:turn-transit-time-into-research-time",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/turn-transit-time-into-research-time",
+      "status": "imported",
+      "catalogId": "fp-turn-transit-time-into-research-time"
+    },
+    {
+      "sourceId": "claude:understand-and-extend-an-inherited-spreadsheet",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/understand-and-extend-an-inherited-spreadsheet",
+      "status": "imported",
+      "catalogId": "fp-understand-and-extend-an-inherited-spreadsheet"
+    },
+    {
+      "sourceId": "claude:update-your-financial-model-after-earnings",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/update-your-financial-model-after-earnings",
+      "status": "imported",
+      "catalogId": "fp-update-your-financial-model-after-earnings"
+    },
+    {
+      "sourceId": "claude:uxr-synthesis",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/uxr-synthesis",
+      "status": "imported",
+      "catalogId": "fp-uxr-synthesis"
+    },
+    {
+      "sourceId": "claude:validate-reserves-and-draft-filing-narrative-with-claude-for-excel",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/validate-reserves-and-draft-filing-narrative-with-claude-for-excel",
+      "status": "imported",
+      "catalogId": "fp-validate-reserves-and-draft-filing-narrative-for-excel"
+    },
+    {
+      "sourceId": "claude:variance-exec-slides",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/variance-exec-slides",
+      "status": "imported",
+      "catalogId": "fp-variance-exec-slides"
+    },
+    {
+      "sourceId": "claude:vendor-negotiation",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/vendor-negotiation",
+      "status": "imported",
+      "catalogId": "fp-vendor-negotiation"
+    },
+    {
+      "sourceId": "claude:vendor-risk-review",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/vendor-risk-review",
+      "status": "imported",
+      "catalogId": "fp-vendor-risk-review"
+    },
+    {
+      "sourceId": "claude:verify-statistics-from-raw-data",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/verify-statistics-from-raw-data",
+      "status": "imported",
+      "catalogId": "fp-verify-statistics-from-raw-data"
+    },
+    {
+      "sourceId": "claude:visualize-program-data",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/visualize-program-data",
+      "status": "imported",
+      "catalogId": "fp-visualize-program-data"
+    },
+    {
+      "sourceId": "claude:visualize-the-mechanism-behind-an-explanation-mid-chat",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/visualize-the-mechanism-behind-an-explanation-mid-chat",
+      "status": "imported",
+      "catalogId": "fp-visualize-the-mechanism-behind-an-explanation-mid-chat"
+    },
+    {
+      "sourceId": "claude:watch-the-escalations-channel-and-page-only-for-p1",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/watch-the-escalations-channel-and-page-only-for-p1",
+      "status": "imported",
+      "catalogId": "fp-watch-the-escalations-channel-and-page-only-for-p1"
+    },
+    {
+      "sourceId": "claude:week-ahead-prep",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/week-ahead-prep",
+      "status": "imported",
+      "catalogId": "fp-week-ahead-prep"
+    },
+    {
+      "sourceId": "claude:weekly-status-posts-from-the-teams-channels-and-tracker",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/weekly-status-posts-from-the-teams-channels-and-tracker",
+      "status": "imported",
+      "catalogId": "fp-weekly-status-posts-from-the-teams-channels-and-tracker"
+    },
+    {
+      "sourceId": "claude:work-through-grant-options-in-chat-with-claude",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/work-through-grant-options-in-chat-with-claude",
+      "status": "imported",
+      "catalogId": "fp-work-through-grant-options-in-chat"
+    },
+    {
+      "sourceId": "claude:workflow-improvement-planner",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/workflow-improvement-planner",
+      "status": "imported",
+      "catalogId": "fp-workflow-improvement-planner"
+    },
+    {
+      "sourceId": "claude:write-an-impact-report",
+      "source": "claude",
+      "url": "https://academy.claude.com/use-cases/write-an-impact-report",
+      "status": "imported",
+      "catalogId": "fp-write-an-impact-report"
+    }
+  ]
+}

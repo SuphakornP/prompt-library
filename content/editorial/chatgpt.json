@@ -1,0 +1,3641 @@
+[
+  {
+    "sourceId": "chatgpt:generate-slide-decks",
+    "entry": {
+      "id": "fp-generate-slide-decks",
+      "slug": "generate-slide-decks",
+      "title": "Build a presentation from source material",
+      "summary": "Create an editable deck that fits your audience and existing visual style.",
+      "departments": [
+        "General",
+        "Design"
+      ],
+      "tags": [
+        "Writing",
+        "Design"
+      ],
+      "prerequisites": [
+        "Attach notes, data, or an existing deck; include the audience and any reference template."
+      ],
+      "outcome": "An editable presentation with checked layouts and clear review notes.",
+      "steps": [
+        {
+          "id": "start",
+          "title": "Start here",
+          "prompt": "Create a presentation for [audience] that helps them [decision or outcome]. Use the attached material as the factual basis. Establish a concise narrative, then build the slides. If I supply a reference deck, preserve its layout conventions, typography, branding, and approved figures. Keep text and charts editable. Use visuals to explain the content and inspect every rendered slide for clipped text, crowded layouts, and misleading charts. Deliver the editable file and identify unsupported claims or content that needs my review."
+        },
+        {
+          "id": "refine",
+          "title": "Adapt the audience",
+          "prompt": "Rework this deck for [new audience]. Change the level of detail and the explanation of the recommendation while retaining verified figures and the established visual style. Show which slides changed.",
+          "instruction": "Continue in the same conversation after reviewing the first result."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "chatgpt:manage-your-inbox",
+    "entry": {
+      "id": "fp-manage-your-inbox",
+      "slug": "manage-your-inbox",
+      "title": "Triage your inbox and draft replies",
+      "summary": "Find urgent email, suggest a cleanup, and prepare replies in your voice.",
+      "departments": [
+        "General",
+        "Operations"
+      ],
+      "tags": [
+        "Organization",
+        "Communication"
+      ],
+      "prerequisites": [
+        "Connect the approved mailbox or provide an email export; include recent sent messages to establish tone."
+      ],
+      "outcome": "A prioritized inbox brief, cleanup proposal, and unsent reply drafts.",
+      "steps": [
+        {
+          "id": "start",
+          "title": "Start here",
+          "prompt": "Review the last 90 days in [mailbox], including recent messages I wrote. Keep separate accounts separate. Identify up to five conversations that need action, with links, timing, and the reason each matters. Check the latest replies before calling a request unresolved. Propose labels and archive candidates without hiding bills, deadlines, security notices, or active conversations. Draft one useful response in my usual tone. End with separate decisions for applying the cleanup and saving the reply. Do not send messages, archive mail, or move anything to Trash until I approve the exact action."
+        },
+        {
+          "id": "refine",
+          "title": "Set a review cadence",
+          "prompt": "Propose an inbox-check schedule for [time zone and working hours] using the priorities we agreed. Include the sources and notification rules in the task instructions. Show the schedule for approval, and confirm whether the platform can actually run it. Report meaningful changes without repeating resolved items.",
+          "instruction": "Continue in the same conversation after reviewing the first result."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "chatgpt:use-your-computer-with-codex",
+    "entry": {
+      "id": "fp-desktop-task-assistant",
+      "slug": "desktop-task-assistant",
+      "title": "Complete a task across desktop apps",
+      "summary": "Use visible applications and local files to finish a clearly bounded task.",
+      "departments": [
+        "General"
+      ],
+      "tags": [
+        "Organization",
+        "Planning"
+      ],
+      "prerequisites": [
+        "Requires a desktop agent with computer-control access and the relevant apps signed in."
+      ],
+      "outcome": "A completed task or a precise account of the remaining manual steps.",
+      "steps": [
+        {
+          "id": "start",
+          "title": "Start here",
+          "prompt": "Help me complete [task] using [approved applications or folders]. Inspect the current screen and relevant files before acting. Follow the task across the necessary apps, verify the result in each destination, and summarize what changed. Ask before sending anything, making a purchase, confirming a booking, deleting data, or making another consequential change. If computer-control access is unavailable, tell me which steps I need to perform instead of claiming you completed them."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "chatgpt:automation-bug-triage",
+    "entry": {
+      "id": "fp-automation-bug-triage",
+      "slug": "automation-bug-triage",
+      "title": "Prioritize incoming bug reports",
+      "summary": "Combine scattered reports into one evidence-based engineering queue.",
+      "departments": [
+        "Engineering"
+      ],
+      "tags": [
+        "Analysis",
+        "Organization"
+      ],
+      "prerequisites": [
+        "Provide the repository or service, time window, and approved issue, alert, log, or support sources."
+      ],
+      "outcome": "A deduplicated P0-P3 bug queue with evidence and next actions.",
+      "steps": [
+        {
+          "id": "start",
+          "title": "Start here",
+          "prompt": "Triage reports for [service or team] from [time window]. Read [approved issue queues, error monitoring, support tickets, and discussion threads]. State which sources are inaccessible. Consolidate reports of the same underlying problem, then rank bugs from P0 to P3. Give each a concise title, observed evidence with links, impact, and the next diagnostic or remediation action. Distinguish a demonstrated failure from an untested hypothesis. If nothing qualifies, say so. Keep the review read-only: do not create tickets, change assignments, rerun jobs, post messages, or start fixes."
+        },
+        {
+          "id": "refine",
+          "title": "Repeat the triage",
+          "prompt": "Draft recurring triage instructions using these sources, priority definitions, and duplicate rules. Include the proposed schedule and how to handle missing sources or an empty result. Keep the run read-only and show the configuration before scheduling it.",
+          "instruction": "Continue in the same conversation after reviewing the first result."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "chatgpt:daily-work-brief",
+    "entry": {
+      "id": "fp-daily-work-brief",
+      "slug": "daily-work-brief",
+      "title": "Create a daily work briefing",
+      "summary": "Bring commitments, decisions, messages, and blockers into one concise view.",
+      "departments": [
+        "General",
+        "Operations"
+      ],
+      "tags": [
+        "Organization",
+        "Planning"
+      ],
+      "prerequisites": [
+        "Connect or provide the relevant calendar, messages, email, documents, and project trackers."
+      ],
+      "outcome": "A source-linked briefing with the next decisions and actions.",
+      "steps": [
+        {
+          "id": "start",
+          "title": "Start here",
+          "prompt": "Review my available work sources and prepare today's briefing. Establish my active projects, collaborators, commitments, and upcoming meetings. Prioritize changed deadlines, decisions I owe, unanswered messages, and work blocked on someone else. Check recent thread activity so resolved items do not resurface. Link every actionable item to its source, separate assumptions from confirmed facts, and name missing sources. Draft useful replies or meeting notes without sending or editing anything. Finish with the few actions that most need my attention today."
+        },
+        {
+          "id": "refine",
+          "title": "Watch for meaningful changes",
+          "prompt": "Design an hourly check of the same approved sources. Notify me only when a decision, deadline, blocker, or message materially changes. Show the schedule and source access required; activate it only after approval and report if scheduling is unavailable.",
+          "instruction": "Continue in the same conversation after reviewing the first result."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "chatgpt:discover-protein-folding-architectures",
+    "entry": {
+      "id": "fp-discover-protein-folding-architectures",
+      "slug": "discover-protein-folding-architectures",
+      "title": "Benchmark a protein-folding hypothesis",
+      "summary": "Run controlled architecture experiments with durable records and comparable results.",
+      "departments": [
+        "Science",
+        "Engineering"
+      ],
+      "tags": [
+        "Research",
+        "Coding"
+      ],
+      "prerequisites": [
+        "Provide the model repository, NanoFold benchmark setup, scoring command, and compute limits."
+      ],
+      "outcome": "An experiment log with matched metrics, resource costs, and defensible conclusions.",
+      "steps": [
+        {
+          "id": "start",
+          "title": "Start here",
+          "prompt": "Evaluate whether sparse higher-order geometric states improve this AlphaFold2-style model on NanoFold. Keep the usual MSA and residue-pair representations; investigate learned triplet faces and quadruplet tetrahedra using only official inputs and geometry recycled by the model. Track the strategy, experiments, and observations in durable files. For each iteration, state the hypothesis, make a bounded change, run the relevant tests and matched benchmark, and record lDDT-C-alpha, latency, memory, and failure modes. Decide whether to keep or revise the change. Do not present a smoke test or single-chain overfit as evidence of generalization."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "chatgpt:analyze-data-export",
+    "entry": {
+      "id": "fp-analyze-data-export",
+      "slug": "analyze-data-export",
+      "title": "Build a refreshable sales dashboard",
+      "summary": "Explore sales trends with clear filters, calculations, and data-quality checks.",
+      "departments": [
+        "Sales",
+        "Data"
+      ],
+      "tags": [
+        "Analysis",
+        "Design"
+      ],
+      "prerequisites": [
+        "Provide a sales export or exact spreadsheet link; a dashboard-building environment is needed for implementation."
+      ],
+      "outcome": "A private dashboard with validated metrics and a documented refresh path.",
+      "steps": [
+        {
+          "id": "start",
+          "title": "Start here",
+          "prompt": "Build a private dashboard from [sales file or exact spreadsheet link]. First inspect the columns, date range, missing rows, join keys, and inconsistent dates. Show revenue trends, customer segments, unusual changes, and useful date and segment filters. Explain the metric calculations and display the source's update date. Validate the charts against source totals. Prepare a refresh method that reads only the approved source and does not duplicate existing data. Show the working preview and unresolved data questions before sharing or publishing it."
+        },
+        {
+          "id": "refine",
+          "title": "Monitor changes",
+          "prompt": "Propose a weekday refresh of this dashboard. Specify the source, comparison period, data-quality checks, and what would count as a meaningful change. Confirm scheduling and data access actually work before describing the dashboard as automatically updated.",
+          "instruction": "Continue in the same conversation after reviewing the first result."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "chatgpt:feedback-synthesis",
+    "entry": {
+      "id": "fp-feedback-synthesis",
+      "slug": "feedback-synthesis",
+      "title": "Find themes across product feedback",
+      "summary": "Combine customer signals into supported themes and concrete next steps.",
+      "departments": [
+        "Product",
+        "Research"
+      ],
+      "tags": [
+        "Research",
+        "Analysis"
+      ],
+      "prerequisites": [
+        "Provide feedback exports or approved survey, support, issue, and discussion links."
+      ],
+      "outcome": "A theme-based feedback brief with supporting examples and draft follow-ups.",
+      "steps": [
+        {
+          "id": "start",
+          "title": "Start here",
+          "prompt": "Analyze feedback about [product or feature] during [period] across the supplied support tickets, surveys, research notes, issues, and discussions. Group related concerns without losing the original context. Show supporting examples and source links for each theme, note disagreements, and distinguish recurring patterns from isolated reports. Identify the issues that need a product decision or further research. Return an editable brief or table and draft the follow-up questions; do not post messages or change the issue tracker."
+        },
+        {
+          "id": "refine",
+          "title": "Develop a theme",
+          "prompt": "Take [reviewed theme] and draft the next useful artifact: an investigation brief, product requirement, or customer-response outline. Tie proposed changes to the actual feedback and list what still needs validation.",
+          "instruction": "Continue in the same conversation after reviewing the first result."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "chatgpt:clean-messy-data",
+    "entry": {
+      "id": "fp-clean-messy-data",
+      "slug": "clean-messy-data",
+      "title": "Clean an inconsistent data export",
+      "summary": "Standardize formats and duplicates while preserving the original evidence.",
+      "departments": [
+        "Data",
+        "Operations"
+      ],
+      "tags": [
+        "Analysis",
+        "Organization"
+      ],
+      "prerequisites": [
+        "Attach the CSV and identify its row IDs, date conventions, and known category aliases."
+      ],
+      "outcome": "A cleaned CSV plus an auditable record of uncertain and changed rows.",
+      "steps": [
+        {
+          "id": "start",
+          "title": "Start here",
+          "prompt": "Clean [CSV file] without overwriting it. Resolve mixed date formats only where their meaning is clear. Normalize currency formatting but preserve missing amounts as blank. Identify repeat-export duplicates, standardize confirmed region and category aliases, and separate pasted summary rows from records. Keep source row IDs wherever possible. Return a new CSV and a data-quality note showing what changed, which rows were removed, and which values remain ambiguous. Do not fabricate replacements for missing or uncertain data."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "chatgpt:target-prioritization",
+    "entry": {
+      "id": "fp-target-prioritization",
+      "slug": "target-prioritization",
+      "title": "Compare drug-target evidence",
+      "summary": "Rank biological targets across independent research evidence streams.",
+      "departments": [
+        "Science",
+        "Research"
+      ],
+      "tags": [
+        "Research",
+        "Analysis"
+      ],
+      "prerequisites": [
+        "Provide the disease, candidate targets, and access to relevant genetics, expression, literature, and clinical sources."
+      ],
+      "outcome": "A target-by-evidence matrix, ranked hypotheses, and explicit confidence limits.",
+      "steps": [
+        {
+          "id": "start",
+          "title": "Start here",
+          "prompt": "Compare TSLP, IL33, and IL1RL1 as research targets for asthma. Review independent evidence from human genetics, cohort replication and PheWAS, disease associations, clinical precedent, literature, and tissue or cell-type expression. Score each target from 1 to 5 within each evidence stream using stated criteria. Separate direct asthma findings from related allergic conditions. Reconcile conflicting evidence and provide the overall ranking, confidence, and key limitations. Include a prioritization heatmap and a sourced summary of lead asthma-associated variants. Keep this a research prioritization exercise, not a treatment recommendation."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "chatgpt:scrna-seq-post-count-qc",
+    "entry": {
+      "id": "fp-scrna-seq-post-count-qc",
+      "slug": "scrna-seq-post-count-qc",
+      "title": "Review single-cell RNA sequencing quality",
+      "summary": "Choose justified cell filters and inspect annotation patterns without losing raw counts.",
+      "departments": [
+        "Science",
+        "Data"
+      ],
+      "tags": [
+        "Analysis",
+        "Research"
+      ],
+      "prerequisites": [
+        "Provide a 10x-style count-matrix bundle, sample manifest, dataset metadata, and an analysis runtime."
+      ],
+      "outcome": "A filtered h5ad file, QC tables, threshold plots, and a review summary.",
+      "steps": [
+        {
+          "id": "start",
+          "title": "Start here",
+          "prompt": "Inspect the supplied single-cell count matrix, manifest, and metadata. Choose quality-control thresholds from the observed distributions rather than applying unexplained defaults. Preserve raw counts. Report the cells removed or flagged by each filter, show plots that justify the thresholds, and generate global and group-level UMAP views for review. Return the filtered h5ad dataset and a concise summary of quality issues, annotation uncertainty, and decisions that require scientific review. Do not imply that an attractive embedding validates the underlying labels."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "chatgpt:bulk-rna-seq-fastq-qc",
+    "entry": {
+      "id": "fp-bulk-rna-seq-fastq-qc",
+      "slug": "bulk-rna-seq-fastq-qc",
+      "title": "Validate bulk RNA sequencing inputs",
+      "summary": "Check reads, reference files, and sample quality before differential expression.",
+      "departments": [
+        "Science",
+        "Data"
+      ],
+      "tags": [
+        "Analysis",
+        "Research"
+      ],
+      "prerequisites": [
+        "Provide sample sheet, FASTQ files, transcriptome and genome FASTA, GTF, and a configured bioinformatics runtime."
+      ],
+      "outcome": "A run manifest, QC report, count matrices, and a clear downstream-readiness assessment.",
+      "steps": [
+        {
+          "id": "start",
+          "title": "Start here",
+          "prompt": "Run a documented FASTQ-to-count quality review using [sample sheet], [FASTQ folder], and the supplied reference FASTA and GTF files. Validate inputs and compute resources before starting. Produce a run manifest, MultiQC report, and Salmon transcript- and gene-level count matrices. Interpret mapping rates, duplication, expected versus observed library type, and outlier samples. Separate warnings from issues that block differential-expression analysis, and link every concern to its sample and evidence. Return usable report links and the output paths."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "chatgpt:cash-flow-forecast",
+    "entry": {
+      "id": "fp-cash-flow-forecast",
+      "slug": "cash-flow-forecast",
+      "title": "Map future cash pressure",
+      "summary": "Build a formula-driven forecast that makes low-cash periods visible.",
+      "departments": [
+        "Finance"
+      ],
+      "tags": [
+        "Analysis",
+        "Planning"
+      ],
+      "prerequisites": [
+        "Attach cash balances, receipts, payment schedules, debt, tax, capex, and timing assumptions."
+      ],
+      "outcome": "An editable cash forecast with liquidity thresholds and visible assumptions.",
+      "steps": [
+        {
+          "id": "start",
+          "title": "Start here",
+          "prompt": "Build a cash forecast for [business and horizon] from the supplied files. Retain their weekly or monthly cadence. Model opening cash, collections, payroll, suppliers, debt, taxes, capital spending, and working-capital timing using formulas and explicit assumptions. Flag missing timing information instead of hiding a guessed value. Highlight the lowest closing balance, when it occurs, and any breach of [minimum cash threshold]. Deliver an editable workbook whose assumptions I can change without rebuilding the calculations."
+        },
+        {
+          "id": "refine",
+          "title": "Stress-test collections",
+          "prompt": "Model [collection delay or payment change] without changing the base case. Compare the lowest cash balance and threshold breaches, and identify which timing assumptions explain the difference.",
+          "instruction": "Continue in the same conversation after reviewing the first result."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "chatgpt:datasets-and-reports",
+    "entry": {
+      "id": "fp-datasets-and-reports",
+      "slug": "datasets-and-reports",
+      "title": "Turn multiple datasets into an answer",
+      "summary": "Clean, join, and analyze evidence with interpretable charts and limitations.",
+      "departments": [
+        "Data",
+        "Research"
+      ],
+      "tags": [
+        "Analysis",
+        "Research"
+      ],
+      "prerequisites": [
+        "Attach datasets, define the question, and provide any known join keys or metric definitions."
+      ],
+      "outcome": "A reviewable report or notebook with validated joins and supporting charts.",
+      "steps": [
+        {
+          "id": "start",
+          "title": "Start here",
+          "prompt": "Answer [research or business question] using the attached datasets. Explain what each file contains, establish valid join keys, and check duplicates, missing fields, unmatched records, and coverage. Preserve original files and do not fill gaps with invented data. Explore the question with clear charts and an interpretable model if needed. Lead the final report with the answer, then explain assumptions, uncertainty, and data problems that could change it. Distinguish association from causation and return the supporting workbook or notebook."
+        },
+        {
+          "id": "refine",
+          "title": "Challenge the result",
+          "prompt": "Check whether the conclusion changes under a reasonable alternative join, outlier treatment, or model specification. Compare the results and explain which assumptions are consequential.",
+          "instruction": "Continue in the same conversation after reviewing the first result."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "chatgpt:dcf-model",
+    "entry": {
+      "id": "fp-dcf-model",
+      "slug": "dcf-model",
+      "title": "Build a transparent DCF model",
+      "summary": "Connect operating assumptions to valuation in an editable workbook.",
+      "departments": [
+        "Finance"
+      ],
+      "tags": [
+        "Analysis",
+        "Planning"
+      ],
+      "prerequisites": [
+        "Attach company financials, approved assumptions, capital structure, and share count when available."
+      ],
+      "outcome": "A DCF workbook with operating drivers, valuation bridge, and clearly marked gaps.",
+      "steps": [
+        {
+          "id": "start",
+          "title": "Start here",
+          "prompt": "Create a discounted cash-flow workbook for [company] using the supplied financials. Link revenue growth, margins, capital expenditure, and working capital to unlevered free cash flow. Calculate the discount rate, terminal value, and enterprise value transparently. Calculate equity and per-share values only when the source files supply the required capital structure and diluted share count; otherwise state which inputs are missing. Put missing assumptions in a labeled assumptions section; do not bury guesses in formulas. If full statements are unavailable, identify the limitation and model only the supported operating forecast. Deliver an editable XLSX."
+        },
+        {
+          "id": "audit",
+          "title": "Audit the valuation before use",
+          "instruction": "Run this after building the workbook and before using its valuation outputs.",
+          "prompt": "Audit this DCF workbook against the source financials. Reconcile historical figures and distinguish formula-driven calculations from hardcoded inputs. Check operating drivers, unlevered free cash flow, WACC, terminal value, discounting, and the bridge from enterprise to equity value. Verify sensitivity-table formulas and their links to assumptions. Calculate per-share results only when the required capital structure and diluted share count are supplied. Identify errors, unsupported inputs, and exact cells requiring review; do not silently change business assumptions."
+        },
+        {
+          "id": "refine",
+          "title": "Review sensitivity",
+          "prompt": "Show how enterprise and per-share value change with the discount rate and terminal-growth assumptions. Highlight unsupported inputs and formulas that deserve finance-owner review.",
+          "instruction": "Continue in the same conversation after reviewing the first result."
+        },
+        {
+          "id": "assumption-update",
+          "title": "Change one valuation assumption",
+          "instruction": "Continue in the same conversation with the specific assumption you want to change.",
+          "prompt": "Update only [assumption] to [new value] in the DCF workbook. Preserve the previous value in a visible change log, retain all other approved assumptions, and recalculate linked outputs and sensitivity tables. Report which tabs and valuation results changed, including the size of the impact. Flag any dependency or missing input that prevents a valid recalculation rather than making unrelated adjustments."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "chatgpt:budget-vs-actuals-review",
+    "entry": {
+      "id": "fp-budget-vs-actuals-review",
+      "slug": "budget-vs-actuals-review",
+      "title": "Explain budget variances",
+      "summary": "Map actuals to plan and distinguish favorable from unfavorable movements.",
+      "departments": [
+        "Finance"
+      ],
+      "tags": [
+        "Analysis"
+      ],
+      "prerequisites": [
+        "Attach actuals, budget categories, the chart of accounts, and reporting-period definitions."
+      ],
+      "outcome": "An editable variance workbook with reconciled categories and clear exceptions.",
+      "steps": [
+        {
+          "id": "start",
+          "title": "Start here",
+          "prompt": "Compare [period] actuals with the approved budget in a new workbook. Map accounts to the correct budget categories, preserving the raw imports and flagging ambiguous mappings. Use formulas for amount and percentage differences. Interpret the direction by account type: additional revenue and additional expense have different implications. Summarize the material movements and identify source gaps or owner questions. Keep unmatched categories visible instead of forcing them into a convenient bucket."
+        },
+        {
+          "id": "refine",
+          "title": "Check the explanation",
+          "prompt": "Reconcile the largest variances to their source accounts. Distinguish timing effects, volume or rate changes, and unsupported explanations; list the questions needed to resolve the latter.",
+          "instruction": "Continue in the same conversation after reviewing the first result."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "chatgpt:github-code-reviews",
+    "entry": {
+      "id": "fp-github-code-reviews",
+      "slug": "github-code-reviews",
+      "title": "Review a pull request for regressions",
+      "summary": "Find consequential behavior changes, security risks, and missing coverage.",
+      "departments": [
+        "Engineering"
+      ],
+      "tags": [
+        "Coding",
+        "Analysis"
+      ],
+      "prerequisites": [
+        "Provide the pull request or exact diff and repository context."
+      ],
+      "outcome": "Severity-ranked findings with code references and verification gaps.",
+      "steps": [
+        {
+          "id": "start",
+          "title": "Start here",
+          "prompt": "Review [pull request or diff] against its base revision. Focus on regressions, security-relevant behavior changes, data loss, and tests that fail to cover the changed contract. Trace affected callers and error paths before raising a finding. For each actionable issue, explain the concrete trigger, impact, and relevant file and line. Put findings first by severity. State what was verified and which checks were not run. If no issues are supported by evidence, say so without implying the change is fully proven safe."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "chatgpt:find-vulnerabilities-in-your-code",
+    "entry": {
+      "id": "fp-find-vulnerabilities-in-your-code",
+      "slug": "find-vulnerabilities-in-your-code",
+      "title": "Run a focused repository security review",
+      "summary": "Assess a defined code scope and report realistic risks with evidence.",
+      "departments": [
+        "Security",
+        "Engineering"
+      ],
+      "tags": [
+        "Analysis",
+        "Coding"
+      ],
+      "prerequisites": [
+        "Requires an authorized repository, security guidance, and a code-capable environment."
+      ],
+      "outcome": "A security report covering findings, proof, exclusions, and gaps.",
+      "steps": [
+        {
+          "id": "start",
+          "title": "Start here",
+          "prompt": "Assess [repository or scoped folder] for security vulnerabilities. I am authorized to review this code. Read its security policy and architecture context, stay inside the named scope, and use supported validation methods. Trace plausible findings to affected code and realistic impact. Separate validated issues from unresolved suspicions. Report severity, evidence, assumptions, reviewed surfaces, exclusions, and remaining coverage gaps. Prioritize the findings and uncertainties that need human review. Do not apply patches or close findings during this assessment."
+        },
+        {
+          "id": "refine",
+          "title": "Understand one finding",
+          "prompt": "Explain [finding] from attacker-controlled input to the broken security boundary. Identify the prerequisites, evidence that supports the impact, and the smallest validation needed to resolve uncertainty.",
+          "instruction": "Continue in the same conversation after reviewing the first result."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "chatgpt:macos-sidebar-detail-inspector",
+    "entry": {
+      "id": "fp-macos-sidebar-detail-inspector",
+      "slug": "macos-sidebar-detail-inspector",
+      "title": "Create a native Mac app workspace",
+      "summary": "Build a SwiftUI shell with coordinated navigation, inspector, menus, and settings.",
+      "departments": [
+        "Engineering",
+        "Design"
+      ],
+      "tags": [
+        "Coding",
+        "Design"
+      ],
+      "prerequisites": [
+        "Requires a macOS development environment, Xcode, and an app brief or existing repository."
+      ],
+      "outcome": "A working Mac app shell with native controls and reproducible build steps.",
+      "steps": [
+        {
+          "id": "start",
+          "title": "Start here",
+          "prompt": "Build a Mac-native SwiftUI shell for [app]. Use a main WindowGroup and a separate Settings scene. Coordinate a lightweight sidebar, detail view, and inspector with explicit selection state. Put primary actions in menus, toolbars, and keyboard shortcuts. Use window-scoped storage for navigation and app storage for preferences. Prefer semantic colors and native materials; introduce an AppKit bridge only for a specific behavior SwiftUI cannot express. Add a reusable build-and-run script, exercise the main navigation and preferences, and report the exact verification commands."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "chatgpt:frontend-designs",
+    "entry": {
+      "id": "fp-frontend-designs",
+      "slug": "frontend-designs",
+      "title": "Implement a responsive design reference",
+      "summary": "Translate screenshots into the existing product without inventing a second design system.",
+      "departments": [
+        "Design",
+        "Engineering"
+      ],
+      "tags": [
+        "Design",
+        "Coding"
+      ],
+      "prerequisites": [
+        "Provide screenshots, interaction notes, and access to the current frontend repository and browser preview."
+      ],
+      "outcome": "A responsive implementation checked against the reference at multiple screen sizes.",
+      "steps": [
+        {
+          "id": "start",
+          "title": "Start here",
+          "prompt": "Implement [screen or flow] from the attached screenshots and notes in this repository. Reuse its components, tokens, routing, state, and data-fetching conventions. Match the visual hierarchy, spacing, proportions, and responsive behavior. Resolve ambiguous details with the simplest choice consistent with the reference and record the assumption. Check the finished page in a real browser at desktop and mobile widths, exercise its interactions, and correct observed differences before delivery."
+        },
+        {
+          "id": "refine",
+          "title": "Refine one detail",
+          "prompt": "Adjust [specific mismatch] to match the reference. Recheck the affected desktop and mobile layouts and confirm that the interaction still works.",
+          "instruction": "Continue in the same conversation after reviewing the first result."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "chatgpt:codebase-onboarding",
+    "entry": {
+      "id": "fp-codebase-onboarding",
+      "slug": "codebase-onboarding",
+      "title": "Map an unfamiliar code path",
+      "summary": "Trace ownership, validation, and data flow before making a change.",
+      "departments": [
+        "Engineering"
+      ],
+      "tags": [
+        "Research",
+        "Coding"
+      ],
+      "prerequisites": [
+        "Provide the repository and the feature, request, or subsystem to investigate."
+      ],
+      "outcome": "A source-linked flow explanation and a prioritized reading path.",
+      "steps": [
+        {
+          "id": "start",
+          "title": "Start here",
+          "prompt": "Trace how [request or feature] moves through this codebase, from entry point to response or persisted result. Explain which modules own each step, where inputs are validated, and where authentication, side effects, and error handling occur. Cite the actual files and symbols. Highlight important invariants and likely pitfalls for a developer changing this flow. Finish with the smallest useful set of files to read next. Keep observations separate from assumptions where runtime evidence is missing."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "chatgpt:getting-started-with-daybreak-blue",
+    "entry": {
+      "id": "fp-defensive-security-access",
+      "slug": "defensive-security-access",
+      "title": "Plan a defensive AI access rollout",
+      "summary": "Prepare a controlled access plan and verify that approved users can use the required security capability.",
+      "departments": [
+        "Security",
+        "Operations"
+      ],
+      "tags": [
+        "Planning",
+        "Organization"
+      ],
+      "prerequisites": [
+        "Provide the security-access program, current official setup guide, workspace state, and approved member list."
+      ],
+      "outcome": "An owner-reviewed rollout checklist with access verification and unresolved requirements.",
+      "steps": [
+        {
+          "id": "start",
+          "title": "Start here",
+          "prompt": "Prepare an access-rollout checklist for [approved defensive security program] in [workspace]. Use the current official instructions and the workspace evidence I provide. Separate pending application or verification from active access. Identify the authorized owner, approved members, required model permissions, role or group assignments, and how to check for unintended access through other roles. Treat API-project access as a separate setup when applicable. Propose a small benign verification task for an approved user and document troubleshooting checks. Do not submit attestations, change roles, or grant access; return the concrete steps for owner review."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "chatgpt:automate-security-reviews-in-github-cloud",
+    "entry": {
+      "id": "fp-automate-security-reviews-in-github-cloud",
+      "slug": "automate-security-reviews-in-github-cloud",
+      "title": "Configure automatic pull-request security reviews",
+      "summary": "Choose review triggers and reporting thresholds suited to repository risk.",
+      "departments": [
+        "Security",
+        "Engineering"
+      ],
+      "tags": [
+        "Planning",
+        "Coding"
+      ],
+      "prerequisites": [
+        "Provide repository access, supported security-review tooling, and current configuration documentation."
+      ],
+      "outcome": "A review configuration proposal with sensitive-path overrides and a validation plan.",
+      "steps": [
+        {
+          "id": "start",
+          "title": "Start here",
+          "prompt": "Review the security-review options for [repository] using its current tooling documentation. Propose when automatic and manually requested reviews should run, which severity levels should be reported, and which sensitive paths need tighter thresholds. Consider authentication, authorization, payment, infrastructure, and dependency code separately from low-risk areas. Explain the difference between ordinary correctness review and security analysis. Show the proposed settings, expected pull-request output, and a controlled verification change before altering repository configuration."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "chatgpt:manage-supply-chain-risk-in-cicd",
+    "entry": {
+      "id": "fp-manage-supply-chain-risk-in-cicd",
+      "slug": "manage-supply-chain-risk-in-cicd",
+      "title": "Triage dependency risk in CI",
+      "summary": "Connect package alerts to reachable code and review dependency updates.",
+      "departments": [
+        "Security",
+        "Engineering"
+      ],
+      "tags": [
+        "Analysis",
+        "Coding"
+      ],
+      "prerequisites": [
+        "Provide dependency alerts, manifests, lockfiles, CI configuration, and authorized repository access."
+      ],
+      "outcome": "A dependency-risk ledger and a narrowly scoped scan workflow proposal.",
+      "steps": [
+        {
+          "id": "start",
+          "title": "Start here",
+          "prompt": "Assess [dependency alerts or package update] against this repository. Check the affected versions, whether the vulnerable behavior is reachable, and what evidence supports or weakens each alert. Produce a ledger with validated, unresolved, and ruled-out findings and reasons. Propose a CI check triggered by relevant manifest or lockfile changes. Keep runner credentials isolated, handle untrusted pull requests appropriately, and preserve scan reports even on failure. Do not run package lifecycle scripts or dismiss alerts merely because a scanner completed."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "chatgpt:review-code-changes-in-codex-desktop",
+    "entry": {
+      "id": "fp-local-security-review",
+      "slug": "local-security-review",
+      "title": "Inspect security risks in a local code change",
+      "summary": "Review the working diff with its surrounding repository context.",
+      "departments": [
+        "Security",
+        "Engineering"
+      ],
+      "tags": [
+        "Coding",
+        "Analysis"
+      ],
+      "prerequisites": [
+        "Provide the local checkout, intended change set, and security guidance."
+      ],
+      "outcome": "A focused diff review with affected lines, realistic impact, and remaining uncertainty.",
+      "steps": [
+        {
+          "id": "start",
+          "title": "Start here",
+          "prompt": "Inspect the current changes in [repository] for security regressions. Confirm which edits belong to the intended task and identify the comparison revision. Read enough surrounding code to understand authorization, validation, and data handling affected by the patch. Report supported findings with exact locations, triggering conditions, and evidence; distinguish them from questions that need runtime validation. Keep unrelated work untouched and do not apply fixes as part of this review."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "chatgpt:set-up-security-context",
+    "entry": {
+      "id": "fp-set-up-security-context",
+      "slug": "set-up-security-context",
+      "title": "Write useful security review context",
+      "summary": "Document the system boundaries and reporting rules reviewers need.",
+      "departments": [
+        "Security",
+        "Engineering"
+      ],
+      "tags": [
+        "Writing",
+        "Analysis"
+      ],
+      "prerequisites": [
+        "Provide architecture documents, repository instructions, security expectations, and known limitations."
+      ],
+      "outcome": "A draft threat model and security policy grounded in the actual application.",
+      "steps": [
+        {
+          "id": "start",
+          "title": "Start here",
+          "prompt": "Inspect [repository] and the supplied architecture material. Draft a threat model describing protected assets, entry points, untrusted inputs, trust boundaries, privileged operations, and authentication assumptions. Separately draft SECURITY.md guidance defining security invariants, reportable findings, severity context, and exclusions. Keep engineering workflow instructions in their existing home and link supporting documents as a knowledge base. Cite code or source evidence, mark assumptions for owner review, and include known limitations rather than inventing controls. Present the proposed documents before committing them."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "chatgpt:fix-a-finding-from-your-security-scan",
+    "entry": {
+      "id": "fp-fix-a-finding-from-your-security-scan",
+      "slug": "fix-a-finding-from-your-security-scan",
+      "title": "Prepare and verify a security patch",
+      "summary": "Move a reviewed finding through a focused patch and evidence-based verification.",
+      "departments": [
+        "Security",
+        "Engineering"
+      ],
+      "tags": [
+        "Coding",
+        "Analysis"
+      ],
+      "prerequisites": [
+        "Provide the reviewed finding, affected repository, reproduction evidence, and supported test commands."
+      ],
+      "outcome": "A focused patch, before-and-after evidence, and a draft review description.",
+      "steps": [
+        {
+          "id": "start",
+          "title": "Start here",
+          "prompt": "Address [reviewed finding] in this repository. Confirm the vulnerable behavior and the legitimate behavior that must remain. Prepare the smallest focused patch with a regression test or repeatable validation artifact. Show the proposed diff before applying it when the review workflow supports that separation. Verify that the original issue no longer occurs and normal behavior still works; record exact commands and limitations. Prepare a review description linking the finding, code changes, and evidence. Do not close the finding, merge, or deploy solely because a patch was generated."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "chatgpt:slack-coding-tasks",
+    "entry": {
+      "id": "fp-slack-coding-tasks",
+      "slug": "slack-coding-tasks",
+      "title": "Turn a discussion thread into a code fix",
+      "summary": "Investigate a reported issue using its conversation context and the correct repository.",
+      "departments": [
+        "Engineering"
+      ],
+      "tags": [
+        "Coding",
+        "Communication"
+      ],
+      "prerequisites": [
+        "Provide the discussion thread, repository, and prepared development environment."
+      ],
+      "outcome": "A minimal fix with checks and a draft response to the original discussion.",
+      "steps": [
+        {
+          "id": "start",
+          "title": "Start here",
+          "prompt": "Investigate the issue described in [thread] for [repository]. Use the approved development environment and read the repository instructions. Extract the expected behavior and concrete failure evidence from the discussion, inspect the relevant code, and make the smallest supported fix. Run the checks that cover the change and report any reproduction or access gaps. Prepare a concise response explaining the cause, change, and verification. Keep the response as a draft unless I explicitly authorize posting it."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "chatgpt:new-hire-onboarding",
+    "entry": {
+      "id": "fp-new-hire-onboarding",
+      "slug": "new-hire-onboarding",
+      "title": "Prepare a new-hire onboarding packet",
+      "summary": "Stage readiness trackers and welcome materials using approved hiring information.",
+      "departments": [
+        "HR",
+        "Operations"
+      ],
+      "tags": [
+        "Organization",
+        "Communication"
+      ],
+      "prerequisites": [
+        "Provide the approved new-hire roster, start-date window, manager mapping, tracker template, and announcement/privacy rules."
+      ],
+      "outcome": "A staged tracker update, readiness-gap list, and private welcome plan.",
+      "steps": [
+        {
+          "id": "start",
+          "title": "Start here",
+          "prompt": "Prepare onboarding drafts for accepted hires starting during [date range]. Use only [approved roster and mapping sources]. Check source fields and group hires by team and manager; flag missing role, start date, work contact, buddy, location, or equipment/account readiness. Propose tracker updates and a team summary. Draft welcome-space names, membership, and messages only within the approved announcement and privacy rules. Exclude compensation, identity documents, medical details, interview notes, and other unrelated sensitive information. Return the staged rows and exact drafts for review without changing HR records, inviting people, creating channels, or sending messages."
+        },
+        {
+          "id": "refine",
+          "title": "Review readiness gaps",
+          "prompt": "Prioritize the missing onboarding information by what blocks the start date. For each gap, identify the appropriate owner from the approved mapping and draft a minimal clarification request without exposing the full roster.",
+          "instruction": "Continue in the same conversation after reviewing the first result."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "chatgpt:deep-security-scan",
+    "entry": {
+      "id": "fp-deep-security-scan",
+      "slug": "deep-security-scan",
+      "title": "Run a deep repository security assessment",
+      "summary": "Use repeated investigation passes to reduce missed vulnerabilities and clarify coverage.",
+      "departments": [
+        "Security",
+        "Engineering"
+      ],
+      "tags": [
+        "Analysis",
+        "Research"
+      ],
+      "prerequisites": [
+        "Requires authorized repository access, a security-capable code agent, and an explicit assessment scope."
+      ],
+      "outcome": "A consolidated security report with validated findings and remaining proof gaps.",
+      "steps": [
+        {
+          "id": "start",
+          "title": "Start here",
+          "prompt": "Perform a deep security assessment of [repository or exact folder]. Read the security policy and preserve the agreed scope. Use independent discovery passes across relevant surfaces, consolidate duplicates, and validate the strongest candidates against their actual source-to-impact paths. Keep evidence and coverage records for each pass. Report surviving findings, realistic exploit prerequisites, reviewed areas, exclusions, and proof gaps. Distinguish this repository-wide assessment from a pull-request diff review. Do not apply fixes or imply that incomplete coverage establishes security."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "chatgpt:zoom-meeting-follow-ups",
+    "entry": {
+      "id": "fp-zoom-meeting-follow-ups",
+      "slug": "zoom-meeting-follow-ups",
+      "title": "Convert a customer meeting into follow-ups",
+      "summary": "Draft consistent customer, account, and internal updates from meeting evidence.",
+      "departments": [
+        "Sales",
+        "Operations"
+      ],
+      "tags": [
+        "Communication",
+        "Writing"
+      ],
+      "prerequisites": [
+        "Provide the meeting transcript, summary, account context, and intended destinations."
+      ],
+      "outcome": "A source-backed meeting recap and separate unsent follow-up drafts.",
+      "steps": [
+        {
+          "id": "start",
+          "title": "Start here",
+          "prompt": "Use [customer meeting transcript and summary] to identify decisions, risks, opportunities, and explicit commitments with owners and dates. Name any missing source before drafting. Prepare a customer follow-up email, an account-plan update, CRM notes, and an internal team message. Ground important claims in the transcript and keep internal-only information out of the customer version. Flag uncertain ownership or timing instead of inventing commitments. Return the drafts separately; do not create records, assign work, send email, or post messages."
+        },
+        {
+          "id": "refine",
+          "title": "Compare recurring calls",
+          "prompt": "Compare this call with the previous three. Highlight new decisions, changed commitments, emerging risks, and unresolved actions. Update the drafts only where the evidence changed and flag missing transcripts.",
+          "instruction": "Continue in the same conversation after reviewing the first result."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "chatgpt:learn-a-new-concept",
+    "entry": {
+      "id": "fp-learn-a-new-concept",
+      "slug": "learn-a-new-concept",
+      "title": "Learn a research concept from its evidence",
+      "summary": "Build a study guide that separates a paper's claims from established knowledge.",
+      "departments": [
+        "Education",
+        "Research"
+      ],
+      "tags": [
+        "Learning",
+        "Research"
+      ],
+      "prerequisites": [
+        "Provide the paper or accessible link and describe your current background."
+      ],
+      "outcome": "A cited learning report with a glossary, diagrams, limitations, and study questions.",
+      "steps": [
+        {
+          "id": "start",
+          "title": "Start here",
+          "prompt": "Help me understand [concept] using [research paper]. Examine its problem, contribution, methods, experiments, figures, and limitations. Explain the prerequisite terms I need and distinguish what the paper demonstrates from its claims and your interpretation. Build a concise learning report with a glossary, method walkthrough, concept map, evidence table, caveats, and open questions. Cite sections, pages, or figures. Use diagrams where they clarify the mechanism; do not add unverified scientific detail."
+        },
+        {
+          "id": "refine",
+          "title": "Practice the concept",
+          "prompt": "Design a small reproducible example that illustrates one mechanism in the paper. Explain the inputs, expected output, and limitations, then provide a runnable script or notebook with a chart or table I can inspect.",
+          "instruction": "Continue in the same conversation after reviewing the first result."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "chatgpt:idea-to-proof-of-concept",
+    "entry": {
+      "id": "fp-idea-to-proof-of-concept",
+      "slug": "idea-to-proof-of-concept",
+      "title": "Turn an idea into a working prototype",
+      "summary": "Explore a visual direction and implement the core user journey.",
+      "departments": [
+        "Product",
+        "Design"
+      ],
+      "tags": [
+        "Design",
+        "Coding"
+      ],
+      "prerequisites": [
+        "Provide the idea, audience, main workflow, and a development environment; image generation is optional for visual exploration."
+      ],
+      "outcome": "A working first version with browser-checked interactions.",
+      "steps": [
+        {
+          "id": "start",
+          "title": "Start here",
+          "prompt": "Develop a proof of concept for [idea] aimed at [users]. Define the main workflow and create a visual mockup that makes the direction concrete. Use that reference to implement a focused working version in the available project. Preserve the chosen visual hierarchy and make the primary interaction complete. Check it in a real browser, report what is simulated or missing, and provide the local run instructions."
+        },
+        {
+          "id": "refine",
+          "title": "Iterate on feedback",
+          "prompt": "Apply [specific feedback] to the prototype. Keep the change focused, exercise the affected browser flow, and compare the result with the chosen design before handing it back.",
+          "instruction": "Continue in the same conversation after reviewing the first result."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "chatgpt:deploy-app-or-website",
+    "entry": {
+      "id": "fp-deploy-app-or-website",
+      "slug": "deploy-app-or-website",
+      "title": "Prepare a web app preview deployment",
+      "summary": "Build the requested site and verify a reviewable deployment.",
+      "departments": [
+        "Engineering",
+        "Design"
+      ],
+      "tags": [
+        "Coding",
+        "Design"
+      ],
+      "prerequisites": [
+        "Provide source code or a brief, required assets, and an authorized deployment account."
+      ],
+      "outcome": "A verified preview URL with build results and remaining limitations.",
+      "steps": [
+        {
+          "id": "start",
+          "title": "Start here",
+          "prompt": "Build or update [website] using [repository, screenshots, or brief]. Follow [product and style constraints] and preserve [unchanged areas]. Complete the required interactions, run the local build, and inspect the result. Using the approved hosting connection, deploy a preview and verify that the deployment is ready before returning its URL. If hosting access is unavailable, return the working local version and exact missing setup rather than claiming a deployment succeeded."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "chatgpt:remediate-vulnerability-backlog",
+    "entry": {
+      "id": "fp-remediate-vulnerability-backlog",
+      "slug": "remediate-vulnerability-backlog",
+      "title": "Resolve a reported vulnerability",
+      "summary": "Turn an accepted external or internal finding into a minimal, testable remediation.",
+      "departments": [
+        "Security",
+        "Engineering"
+      ],
+      "tags": [
+        "Coding",
+        "Analysis"
+      ],
+      "prerequisites": [
+        "Provide the report, affected component, expected security invariant, proof, and repository access."
+      ],
+      "outcome": "A focused remediation with reproduction evidence and regression coverage.",
+      "steps": [
+        {
+          "id": "start",
+          "title": "Start here",
+          "prompt": "Fix [accepted security finding] from [report or ticket]. Review the attacker-controlled input, broken control, expected invariant, and existing proof. Confirm the issue still exists when feasible; if it is already fixed, show the evidence. Make the smallest change that restores the invariant, add a focused regression check, and verify both the original failure and legitimate behavior. Keep unrelated findings and refactors out of scope. Return changed files, commands, results, and any remaining uncertainty without merging or deploying."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "chatgpt:scan-code-changes-for-security",
+    "entry": {
+      "id": "fp-scan-code-changes-for-security",
+      "slug": "scan-code-changes-for-security",
+      "title": "Check a diff for security regressions",
+      "summary": "Trace security-sensitive changes against an exact base and head.",
+      "departments": [
+        "Security",
+        "Engineering"
+      ],
+      "tags": [
+        "Analysis",
+        "Coding"
+      ],
+      "prerequisites": [
+        "Provide an authorized PR, commit range, or working-tree diff and its security context."
+      ],
+      "outcome": "A security diff report with evidence-backed findings and review locations.",
+      "steps": [
+        {
+          "id": "start",
+          "title": "Start here",
+          "prompt": "Review [exact pull request, commit range, or patch] for security regressions. Confirm the revisions and focus on [sensitive surfaces]. Trace changed input handling, authorization, secrets, filesystem, network, and dependency behavior into surrounding code where relevant. For each finding, explain a realistic trigger and impact with precise code references and validation evidence. Keep uncertainty explicit and identify coverage gaps. Return a Markdown review and suggested inline comments; do not silently expand the task into a full repository audit."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "chatgpt:dependency-incident-audits",
+    "entry": {
+      "id": "fp-dependency-incident-audits",
+      "slug": "dependency-incident-audits",
+      "title": "Assess exposure to a dependency advisory",
+      "summary": "Determine whether a public package incident actually affects your repository.",
+      "departments": [
+        "Security",
+        "Engineering"
+      ],
+      "tags": [
+        "Research",
+        "Analysis"
+      ],
+      "prerequisites": [
+        "Provide the advisory URL, repository, lockfiles, and relevant CI or build configuration."
+      ],
+      "outcome": "An exposure assessment with repository evidence and a proposed remediation path.",
+      "steps": [
+        {
+          "id": "start",
+          "title": "Start here",
+          "prompt": "Evaluate [public package advisory] against this repository using read-only inspection. Establish affected packages and versions from authoritative sources. Inspect manifests, lockfiles, CI permissions, lifecycle scripts, and relevant built or vendored artifacts. Explain what proves exposure and what would rule it out, including token or cache implications when relevant. Classify the result as confirmed, unresolved, or ruled out, with file references and impact limits. Do not install packages, execute lifecycle scripts, rotate credentials, or delete files."
+        },
+        {
+          "id": "refine",
+          "title": "Plan remediation",
+          "prompt": "For confirmed exposure, propose the exact package or configuration changes, verification, rollback, and any credential review required. Keep commands that execute untrusted code out of the plan unless their safety is established.",
+          "instruction": "Continue in the same conversation after reviewing the first result."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "chatgpt:qa-your-app-with-computer-use",
+    "entry": {
+      "id": "fp-qa-your-app-with-computer-use",
+      "slug": "qa-your-app-with-computer-use",
+      "title": "Test the app as a real user",
+      "summary": "Exercise important flows and capture actionable reproduction details.",
+      "departments": [
+        "Engineering",
+        "Product"
+      ],
+      "tags": [
+        "Analysis"
+      ],
+      "prerequisites": [
+        "Provide the test environment, approved account or fixtures, and the critical user flows."
+      ],
+      "outcome": "A prioritized bug report with expected and actual results.",
+      "steps": [
+        {
+          "id": "start",
+          "title": "Start here",
+          "prompt": "Test [application or environment] through these user journeys: [flows]. Navigate the real interface, including relevant forms, empty states, and transitions. For each failure, record reproducible steps, expected behavior, actual behavior, severity, and useful screenshots or logs. Continue past non-blocking issues so the review covers all requested flows. Finish with a triage summary and state what could not be tested. Use only the approved test data and avoid consequential production actions."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "chatgpt:api-integration-migrations",
+    "entry": {
+      "id": "fp-api-integration-migrations",
+      "slug": "api-integration-migrations",
+      "title": "Modernize an AI API integration",
+      "summary": "Upgrade the supported API path while preserving application behavior.",
+      "departments": [
+        "Engineering"
+      ],
+      "tags": [
+        "Coding",
+        "Research"
+      ],
+      "prerequisites": [
+        "Provide the repository, provider, current integration, target requirements, and access to official documentation."
+      ],
+      "outcome": "A bounded migration with updated prompts, tests, and compatibility notes.",
+      "steps": [
+        {
+          "id": "start",
+          "title": "Start here",
+          "prompt": "Inspect this [AI provider] integration and inventory models, endpoints, tool contracts, response handling, and prompt assumptions. Consult current official documentation for the supported migration path and model-specific prompting guidance. Propose the smallest upgrade that meets [requirements], then implement it within the approved scope. Preserve observable behavior unless the new API requires a change. Test tool calls and response shapes, and explicitly flag manual review points or unsupported features. Do not assume a model-name substitution is a complete migration."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "chatgpt:complete-tasks-from-messages",
+    "entry": {
+      "id": "fp-complete-tasks-from-messages",
+      "slug": "complete-tasks-from-messages",
+      "title": "Act on a request found in messages",
+      "summary": "Follow a conversation into the necessary apps and prepare a contextual reply.",
+      "departments": [
+        "General"
+      ],
+      "tags": [
+        "Organization",
+        "Communication"
+      ],
+      "prerequisites": [
+        "Provide the message thread and approved app access; execution requires an agent that can operate those apps."
+      ],
+      "outcome": "The completed bounded task and an unsent reply in context.",
+      "steps": [
+        {
+          "id": "start",
+          "title": "Start here",
+          "prompt": "Read the messages from [person or thread] and establish exactly what was requested. Check later replies for changes or resolution. Complete the authorized task using [approved applications], verifying the result at the destination. Draft a reply that explains the outcome in the original conversation's tone. Pause before a purchase, booking, deletion, external commitment, or any other irreversible action. If required access is missing, describe the remaining steps precisely instead of claiming completion."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "chatgpt:figma-designs-to-code",
+    "entry": {
+      "id": "fp-figma-designs-to-code",
+      "slug": "figma-designs-to-code",
+      "title": "Build an interface from a Figma frame",
+      "summary": "Implement the exact design variant using your existing frontend conventions.",
+      "departments": [
+        "Design",
+        "Engineering"
+      ],
+      "tags": [
+        "Design",
+        "Coding"
+      ],
+      "prerequisites": [
+        "Provide the Figma file and exact frame or node, repository access, and a browser preview."
+      ],
+      "outcome": "A responsive screen matched to the selected design and tested in the browser.",
+      "steps": [
+        {
+          "id": "start",
+          "title": "Start here",
+          "prompt": "Implement [Figma frame] in this project. Retrieve the frame's design context and screenshot first; if the response is too large, inspect its structure and fetch only the required nodes. Reuse existing components, tokens, assets, routes, and state patterns. Match layout, spacing, typography, and responsive behavior rather than substituting a generic design. Use the provided image and vector assets where available. Compare the implemented result with the exact design variant in desktop and mobile browser views, and verify the key interactions."
+        },
+        {
+          "id": "refine",
+          "title": "Check design fidelity",
+          "prompt": "Review the implementation against [frame or updated screenshot]. List visible differences by impact, fix the approved discrepancies, and recheck responsive behavior and interactions.",
+          "instruction": "Continue in the same conversation after reviewing the first result."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "chatgpt:browser-games",
+    "entry": {
+      "id": "fp-browser-games",
+      "slug": "browser-games",
+      "title": "Prototype a playable browser game",
+      "summary": "Build and playtest the core loop before expanding the game.",
+      "departments": [
+        "Engineering",
+        "Design"
+      ],
+      "tags": [
+        "Coding",
+        "Design"
+      ],
+      "prerequisites": [
+        "Provide the game concept, controls, target devices, and a runnable development repository."
+      ],
+      "outcome": "A playable browser game with run instructions and a record of playtest results.",
+      "steps": [
+        {
+          "id": "start",
+          "title": "Start here",
+          "prompt": "Plan and build a browser game about [concept] in this repository. Define the core loop, controls, win or loss conditions, and first playable scope in a short plan. Create the required visuals and implement the game with a coherent interface. Keep a work log as you iterate. Run it in a real browser, play the complete loop, and inspect input handling, restart behavior, and layout on the target devices. Fix observed problems and return the run command, playtest evidence, and known limitations."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "chatgpt:reusable-codex-skills",
+    "entry": {
+      "id": "fp-reusable-agent-skills",
+      "slug": "reusable-agent-skills",
+      "title": "Package a repeatable workflow as a skill",
+      "summary": "Capture a proven process with reusable instructions, commands, and output expectations.",
+      "departments": [
+        "Engineering",
+        "Operations"
+      ],
+      "tags": [
+        "Organization",
+        "Coding"
+      ],
+      "prerequisites": [
+        "Provide a successful example, supporting runbook or thread, reusable commands, and the target agent platform."
+      ],
+      "outcome": "A reusable skill grounded in a demonstrated workflow.",
+      "steps": [
+        {
+          "id": "start",
+          "title": "Start here",
+          "prompt": "Create a reusable agent skill for [recurring task]. Learn from [successful example] and [runbook, review, or discussion]. Identify the inputs, sequence, decision points, reusable scripts, validation commands, and expected output. Preserve the important behavior from the working example while removing one-off details. Make instructions specific enough for another run to follow and clearly state when the skill applies. Verify its format against the target platform and test it with a representative task rather than inventing untested capabilities."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "chatgpt:iterate-on-difficult-problems",
+    "entry": {
+      "id": "fp-iterate-on-difficult-problems",
+      "slug": "iterate-on-difficult-problems",
+      "title": "Improve a difficult task through evaluation",
+      "summary": "Use scored iterations and direct artifact review to reach a measurable target.",
+      "departments": [
+        "Engineering",
+        "Research"
+      ],
+      "tags": [
+        "Analysis",
+        "Coding"
+      ],
+      "prerequisites": [
+        "Provide the workspace, scoring command, target metrics, and practical runtime limits."
+      ],
+      "outcome": "The best evaluated result, iteration history, and remaining weaknesses.",
+      "steps": [
+        {
+          "id": "start",
+          "title": "Start here",
+          "prompt": "Improve [task] through a measured iteration loop. Read the workspace instructions and locate the existing evaluation command before changing anything. Record the baseline. Make one focused improvement, rerun the evaluation, and inspect the resulting artifact directly. Log what changed, scores, and observed tradeoffs. Continue toward [target thresholds] within [resource limits], keeping changes only when evidence supports them. Do not optimize a score while ignoring a visibly worse result. Return the strongest version, major iterations, bottlenecks, and unresolved risks."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "chatgpt:monthly-business-review-narrative",
+    "entry": {
+      "id": "fp-monthly-business-review-narrative",
+      "slug": "monthly-business-review-narrative",
+      "title": "Write a business performance review",
+      "summary": "Connect KPI changes and financial results into a source-backed leadership narrative.",
+      "departments": [
+        "Finance",
+        "Operations"
+      ],
+      "tags": [
+        "Analysis",
+        "Writing"
+      ],
+      "prerequisites": [
+        "Provide KPI definitions, close and forecast workbooks, prior reviews, and owner commentary."
+      ],
+      "outcome": "An editable business review with cited numbers, anomalies, and owner questions.",
+      "steps": [
+        {
+          "id": "start",
+          "title": "Start here",
+          "prompt": "Prepare the [period] performance review for [business or team] using only the supplied dashboards, financial tables, forecasts, prior review, and owner notes. Lead with the decisions and material changes leadership needs to understand. Explain key variances, anomalies, forecast changes, risks, and data-quality concerns with supporting charts where useful. Cite the exact source behind material figures. List missing inputs and unsupported explanations explicitly, and assign follow-up questions only where an owner is identified. Return an editable document for review."
+        },
+        {
+          "id": "refine",
+          "title": "Audit the narrative",
+          "prompt": "Check every material number and causal explanation against its source. Mark unsupported claims, reconcile inconsistent figures, and tighten the leadership summary without concealing uncertainty.",
+          "instruction": "Continue in the same conversation after reviewing the first result."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "chatgpt:cfo-board-reporting-pack",
+    "entry": {
+      "id": "fp-cfo-board-reporting-pack",
+      "slug": "cfo-board-reporting-pack",
+      "title": "Refresh a leadership reporting deck",
+      "summary": "Update the story across workstreams while preserving the established deck.",
+      "departments": [
+        "Finance",
+        "Operations"
+      ],
+      "tags": [
+        "Writing",
+        "Analysis"
+      ],
+      "prerequisites": [
+        "Provide the previous deck, initiative tracker, KPI and forecast inputs, cash view, and leadership notes."
+      ],
+      "outcome": "An editable reporting deck with source tie-outs, visual checks, and review flags.",
+      "steps": [
+        {
+          "id": "start",
+          "title": "Start here",
+          "prompt": "Refresh the [period] leadership reporting pack using the prior deck and supplied financial, initiative, and owner updates. Identify the common story across workstreams, then update metrics, deltas, charts, risks, milestones, and decisions. Preserve the deck's visual system. Trace significant numbers to source files and flag figures that do not reconcile or require owner confirmation. Render the finished slides and correct overflow, clipping, and layout issues. Deliver the editable presentation and a short list of changes and leadership review points; do not share it."
+        },
+        {
+          "id": "refine",
+          "title": "Review changes",
+          "prompt": "Compare the revised pack with the previous version. Identify changed conclusions, revised figures, new risks, and slides that depend on unresolved assumptions or owner input.",
+          "instruction": "Continue in the same conversation after reviewing the first result."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "chatgpt:meeting-prep-briefs",
+    "entry": {
+      "id": "fp-meeting-prep-briefs",
+      "slug": "meeting-prep-briefs",
+      "title": "Prepare an evidence-based meeting brief",
+      "summary": "Arrive with the objective, context, agenda, and decisions clearly organized.",
+      "departments": [
+        "General"
+      ],
+      "tags": [
+        "Planning",
+        "Communication"
+      ],
+      "prerequisites": [
+        "Provide the meeting date, calendar event, and specific notes, documents, or threads to consult."
+      ],
+      "outcome": "A concise meeting brief with sources, questions, and a notes template.",
+      "steps": [
+        {
+          "id": "start",
+          "title": "Start here",
+          "prompt": "Prepare me for [meeting] on [date]. Use only [named calendar event, documents, notes, and discussion threads]. Start by confirming accessible sources and identifying gaps. Explain the meeting objective, relevant attendee context, facts we should share, likely agenda, unresolved questions, and decisions or commitments I may owe. Link to supporting evidence. Add a practical notes template for decisions and follow-ups. Put unsupported assumptions in a separate section. Do not send messages, edit shared notes, or distribute the brief."
+        },
+        {
+          "id": "refine",
+          "title": "Shorten the pre-read",
+          "prompt": "Condense this into a one-page pre-read with the objective, three essential facts, decisions needed, and the most consequential open questions. Retain source links.",
+          "instruction": "Continue in the same conversation after reviewing the first result."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "chatgpt:update-documentation",
+    "entry": {
+      "id": "fp-update-documentation",
+      "slug": "update-documentation",
+      "title": "Keep product documentation aligned with code",
+      "summary": "Update the public guidance affected by a real implementation change.",
+      "departments": [
+        "Engineering"
+      ],
+      "tags": [
+        "Writing",
+        "Coding"
+      ],
+      "prerequisites": [
+        "Provide changed source files, relevant docs, release context, and documentation validation commands."
+      ],
+      "outcome": "A focused documentation update with verified claims and preserved cross-links.",
+      "steps": [
+        {
+          "id": "start",
+          "title": "Start here",
+          "prompt": "Update documentation for [feature] from the changed code, current docs, and supplied issue or release references. Establish what actually changed for users. Revise only the affected pages while preserving terminology, structure, and links. Keep private customer information, internal-only notes, and unpublished plans out of public content. Check examples and claims against the implementation, run the relevant documentation checks, and summarize the changes, verification, and any unresolved mismatch."
+        },
+        {
+          "id": "refine",
+          "title": "Make future updates repeatable",
+          "prompt": "Document the source files, documentation pages, and checks that should be reviewed together for future changes to this feature. Propose a narrow recurring check without automatically publishing edits.",
+          "instruction": "Continue in the same conversation after reviewing the first result."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "chatgpt:native-ios-apps",
+    "entry": {
+      "id": "fp-native-ios-apps",
+      "slug": "native-ios-apps",
+      "title": "Build an iPhone and iPad app slice",
+      "summary": "Create or extend a SwiftUI app with a repeatable build-and-launch loop.",
+      "departments": [
+        "Engineering"
+      ],
+      "tags": [
+        "Coding",
+        "Design"
+      ],
+      "prerequisites": [
+        "Requires macOS, Xcode, the target simulator, and an app brief or existing project."
+      ],
+      "outcome": "A working iOS feature slice with exact build and verification instructions.",
+      "steps": [
+        {
+          "id": "start",
+          "title": "Start here",
+          "prompt": "Build [iPhone or iPad app feature] in this project. First determine whether this is a new scaffold or an existing Xcode application. Reuse established models, navigation, and utilities. Choose the correct scheme and simulator, use xcodebuild or the available Xcode automation, and add a small build-and-launch script. Validate each meaningful change with the narrowest useful check before broader builds. Deliver the working feature, exact commands and environment used, and any unverified device-specific behavior."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "chatgpt:scan-multiple-repositories",
+    "entry": {
+      "id": "fp-scan-multiple-repositories",
+      "slug": "scan-multiple-repositories",
+      "title": "Assess security across a repository portfolio",
+      "summary": "Keep each repository's revision, findings, and coverage independently traceable.",
+      "departments": [
+        "Security",
+        "Engineering"
+      ],
+      "tags": [
+        "Analysis",
+        "Organization"
+      ],
+      "prerequisites": [
+        "Provide authorized repository URLs, full commit SHAs, scan tooling, and approved concurrency and cost limits."
+      ],
+      "outcome": "A per-repository assessment ledger with separate evidence and follow-up actions.",
+      "steps": [
+        {
+          "id": "start",
+          "title": "Start here",
+          "prompt": "Prepare and run an authorized security assessment for [repository inventory]. Require a unique ID and full commit SHA for every repository; do not silently substitute a branch tip or uncommitted state. Use the approved concurrency, scan mode, and estimated cost limits. Save private results separately for each repository outside the scanned trees. Verify the scanned revisions, completion status, findings, and coverage gaps. Distinguish successful execution from an absence of vulnerabilities. Return a portfolio ledger of investigations, accepted fixes, and incomplete coverage, with the evidence paths and safe resume instructions."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "chatgpt:kpi-root-cause-analysis",
+    "entry": {
+      "id": "fp-kpi-root-cause-analysis",
+      "slug": "kpi-root-cause-analysis",
+      "title": "Explain a KPI movement",
+      "summary": "Break a metric change into supported drivers and testable hypotheses.",
+      "departments": [
+        "Data",
+        "Product"
+      ],
+      "tags": [
+        "Analysis",
+        "Research"
+      ],
+      "prerequisites": [
+        "Provide the metric definition, date window, source exports, segment cuts, and relevant launch or campaign context."
+      ],
+      "outcome": "A root-cause brief with reconciled changes, charts, and next investigations.",
+      "steps": [
+        {
+          "id": "start",
+          "title": "Start here",
+          "prompt": "Investigate why [KPI] changed during [period]. Confirm the metric definition and compare the relevant periods using the supplied source data. Break the change down by useful cohorts, channels, regions, segments, or product surfaces. Quantify the largest contributions and relate them to known events without treating correlation as proof. Separate confirmed drivers from hypotheses, flag data-quality issues, and cite the evidence. Return charts, open questions, and recommended next checks without altering the source."
+        },
+        {
+          "id": "refine",
+          "title": "Challenge the cause",
+          "prompt": "Test the leading explanation against alternative segments, timing, or measurement changes. Identify the strongest evidence against it and the additional data needed to resolve the question.",
+          "instruction": "Continue in the same conversation after reviewing the first result."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "chatgpt:dashboard-builder-monitor",
+    "entry": {
+      "id": "fp-dashboard-builder-monitor",
+      "slug": "dashboard-builder-monitor",
+      "title": "Specify a dashboard that supports decisions",
+      "summary": "Define metrics, views, ownership, and monitoring before building.",
+      "departments": [
+        "Data",
+        "Operations"
+      ],
+      "tags": [
+        "Planning",
+        "Analysis"
+      ],
+      "prerequisites": [
+        "Provide the business question, workflow, metric definitions, source examples, and stakeholder needs."
+      ],
+      "outcome": "A buildable dashboard specification with validation and ownership rules.",
+      "steps": [
+        {
+          "id": "start",
+          "title": "Start here",
+          "prompt": "Design a dashboard specification for [workflow or decision]. Use the supplied strategy, data exports, metric definitions, existing examples, and feedback. Explain the decisions it should enable, the KPI hierarchy, each calculation, chart, and filter, and the data needed. Define quality checks, acceptance checks, owners, handoffs, and a monitoring approach. Highlight access and publication constraints. Do not invent a metric definition or call the design production-ready before its sources and calculations are validated."
+        },
+        {
+          "id": "refine",
+          "title": "Define actionable alerts",
+          "prompt": "For each proposed monitored metric, specify the threshold or comparison, owner, required context, and expected response. Remove alerts that have no useful decision or reliable source behind them.",
+          "instruction": "Continue in the same conversation after reviewing the first result."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "chatgpt:strategic-initiative-health-update",
+    "entry": {
+      "id": "fp-strategic-initiative-health-update",
+      "slug": "strategic-initiative-health-update",
+      "title": "Report an initiative's current health",
+      "summary": "Show material progress, blockers, and decisions without rewriting the tracker.",
+      "departments": [
+        "Operations",
+        "Product"
+      ],
+      "tags": [
+        "Planning",
+        "Communication"
+      ],
+      "prerequisites": [
+        "Provide initiative documents, tracker, prior update, KPI changes, decision log, and owner notes."
+      ],
+      "outcome": "A concise initiative update that separates confirmed status from inference.",
+      "steps": [
+        {
+          "id": "start",
+          "title": "Start here",
+          "prompt": "Prepare the [weekly or monthly] update for [initiative]. Compare the current tracker, metrics, decisions, and owner notes with the previous brief. Focus on material progress and changes, blockers, dependencies, decisions needed, and the next actions with supported owners. Identify stale items that need confirmation. Link important claims to evidence and distinguish inferred status from explicit updates. Return a reviewable brief without editing the project tracker or sending it."
+        },
+        {
+          "id": "refine",
+          "title": "Compare reporting periods",
+          "prompt": "Show what changed between [previous period] and [current period]: completed milestones, shifted dates, resolved or new blockers, and changed decisions. Exclude unchanged background.",
+          "instruction": "Continue in the same conversation after reviewing the first result."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "chatgpt:prioritize-accounts",
+    "entry": {
+      "id": "fp-prioritize-accounts",
+      "slug": "prioritize-accounts",
+      "title": "Choose the accounts that need attention",
+      "summary": "Rank account work by urgency, risk, upside, and evidence.",
+      "departments": [
+        "Sales"
+      ],
+      "tags": [
+        "Analysis",
+        "Planning"
+      ],
+      "prerequisites": [
+        "Provide account exports, recent conversations, usage signals, account plans, and prioritization criteria."
+      ],
+      "outcome": "A ranked account focus list with grounded next actions.",
+      "steps": [
+        {
+          "id": "start",
+          "title": "Start here",
+          "prompt": "Prioritize [number] accounts for [renewal, growth, or pipeline objective] this week. Use the supplied account records, recent calls, open email threads, usage data, and review criteria. For each account, explain why it matters now, the strongest risk or opportunity, the next useful action, and the source evidence. Flag stale or missing context that could change the ranking. Draft follow-up notes only where the next step is clear. Do not update the CRM or contact customers."
+        },
+        {
+          "id": "refine",
+          "title": "Adjust the priorities",
+          "prompt": "Re-rank the list using [changed criterion or capacity]. Explain which accounts moved and why, keeping the evidence and uncertainty visible.",
+          "instruction": "Continue in the same conversation after reviewing the first result."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "chatgpt:forecast-risk-review",
+    "entry": {
+      "id": "fp-forecast-risk-review",
+      "slug": "forecast-risk-review",
+      "title": "Pressure-test a sales forecast",
+      "summary": "Separate reliable commitments from upside and deals that need to move out.",
+      "departments": [
+        "Sales",
+        "Finance"
+      ],
+      "tags": [
+        "Analysis"
+      ],
+      "prerequisites": [
+        "Provide opportunity exports, forecast snapshots, calls, legal or procurement status, and owner notes."
+      ],
+      "outcome": "A deal-by-deal forecast recommendation with evidence and follow-up questions.",
+      "steps": [
+        {
+          "id": "start",
+          "title": "Start here",
+          "prompt": "Review [deals] for the [period] forecast. Reconcile current opportunity records with recent calls, messages, usage signals, support issues, and legal or procurement progress. Recommend which deals belong in commit, upside, or outside this period. Explain each recommendation using sourced facts and clearly labeled inference. Identify blockers, stale assumptions, missing evidence, and owner follow-ups for the forecast call. Keep the CRM and official forecast unchanged."
+        },
+        {
+          "id": "refine",
+          "title": "Prepare the forecast discussion",
+          "prompt": "Turn the highest-risk recommendations into a short call agenda. For each deal, state the decision needed, the evidence to confirm, and the question its owner should answer.",
+          "instruction": "Continue in the same conversation after reviewing the first result."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "chatgpt:run-student-club-project",
+    "entry": {
+      "id": "fp-run-student-club-project",
+      "slug": "run-student-club-project",
+      "title": "Coordinate a student team project",
+      "summary": "Bring milestones, owners, budget, decisions, and communication into one plan.",
+      "departments": [
+        "Education"
+      ],
+      "tags": [
+        "Planning",
+        "Organization"
+      ],
+      "prerequisites": [
+        "Provide project notes, member availability, budget, campus rules, and deadlines."
+      ],
+      "outcome": "A proposed project hub and reviewable operating materials.",
+      "steps": [
+        {
+          "id": "start",
+          "title": "Start here",
+          "prompt": "Organize [club, event, or team project] using the shared notes, budget, member availability, campus requirements, and deadlines. Propose a clear folder structure, milestones, owner tracker, budget sheet, next-meeting agenda, communications drafts, and a decision/risk log. Link important requirements to their source and flag unresolved choices. Keep owner assignments and external communication as proposals until the team approves them; do not reorganize files or send messages without agreement."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "chatgpt:analytics-request-agent",
+    "entry": {
+      "id": "fp-analytics-request-agent",
+      "slug": "analytics-request-agent",
+      "title": "Scope an ambiguous analytics request",
+      "summary": "Translate a stakeholder question into a defensible analysis and first answer.",
+      "departments": [
+        "Data"
+      ],
+      "tags": [
+        "Planning",
+        "Analysis"
+      ],
+      "prerequisites": [
+        "Provide the original request, relevant context, metric definitions, and available data sources."
+      ],
+      "outcome": "An analysis plan, first-pass result, and a list of decisions still needed.",
+      "steps": [
+        {
+          "id": "start",
+          "title": "Start here",
+          "prompt": "Turn [stakeholder request] into a concrete analysis. Define the decision to support, business question, relevant metrics, required data, join logic, and scope. Identify unclear definitions before calculating. Run a first pass only where the available data supports it, validate outputs, and prepare a concise answer with charts, caveats, and sources. List every missing input or unresolved decision that prevents a final conclusion. Do not assume missing values or silently choose conflicting metric definitions."
+        },
+        {
+          "id": "refine",
+          "title": "Respond to the requester",
+          "prompt": "Draft a short stakeholder response with the provisional answer, what can be concluded now, and the few clarifications that would materially improve the analysis. Keep it as a draft.",
+          "instruction": "Continue in the same conversation after reviewing the first result."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "chatgpt:research-to-decision-memo",
+    "entry": {
+      "id": "fp-research-to-decision-memo",
+      "slug": "research-to-decision-memo",
+      "title": "Write a decision memo from research",
+      "summary": "Compare evidence, alternatives, costs, and uncertainty in one reviewable recommendation.",
+      "departments": [
+        "Research",
+        "Operations"
+      ],
+      "tags": [
+        "Research",
+        "Writing"
+      ],
+      "prerequisites": [
+        "Provide the decision, research sources, internal context, budget limits, and decision criteria."
+      ],
+      "outcome": "A concise decision memo with traceable evidence and explicit tradeoffs.",
+      "steps": [
+        {
+          "id": "start",
+          "title": "Start here",
+          "prompt": "Help [team] decide whether to [decision]. Use the supplied research, planning documents, models, stakeholder notes, and budget constraints. Apply [decision criteria] to the alternatives. Recommend a path with supporting evidence, costs, risks, tradeoffs, unresolved questions, and required owner confirmations. Keep any requested external research distinct from internal evidence. Link material claims to sources and record the assumptions that could change the recommendation. Produce a reviewable memo and supporting pre-read without making the decision or sharing it."
+        },
+        {
+          "id": "refine",
+          "title": "Pressure-test the recommendation",
+          "prompt": "Argue the strongest evidence-based case for the leading alternative. Identify what new evidence or changed assumption would reverse the recommendation and revise the decision memo accordingly.",
+          "instruction": "Continue in the same conversation after reviewing the first result."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "chatgpt:initiative-off-track-brief",
+    "entry": {
+      "id": "fp-initiative-off-track-brief",
+      "slug": "initiative-off-track-brief",
+      "title": "Explain why an initiative is off track",
+      "summary": "Prepare a decision-ready account of delays, causes, options, and ownership.",
+      "departments": [
+        "Operations",
+        "Product"
+      ],
+      "tags": [
+        "Analysis",
+        "Communication"
+      ],
+      "prerequisites": [
+        "Provide the executive ask, project tracker, metrics, financial context, meeting notes, and owner updates."
+      ],
+      "outcome": "An off-track brief with supported causes and clear decision options.",
+      "steps": [
+        {
+          "id": "start",
+          "title": "Start here",
+          "prompt": "Explain why [initiative] is off track using the supplied documents, tracker, metrics, financial model, and recent owner updates. Establish what changed and when. Separate confirmed execution gaps from likely causes that still need testing. Compare recovery options, costs, timing, risks, dependencies, and accountable owners. State the specific decision leadership needs to make and cite material figures. Flag missing confirmation and return the brief for review without changing the tracker or sending it."
+        },
+        {
+          "id": "refine",
+          "title": "Prepare the decision meeting",
+          "prompt": "Create a short discussion guide around the recovery options. Lead with the decision, show the key tradeoffs, and identify which owner must resolve each remaining uncertainty.",
+          "instruction": "Continue in the same conversation after reviewing the first result."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "chatgpt:refactor-your-codebase",
+    "entry": {
+      "id": "fp-refactor-your-codebase",
+      "slug": "refactor-your-codebase",
+      "title": "Plan a behavior-preserving refactor",
+      "summary": "Break structural cleanup into small passes with explicit parity checks.",
+      "departments": [
+        "Engineering"
+      ],
+      "tags": [
+        "Coding",
+        "Planning"
+      ],
+      "prerequisites": [
+        "Provide the repository, refactor goals, supported public contracts, and validation commands."
+      ],
+      "outcome": "A staged refactor plan that separates cleanup from migrations and behavior changes.",
+      "steps": [
+        {
+          "id": "start",
+          "title": "Start here",
+          "prompt": "Inspect this codebase for dead code, duplicated logic, oversized modules, stale abstractions, and legacy patterns that make changes difficult. Propose small reviewable refactor passes. For each, describe the existing behavior, the structural improvement, and the check that will establish parity. Preserve public APIs and user-visible behavior. Separate framework migrations, dependency upgrades, and architecture changes into their own decisions. For broad work, identify the specifications and compatibility checks needed before implementation. Return the plan first."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "chatgpt:ios-liquid-glass",
+    "entry": {
+      "id": "fp-ios-liquid-glass",
+      "slug": "ios-liquid-glass",
+      "title": "Adopt Liquid Glass in one iOS flow",
+      "summary": "Use native visual treatments while preserving a usable fallback.",
+      "departments": [
+        "Engineering",
+        "Design"
+      ],
+      "tags": [
+        "Coding",
+        "Design"
+      ],
+      "prerequisites": [
+        "Requires an iOS app, Xcode 26 or compatible tooling, an iOS 26 simulator, and the chosen flow."
+      ],
+      "outcome": "A focused visual migration with earlier-OS fallback and simulator evidence.",
+      "steps": [
+        {
+          "id": "start",
+          "title": "Start here",
+          "prompt": "Migrate [high-traffic SwiftUI flow] to native Liquid Glass. Audit existing backgrounds, blur layers, controls, sheets, and toolbars; distinguish interactive chrome from content that should remain plain. Prefer native glass APIs and system controls, keep shapes consistent, and use morphing or interactive effects only where the behavior warrants them. Preserve an availability-gated fallback for earlier supported iOS versions. Build and run the flow in the selected simulator, capture comparison screenshots, and report the scheme, OS, checks, and remaining visual issues."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "chatgpt:native-macos-apps",
+    "entry": {
+      "id": "fp-native-macos-apps",
+      "slug": "native-macos-apps",
+      "title": "Scaffold a desktop-native macOS app",
+      "summary": "Set up Mac scenes, commands, and a simple local build-and-run workflow.",
+      "departments": [
+        "Engineering"
+      ],
+      "tags": [
+        "Coding",
+        "Design"
+      ],
+      "prerequisites": [
+        "Requires macOS, Xcode or Swift tooling, and the app brief or existing project."
+      ],
+      "outcome": "A runnable Mac app slice with reusable development commands.",
+      "steps": [
+        {
+          "id": "start",
+          "title": "Start here",
+          "prompt": "Create or extend a SwiftUI macOS app for [purpose]. Choose a main-window scene and add Settings, menu-bar, or utility windows only when they serve the workflow. Prefer native sidebars, menus, toolbars, keyboard shortcuts, and system materials. Use xcodebuild for an Xcode project or swift build for a package-based app and add a project-local build-and-run script. Keep AppKit bridging narrow and explain its need. Exercise the feature after each meaningful change and return exact verification commands and desktop-specific follow-ups."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "chatgpt:ios-simulator-bug-debugging",
+    "entry": {
+      "id": "fp-ios-simulator-bug-debugging",
+      "slug": "ios-simulator-bug-debugging",
+      "title": "Reproduce and fix an iOS simulator bug",
+      "summary": "Observe the actual failing interaction before changing the code.",
+      "departments": [
+        "Engineering"
+      ],
+      "tags": [
+        "Coding",
+        "Analysis"
+      ],
+      "prerequisites": [
+        "Provide the bug report, Xcode project, simulator access, and safe account or fixture setup."
+      ],
+      "outcome": "A reproduced issue, minimal fix, and evidence from the repeated simulator flow.",
+      "steps": [
+        {
+          "id": "start",
+          "title": "Start here",
+          "prompt": "Investigate [bug] in this iOS app. Confirm the project, scheme, simulator, and required fixture before starting. Build and launch the app, inspect the current screen, and execute the reported taps, typing, scrolling, or swipes. Prefer accessibility identifiers and refresh the UI snapshot when layout changes. Capture screenshots, logs, and relevant debugger evidence. Diagnose the cause before making the smallest fix, then repeat the same interaction path. Report the reproduction, code change, environment, and verification gaps."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "chatgpt:ios-app-intents",
+    "entry": {
+      "id": "fp-ios-app-intents",
+      "slug": "ios-app-intents",
+      "title": "Expose useful iOS actions to the system",
+      "summary": "Add a focused set of App Intents, entities, and shortcuts.",
+      "departments": [
+        "Engineering"
+      ],
+      "tags": [
+        "Coding",
+        "Design"
+      ],
+      "prerequisites": [
+        "Provide the iOS app, target system versions, and the actions users should invoke outside the app."
+      ],
+      "outcome": "A tested first set of intents and clear routing into the app.",
+      "steps": [
+        {
+          "id": "start",
+          "title": "Start here",
+          "prompt": "Audit [iOS app] for the most useful actions to expose through Shortcuts, Siri, Spotlight, widgets, or controls. Choose a small first set of actions and define only the entities needed to describe and route them. Add understandable titles, phrases, and display names. Distinguish actions that can run directly from those that should open a particular screen. Wire the scene handoff cleanly, preserve existing permissions, and build and test the supported paths. Explain which system experiences now work and which require later work."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "chatgpt:macos-telemetry-logs",
+    "entry": {
+      "id": "fp-macos-telemetry-logs",
+      "slug": "macos-telemetry-logs",
+      "title": "Make a Mac feature observable",
+      "summary": "Instrument meaningful state transitions without exposing sensitive data.",
+      "departments": [
+        "Engineering"
+      ],
+      "tags": [
+        "Coding",
+        "Analysis"
+      ],
+      "prerequisites": [
+        "Provide the macOS repository, target feature, and access to run the app and inspect unified logs."
+      ],
+      "outcome": "Focused OSLog instrumentation and an observed event timeline.",
+      "steps": [
+        {
+          "id": "start",
+          "title": "Start here",
+          "prompt": "Add lightweight unified logging to [Mac feature] using Logger from OSLog. Choose a clear subsystem and category. Record meaningful action boundaries and state transitions, with stable info messages and debug-level details only where needed. Exclude credentials, personal data, and document contents. Build and exercise the feature, then verify the event sequence with a focused Console or log-stream filter. If necessary, capture a small local trace for an intermittent flow. Return the filter, event timeline, representative evidence, and any missing transition that still needs investigation."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "chatgpt:code-migrations",
+    "entry": {
+      "id": "fp-code-migrations",
+      "slug": "code-migrations",
+      "title": "Migrate a legacy codebase in checkpoints",
+      "summary": "Map compatibility risks before changing the stack.",
+      "departments": [
+        "Engineering"
+      ],
+      "tags": [
+        "Coding",
+        "Planning"
+      ],
+      "prerequisites": [
+        "Provide the current and target stacks, repository, public contracts, and build/test requirements."
+      ],
+      "outcome": "An incremental migration with tested checkpoints and rollback options.",
+      "steps": [
+        {
+          "id": "start",
+          "title": "Start here",
+          "prompt": "Plan the migration from [legacy stack] to [target stack] in this repository. Inventory routing, data models, authentication, configuration, build tooling, tests, deployment, and external contracts. Map each existing capability to its target equivalent and highlight gaps. Define small milestones with compatibility layers and rollback options where needed. Preserve behavior unless a change is explicitly required. At each implemented checkpoint, run the relevant type, lint, and focused tests and resolve failures before continuing. Start by presenting the migration map and checkpoint plan."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "chatgpt:create-custom-review-workflows-with-github-actions",
+    "entry": {
+      "id": "fp-create-custom-review-workflows-with-github-actions",
+      "slug": "create-custom-review-workflows-with-github-actions",
+      "title": "Create a custom security-review workflow",
+      "summary": "Run repeatable reviews on chosen triggers and retain their evidence.",
+      "departments": [
+        "Security",
+        "Engineering"
+      ],
+      "tags": [
+        "Coding",
+        "Planning"
+      ],
+      "prerequisites": [
+        "Provide the repository, current scanner documentation, approved runner, secret-store setup, and desired triggers."
+      ],
+      "outcome": "A reviewable CI workflow that preserves reports and uses limited permissions.",
+      "steps": [
+        {
+          "id": "start",
+          "title": "Start here",
+          "prompt": "Draft a GitHub Actions security-review workflow for [repository] using the currently supported scanner integration. Support [manual or scheduled triggers], use an explicit reviewed revision, and keep checkout credentials and job permissions limited to what the scan needs. Reference secrets through the CI secret store. Preserve readable findings, machine-readable results, and coverage evidence, including failed runs. Explain any SARIF requirements and artifact-access implications. Validate the workflow structure and provide the controlled first-run procedure before enabling it."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "chatgpt:run-security-reviews-from-the-cli",
+    "entry": {
+      "id": "fp-run-security-reviews-from-the-cli",
+      "slug": "run-security-reviews-from-the-cli",
+      "title": "Review security from the command line",
+      "summary": "Choose the right revision and scope, then inspect both findings and coverage.",
+      "departments": [
+        "Security",
+        "Engineering"
+      ],
+      "tags": [
+        "Analysis",
+        "Coding"
+      ],
+      "prerequisites": [
+        "Requires an authorized local checkout, installed security CLI, authentication, and repository security documents."
+      ],
+      "outcome": "A reproducible local review with exact scope and evidence locations.",
+      "steps": [
+        {
+          "id": "start",
+          "title": "Start here",
+          "prompt": "Prepare a command-line security review of [working changes, branch diff, or selected component]. Verify the intended checkout and full revisions. For a branch review, compare the proposed head to its merge base; for local work, include only the intended staged and unstaged changes. Supply the repository policy and architecture context. Keep a selected-path assessment separate from a diff review, and include consumers of changed shared code where needed. Run the approved command, then inspect the manifest, findings, and coverage. Report commands, target revisions, unresolved alerts, and incomplete areas."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "chatgpt:automate-security-scans-in-ci",
+    "entry": {
+      "id": "fp-automate-security-scans-in-ci",
+      "slug": "automate-security-scans-in-ci",
+      "title": "Add security scanning to a delivery pipeline",
+      "summary": "Match scan scope to the trigger and handle incomplete runs explicitly.",
+      "departments": [
+        "Security",
+        "Engineering"
+      ],
+      "tags": [
+        "Coding",
+        "Planning"
+      ],
+      "prerequisites": [
+        "Provide CI platform, repository, approved scan access, runner constraints, and cost/retention requirements."
+      ],
+      "outcome": "A staged scanning plan and pipeline change with evidence retention and clear enforcement behavior.",
+      "steps": [
+        {
+          "id": "start",
+          "title": "Start here",
+          "prompt": "Add security scanning to [CI pipeline]. Start with [trigger]: scan the committed merge-base-to-head diff for pull requests, or the full specified revision for default-branch and scheduled runs. Use a trusted runner and isolate secrets from untrusted code. Set practical runtime and estimated cost limits, preserve reports and coverage artifacts, and verify the scanned revision. Begin with review-only reporting; propose blocking thresholds separately. Treat failed or incomplete scans as unresolved, even with no findings. Return a reviewable configuration and evidence from the approved validation run."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "chatgpt:audit-course-section-consistency",
+    "entry": {
+      "id": "fp-audit-course-section-consistency",
+      "slug": "audit-course-section-consistency",
+      "title": "Audit consistency across course sections",
+      "summary": "Separate required alignment from legitimate instructor choices.",
+      "departments": [
+        "Education"
+      ],
+      "tags": [
+        "Analysis",
+        "Organization"
+      ],
+      "prerequisites": [
+        "Provide section syllabi, assignments, schedules, outcomes, LMS exports, and department guidance."
+      ],
+      "outcome": "A faculty review checklist of evidence-backed inconsistencies and priorities.",
+      "steps": [
+        {
+          "id": "start",
+          "title": "Start here",
+          "prompt": "Compare the supplied sections of [course]. Check syllabi, assessment requirements, schedules, outcomes, and student instructions against department guidance. Distinguish required common standards from areas where instructors have discretion. Identify student-facing conflicts, cite the source for each, and rank them by urgency and impact. Propose a baseline alignment checklist and responsible owners where documented. Return the audit for faculty review and leave the source materials unchanged."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "chatgpt:build-unit-plan-from-sources",
+    "entry": {
+      "id": "fp-build-unit-plan-from-sources",
+      "slug": "build-unit-plan-from-sources",
+      "title": "Build a unit plan from teaching sources",
+      "summary": "Translate standards, pacing, and learner needs into a coherent lesson sequence.",
+      "departments": [
+        "Education"
+      ],
+      "tags": [
+        "Planning",
+        "Learning"
+      ],
+      "prerequisites": [
+        "Provide standards, pacing guide, prior lessons, assessments, calendar, and learner needs."
+      ],
+      "outcome": "An editable unit-plan draft with source links and educator review flags.",
+      "steps": [
+        {
+          "id": "start",
+          "title": "Start here",
+          "prompt": "Develop a [length] unit for [grade, subject, topic] from the supplied teaching materials. Align learning goals to the standards and sequence lessons within the real calendar and pacing constraints. Include formative checks, likely misconceptions, links to relevant source files, and support for the stated learner needs. Identify missing or conflicting guidance rather than choosing silently. Produce an editable plan labeled for educator review, with the decisions that need confirmation before teaching."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "chatgpt:variance-driver-bridge",
+    "entry": {
+      "id": "fp-variance-driver-bridge",
+      "slug": "variance-driver-bridge",
+      "title": "Build a financial variance bridge",
+      "summary": "Reconcile major movements into drivers that owners can confirm.",
+      "departments": [
+        "Finance"
+      ],
+      "tags": [
+        "Analysis"
+      ],
+      "prerequisites": [
+        "Provide current and comparison workbooks, operating metrics, owner notes, and a materiality threshold."
+      ],
+      "outcome": "An editable driver bridge with source references and unresolved explanations.",
+      "steps": [
+        {
+          "id": "start",
+          "title": "Start here",
+          "prompt": "Explain the [period] change between [actuals, budget, or forecast versions]. Build a formula-based bridge across the relevant revenue, margin, operating-expense, EBITDA, cash-flow, or balance-sheet lines. Rank drivers by their contribution, reconcile differences between source files, and link each explanation to its workbook tab or owner note. Show items below [materiality threshold] separately. Label unsupported causes as hypotheses and draft the questions needed to confirm them. Preserve the original inputs."
+        },
+        {
+          "id": "refine",
+          "title": "Challenge the bridge",
+          "prompt": "Review the largest drivers for double-counting, unexplained residuals, and unsupported causality. Reconcile the bridge back to the total movement and list finance-owner confirmations still needed.",
+          "instruction": "Continue in the same conversation after reviewing the first result."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "chatgpt:build-interactive-lesson-resource",
+    "entry": {
+      "id": "fp-build-interactive-lesson-resource",
+      "slug": "build-interactive-lesson-resource",
+      "title": "Create an interactive lesson resource",
+      "summary": "Turn an approved lesson into guided practice with useful feedback.",
+      "departments": [
+        "Education",
+        "Design"
+      ],
+      "tags": [
+        "Learning",
+        "Design"
+      ],
+      "prerequisites": [
+        "Provide the approved lesson package, audience, accessibility needs, and feedback rules; implementation needs a web-building environment."
+      ],
+      "outcome": "A tested lesson experience ready for educator review.",
+      "steps": [
+        {
+          "id": "start",
+          "title": "Start here",
+          "prompt": "Build an interactive resource for [grade, subject, topic] from the approved lesson package. Include a brief orientation, one worked example, three practice interactions with feedback, a final self-check, and teacher notes. Keep the teaching content faithful to the supplied material and follow the stated accessibility and feedback requirements. Test correct, incorrect, and incomplete responses and the main navigation on the target devices. Show the reviewed preview, limitations, and missing decisions before publishing or sharing it."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "chatgpt:calibrate-assessments",
+    "entry": {
+      "id": "fp-calibrate-assessments",
+      "slug": "calibrate-assessments",
+      "title": "Review assessment scoring consistency",
+      "summary": "Surface rubric ambiguities and evidence for faculty calibration.",
+      "departments": [
+        "Education"
+      ],
+      "tags": [
+        "Analysis",
+        "Learning"
+      ],
+      "prerequisites": [
+        "Provide de-identified submissions, rubric, grading export, sample feedback, and calibration rules."
+      ],
+      "outcome": "A calibration workbook with sourced flags and faculty review questions.",
+      "steps": [
+        {
+          "id": "start",
+          "title": "Start here",
+          "prompt": "Review the de-identified assessment evidence for [course or assignment]. Compare rubric use and feedback patterns across the supplied samples. Flag possible scoring inconsistencies with specific evidence, summarize common strengths and gaps, and identify unclear rubric language. Create a calibration workbook that helps faculty investigate the flags and discuss a common interpretation. Do not assign, revise, or recommend individual grades; leave scoring judgments to the educators."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "chatgpt:finance-model-cleanup",
+    "entry": {
+      "id": "fp-finance-model-cleanup",
+      "slug": "finance-model-cleanup",
+      "title": "Review and clean a financial workbook",
+      "summary": "Fix clear spreadsheet defects while preserving business assumptions.",
+      "departments": [
+        "Finance"
+      ],
+      "tags": [
+        "Analysis",
+        "Organization"
+      ],
+      "prerequisites": [
+        "Attach the financial model, priority tabs, expected outputs, and source references."
+      ],
+      "outcome": "A cleaned workbook and severity-ranked QA memo with exact cell references.",
+      "steps": [
+        {
+          "id": "start",
+          "title": "Start here",
+          "prompt": "Review [financial model] before it goes to [audience]. Inspect formulas, hardcodes, broken links, circular references, sign conventions, periods, source tie-outs, checks, and presentation tabs, focusing on [priority areas]. Work on a copy. Correct formatting and formula defects only where the intended behavior is clear; do not alter business assumptions without approval. Deliver the cleaned editable workbook and a severity-ranked memo showing issues, fixes, unresolved assumptions, and cells requiring finance-owner review."
+        },
+        {
+          "id": "refine",
+          "title": "Verify the cleanup",
+          "prompt": "Compare the cleaned workbook with the original. Confirm that approved assumptions are unchanged, explain every material output difference, and rerun the relevant tie-outs and model checks.",
+          "instruction": "Continue in the same conversation after reviewing the first result."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "chatgpt:create-classroom-materials-pack",
+    "entry": {
+      "id": "fp-create-classroom-materials-pack",
+      "slug": "create-classroom-materials-pack",
+      "title": "Create a coordinated classroom pack",
+      "summary": "Keep teacher, student, and family materials consistent with the approved lesson.",
+      "departments": [
+        "Education"
+      ],
+      "tags": [
+        "Writing",
+        "Learning"
+      ],
+      "prerequisites": [
+        "Provide the reviewed lesson deck, unit plan, school guidance, and existing classroom materials."
+      ],
+      "outcome": "A teacher guide, student handout, answer key, family overview, and materials list.",
+      "steps": [
+        {
+          "id": "start",
+          "title": "Start here",
+          "prompt": "Create a classroom pack from the reviewed [lesson deck and unit plan]. Produce a teacher guide, student handout, answer key, one-page family overview, and materials checklist. Keep terminology, examples, timing, directions, and answers aligned across files. Follow the supplied school guidance and use only approved content. Check that each activity has the resources and instructions it needs. Flag accessibility, translation, or policy decisions that require review before use."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "chatgpt:create-lesson-deck",
+    "entry": {
+      "id": "fp-create-lesson-deck",
+      "slug": "create-lesson-deck",
+      "title": "Build an editable teaching deck",
+      "summary": "Structure a lesson around explanation, practice, and checks for understanding.",
+      "departments": [
+        "Education",
+        "Design"
+      ],
+      "tags": [
+        "Learning",
+        "Design"
+      ],
+      "prerequisites": [
+        "Provide the approved unit plan, lesson sources, images, template, and accessibility requirements."
+      ],
+      "outcome": "An editable lesson deck with speaker notes, citations, and educator review status.",
+      "steps": [
+        {
+          "id": "start",
+          "title": "Start here",
+          "prompt": "Create an editable slide deck for [lesson] using the approved plan, source material, images, and school template. Begin with a question that connects to the lesson goal. Include concise explanations, worked examples, two checks for understanding, and an exit ticket. Add speaker notes and source attribution. Follow the supplied accessibility requirements and inspect the rendered slides for readability and layout. Mark the result as a draft for educator review."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "chatgpt:stalled-deal-diagnosis",
+    "entry": {
+      "id": "fp-stalled-deal-diagnosis",
+      "slug": "stalled-deal-diagnosis",
+      "title": "Diagnose a stalled deal",
+      "summary": "Identify the blocker and prepare an evidence-based recovery move.",
+      "departments": [
+        "Sales"
+      ],
+      "tags": [
+        "Analysis",
+        "Planning"
+      ],
+      "prerequisites": [
+        "Provide stage history, call notes, emails, account context, and technical/legal/procurement updates."
+      ],
+      "outcome": "A deal diagnosis with dependencies, owner questions, and an unsent follow-up.",
+      "steps": [
+        {
+          "id": "start",
+          "title": "Start here",
+          "prompt": "Investigate why [deal] has stopped progressing. Reconstruct recent stage changes, activities, conversations, and customer dependencies from the supplied evidence. Identify the strongest supported blocker, previous attempts to resolve it, and what has changed since then. Distinguish customer, technical, legal, and procurement issues. Propose the next customer-facing move and escalation path with known owners. Mark inferred causes and missing context. Draft the follow-up language without sending it or changing the CRM."
+        },
+        {
+          "id": "refine",
+          "title": "Plan recovery",
+          "prompt": "Turn the diagnosis into a short recovery plan with the next conversation, evidence to gather, owner, and decision checkpoint. Explain what would indicate that the deal should be requalified rather than pursued unchanged.",
+          "instruction": "Continue in the same conversation after reviewing the first result."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "chatgpt:business-impact-readout",
+    "entry": {
+      "id": "fp-business-impact-readout",
+      "slug": "business-impact-readout",
+      "title": "Evaluate the impact of an initiative",
+      "summary": "Compare results, guardrails, and segments before recommending the next move.",
+      "departments": [
+        "Product",
+        "Data"
+      ],
+      "tags": [
+        "Analysis"
+      ],
+      "prerequisites": [
+        "Provide the launch or experiment plan, success metrics, assignment or cohort data, dashboards, and context."
+      ],
+      "outcome": "A sourced impact readout with methodology, caveats, and a scale/change/stop recommendation.",
+      "steps": [
+        {
+          "id": "start",
+          "title": "Start here",
+          "prompt": "Assess whether [initiative or experiment] improved [target outcome]. Use the supplied design, metrics, assignment or cohort data, customer signals, and launch notes. Quantify changes or lift, inspect segment differences and guardrail metrics, and check whether the comparison supports a causal conclusion. Separate observed results from interpretation and identify missing inputs. Recommend whether to scale, modify, or stop, with charts, source links, methodology, and limitations."
+        },
+        {
+          "id": "refine",
+          "title": "Audit the recommendation",
+          "prompt": "Test whether the recommendation holds under the main measurement and comparison assumptions. Highlight sample or segment effects that could reverse the decision and propose the smallest useful follow-up.",
+          "instruction": "Continue in the same conversation after reviewing the first result."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "chatgpt:scenario-tradeoff-model",
+    "entry": {
+      "id": "fp-scenario-tradeoff-model",
+      "slug": "scenario-tradeoff-model",
+      "title": "Compare strategic scenarios and tradeoffs",
+      "summary": "Make costs, timing, risk, and assumptions comparable across options.",
+      "departments": [
+        "Operations",
+        "Finance"
+      ],
+      "tags": [
+        "Planning",
+        "Analysis"
+      ],
+      "prerequisites": [
+        "Provide the decision, financial model, operational context, stakeholder input, and evaluation criteria."
+      ],
+      "outcome": "A scenario model and recommendation with visible assumptions and sensitivities.",
+      "steps": [
+        {
+          "id": "start",
+          "title": "Start here",
+          "prompt": "Compare the strategic options for [decision] using [criteria] and the supplied model and planning evidence. Build a prioritization matrix covering cost, timing, customer or business impact, dependencies, risks, mitigation, and ownership. Make assumptions visible and distinguish supported estimates from inputs requiring approval. Recommend a path and explain what is sacrificed relative to the alternatives. Work on a separate model so the original remains intact."
+        },
+        {
+          "id": "refine",
+          "title": "Test sensitivity",
+          "prompt": "Vary [high-impact assumptions] across plausible ranges. Show when the preferred option changes and which uncertain input is most valuable to resolve before deciding.",
+          "instruction": "Continue in the same conversation after reviewing the first result."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "chatgpt:organize-lesson-unit-folder",
+    "entry": {
+      "id": "fp-organize-lesson-unit-folder",
+      "slug": "organize-lesson-unit-folder",
+      "title": "Organize a lesson folder",
+      "summary": "Make teaching files easier to find without losing original versions.",
+      "departments": [
+        "Education"
+      ],
+      "tags": [
+        "Organization"
+      ],
+      "prerequisites": [
+        "Provide the lesson folder, naming preferences, and permission to inspect its contents."
+      ],
+      "outcome": "A proposed folder structure, version inventory, and verified change record.",
+      "steps": [
+        {
+          "id": "start",
+          "title": "Start here",
+          "prompt": "Inspect [lesson or unit folder] and propose a clear organization. Identify duplicate files, older drafts, unclear names, and the current approved materials. Suggest subfolders, consistent names, an archive for superseded drafts, and a short README explaining the contents. Keep original source files intact. Show the proposed moves and renames before applying them; after approval, verify the resulting folder and list every change."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "chatgpt:organize-semester-workspace",
+    "entry": {
+      "id": "fp-organize-semester-workspace",
+      "slug": "organize-semester-workspace",
+      "title": "Organize a semester workspace",
+      "summary": "Connect course materials and assignments to a verified deadline tracker.",
+      "departments": [
+        "Education"
+      ],
+      "tags": [
+        "Organization",
+        "Planning"
+      ],
+      "prerequisites": [
+        "Provide syllabi, assignment sheets, semester files, and course naming conventions."
+      ],
+      "outcome": "A course-indexed workspace plan and a source-linked deadline tracker.",
+      "steps": [
+        {
+          "id": "start",
+          "title": "Start here",
+          "prompt": "Organize the supplied semester materials by course, separating official documents, readings, notes, assignments, and submitted work. Inventory duplicates and versions, propose consistent file names, and create a course index. Extract deadlines from official syllabi and assignment sheets, link each date to its source, and flag conflicts or missing time zones instead of guessing. Preserve originals and show the planned archive, move, and rename operations before changing files."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "chatgpt:plan-budget-and-schedule",
+    "entry": {
+      "id": "fp-plan-budget-and-schedule",
+      "slug": "plan-budget-and-schedule",
+      "title": "Plan time and money together",
+      "summary": "See workload conflicts and upcoming payments in a practical weekly view.",
+      "departments": [
+        "Personal",
+        "Education"
+      ],
+      "tags": [
+        "Planning",
+        "Analysis"
+      ],
+      "prerequisites": [
+        "Provide course and work calendars, recurring commitments, income, bills, and expense categories."
+      ],
+      "outcome": "A personal planning dashboard with adjustable assumptions and next-week options.",
+      "steps": [
+        {
+          "id": "start",
+          "title": "Start here",
+          "prompt": "Build a planning view from my course calendar, work shifts, recurring commitments, income, bills, and expense categories. Show weekly scheduling conflicts, heavy workload periods, upcoming payment dates, and an adjustable budget. Suggest practical options for [next week] and explain their time and cost tradeoffs. Keep unknown income or expenses marked as missing rather than estimating them silently. Do not change events, send messages, or make financial transactions."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "chatgpt:prepare-committee-packet",
+    "entry": {
+      "id": "fp-prepare-committee-packet",
+      "slug": "prepare-committee-packet",
+      "title": "Prepare a committee decision packet",
+      "summary": "Bring governance evidence, options, and meeting structure into one reviewable package.",
+      "departments": [
+        "Education",
+        "Operations"
+      ],
+      "tags": [
+        "Writing",
+        "Planning"
+      ],
+      "prerequisites": [
+        "Provide prior minutes, policies, stakeholder feedback, data, governance rules, and the meeting deadline."
+      ],
+      "outcome": "A sourced committee packet with options, agenda, and draft minutes template.",
+      "steps": [
+        {
+          "id": "start",
+          "title": "Start here",
+          "prompt": "Prepare the packet for [committee and decision]. Use the supplied minutes, policy drafts, stakeholder views, program data, governance requirements, and evaluation criteria. State the question to resolve, organize the evidence, compare options and tradeoffs, and surface unresolved issues. Propose a focused agenda and a minutes template that captures decisions and follow-ups. Distinguish findings from recommendations and leave the final judgment to the committee."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "chatgpt:refresh-forecast-and-plan",
+    "entry": {
+      "id": "fp-refresh-forecast-and-plan",
+      "slug": "refresh-forecast-and-plan",
+      "title": "Refresh an operating forecast",
+      "summary": "Update actuals and compare scenarios without hiding assumption changes.",
+      "departments": [
+        "Finance"
+      ],
+      "tags": [
+        "Analysis",
+        "Planning"
+      ],
+      "prerequisites": [
+        "Provide the current model, latest actuals, headcount and cash plans, approved assumptions, and prior forecast."
+      ],
+      "outcome": "An editable forecast with base/upside/downside scenarios and a change log.",
+      "steps": [
+        {
+          "id": "start",
+          "title": "Start here",
+          "prompt": "Refresh [business forecast] using the supplied operating model, latest actuals, revenue drivers, hiring plan, cash forecast, and owner input. Preserve the original and show each changed assumption. Build base, downside, and upside cases with consistent driver definitions. Explain cash effects, hiring implications, sensitivities, trigger points, and major risks. Include a sensitivity table and identify assumptions requiring approval before the forecast is shared. Do not quietly replace management assumptions with your own."
+        },
+        {
+          "id": "refine",
+          "title": "Compare the cases",
+          "prompt": "Summarize what changes between the three cases, which assumptions drive the largest cash or operating differences, and the indicators that would justify switching plans.",
+          "instruction": "Continue in the same conversation after reviewing the first result."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "chatgpt:strategic-account-plan",
+    "entry": {
+      "id": "fp-strategic-account-plan",
+      "slug": "strategic-account-plan",
+      "title": "Refresh a strategic account plan",
+      "summary": "Bring new account evidence into a coherent deal strategy.",
+      "departments": [
+        "Sales"
+      ],
+      "tags": [
+        "Planning",
+        "Research"
+      ],
+      "prerequisites": [
+        "Provide account and opportunity records, recent conversations, usage signals, customer documents, and the prior plan."
+      ],
+      "outcome": "A refreshed strategy pack with a stakeholder map and grounded next actions.",
+      "steps": [
+        {
+          "id": "start",
+          "title": "Start here",
+          "prompt": "Update the strategy for [account] using the supplied CRM records, conversations, usage evidence, customer needs, company context, and prior plan. Produce a stakeholder map, discovery-gap list, risk and objection analysis, value hypothesis, supporting proof points, and next-best actions. Explain what changed from the previous plan. Label stale evidence and assumptions needing account-owner confirmation. Keep the plan as a draft; do not update the CRM or contact the customer."
+        },
+        {
+          "id": "refine",
+          "title": "Turn the plan into action",
+          "prompt": "Choose the next three actions that most reduce uncertainty or advance the account. For each, state the intended outcome, known owner, required evidence, and a draft communication if useful.",
+          "instruction": "Continue in the same conversation after reviewing the first result."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "chatgpt:refresh-course-materials",
+    "entry": {
+      "id": "fp-refresh-course-materials",
+      "slug": "refresh-course-materials",
+      "title": "Audit a course before refreshing it",
+      "summary": "Find outdated content, alignment gaps, and overloaded weeks.",
+      "departments": [
+        "Education"
+      ],
+      "tags": [
+        "Analysis",
+        "Planning"
+      ],
+      "prerequisites": [
+        "Provide syllabus, slides, readings, assignments, rubrics, outcomes, course notes, and term calendar."
+      ],
+      "outcome": "A prioritized course-refresh plan tied to the source materials.",
+      "steps": [
+        {
+          "id": "start",
+          "title": "Start here",
+          "prompt": "Review [course] as a connected teaching system. Compare its syllabus, slides, readings, assignments, rubrics, outcomes, and calendar. Identify stale examples, duplicate content, gaps between learning outcomes and assessment, contradictory student instructions, and unusually heavy weeks. Rank proposed improvements by educational impact and effort, citing the evidence for each. Explain dependencies between changes so one revision does not break another component. Return the refresh plan before editing source files."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "chatgpt:revise-lesson-package",
+    "entry": {
+      "id": "fp-revise-lesson-package",
+      "slug": "revise-lesson-package",
+      "title": "Revise a lesson package consistently",
+      "summary": "Apply reviewed feedback across connected teaching files with version history.",
+      "departments": [
+        "Education"
+      ],
+      "tags": [
+        "Writing",
+        "Organization"
+      ],
+      "prerequisites": [
+        "Provide the approved lesson package, specific feedback, and the list of editable files."
+      ],
+      "outcome": "An aligned revised lesson package with archived versions and a change log.",
+      "steps": [
+        {
+          "id": "start",
+          "title": "Start here",
+          "prompt": "Apply [feedback] to the approved lesson package. First propose a file-by-file change plan for the deck, teacher guide, student handout, and answer key. After approval, update only those files, archive the previous versions, and check that examples, instructions, timing, and answers still agree across the package. Return a concise change log and unresolved questions. Do not alter material outside the approved list."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "chatgpt:synthesize-research-evidence",
+    "entry": {
+      "id": "fp-synthesize-research-evidence",
+      "slug": "synthesize-research-evidence",
+      "title": "Build a research evidence brief",
+      "summary": "Map findings, disagreements, and limitations to research or grant aims.",
+      "departments": [
+        "Research",
+        "Education"
+      ],
+      "tags": [
+        "Research",
+        "Writing"
+      ],
+      "prerequisites": [
+        "Provide papers, research notes, methods, proposal or funding guidance, and citation requirements."
+      ],
+      "outcome": "A source-linked research landscape with gaps and claims needing verification.",
+      "steps": [
+        {
+          "id": "start",
+          "title": "Start here",
+          "prompt": "Synthesize the supplied papers and research materials for [research or grant aims]. Organize the evidence by theme, agreement and disagreement, methodological limitations, and relevance to each aim. Distinguish strong support from preliminary or indirect findings. Build a concise landscape or grant-evidence brief with traceable citations and open questions. Identify claims requiring faculty verification and research gaps that matter to the proposal. Do not invent references or make the evidence more conclusive than the sources allow."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "chatgpt:track-course-engagement",
+    "entry": {
+      "id": "fp-track-course-engagement",
+      "slug": "track-course-engagement",
+      "title": "Review course engagement patterns",
+      "summary": "Make completion gaps and data questions visible for faculty review.",
+      "departments": [
+        "Education",
+        "Data"
+      ],
+      "tags": [
+        "Analysis"
+      ],
+      "prerequisites": [
+        "Provide de-identified LMS, attendance, gradebook, assignment, calendar, and metric-definition data."
+      ],
+      "outcome": "A faculty-facing dashboard and evidence-based review queue.",
+      "steps": [
+        {
+          "id": "start",
+          "title": "Start here",
+          "prompt": "Analyze the supplied de-identified course activity and assessment data. Show engagement trends, completion gaps, assessment patterns, and changes over the course calendar. Check missing or inconsistent data and make metric definitions explicit. Create a dashboard and a faculty review queue that links each concern to the supporting evidence. Avoid diagnosing students or inferring personal circumstances. Do not automate outreach, grades, placement, or support decisions; leave interpretation and action to the faculty."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "chatgpt:track-job-applications",
+    "entry": {
+      "id": "fp-track-job-applications",
+      "slug": "track-job-applications",
+      "title": "Organize a job search with verified evidence",
+      "summary": "Compare roles and tailor application drafts without inventing qualifications.",
+      "departments": [
+        "Personal"
+      ],
+      "tags": [
+        "Organization",
+        "Writing"
+      ],
+      "prerequisites": [
+        "Provide job descriptions, resume, verified experience, portfolio, contacts, and application deadlines."
+      ],
+      "outcome": "A role-by-role application tracker and reviewable tailored materials.",
+      "steps": [
+        {
+          "id": "start",
+          "title": "Start here",
+          "prompt": "Compare these [job or internship] opportunities against my resume, verified experience, portfolio, and career guidance. Build one tracker row per role with requirements, evidence of fit, gaps, current status, deadline, and next action. Organize the supporting material by role and draft tailored application content that uses only claims I can support. Mark missing evidence clearly. Do not submit applications, contact people, or send documents without my approval."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "chatgpt:ios-swiftui-view-refactor",
+    "entry": {
+      "id": "fp-ios-swiftui-view-refactor",
+      "slug": "ios-swiftui-view-refactor",
+      "title": "Refactor a large SwiftUI screen",
+      "summary": "Clarify view boundaries and state ownership while preserving behavior.",
+      "departments": [
+        "Engineering"
+      ],
+      "tags": [
+        "Coding"
+      ],
+      "prerequisites": [
+        "Provide the SwiftUI screen, related models/services, and an Xcode build or test environment."
+      ],
+      "outcome": "A smaller, readable view structure with documented state flow and parity checks.",
+      "steps": [
+        {
+          "id": "start",
+          "title": "Start here",
+          "prompt": "Refactor [SwiftUI screen] without changing its appearance, navigation, or behavior. Organize properties, computed state, body, helpers, and actions clearly. Extract meaningful subviews with small explicit inputs, bindings, and callbacks. Move complex side effects out of the view body and business logic into the existing model or service layer. Prefer the appropriate native state and environment mechanisms over an unnecessary new view-model abstraction. Keep the root view tree stable and correct observable-state ownership. Build or test after each extraction and report the boundaries, data flow, and parity evidence."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "chatgpt:build-student-website",
+    "entry": {
+      "id": "fp-build-student-website",
+      "slug": "build-student-website",
+      "title": "Build a student project website",
+      "summary": "Create a focused, accessible site from supplied content and success criteria.",
+      "departments": [
+        "Education",
+        "Design"
+      ],
+      "tags": [
+        "Design",
+        "Coding"
+      ],
+      "prerequisites": [
+        "Provide the project brief, content, assets, audience, accessibility needs, and a web-building environment."
+      ],
+      "outcome": "A working responsive first version with tested navigation and a publication checklist.",
+      "steps": [
+        {
+          "id": "start",
+          "title": "Start here",
+          "prompt": "Build a website for [student project and audience] using the supplied content, data, images, examples, design preferences, and success criteria. Begin with a short scope and build plan, then implement the complete first version. Test its navigation and primary interactions, check desktop and mobile layouts, and review accessibility requirements. Identify missing content or decisions and prepare a publication checklist. Show the reviewed version before publishing or sharing it."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "chatgpt:build-exam-study-system",
+    "entry": {
+      "id": "fp-build-exam-study-system",
+      "slug": "build-exam-study-system",
+      "title": "Create an exam study system",
+      "summary": "Connect official course coverage to spaced practice and progress tracking.",
+      "departments": [
+        "Education"
+      ],
+      "tags": [
+        "Learning",
+        "Planning"
+      ],
+      "prerequisites": [
+        "Provide learning objectives, notes, readings, problem sets, prior quizzes, exam date, and available study time."
+      ],
+      "outcome": "A two-week study plan, concept map, practice questions, and progress tracker.",
+      "steps": [
+        {
+          "id": "start",
+          "title": "Start here",
+          "prompt": "Build a two-week study system for [course and exam] from the official learning objectives and supplied materials. Map the key concepts, create a concise guide, and schedule spaced practice around my available time. Include a question bank, explained answers, and a progress tracker that helps me revisit weak areas. Cite the course source for major concepts. Do not invent exam coverage; flag topics or expectations that need confirmation."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "chatgpt:build-and-deploy-internal-apps",
+    "entry": {
+      "id": "fp-build-and-deploy-internal-apps",
+      "slug": "build-and-deploy-internal-apps",
+      "title": "Build a private internal tool",
+      "summary": "Turn a defined team workflow into a working app with an inspectable preview.",
+      "departments": [
+        "Operations",
+        "Engineering"
+      ],
+      "tags": [
+        "Design",
+        "Coding"
+      ],
+      "prerequisites": [
+        "Provide the workflow brief, intended users, source files, required access rules, and a development environment."
+      ],
+      "outcome": "A private first version that works on desktop and mobile.",
+      "steps": [
+        {
+          "id": "start",
+          "title": "Start here",
+          "prompt": "Create a private internal app for [workflow]. Use the supplied files and documents to establish who uses it, what information they need, and the actions they must complete. Build a focused first version with the required interactions and clear access rules. Test the main paths and responsive layouts on desktop and mobile. Show a private preview, explain what is incomplete or needs review, and make the next iteration straightforward. Do not publish, broaden access, or contact users without approval."
+        },
+        {
+          "id": "refine",
+          "title": "Prepare access for sharing",
+          "prompt": "List the intended users, data visible to each role, and the tests needed before this app can be shared. Propose the smallest access change and wait for approval before applying it.",
+          "instruction": "Continue in the same conversation after reviewing the first result."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "chatgpt:draft-prds-from-sources",
+    "entry": {
+      "id": "fp-draft-prds-from-sources",
+      "slug": "draft-prds-from-sources",
+      "title": "Draft a PRD from project evidence",
+      "summary": "Reconcile discussions, research, and decisions into clear product requirements.",
+      "departments": [
+        "Product"
+      ],
+      "tags": [
+        "Writing",
+        "Planning"
+      ],
+      "prerequisites": [
+        "Provide the feature scope, issue or milestone, research, planning documents, and relevant discussion threads."
+      ],
+      "outcome": "An editable PRD with requirement-level sources and explicit unresolved decisions.",
+      "steps": [
+        {
+          "id": "start",
+          "title": "Start here",
+          "prompt": "Draft a PRD for [feature] using the named project issues, discussions, research, planning documents, and meeting notes. Cover the problem, users, goals and non-goals, requirements, user experience, technical considerations, success metrics, rollout, risks, decisions, timeline, and open questions. Cite the evidence behind substantive requirements. When sources conflict, show the conflict instead of silently choosing a version. Include a source appendix and return a review draft without updating trackers or sharing the document."
+        },
+        {
+          "id": "refine",
+          "title": "Resolve requirements gaps",
+          "prompt": "Review the PRD for ambiguous requirements, untestable acceptance criteria, and unresolved source conflicts. Propose precise wording or focused questions for the owners of those decisions.",
+          "instruction": "Continue in the same conversation after reviewing the first result."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "chatgpt:follow-goals",
+    "entry": {
+      "id": "fp-follow-goals",
+      "slug": "follow-goals",
+      "title": "Pursue a goal with a verifiable finish",
+      "summary": "Keep a complex task organized around evidence of completion.",
+      "departments": [
+        "General",
+        "Engineering"
+      ],
+      "tags": [
+        "Planning",
+        "Organization"
+      ],
+      "prerequisites": [
+        "Define the objective, allowed scope, resource limits, and an observable completion condition; long-running execution needs a suitable agent."
+      ],
+      "outcome": "A persistent progress record and completion evidence for the agreed objective.",
+      "steps": [
+        {
+          "id": "start",
+          "title": "Start here",
+          "prompt": "Work toward [objective] until [verifiable end state] is achieved within [scope and resource limits]. Establish the starting state, break the work into concrete milestones, and record decisions, evidence, and unresolved issues so the task can resume reliably. Validate each milestone against the intended outcome. If a required input or capability is missing, identify the exact blocker and continue independent work where useful. Do not describe partial progress as completion or claim that background execution continues when the environment cannot support it."
+        },
+        {
+          "id": "refine",
+          "title": "Check progress against the goal",
+          "prompt": "Compare the current result with the agreed end state. Identify the remaining gap, the next action most likely to close it, and the evidence that would establish completion.",
+          "instruction": "Continue in the same conversation after reviewing the first result."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "chatgpt:project-teammate",
+    "entry": {
+      "id": "fp-project-teammate",
+      "slug": "project-teammate",
+      "title": "Create a dedicated project briefing partner",
+      "summary": "Maintain focused context on one workstream and its next decisions.",
+      "departments": [
+        "Operations",
+        "General"
+      ],
+      "tags": [
+        "Organization",
+        "Communication"
+      ],
+      "prerequisites": [
+        "Provide the project scope and relevant messages, documents, calendar events, and tracker access."
+      ],
+      "outcome": "A current project brief with source-linked decisions, blockers, and next steps.",
+      "steps": [
+        {
+          "id": "start",
+          "title": "Start here",
+          "prompt": "Act as a briefing partner for [project] only. Review the relevant available documents, messages, meetings, and tracker to establish the goal, current state, people, decisions, deadlines, and open questions. Check later replies before resurfacing old requests and report inaccessible sources. Start with a concise brief: what changed, what is blocked, what decision is needed, and the next useful action. Support research, meeting preparation, and draft review as the project develops. Ask before sending, editing shared material, scheduling checks, or making commitments."
+        },
+        {
+          "id": "refine",
+          "title": "Catch up on a change",
+          "prompt": "Update the project brief using [new sources or time window]. Highlight only material changes to decisions, deadlines, dependencies, and next actions, with links to the supporting evidence.",
+          "instruction": "Continue in the same conversation after reviewing the first result."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "chatgpt:build-an-ai-tour-guide",
+    "entry": {
+      "id": "fp-build-an-ai-tour-guide",
+      "slug": "build-an-ai-tour-guide",
+      "title": "Add an adaptive in-app tour",
+      "summary": "Guide users through a workflow using semantic targets and real interface state.",
+      "departments": [
+        "Engineering",
+        "Design"
+      ],
+      "tags": [
+        "Coding",
+        "Design"
+      ],
+      "prerequisites": [
+        "Provide the web app, target workflow, documentation, and an environment supporting the chosen browser-agent interface."
+      ],
+      "outcome": "A tested guided flow that explains the interface while users perform the actions.",
+      "steps": [
+        {
+          "id": "start",
+          "title": "Start here",
+          "prompt": "Add a guided tour for [one workflow] in this web app. Inspect its UI, state management, and docs. Expose stable semantic targets and a small tour interface that can highlight or dismiss an explanation, read necessary UI state, and wait for the user to act. Keep guidance tools separate from tools that perform business actions. Preserve authentication and permissions. Reuse existing components and test different starting states, cancellation, and targets that are not yet visible. Return the working flow, verification, and remaining setup without deploying it."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "chatgpt:track-bills-subscriptions-and-spending",
+    "entry": {
+      "id": "fp-track-bills-subscriptions-and-spending",
+      "slug": "track-bills-subscriptions-and-spending",
+      "title": "Review recent spending and subscriptions",
+      "summary": "See cash patterns and unusual activity from verified account data.",
+      "departments": [
+        "Personal",
+        "Finance"
+      ],
+      "tags": [
+        "Analysis"
+      ],
+      "prerequisites": [
+        "Provide approved account connections or statements covering the last 30 days."
+      ],
+      "outcome": "A read-only financial overview with source coverage and items to investigate.",
+      "steps": [
+        {
+          "id": "start",
+          "title": "Start here",
+          "prompt": "Review my finances for the last 30 days using [approved accounts or statements]. Summarize spending, saving, account balances, balance changes, recurring bills, and subscriptions. Identify unusual transactions or amounts with the evidence needed for me to investigate. Separate transfers between my own accounts from expenses where the data allows. State the period and accounts covered and flag missing or stale balances. Keep this read-only; do not move money, cancel services, or make investment transactions."
+        },
+        {
+          "id": "refine",
+          "title": "Inspect recurring charges",
+          "prompt": "List recurring charges and upcoming renewals supported by the data. Show amount, frequency, most recent occurrence, and any unexplained increase. Mark uncertain recurrence rather than treating it as confirmed.",
+          "instruction": "Continue in the same conversation after reviewing the first result."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "chatgpt:ai-app-evals",
+    "entry": {
+      "id": "fp-ai-app-evals",
+      "slug": "ai-app-evals",
+      "title": "Add evaluations to an AI application",
+      "summary": "Measure real application behavior before changing prompts or model settings.",
+      "departments": [
+        "Engineering"
+      ],
+      "tags": [
+        "Coding",
+        "Analysis"
+      ],
+      "prerequisites": [
+        "Provide the application, target behavior, safe fixtures, and a working test endpoint or adapter."
+      ],
+      "outcome": "A runnable evaluation suite with a baseline and explained failures.",
+      "steps": [
+        {
+          "id": "start",
+          "title": "Start here",
+          "prompt": "Add a Promptfoo evaluation suite for [AI application behavior]. Inspect the actual user-facing code path and existing tests. Propose the smallest useful target adapter, seed cases, assertions, commands, and environment requirements. Exercise the application path where possible, not only an isolated model prompt. Keep fixtures free of secrets and personal customer data. Run and record a baseline before changing production prompts or settings. Deliver a documented local command, passing and failing cases, required setup, and the next coverage worth adding."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "chatgpt:user-stories-to-ui-mocks",
+    "entry": {
+      "id": "fp-user-stories-to-ui-mocks",
+      "slug": "user-stories-to-ui-mocks",
+      "title": "Turn user stories into interface concepts",
+      "summary": "Translate real feedback into a mockup that fits the current product.",
+      "departments": [
+        "Product",
+        "Design"
+      ],
+      "tags": [
+        "Design",
+        "Research"
+      ],
+      "prerequisites": [
+        "Provide user stories or feedback, relevant context, and design-system screenshots or Figma references."
+      ],
+      "outcome": "A grounded UI mockup with a clear connection to the user problem.",
+      "steps": [
+        {
+          "id": "start",
+          "title": "Start here",
+          "prompt": "Create a UI mockup that addresses [user story or feedback]. Read the supplied issue, discussion, and research context first. Identify the user problem, the intended outcome, and the constraints of the existing interface. Explore a concrete solution using the current design system, layout patterns, and reference screens. Explain how the main interaction resolves the problem and flag assumptions that need validation. Keep the concept tied to the evidence rather than adding unrelated features."
+        },
+        {
+          "id": "refine",
+          "title": "Build a testable prototype",
+          "prompt": "Implement the selected concept as a focused interactive prototype. Reuse the current product patterns and test the primary journey, including its empty and error states, before proposing further scope.",
+          "instruction": "Continue in the same conversation after reviewing the first result."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "chatgpt:slack-action-triage",
+    "entry": {
+      "id": "fp-slack-action-triage",
+      "slug": "slack-action-triage",
+      "title": "Turn messages into a ranked action queue",
+      "summary": "Separate unresolved requests from conversations that have already moved on.",
+      "departments": [
+        "General",
+        "Operations"
+      ],
+      "tags": [
+        "Organization",
+        "Communication"
+      ],
+      "prerequisites": [
+        "Provide the workstream, time window, and approved direct-message and channel sources."
+      ],
+      "outcome": "A ranked action list with source links and unsent response drafts.",
+      "steps": [
+        {
+          "id": "start",
+          "title": "Start here",
+          "prompt": "Review messages to me about [workstream] during [period], including direct messages, mentions, and relevant threads. Read the latest replies before deciding that something is unresolved. For each actionable request, state what is needed, whether it requires my reply, an owner, a document or code change, or a decision, why it matters, and the recommended next step. Rank by urgency and impact and link the source. Skip resolved items and prepare drafts without posting them."
+        },
+        {
+          "id": "refine",
+          "title": "Draft the responses",
+          "prompt": "Write concise replies for [selected items], using the latest thread context. Clearly distinguish commitments I have already made from proposed next steps, and keep all messages unsent.",
+          "instruction": "Continue in the same conversation after reviewing the first result."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "chatgpt:react-native-expo-apps",
+    "entry": {
+      "id": "fp-react-native-expo-apps",
+      "slug": "react-native-expo-apps",
+      "title": "Build a React Native app with Expo",
+      "summary": "Start with native-feeling navigation and the simplest workable development loop.",
+      "departments": [
+        "Engineering",
+        "Design"
+      ],
+      "tags": [
+        "Coding",
+        "Design"
+      ],
+      "prerequisites": [
+        "Provide the mobile app concept, target users, and development environment with Expo support."
+      ],
+      "outcome": "A working mobile app slice with a verified run path.",
+      "steps": [
+        {
+          "id": "start",
+          "title": "Start here",
+          "prompt": "Build an Expo React Native app for [idea and main workflow]. Use Expo Router and standard Expo project conventions. Implement native-feeling navigation, forms, lists, loading states, and empty states. Try the standard development server and Expo Go before introducing a custom build; use compatible Expo package installation. Test the primary flow on the available device or simulator. Return the working slice, run command, verification path, and any feature that requires a development client or other build setup."
+        },
+        {
+          "id": "refine",
+          "title": "Complete the next flow",
+          "prompt": "Add [next bounded feature] while preserving Expo conventions and package compatibility. Verify the new flow on the same device or simulator and explain any change to the run requirements.",
+          "instruction": "Continue in the same conversation after reviewing the first result."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "chatgpt:agent-friendly-clis",
+    "entry": {
+      "id": "fp-agent-friendly-clis",
+      "slug": "agent-friendly-clis",
+      "title": "Create an agent-friendly command-line tool",
+      "summary": "Wrap a real data source or API in a small, reusable command surface.",
+      "departments": [
+        "Engineering"
+      ],
+      "tags": [
+        "Coding",
+        "Organization"
+      ],
+      "prerequisites": [
+        "Provide API documentation, a specification, existing script, or local data source, plus the first required job."
+      ],
+      "outcome": "A tested CLI and companion instructions for repeat use.",
+      "steps": [
+        {
+          "id": "start",
+          "title": "Start here",
+          "prompt": "Design and build a CLI for [first job] using [documentation, API specification, existing script, or local data source]. Propose a small command surface with clear inputs, output formats, errors, and authentication requirements before coding. Keep it read-only unless [specific write operation] is approved. Reuse existing commands where suitable and add companion agent instructions showing when and how to use it. Test a successful case and meaningful failure cases, and verify that the command works from outside its source folder."
+        },
+        {
+          "id": "refine",
+          "title": "Verify reuse",
+          "prompt": "Run the documented example from a different working directory. Check configuration discovery, output, and error handling, then fix any assumption that only works inside the project folder.",
+          "instruction": "Continue in the same conversation after reviewing the first result."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "chatgpt:verified-operations-workflows",
+    "entry": {
+      "id": "fp-verified-operations-workflows",
+      "slug": "verified-operations-workflows",
+      "title": "Run a workflow with item-level evidence",
+      "summary": "Normalize inputs, execute approved work, and verify every result.",
+      "departments": [
+        "Operations"
+      ],
+      "tags": [
+        "Organization",
+        "Analysis"
+      ],
+      "prerequisites": [
+        "Provide inputs, approval or policy source, runner, scope, and expected verification artifact."
+      ],
+      "outcome": "A per-item success/failure ledger with retries and verification evidence.",
+      "steps": [
+        {
+          "id": "start",
+          "title": "Start here",
+          "prompt": "Run [workflow] on [approved inputs] using [runner]. Inspect required fields and normalize dates, amounts, owners, and identifiers before execution. Use a dry run where supported. Execute only the approved scope, recording one success or failure result per item. Retry transient failures once without repeating completed work. Verify outcomes using [result file, log, dashboard, or screenshot]. Summarize totals, retries, failures, and evidence locations. Pause before irreversible actions or any expansion of scope."
+        },
+        {
+          "id": "refine",
+          "title": "Capture the repeatable procedure",
+          "prompt": "Turn the verified run into reusable instructions covering inputs, normalization, dry run, item identity, retry rules, and evidence checks. Include the observed failure modes and how to recover without repeating successful actions.",
+          "instruction": "Continue in the same conversation after reviewing the first result."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "chatgpt:event-launch-playbooks",
+    "entry": {
+      "id": "fp-event-launch-playbooks",
+      "slug": "event-launch-playbooks",
+      "title": "Create an event operating playbook",
+      "summary": "Separate attendee information from private operations and approval needs.",
+      "departments": [
+        "Operations"
+      ],
+      "tags": [
+        "Planning",
+        "Writing"
+      ],
+      "prerequisites": [
+        "Provide the event brief, approved planning sources, calendar details, templates, and owner information."
+      ],
+      "outcome": "An event playbook with public copy, private checklists, and open decisions.",
+      "steps": [
+        {
+          "id": "start",
+          "title": "Start here",
+          "prompt": "Prepare a playbook for [event] from the named planning threads, approved documents, templates, and deadlines. Separate attendee-facing information from the private operating checklist. Include responsibilities, support resources, approvals still needed, open questions, and a source appendix. Check dates, locations, owners, and instructions against the supplied evidence. Do not guess missing details or include private operational notes in public copy. Return drafts without publishing or sending them."
+        },
+        {
+          "id": "refine",
+          "title": "Maintain the playbook",
+          "prompt": "Propose a recurring review for this playbook that checks the named sources for changed schedules, ownership, and unresolved approvals. Show the cadence and exact update instructions before scheduling it.",
+          "instruction": "Continue in the same conversation after reviewing the first result."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "chatgpt:chatgpt-apps",
+    "entry": {
+      "id": "fp-conversational-app-tools",
+      "slug": "conversational-app-tools",
+      "title": "Design tools for a conversational app",
+      "summary": "Define a small MCP tool surface around one user outcome.",
+      "departments": [
+        "Engineering",
+        "Product"
+      ],
+      "tags": [
+        "Planning",
+        "Coding"
+      ],
+      "prerequisites": [
+        "Provide the use case, repository, target assistant platform, and current official integration documentation."
+      ],
+      "outcome": "A tool plan, proposed structure, test prompts, and integration requirements.",
+      "steps": [
+        {
+          "id": "start",
+          "title": "Start here",
+          "prompt": "Plan a conversational app for [one core user outcome] in this repository. Consult the target platform's current official integration guidance. Propose three to five clearly named tools with precise descriptions, inputs, outputs, and authorization needs. Decide whether the first version needs an interactive widget or can return data alone. Prefer a TypeScript MCP server and React when a widget is justified. Return the tool plan, proposed file structure, representative test prompts, deployment and authentication requirements, risks, and unresolved decisions."
+        },
+        {
+          "id": "refine",
+          "title": "Test the tool contract",
+          "prompt": "Create a small set of realistic user prompts that exercise each tool, ambiguous requests, unavailable data, and permission failures. Check whether the tool descriptions and results make the correct behavior clear.",
+          "instruction": "Continue in the same conversation after reviewing the first result."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "chatgpt:audit-workflow",
+    "entry": {
+      "id": "fp-audit-workflow",
+      "slug": "audit-workflow",
+      "title": "Audit a manual workflow",
+      "summary": "Find the bottlenecks and define two narrow automation opportunities.",
+      "departments": [
+        "Operations"
+      ],
+      "tags": [
+        "Analysis",
+        "Planning"
+      ],
+      "prerequisites": [
+        "Provide tracker, process documentation, handoff notes, tickets, metrics, and operational constraints."
+      ],
+      "outcome": "A workflow audit, revised process draft, and two focused automation specifications.",
+      "steps": [
+        {
+          "id": "start",
+          "title": "Start here",
+          "prompt": "Audit [workflow] before [deadline]. Reconstruct its steps and owners from the tracker, documentation, handoff notes, tickets, metrics, and discussions. Identify stuck points, repeated questions, missing data, and conflicting or stale instructions. Draft an updated process description and a small automation specification for the two most repetitive manual steps. Explain inputs, outputs, exceptions, and human decisions. Keep recommendations bounded and do not implement or publish process changes."
+        },
+        {
+          "id": "refine",
+          "title": "Select the first automation",
+          "prompt": "Compare the two automation candidates by frequency, effort, dependencies, failure impact, and available evidence. Recommend the smallest useful first release and define how to verify that it helps.",
+          "instruction": "Continue in the same conversation after reviewing the first result."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "chatgpt:launch-campaign-kit",
+    "entry": {
+      "id": "fp-launch-campaign-kit",
+      "slug": "launch-campaign-kit",
+      "title": "Assemble a launch campaign kit",
+      "summary": "Coordinate first drafts across customer, internal, social, and creative channels.",
+      "departments": [
+        "Marketing"
+      ],
+      "tags": [
+        "Writing",
+        "Planning"
+      ],
+      "prerequisites": [
+        "Provide launch plan, product evidence, creative brief, assets, page links, and approval guidance."
+      ],
+      "outcome": "A coordinated campaign draft pack with claim and asset review flags.",
+      "steps": [
+        {
+          "id": "start",
+          "title": "Start here",
+          "prompt": "Create the first campaign kit for [launch] from the supplied plan, product notes, tracker, creative brief, page links, and approval rules. Include a launch-review brief, customer email, internal announcement, social post, two-week content calendar, creative or agency brief, staging-page fixes, and a team update. Keep the central message and facts consistent across formats. Flag unsupported claims, missing assets, and product or legal approval needs. Do not send or publish any draft."
+        },
+        {
+          "id": "refine",
+          "title": "Check launch readiness",
+          "prompt": "Review the kit for inconsistent dates or claims, missing assets, broken handoffs, and unresolved approvals. Prioritize the gaps that would block launch and identify the owner where documented.",
+          "instruction": "Continue in the same conversation after reviewing the first result."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "chatgpt:incident-to-tested-fix",
+    "entry": {
+      "id": "fp-incident-to-tested-fix",
+      "slug": "incident-to-tested-fix",
+      "title": "Investigate an incident and prove the fix",
+      "summary": "Use isolated reproduction and before-and-after evidence to avoid speculative patches.",
+      "departments": [
+        "Engineering"
+      ],
+      "tags": [
+        "Analysis",
+        "Coding"
+      ],
+      "prerequisites": [
+        "Provide a sanitized incident packet, affected revision, safe fixtures, approved test commands, and an isolated environment."
+      ],
+      "outcome": "A supported incident investigation, focused patch where justified, and evidence-based handoff.",
+      "steps": [
+        {
+          "id": "start",
+          "title": "Start here",
+          "prompt": "Investigate [incident] in [repository] using the sanitized packet. Confirm the affected revision and environment, read repository instructions, and build a sourced timeline. Separate observations, hypotheses, and evidence gaps. Reproduce the strongest hypothesis in the isolated test environment; if evidence is insufficient, return the next diagnostic step instead of a speculative fix. For a confirmed defect, demonstrate a failing regression test, make the smallest patch, and rerun focused and broader checks. Record commands, exit codes, revisions, and limitations. Return a diff, local draft PR description, test evidence, and rollout/rollback notes. Do not access or modify production, replay live events, post updates, merge, or deploy."
+        },
+        {
+          "id": "webhook-regression",
+          "title": "Investigate duplicate webhook processing",
+          "instruction": "Use this follow-up only when the incident involves duplicate webhook deliveries.",
+          "prompt": "For this duplicate-webhook incident, test failures both before and after commit and reproduce contention with independent database connections. Document transaction isolation, receipt retention, and mixed-version rollout assumptions. Before resuming retained deliveries, identify legacy orders without matching receipts after old consumers drain. Keep unresolved event keys held through the existing quarantine process. Add an orphan-with-pending-retry case proving that no second order or success acknowledgment occurs while held. Reconcile only from trusted immutable event identity, canonical payload, and committed-order evidence; do not invent fingerprints, delete receipts, or replay unresolved live events."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "chatgpt:migrate-a-validation-module",
+    "entry": {
+      "id": "fp-migrate-a-validation-module",
+      "slug": "migrate-a-validation-module",
+      "title": "Migrate a validation module without contract drift",
+      "summary": "Compare the same public contract before and after a bounded dependency change.",
+      "departments": [
+        "Engineering"
+      ],
+      "tags": [
+        "Coding",
+        "Analysis"
+      ],
+      "prerequisites": [
+        "Provide the module, pinned baseline/target versions, migration guide, callers, frozen contract tests, and isolated environment."
+      ],
+      "outcome": "A scoped migration with before-and-after contract evidence and rollback notes.",
+      "steps": [
+        {
+          "id": "start",
+          "title": "Start here",
+          "prompt": "Migrate [validation module] from [pinned baseline] to [approved target] within [scope]. Record the starting revision, runtime and dependency versions, and lockfile hash. Read the official guide, callers, public contracts, and repository instructions; run the baseline first. Keep broader dependency preparation separate. Run the same frozen HTTP contract tests through the real router and serialization before and after the change, comparing statuses, headers, accepted inputs, defaults, nulls, JSON shapes, and full errors. Do not weaken assertions or approve new snapshots to hide differences. Return the diff, exact validation evidence, unresolved incompatibilities, and rollback plan without merging or deploying."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "chatgpt:build-workshop-practice-site",
+    "entry": {
+      "id": "fp-build-workshop-practice-site",
+      "slug": "build-workshop-practice-site",
+      "title": "Build a hackathon event hub",
+      "summary": "Keep the agenda, team registration, submissions, and project gallery connected.",
+      "departments": [
+        "Education",
+        "Operations"
+      ],
+      "tags": [
+        "Design",
+        "Coding"
+      ],
+      "prerequisites": [
+        "Provide event brief, agenda, time zone, team rules, deadlines, visibility rules, and an authenticated app environment."
+      ],
+      "outcome": "A private event site with persistent team submissions and tested membership controls.",
+      "steps": [
+        {
+          "id": "start",
+          "title": "Start here",
+          "prompt": "Build a private site for [hackathon] from the supplied brief, agenda, rules, and resources. Confirm conflicting times or missing deadline policies first. Include event information, agenda, participant instructions, organizer contact, team registration, project drafts/submission, and a gallery governed by the approved visibility rule. Require sign-in and verified team membership; enforce own-team editing on the server. Keep agenda data separate from registrations and projects so updates preserve submissions. Validate required fields and demo links. Test two fictional teams, reload persistence, direct cross-team access, deadline behavior, and mobile layout. Remove test records and show the reviewed preview before publishing."
+        },
+        {
+          "id": "refine",
+          "title": "Update the agenda safely",
+          "prompt": "Apply [approved agenda change] while preserving registrations, project drafts, submissions, and their access rules. Recheck the event time zone and deadline display and report exactly what changed.",
+          "instruction": "Continue in the same conversation after reviewing the first result."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "chatgpt:build-personal-onboarding-plan",
+    "entry": {
+      "id": "fp-build-personal-onboarding-plan",
+      "slug": "build-personal-onboarding-plan",
+      "title": "Build a first-week onboarding portal",
+      "summary": "Guide new hires through sourced tasks while keeping individual progress private.",
+      "departments": [
+        "HR",
+        "Operations"
+      ],
+      "tags": [
+        "Design",
+        "Organization"
+      ],
+      "prerequisites": [
+        "Provide the approved first-week plan, resources, contacts, practice task, and an authenticated app environment."
+      ],
+      "outcome": "A private portal with persistent checklists, practice instructions, and verified progress isolation.",
+      "steps": [
+        {
+          "id": "start",
+          "title": "Start here",
+          "prompt": "Build an onboarding portal for [role] from the approved first-week plan. Include daily tasks, resources, contacts, and the end-of-week practice task. Show each task's purpose, completion criteria, source link, and support contact; use time estimates only when supplied. Preserve the plan's sequence and add progress and resume controls. Require sign-in, keep progress private to its owner with server-side enforcement, and use stable task IDs so content updates do not erase completion. Treat progress as activity completion, not job-readiness scoring. Test two accounts, partial and completed plans, reloads, and instruction edits. Show a private preview before sharing."
+        },
+        {
+          "id": "refine",
+          "title": "Refresh the task content",
+          "prompt": "Update the portal from [approved revised plan]. Preserve task identities and existing completion records where the task is unchanged, flag meaningful scope changes, and recheck resource permissions and progress privacy.",
+          "instruction": "Continue in the same conversation after reviewing the first result."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "chatgpt:collect-and-schedule-team-requests",
+    "entry": {
+      "id": "fp-collect-and-schedule-team-requests",
+      "slug": "collect-and-schedule-team-requests",
+      "title": "Build a creative request workspace",
+      "summary": "Connect complete briefs, review feedback, and final assets in one process.",
+      "departments": [
+        "Marketing",
+        "Design"
+      ],
+      "tags": [
+        "Design",
+        "Organization"
+      ],
+      "prerequisites": [
+        "Provide the brief template, brand resources, approved request data, requester/reviewer roles, and authenticated app environment."
+      ],
+      "outcome": "A private request app with persistent records and tested role-based access.",
+      "steps": [
+        {
+          "id": "start",
+          "title": "Start here",
+          "prompt": "Build a creative request app for [team] using its approved brief template. Capture audience, message, format, requested date, reviewer, and reference links; keep the requested date distinct from the team's agreed delivery date. Give each request its brief, owner, status, current draft, feedback, and final asset, using New, In progress, In review, and Delivered. Add filters for owner, status, and agreed date. Require sign-in; enforce requester access to their own records and creative-team management rights on the server. Save feedback across visits. Test validation, status changes, reloads, and direct cross-requester access. Keep source files linked and show a private reviewed preview before publishing."
+        },
+        {
+          "id": "refine",
+          "title": "Review the queue",
+          "prompt": "Identify overdue work, unassigned requests, missing delivery agreements, and feedback awaiting action. Show the evidence and suggested next step for each without changing status or contacting people.",
+          "instruction": "Continue in the same conversation after reviewing the first result."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "chatgpt:compare-campaign-performance",
+    "entry": {
+      "id": "fp-compare-campaign-performance",
+      "slug": "compare-campaign-performance",
+      "title": "Compare campaign spending and lead generation",
+      "summary": "Use consistent filters and weighted calculations to explain campaign performance.",
+      "departments": [
+        "Marketing",
+        "Data"
+      ],
+      "tags": [
+        "Analysis",
+        "Design"
+      ],
+      "prerequisites": [
+        "Provide campaign-by-week data, reporting period, currency, time zone, lead definition, and attribution rules."
+      ],
+      "outcome": "A validated dashboard with source-row drilldown and an explicit refresh process.",
+      "steps": [
+        {
+          "id": "start",
+          "title": "Start here",
+          "prompt": "Build a private campaign dashboard from [file or exact sheet tab]. Inspect row counts, dates, campaign IDs, duplicates, currencies, missing values, and mapping gaps first. Show spend, leads, cost per lead, weekly trends, and campaign comparisons using the same filtered rows throughout. Compute cost per lead as total spend divided by total leads, not an average of row ratios; use N/A for zero leads. Keep missing values distinct from zero and currencies separate without an approved conversion rule. Include source-row drilldown and a safe export-refresh process. Validate totals, filters, duplicates, partial weeks, and mobile layout. Do not infer revenue or lead quality from lead counts."
+        },
+        {
+          "id": "refine",
+          "title": "Compare consecutive periods",
+          "prompt": "Compare [two periods] using consistent definitions and complete-week boundaries. Explain which campaigns drove changes in spend, leads, and aggregate cost per lead, and flag data coverage that limits the comparison.",
+          "instruction": "Continue in the same conversation after reviewing the first result."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "chatgpt:consolidate-spreadsheets",
+    "entry": {
+      "id": "fp-consolidate-spreadsheets",
+      "slug": "consolidate-spreadsheets",
+      "title": "Consolidate spreadsheet exports reliably",
+      "summary": "Join source files into an updateable workbook without losing unmatched records.",
+      "departments": [
+        "Data",
+        "Operations"
+      ],
+      "tags": [
+        "Analysis",
+        "Organization"
+      ],
+      "prerequisites": [
+        "Attach exports, confirm the joining key, metric definitions, targets, and refresh expectations."
+      ],
+      "outcome": "A consolidated workbook with dashboard, reconciliation, and refresh instructions.",
+      "steps": [
+        {
+          "id": "start",
+          "title": "Start here",
+          "prompt": "Combine the supplied exports into one refreshable workbook using [confirmed record key]. Inspect duplicate and conflicting records before joining. Calculate [metrics], compare [actuals or pipeline] with [target], and build a clear dashboard with charts and explanatory notes. Preserve originals and include a review section for unmatched keys and conflicts. Document assumptions, refresh steps, and changes. Do not invent a join key or silently merge incompatible records."
+        },
+        {
+          "id": "refine",
+          "title": "Test the refresh",
+          "prompt": "Refresh the workbook with [new export] and verify that overlapping records are not duplicated. Reconcile row counts and totals, report unmatched keys, and update the change log.",
+          "instruction": "Continue in the same conversation after reviewing the first result."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "chatgpt:weekly-work-summary",
+    "entry": {
+      "id": "fp-weekly-work-summary",
+      "slug": "weekly-work-summary",
+      "title": "Draft a manager-ready weekly update",
+      "summary": "Summarize actual progress and next priorities from work evidence.",
+      "departments": [
+        "General"
+      ],
+      "tags": [
+        "Writing",
+        "Communication"
+      ],
+      "prerequisites": [
+        "Provide the reporting week and approved calendar, documents, messages, and project tracker sources."
+      ],
+      "outcome": "A concise unsent update with source-linked outcomes, blockers, and priorities.",
+      "steps": [
+        {
+          "id": "start",
+          "title": "Start here",
+          "prompt": "Draft my update for [week] using the relevant calendar events, edited documents, sent messages, and project tracker. Focus on completed work, decisions, material changes, blockers, follow-ups, and next week's priorities. Link evidence where useful and distinguish confirmed outcomes from inferred progress. Keep the language concise and appropriate for [manager or audience]. Do not inflate activity into impact or include unrelated private context. Return the draft without sending or publishing it."
+        },
+        {
+          "id": "refine",
+          "title": "Prepare next week",
+          "prompt": "Extract the commitments and open follow-ups from this update into a short review checklist for next week. Keep proposed priorities distinct from work already agreed with the team.",
+          "instruction": "Continue in the same conversation after reviewing the first result."
+        }
+      ]
+    }
+  },
+  {
+    "sourceId": "chatgpt:issue-to-tested-pr",
+    "entry": {
+      "id": "fp-issue-to-tested-pr",
+      "slug": "issue-to-tested-pr",
+      "title": "Turn an issue into a tested code change",
+      "summary": "Tie implementation and review evidence directly to acceptance criteria.",
+      "departments": [
+        "Engineering"
+      ],
+      "tags": [
+        "Coding"
+      ],
+      "prerequisites": [
+        "Provide issue, acceptance criteria, exact baseline revision, scoped files, fixtures, and required checks in a prepared environment."
+      ],
+      "outcome": "A minimal diff or authorized draft PR with an acceptance-evidence table.",
+      "steps": [
+        {
+          "id": "start",
+          "title": "Start here",
+          "prompt": "Implement [issue] in [repository] from [base commit] within [scope]. Read the instructions, relevant code, acceptance criteria, and public contracts. Confirm the revision and run baseline checks; report blocking failures or missing access before implementation. Make the smallest change using existing authorization, error, pagination, and test patterns. Add regression tests that distinguish the new behavior from the old. Run required checks again and map every criterion to actual evidence, with commands, results, revisions, and unrun checks. Return the diff and draft review description, or create a draft PR only when authorized. Do not merge, deploy, alter production, add dependencies, or expand scope without a decision."
+        },
+        {
+          "id": "pagination-regression",
+          "title": "Verify a cursor-pagination change",
+          "instruction": "Use this follow-up when the issue changes cursor pagination.",
+          "prompt": "Verify the pagination contract with fixed fixtures, including tied timestamps across a page boundary, bounded traversal, repeatable cursor replay, and both partial and exactly full final pages. Confirm authorization happens before cursor validation, cover malformed or invalid cursors, and compare successful and error responses with the public schemas. Keep existing assertions strong and update API documentation to match the actual contract. Report any unrun check or unresolved difference explicitly."
+        }
+      ]
+    }
+  }
+]
