@@ -2,6 +2,27 @@
 
 Notable application, catalog, configuration, and documentation changes are recorded here. Dates use Asia/Bangkok; the newest date appears first.
 
+## 2026-11-13
+
+### Added
+
+- Implemented Fellow Skill Compass with a nine-question guided survey, ordered working preferences, answer review and single-answer editing, style/blended results, and explained skill recommendations so visitors can choose a practical starting point.
+- Added six original v1.0.0 downloadable skills, each with focused instructions, a task-specific output template, and a complete worked example; included Codex/Claude setup guidance and sample tasks for other chat tools.
+- Added deterministic skill ZIP generation, validation, and a SHA-256 download manifest, with automatic packaging before development, tests, and production builds.
+- Added scoring, selection, metadata, and package regression tests, plus documented synthetic skill trials and a native Codex check that discovered all six skills and explicitly invoked Meeting Follow-through in a temporary project.
+- Retained the Skill Compass product concept and documented the implemented behavior, distribution workflow, and verification limits. This branch has not been deployed to production.
+
+### Changed
+
+- Added Skill Compass navigation while preserving library filters, in-memory prompt drafts, related-prompt return paths, clipboard fallback, and the existing no-auto-send ChatGPT handoff.
+- Kept survey answers and optional task text in memory only; refreshed tabs restart the survey, and downloads contain no user answers.
+
+### Fixed
+
+- Grouped ChatGPT and Codex as one OpenAI survey option and clarified their shared skill support, local ZIP installation, and ChatGPT plugin distinction in the results guide.
+- Exposed first/second preference order to assistive technology and clarified selection replacement, because order affects style scoring.
+- Stopped treating visual references alone as sufficient starting material for a presentation storyline; readiness now requires one of its text-based input categories.
+
 ## 2026-11-12
 
 ### Added

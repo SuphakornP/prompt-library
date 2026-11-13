@@ -1,0 +1,80 @@
+[
+  {
+    "id": "fellow-decision-brief",
+    "version": "1.0.0",
+    "url": "/downloads/skills/fellow-decision-brief-1.0.0.zip",
+    "filename": "fellow-decision-brief-1.0.0.zip",
+    "bytes": 3962,
+    "sha256": "8df8d78e331ddf104e2a55c00cfe4686212f96eb5029f0e5a9b66c409098b20b",
+    "files": [
+      "fellow-decision-brief/SKILL.md",
+      "fellow-decision-brief/references/example.md",
+      "fellow-decision-brief/references/output-template.md"
+    ]
+  },
+  {
+    "id": "fellow-meeting-follow-through",
+    "version": "1.0.0",
+    "url": "/downloads/skills/fellow-meeting-follow-through-1.0.0.zip",
+    "filename": "fellow-meeting-follow-through-1.0.0.zip",
+    "bytes": 4244,
+    "sha256": "9c06def891ad730e2b8f774bea489c0463343b1fc0250dd2a7e1be1d14fe44f3",
+    "files": [
+      "fellow-meeting-follow-through/SKILL.md",
+      "fellow-meeting-follow-through/references/example.md",
+      "fellow-meeting-follow-through/references/output-template.md"
+    ]
+  },
+  {
+    "id": "fellow-presentation-storyline",
+    "version": "1.0.0",
+    "url": "/downloads/skills/fellow-presentation-storyline-1.0.0.zip",
+    "filename": "fellow-presentation-storyline-1.0.0.zip",
+    "bytes": 4463,
+    "sha256": "de8581d7bcea42c5df0af6c82cfd7381d01f49ce26a5e15b1e99bbff98d8c790",
+    "files": [
+      "fellow-presentation-storyline/SKILL.md",
+      "fellow-presentation-storyline/references/example.md",
+      "fellow-presentation-storyline/references/output-template.md"
+    ]
+  },
+  {
+    "id": "fellow-research-evidence-brief",
+    "version": "1.0.0",
+    "url": "/downloads/skills/fellow-research-evidence-brief-1.0.0.zip",
+    "filename": "fellow-research-evidence-brief-1.0.0.zip",
+    "bytes": 4662,
+    "sha256": "914f4b9b2c5a2f2328f0b18ed070c05d6f8490ae82d49b68e9905a026748e3ed",
+    "files": [
+      "fellow-research-evidence-brief/SKILL.md",
+      "fellow-research-evidence-brief/references/example.md",
+      "fellow-research-evidence-brief/references/output-template.md"
+    ]
+  },
+  {
+    "id": "fellow-reusable-workflow-blueprint",
+    "version": "1.0.0",
+    "url": "/downloads/skills/fellow-reusable-workflow-blueprint-1.0.0.zip",
+    "filename": "fellow-reusable-workflow-blueprint-1.0.0.zip",
+    "bytes": 5318,
+    "sha256": "cbca8d64e5088e7904b09eb83154c2b82386e07b5a607fb907a69b1ddbe49c7b",
+    "files": [
+      "fellow-reusable-workflow-blueprint/SKILL.md",
+      "fellow-reusable-workflow-blueprint/references/example.md",
+      "fellow-reusable-workflow-blueprint/references/output-template.md"
+    ]
+  },
+  {
+    "id": "fellow-workflow-improvement",
+    "version": "1.0.0",
+    "url": "/downloads/skills/fellow-workflow-improvement-1.0.0.zip",
+    "filename": "fellow-workflow-improvement-1.0.0.zip",
+    "bytes": 4786,
+    "sha256": "718d629e6d719213aa82ac33fa076c604040f5a8dfc9b31426f8bfc3b0edc345",
+    "files": [
+      "fellow-workflow-improvement/SKILL.md",
+      "fellow-workflow-improvement/references/example.md",
+      "fellow-workflow-improvement/references/output-template.md"
+    ]
+  }
+]
