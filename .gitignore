@@ -1,5 +1,6 @@
 node_modules/
 dist/
+public/downloads/skills/
 .vercel/
 .DS_Store
 .playwright-cli/

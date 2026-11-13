@@ -11,6 +11,9 @@ import rawCatalog from './data/catalog.json';
 import type { CatalogEntry } from './types';
 import { chatgptPromptUrl, draftKey, filterCatalog, filterSearch, readFilters } from './lib/library';
 import type { LibraryFilters } from './lib/library';
+import SkillDiscovery from './components/SkillDiscovery';
+import type { DiscoveryAnswers } from './discovery-types';
+import { completion } from './lib/skill-discovery';
 
 const catalog: CatalogEntry[] = rawCatalog;
 const departments = [...new Set(catalog.flatMap((entry) => entry.departments))].sort();
@@ -56,21 +59,32 @@ export default function App() {
   const [toast, setToast] = useState('');
   const [manualCopy, setManualCopy] = useState<string | null>(null);
   const [helpOpen, setHelpOpen] = useState(false);
+  const [discoveryAnswers, setDiscoveryAnswers] = useState<DiscoveryAnswers>({});
+  const [discoveryTask, setDiscoveryTask] = useState('');
+  const [librarySearch, setLibrarySearch] = useState(() => filterSearch(readFilters(window.location.search)));
   const searchInput = useRef<HTMLInputElement>(null);
   const heading = useRef<HTMLHeadingElement>(null);
   const listScroll = useRef(0);
   const lastCard = useRef<string | null>(null);
   const copyRevision = useRef(0);
   const previousPath = useRef(location.pathname);
-  const filters = useMemo(() => readFilters(location.search), [location.search]);
+  const filters = useMemo(() => readFilters(librarySearch), [librarySearch]);
   const filtered = useMemo(() => filterCatalog(catalog, filters), [filters]);
   const slug = location.pathname.startsWith('/prompts/') ? location.pathname.slice('/prompts/'.length).replace(/\/$/, '') : '';
   const entry = catalog.find((item) => item.slug === slug);
   const isLibrary = location.pathname === '/';
+  const isDiscovery = location.pathname === '/discover' || location.pathname.startsWith('/discover/');
+  const fromSkills = new URLSearchParams(location.search).get('from') === 'skills';
+  const discoveryHref = completion(discoveryAnswers).complete ? '/discover/result' : '/discover';
   const activeFilters = Boolean(filters.query || filters.department || filters.task);
 
   useEffect(() => {
-    const onPop = () => setLocation({ pathname: window.location.pathname, search: window.location.search });
+    const onPop = () => {
+      setLocation({ pathname: window.location.pathname, search: window.location.search });
+      if (window.location.pathname === '/' || (window.location.pathname.startsWith('/prompts/') && new URLSearchParams(window.location.search).get('from') !== 'skills')) {
+        setLibrarySearch(filterSearch(readFilters(window.location.search)));
+      }
+    };
     window.addEventListener('popstate', onPop);
     const shortcut = (event: KeyboardEvent) => {
       if (event.key === '/' && !(event.target instanceof HTMLInputElement) && !(event.target instanceof HTMLTextAreaElement) && !(event.target instanceof HTMLSelectElement) && !document.querySelector('dialog[open]')) {
@@ -93,7 +107,7 @@ export default function App() {
     return () => cancelAnimationFrame(frame);
   }, [location.pathname, isLibrary]);
 
-  useEffect(() => { document.title = entry ? `${entry.title} — Fellow Prompt` : 'Fellow Prompt — Your everyday prompt library'; }, [entry]);
+  useEffect(() => { document.title = isDiscovery ? 'Skill Compass — Fellow Prompt' : entry ? `${entry.title} — Fellow Prompt` : 'Fellow Prompt — Your everyday prompt library'; }, [entry, isDiscovery]);
   useEffect(() => { setVisibleCount(24); }, [filters.query, filters.department, filters.task]);
   useEffect(() => {
     if (!toast && !copied) return;
@@ -112,6 +126,7 @@ export default function App() {
   function changeFilters(next: Partial<LibraryFilters>) {
     const search = filterSearch({ ...filters, ...next });
     window.history.replaceState(window.history.state, '', `/${search}`);
+    setLibrarySearch(search);
     setLocation({ pathname: '/', search });
   }
 
@@ -147,21 +162,22 @@ export default function App() {
     }
   }
 
-  const libraryHref = `/${location.search}`;
+  const libraryHref = `/${librarySearch}`;
   const chatgptHref = entry ? chatgptPromptUrl(promptText(entry)) : null;
   return <>
     <a className="skip-link" href="#main">Skip to content</a>
     <header className="site-header">
       <a className="brand-link" href={libraryHref} onClick={(event) => navigate(libraryHref, event)} aria-label="Fellow Prompt home"><Brand inverse /></a>
       <nav aria-label="Main navigation">
-        <a className="nav-active" href={libraryHref} onClick={(event) => navigate(libraryHref, event)}><Shapes size={16} />Explore prompts</a>
+        <a className={!isDiscovery ? 'nav-active' : ''} aria-current={!isDiscovery ? 'page' : undefined} href={libraryHref} onClick={(event) => navigate(libraryHref, event)}><Shapes size={16} />Explore prompts</a>
+        <a className={isDiscovery ? 'nav-active' : ''} aria-current={isDiscovery ? 'page' : undefined} href={discoveryHref} onClick={(event) => navigate(discoveryHref, event)}><Compass size={16} />Find your skills</a>
         <button onClick={() => setHelpOpen(true)}><CircleHelp size={16} />How it works</button>
       </nav>
       <span className="header-note"><span className="status-dot" />A little help. A head start.</span>
     </header>
 
     <main id="main" className="main-shell">
-      {isLibrary ? <>
+      {isDiscovery ? <SkillDiscovery pathname={location.pathname} answers={discoveryAnswers} task={discoveryTask} onAnswersChange={setDiscoveryAnswers} onTaskChange={setDiscoveryTask} navigate={navigate} onCopy={(text, key) => void copy(text, key)} copied={copied} /> : isLibrary ? <>
         <section className="library-intro" aria-labelledby="library-title">
           <div>
             <div className="eyebrow"><span className="tiny-spark" aria-hidden="true">✳</span> YOUR EVERYDAY PROMPT LIBRARY</div>
@@ -170,6 +186,8 @@ export default function App() {
           </div>
           <div className="intro-art" aria-hidden="true"><span className="art-orbit orbit-one" /><span className="art-orbit orbit-two" /><img src="/brand/mark.svg" alt="" /><span className="art-star">✳</span><span className="art-dot" /></div>
         </section>
+
+        <a className="compass-library-entry" href={discoveryHref} onClick={(event) => navigate(discoveryHref, event)}><Compass size={23} strokeWidth={1.4} /><span><strong>Not sure where to start?</strong> Find your working style and a skill to download.</span><span className="compass-entry-action">Find my skills <ArrowRight size={16} /></span></a>
 
         <section aria-label="Find prompts" className="discovery">
           <div className="search-box">
@@ -198,14 +216,14 @@ export default function App() {
             <div className="result-controls"><span className="sort-label">A–Z</span><div className="select-wrap task-select"><ListFilter size={15} aria-hidden="true" /><label className="sr-only" htmlFor="task-select">Task type</label><select id="task-select" value={filters.task} onChange={(event) => changeFilters({ task: event.target.value })}><option value="">All task types</option>{tasks.map((task) => <option key={task}>{task}</option>)}</select><ChevronDown size={13} aria-hidden="true" /></div></div>
           </div>
 
-          {filtered.length ? <div className="prompt-grid" key={location.search}>
+          {filtered.length ? <div className="prompt-grid" key={librarySearch}>
             {filtered.slice(0, visibleCount).map((item, index) => {
               const department = item.departments[0] || 'General';
               const Icon = departmentIcons[department] || Sparkles;
               const key = draftKey(item.id, item.steps[0].id);
               return <article className="prompt-card" key={item.id} style={{ animationDelay: `${Math.min(index % 24, 8) * 25}ms` }}>
                 <div className="card-top"><span className={`category-icon tone-${['Marketing', 'Sales', 'Design'].includes(department) ? 'amber' : ['Engineering', 'Data', 'Research', 'Science'].includes(department) ? 'blue' : 'green'}`}><Icon size={21} strokeWidth={1.6} /></span><span className="card-department">{department}</span><span className="card-open-icon" aria-hidden="true"><ArrowUpRight size={18} /></span></div>
-                <a id={`card-${item.id}`} className="card-title-link" href={`/prompts/${item.slug}${location.search}`} onClick={(event) => { lastCard.current = `card-${item.id}`; navigate(`/prompts/${item.slug}${location.search}`, event); }}><h3>{item.title}</h3></a>
+                <a id={`card-${item.id}`} className="card-title-link" href={`/prompts/${item.slug}${librarySearch}`} onClick={(event) => { lastCard.current = `card-${item.id}`; navigate(`/prompts/${item.slug}${librarySearch}`, event); }}><h3>{item.title}</h3></a>
                 <p className="card-summary">{item.summary}</p>
                 <div className="card-bottom"><span className="task-label">{item.tags[0] || 'General'}{item.steps.length > 1 && <span className="step-count">· {item.steps.length} steps</span>}</span><button className={`copy-button ${copied === key ? 'copied' : ''}`} disabled={!promptText(item).trim()} onClick={() => void copy(promptText(item), key)} aria-label={`Copy prompt: ${item.title}`}>{copied === key ? <Check size={14} /> : <Copy size={14} />}{copied === key ? 'Copied' : 'Copy prompt'}</button></div>
               </article>;
@@ -216,7 +234,7 @@ export default function App() {
         </section>
         <div className="library-end"><img src="/brand/mark.svg" alt="" width="24" height="28" /><p>A starting point, never a final word.<br /><span>The best prompts have a little of you in them.</span></p></div>
       </> : entry ? <>
-        <a className="back-link" href={libraryHref} onClick={(event) => { if (event.metaKey || event.ctrlKey || event.shiftKey || event.altKey || event.button !== 0) return; if (window.history.state?.fellowPrompt) { event.preventDefault(); window.history.back(); } else navigate(libraryHref, event); }}><ArrowLeft size={15} />Back to the library</a>
+        <a className="back-link" href={fromSkills ? discoveryHref : libraryHref} onClick={(event) => { if (event.metaKey || event.ctrlKey || event.shiftKey || event.altKey || event.button !== 0) return; if (fromSkills) navigate(discoveryHref, event); else if (window.history.state?.fellowPrompt) { event.preventDefault(); window.history.back(); } else navigate(libraryHref, event); }}><ArrowLeft size={15} />{fromSkills ? 'Back to your skills' : 'Back to the library'}</a>
         <div className="detail-heading"><div className="eyebrow">{entry.departments.join(' / ')}</div><h1 tabIndex={-1} ref={heading}>{entry.title}</h1><p>{entry.summary}</p><div className="detail-tags">{entry.tags.map((tag) => <span key={tag}>{tag}</span>)}<span>{entry.steps.length === 1 ? 'One prompt. Your starting point.' : `${entry.steps.length} steps · One conversation`}</span></div></div>
         <details className="mobile-preparation"><summary><FolderOpen size={17} />Before you start<ChevronDown size={15} /></summary><PreparationList items={entry.prerequisites} /></details>
         <div className="detail-layout">
